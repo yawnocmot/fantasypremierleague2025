@@ -1,0 +1,76 @@
+---
+title: "FPL model plan"
+author: "Tom Conway"
+format: html
+editor: visual
+---
+
+## Plan - what do I need to do and status of each
+
+## Start as a GitHub project?
+
+-   Explore GitHub and make it workupdate.packages(ask = FALSE, checkBuilt = TRUE)
+
+## Overarching structure
+
+-   work out headline model and create different files which will hold the engines. Rest of tasks are based on what was used last time.
+
+## Get data
+
+-   Scrape from FPL API
+
+-   Find data of results by team
+
+-   Other team or player data?
+
+-   Get Opta projections
+
+## Predict the scores of matches based on the teams involved
+
+-   Import historic team score data
+
+-   Create a model for projecting the scores of future fixtures - poisson attack vs defence scores + home advantage + exponential time weighting backoff
+
+## Predict player scores
+
+-   Import player data
+
+-   Model different kinds of player scores:
+
+    -   Goalkeeper
+
+    -   Defender
+
+    -   Midfielder
+
+    -   Striker
+
+-   Prediction for each player score for future games
+
+## Pick a team
+
+-   Create and model algorithm for picking players to make up a 15
+
+## Add other features of the game
+
+-   Injuries
+
+-   Transfers
+
+-   Chips
+
+-   Newly promoted teams
+
+-   New players
+
+-   Bonus points
+
+-   Yellow cards
+
+## Refining and modelling
+
+-   Create season emulator for projecting the performance of different models across the season / for predicting the next gameweek
+
+-   Think of different options for model - both in individual elements and in overarching structure
+
+-   Try out different algorithms for each part of the model and evaluate them
