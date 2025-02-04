@@ -2,6 +2,7 @@
 title: "FPL model plan"
 author: "Tom Conway"
 format: 
+  gfm: default
   html:
     embed-resources: true
 editor: visual
@@ -11,7 +12,7 @@ editor: visual
 
 ## Start as a GitHub project?
 
--   Explore GitHub and make it workupdate.packages(ask = FALSE, checkBuilt = TRUE)
+-   Explore GitHub and make it work
 
 ## Overarching structure
 
