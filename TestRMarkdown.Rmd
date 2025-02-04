@@ -2,7 +2,9 @@
 title: "Test R Markdown"
 author: "Tom Conway"
 date: "2025-02-04"
-output: html_document
+output: 
+  html_document: 
+    keep_md: true
 ---
 
 ```{r setup, include=FALSE}
