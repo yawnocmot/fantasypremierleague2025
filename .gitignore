@@ -1,1 +1,5 @@
 .Rproj.user
+_site/
+*.html
+*.pdf
+*.docx
