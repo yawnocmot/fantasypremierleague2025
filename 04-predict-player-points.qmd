@@ -1,0 +1,25 @@
+---
+title: "Predict player scores"
+author: "Tom Conway"
+format: 
+  gfm: default
+  html:
+    embed-resources: true
+editor: visual
+---
+
+## Predict player scores
+
+-   Import player data
+
+-   Model different kinds of player scores:
+
+    -   Goalkeeper
+
+    -   Defender
+
+    -   Midfielder
+
+    -   Striker
+
+-   Prediction for each player score for future games

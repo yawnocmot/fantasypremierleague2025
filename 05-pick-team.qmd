@@ -1,0 +1,13 @@
+---
+title: "Pick a team"
+author: "Tom Conway"
+format: 
+  gfm: default
+  html:
+    embed-resources: true
+editor: visual
+---
+
+## Pick a team
+
+-   Create and model algorithm for picking players to make up a 15

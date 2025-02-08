@@ -12,11 +12,16 @@ editor: visual
 
 ## Start as a GitHub project?
 
--   Explore GitHub and make it work
+-   Explore GitHub and make it work - Done
 
 ## Overarching structure
 
 -   work out headline model and create different files which will hold the engines. Rest of tasks are based on what was used last time.
+    -   Format of different files - I think make each an R file, which runs a specific engine. Then the engines each modify data tables that are carried across between.
+    -   For each engine we have a QMD file which has a description of how it works? No - that has to contain the model, we don't want it in two separate places. Instead we break down the functions into different files - and render them in order?
+    -   This is an experiment - R code feels more natural, but QMD will help communicate it.
+-   So - I will create each of the below files as QMDs.
+-   Next thing is to go through each and do what's needed.
 
 ## Get data
 
@@ -54,7 +59,7 @@ editor: visual
 
 -   Create and model algorithm for picking players to make up a 15
 
-## Add other features of the game
+## Add other features of the game - note here we will need to go back and edit the other engines.
 
 -   Injuries
 
@@ -70,7 +75,7 @@ editor: visual
 
 -   Yellow cards
 
-## Refining and modelling
+## Refining and modelling - not in place yet.
 
 -   Create season emulator for projecting the performance of different models across the season / for predicting the next gameweek
 

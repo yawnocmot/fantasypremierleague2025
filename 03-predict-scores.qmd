@@ -1,0 +1,15 @@
+---
+title: "Predict scores"
+author: "Tom Conway"
+format: 
+  gfm: default
+  html:
+    embed-resources: true
+editor: visual
+---
+
+## Predict the scores of matches based on the teams involved
+
+-   Import historic team score data
+
+-   Create a model for projecting the scores of future fixtures - poisson attack vs defence scores + home advantage + exponential time weighting backoff
