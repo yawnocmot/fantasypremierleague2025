@@ -67,6 +67,8 @@ editor: visual
 
 -   Chips
 
+-   Assistant manager
+
 -   Newly promoted teams
 
 -   New players
