@@ -95,7 +95,17 @@ fpl_elements <- tibble(fpl_data$elements)
 
 fpl
 
--   Find data of results by team
+-   Find data of results by team - get data from Openfootball API in Github. Openfootball has the full list of scores in table format, but with some errors. It also depends on when someone updates their repository on github, which slows down the process. Can I find a better place to get live premier league scores from?
+
+```{r}
+#| label: openfootball-api
+
+url2 <- "https://raw.githubusercontent.com/openfootball/football.json/refs/heads/master/2024-25/en.1.json"
+response2 <-GET(url2)
+
+open_football_data <- fromJSON(content(response2,"text"))
+
+```
 
 -   Other team or player data?
 
