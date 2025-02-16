@@ -105,7 +105,27 @@ response2 <-GET(url2)
 
 open_football_data <- fromJSON(content(response2,"text"))
 
+open_football_data_2 <- open_football_data$matches |>
+  unnest_wider(score, names_sep = "_")|>
+  unnest_wider(score_ht, names_sep = "_")|>
+  unnest_wider(score_ht_1, names_sep = "_")|>
+  unnest_wider(score_ft, names_sep = "_")|>
+  unnest_wider(score_ft_1, names_sep = "_")
 ```
+
+-   Openfootball seems unreliable - here is another JSON API from fixturedownload.com
+
+```{r}
+#| label: fixture-download-feed
+
+url3 <- "https://fixturedownload.com/feed/json/epl-2024"
+response3 <- GET(url3)
+
+fixture_download_data <- tibble(fromJSON(content(response3, "text")))
+
+```
+
+-   Should I be thinking about web scraping instead? I assume the premier league wants this to be difficult so they can charge people for live scores.
 
 -   Other team or player data?
 
