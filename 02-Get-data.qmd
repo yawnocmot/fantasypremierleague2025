@@ -111,6 +111,31 @@ open_football_data_2 <- open_football_data$matches |>
   unnest_wider(score_ht_1, names_sep = "_")|>
   unnest_wider(score_ft, names_sep = "_")|>
   unnest_wider(score_ft_1, names_sep = "_")
+
+# Also get data from the earlier years
+
+open_football_year <- function(url) {
+  response <- GET(url)
+  open_football_data <- fromJSON(content(response,"text"))
+  open_football_data <- open_football_data$matches |>
+  unnest_wider(score, names_sep = "_")|>
+  unnest_wider(score_ht, names_sep = "_")|>
+  unnest_wider(score_ht_1, names_sep = "_")|>
+  unnest_wider(score_ft, names_sep = "_")|>
+  unnest_wider(score_ft_1, names_sep = "_")
+  open_football_data
+}
+
+open_football_2023_24 <- open_football_year("https://github.com/openfootball/football.json/raw/refs/heads/master/2023-24/en.1.json")
+open_football_2022_23 <- open_football_year("https://github.com/openfootball/football.json/raw/refs/heads/master/2022-23/en.1.json")
+open_football_2021_22 <- open_football_year("https://github.com/openfootball/football.json/raw/refs/heads/master/2021-22/en.1.json")
+
+# and also championship data for information on promoted teams
+
+open_football_championship_2024_25 <- open_football_year("https://github.com/openfootball/football.json/raw/refs/heads/master/2024-25/en.2.json")
+open_football_championship_2023_24 <- open_football_year("https://github.com/openfootball/football.json/raw/refs/heads/master/2023-24/en.2.json")
+open_football_championship_2022_23 <- open_football_year("https://github.com/openfootball/football.json/raw/refs/heads/master/2022-23/en.2.json")
+open_football_championship_2021_22 <- open_football_year("https://github.com/openfootball/football.json/raw/refs/heads/master/2021-22/en.2.json")
 ```
 
 -   Openfootball seems unreliable - here is another JSON API from fixturedownload.com
@@ -129,7 +154,7 @@ fixture_download_data <- tibble(fromJSON(content(response3, "text")))
 
 -   Other team or player data?
 
--   Get Opta projections
+-   Projections to bring in?
 
 ### Noting later data cleaning tasks
 
