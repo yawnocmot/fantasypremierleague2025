@@ -10,6 +10,14 @@ editor: visual
 
 ## Predict the scores of matches based on the teams involved
 
--   Import historic team score data
+-   Set up what libraries are needed, and name the precursors
 
--   Create a model for projecting the scores of future fixtures - poisson attack vs defence scores + home advantage + exponential time weighting backoff
+-   Set up a file with well coded data for team fixtures and scores
+
+-   Set up a poisson model based on each team having an attack score and a defence score
+
+-   Plus home advantage
+
+-   Plus changes over time
+
+-   Create some visuals for demonstrating teams' ability and how it changes over time.

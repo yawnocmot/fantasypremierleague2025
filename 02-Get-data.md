@@ -70,11 +70,68 @@ fpl_elements <- tibble(fpl_data$elements)
 
 fpl
 
-- Find data of results by team
+- Find data of results by team - get data from Openfootball API in
+  Github. Openfootball has the full list of scores in table format, but
+  with some errors. It also depends on when someone updates their
+  repository on github, which slows down the process. Can I find a
+  better place to get live premier league scores from?
+
+``` r
+url2 <- "https://raw.githubusercontent.com/openfootball/football.json/refs/heads/master/2024-25/en.1.json"
+response2 <-GET(url2)
+
+open_football_data <- fromJSON(content(response2,"text"))
+
+open_football_data_2 <- open_football_data$matches |>
+  unnest_wider(score, names_sep = "_")|>
+  unnest_wider(score_ht, names_sep = "_")|>
+  unnest_wider(score_ht_1, names_sep = "_")|>
+  unnest_wider(score_ft, names_sep = "_")|>
+  unnest_wider(score_ft_1, names_sep = "_")
+
+# Also get data from the earlier years
+
+open_football_year <- function(url) {
+  response <- GET(url)
+  open_football_data <- fromJSON(content(response,"text"))
+  open_football_data <- open_football_data$matches |>
+  unnest_wider(score, names_sep = "_")|>
+  unnest_wider(score_ht, names_sep = "_")|>
+  unnest_wider(score_ht_1, names_sep = "_")|>
+  unnest_wider(score_ft, names_sep = "_")|>
+  unnest_wider(score_ft_1, names_sep = "_")
+  open_football_data
+}
+
+open_football_2023_24 <- open_football_year("https://github.com/openfootball/football.json/raw/refs/heads/master/2023-24/en.1.json")
+open_football_2022_23 <- open_football_year("https://github.com/openfootball/football.json/raw/refs/heads/master/2022-23/en.1.json")
+open_football_2021_22 <- open_football_year("https://github.com/openfootball/football.json/raw/refs/heads/master/2021-22/en.1.json")
+
+# and also championship data for information on promoted teams
+
+open_football_championship_2024_25 <- open_football_year("https://github.com/openfootball/football.json/raw/refs/heads/master/2024-25/en.2.json")
+open_football_championship_2023_24 <- open_football_year("https://github.com/openfootball/football.json/raw/refs/heads/master/2023-24/en.2.json")
+open_football_championship_2022_23 <- open_football_year("https://github.com/openfootball/football.json/raw/refs/heads/master/2022-23/en.2.json")
+open_football_championship_2021_22 <- open_football_year("https://github.com/openfootball/football.json/raw/refs/heads/master/2021-22/en.2.json")
+```
+
+- Openfootball seems unreliable - here is another JSON API from
+  fixturedownload.com
+
+``` r
+url3 <- "https://fixturedownload.com/feed/json/epl-2024"
+response3 <- GET(url3)
+
+fixture_download_data <- tibble(fromJSON(content(response3, "text")))
+```
+
+- Should I be thinking about web scraping instead? I assume the premier
+  league wants this to be difficult so they can charge people for live
+  scores.
 
 - Other team or player data?
 
-- Get Opta projections
+- Projections to bring in?
 
 ### Noting later data cleaning tasks
 
