@@ -10,7 +10,7 @@ editor: visual
 
 ## Predict the scores of matches based on the teams involved
 
--   Set up what libraries are needed, and name the precursors  - requires running of get-data first.
+-   Set up what libraries are needed, and name the precursors - requires running of get-data first.
 
 ```{r}
 #| label: set-up
@@ -73,7 +73,8 @@ open_football_21_24 <- rbind(
          home_team = team1,
          away_team = team2,
          home_team_score = score_ft_1_1,
-         away_team_score = score_ft_1_2
+         away_team_score = score_ft_1_2,
+         season_end
          ) |>
   # turn date and time into date time
   mutate(date_utc = ymd_hm(str_c(date," ",time)),
@@ -84,8 +85,88 @@ open_football_21_24 <- rbind(
 
   # next we need to change the names of the teams - using a lookup table?
 
-open_football_21_24
+names_open_football <- open_football_21_24|>
+  group_by(home_team)|>
+  summarise()
+
+names_fixtures <- fixture_data |>
+  group_by(home_team) |>
+  summarise()
+
+# Create a function to change things.
+
+names_open_football_to_fixtures <- function(names_data){
+  # FC after each one
+  str_replace_all({{names_data}},
+                  c(" FC" = "",
+                    # AFC before Bournemouth
+                    "AFC " = "",
+                    # & Hove Albion after Brighton
+                    " & Hove Albion" = "",
+                    # Wolves vs Wolverhampton Wanderers
+                    "Wolverhampton Wanderers" = "Wolves",
+                    # City after Leicester
+                    "Leicester City" = "Leicester",
+                    # Spurs vs Tottenham Hotspur
+                    "Tottenham Hotspur" = "Spurs",
+                    # Manchester vs Man
+                    "Manchester" = "Man",
+                    # Utd vs United for Manchester
+                    "Man United" = "Man Utd",
+                    # No United after Newcastle or West Ham
+                    " United" = "",
+                    # Nottingham Forest to Nott'm Forest
+                    "Nottingham" = "Nott'm")
+  )
+}
+
+# Check it works
+names_open_football <- names_open_football |>
+  mutate(home_team = names_open_football_to_fixtures(home_team))
+
+# It does, apply to the main open_football dataset
+
+open_football_21_24 <- open_football_21_24 |>
+  mutate(home_team = names_open_football_to_fixtures(home_team),
+         away_team = names_open_football_to_fixtures(away_team)
+  )
+
+# Then add short names and codes
+
+name_finder <- fixture_data |>
+  select(home_team, home_code, home_short_name)|>
+  group_by(home_team, home_code, home_short_name) |>
+  summarise()|>
+  rename(team = home_team,
+         code = home_code,
+         short_name = home_short_name)|>
+  # create dummy codes for those not here - can come back and change if promoted
+  rbind(tribble(~team, ~code, ~short_name,
+               "Burnley", 99, "BUR",
+               "Leeds", 98, "LEE",
+               "Luton Town", 97, "LUT",
+               "Norwich City", 96, "NOR",
+               "Sheffield", 95, "SHU",
+               "Watford", 94, "WAT",
+               ))
+
+open_football_21_24 <- open_football_21_24 |>
+  left_join(name_finder, by = join_by(home_team == team))|>
+  rename(home_code = code,
+         home_short_name = short_name)|>
+  left_join(name_finder, by = join_by(away_team == team))|>
+  rename(away_code = code,
+         away_short_name = short_name)|>
+  relocate(season_end,.after = away_short_name)
+
+# Now should all be the same, can we rbind?
+
+all_fixtures <- rbind(fixture_data, open_football_21_24)
+
+all_fixtures
 ```
+
+NEXT STEP IS TO GO BACK AND SAVE ALL DATA AS FILES EXPLICITLY THAT WILL BE NEEDED
 
 t
 

@@ -12,6 +12,8 @@ editor: visual
 
 ### Get data from FPL API and structure into separate files.
 
+NEED TO COME BACK TO THIS AND SAVE DATA EXPLICITLY AS CSVs SO THAT THE OTHER QUARTO DOCS CAN RENDER THEM.
+
 ```{r}
 #| label: set-up
 #| include: false
