@@ -12,8 +12,6 @@ editor: visual
 
 ### Get data from FPL API and structure into separate files.
 
-NEED TO COME BACK TO THIS AND SAVE DATA EXPLICITLY AS CSVs SO THAT THE OTHER QUARTO DOCS CAN RENDER THEM.
-
 ```{r}
 #| label: set-up
 #| include: false
@@ -76,6 +74,8 @@ fpl_phases <- tibble(fpl_data$phases)
 
 fpl_teams <- tibble(fpl_data$teams)
 
+fpl_teams |> write_csv("processed_data/fpl_teams.csv")
+
 # Total_players - how many players are currently in the game - updates in real time.
 
 fpl_total_players <- fpl_data$total_players
@@ -93,6 +93,7 @@ fpl_element_types <- tibble(fpl_data$element_types)
 
 fpl_elements <- tibble(fpl_data$elements)
 
+fpl_elements |> write_csv("processed_data/fpl_elements.csv")
 ```
 
 fpl
@@ -132,12 +133,45 @@ open_football_2023_24 <- open_football_year("https://github.com/openfootball/foo
 open_football_2022_23 <- open_football_year("https://github.com/openfootball/football.json/raw/refs/heads/master/2022-23/en.1.json")
 open_football_2021_22 <- open_football_year("https://github.com/openfootball/football.json/raw/refs/heads/master/2021-22/en.1.json")
 
+open_football_21_24 <- rbind(
+  open_football_2021_22 |> mutate(
+    match_number = row_number(date),
+    season_end = 2022),
+  open_football_2022_23 |> mutate(
+    match_number = row_number(date),
+    season_end = 2023),
+  open_football_2023_24 |> mutate(
+    match_number = row_number(date),
+    season_end = 2024)
+)
+
+open_football_21_24 |> write_csv("processed_data/open_football_21_24.csv")
+
 # and also championship data for information on promoted teams
 
 open_football_championship_2024_25 <- open_football_year("https://github.com/openfootball/football.json/raw/refs/heads/master/2024-25/en.2.json")
 open_football_championship_2023_24 <- open_football_year("https://github.com/openfootball/football.json/raw/refs/heads/master/2023-24/en.2.json")
-open_football_championship_2022_23 <- open_football_year("https://github.com/openfootball/football.json/raw/refs/heads/master/2022-23/en.2.json")
-open_football_championship_2021_22 <- open_football_year("https://github.com/openfootball/football.json/raw/refs/heads/master/2021-22/en.2.json")
+open_football_championship_2022_23 <- open_football_year("https://github.com/openfootball/football.json/raw/refs/heads/master/2022-23/en.2.json")|>
+  select(!c(score_et,score_p))
+open_football_championship_2021_22 <- open_football_year("https://github.com/openfootball/football.json/raw/refs/heads/master/2021-22/en.2.json")|>
+  select(!c(score_et,score_p))
+
+open_football_champ_21_25 <- rbind(
+  open_football_championship_2021_22 |> mutate(
+    match_number = row_number(date),
+    season_end = 2022),
+  open_football_championship_2022_23 |> mutate(
+    match_number = row_number(date),
+    season_end = 2023),
+  open_football_championship_2023_24 |> mutate(
+    match_number = row_number(date),
+    season_end = 2024),
+  open_football_championship_2024_25 |> mutate(
+    match_number = row_number(date),
+    season_end = 2025)
+)
+
+open_football_champ_21_25 |> write_csv("processed_data/open_football_champ_21_25.csv")
 ```
 
 -   Openfootball seems unreliable - here is another JSON API from fixturedownload.com
@@ -150,6 +184,7 @@ response3 <- GET(url3)
 
 fixture_download_data <- tibble(fromJSON(content(response3, "text")))
 
+write_csv(fixture_download_data,"processed_data/fixture_download_data.csv")
 ```
 
 -   Should I be thinking about web scraping instead? I assume the premier league wants this to be difficult so they can charge people for live scores.

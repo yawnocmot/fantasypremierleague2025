@@ -1,38 +1,14 @@
----
-title: "Predict scores"
-author: "Tom Conway"
-format: 
-  gfm: default
-  html:
-    embed-resources: true
-editor: visual
----
+# Predict scores
+Tom Conway
 
 ## Predict the scores of matches based on the teams involved
 
--   Set up what libraries are needed, and name the precursors - requires running of get-data first.
+- Set up what libraries are needed, and name the precursors - requires
+  running of get-data first.
 
-```{r}
-#| label: set-up
-#| include: false
+- Set up a file with well coded data for team fixtures and scores
 
-#Set up libraries required in addition to what is in get data
-
-# Already there but as an example:
-library(tidyverse)
-
-# Load datasets needed
-
-fpl_teams <- read_csv("processed_data/fpl_teams.csv")
-open_football_21_24 <- read_csv("processed_data/open_football_21_24.csv")
-fixture_download_data <- read_csv("processed_data/fixture_download_data.csv")
-```
-
--   Set up a file with well coded data for team fixtures and scores
-
-```{r}
-#| label: team-fixtures
-
+``` r
 # Want to have team names and numbers from fpl_teams
 # id changes season to season, but code is consistent through seasons. the elements file has both. Also want full name and short name
 # Need it twice to join both home and away
@@ -57,7 +33,12 @@ fixture_data <- fixture_download_data |>
   # turn date into a datetime
   mutate(date_utc = ymd_hms(date_utc))|>
   mutate(season_end = 2025)
+```
 
+    Joining with `by = join_by(HomeTeam)`
+    Joining with `by = join_by(AwayTeam)`
+
+``` r
 # next - consider the open_football data - just premier league here.
 # We want to get the data in the same format as fixture_data
 
@@ -146,7 +127,12 @@ name_finder <- fixture_data |>
                "Sheffield", 95, "SHU",
                "Watford", 94, "WAT",
                ))
+```
 
+    `summarise()` has grouped output by 'home_team', 'home_code'. You can override
+    using the `.groups` argument.
+
+``` r
 open_football_21_24 <- open_football_21_24 |>
   left_join(name_finder, by = join_by(home_team == team))|>
   rename(home_code = code,
@@ -163,10 +149,35 @@ all_fixtures <- rbind(fixture_data, open_football_21_24)
 all_fixtures
 ```
 
--   Set up a poisson model based on each team having an attack score and a defence score
+    # A tibble: 1,520 × 12
+       match_number round_number date_utc            home_team     away_team     
+              <dbl>        <dbl> <dttm>              <chr>         <chr>         
+     1            1            1 2024-08-16 19:00:00 Man Utd       Fulham        
+     2            2            1 2024-08-17 11:30:00 Ipswich       Liverpool     
+     3            3            1 2024-08-17 14:00:00 Arsenal       Wolves        
+     4            4            1 2024-08-17 14:00:00 Everton       Brighton      
+     5            5            1 2024-08-17 14:00:00 Newcastle     Southampton   
+     6            6            1 2024-08-17 14:00:00 Nott'm Forest Bournemouth   
+     7            7            1 2024-08-17 16:30:00 West Ham      Aston Villa   
+     8            8            1 2024-08-18 13:00:00 Brentford     Crystal Palace
+     9            9            1 2024-08-18 15:30:00 Chelsea       Man City      
+    10           10            1 2024-08-19 19:00:00 Leicester     Spurs         
+    # ℹ 1,510 more rows
+    # ℹ 7 more variables: home_team_score <dbl>, away_team_score <dbl>,
+    #   home_code <dbl>, home_short_name <chr>, away_code <dbl>,
+    #   away_short_name <chr>, season_end <dbl>
 
--   Plus home advantage
+NEXT STEP IS TO GO BACK AND SAVE ALL DATA AS FILES EXPLICITLY THAT WILL
+BE NEEDED
 
--   Plus changes over time
+t
 
--   Create some visuals for demonstrating teams' ability and how it changes over time.
+- Set up a poisson model based on each team having an attack score and a
+  defence score
+
+- Plus home advantage
+
+- Plus changes over time
+
+- Create some visuals for demonstrating teams’ ability and how it
+  changes over time.
