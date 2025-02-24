@@ -165,6 +165,48 @@ all_fixtures
 
 -   Set up a poisson model based on each team having an attack score and a defence score
 
+```{r}
+#| label: poission-simple
+
+# Very simple model says score ~ Poiss(attacker + defender + home/away)
+# So actually need to reformat the data again.
+# Need each line to be attacker, defender, home/away, score
+
+fixtures_poission_format <- all_fixtures|>
+  pivot_longer(
+    cols = c(home_team_score, away_team_score),
+    names_to = "home_or_away"
+  )|>
+  mutate(
+    attacker_name = if_else(home_or_away == "home_team_score",
+                            home_team,
+                            away_team),
+    defender_name = if_else(home_or_away == "home_team_score",
+                            away_team,
+                            home_team),
+    attacker_code = if_else(home_or_away == "home_team_score",
+                            home_code,
+                            away_code),
+    defender_code = if_else(home_or_away == "home_team_score",
+                            away_code,
+                            home_code),
+    attacker_short_name = if_else(home_or_away == "home_team_score",
+                                  home_short_name,
+                                  away_short_name),
+    defender_short_name = if_else(home_or_away == "home_team_score",
+                                  away_short_name,
+                                  home_short_name),
+    home_or_away = if_else(home_or_away == "home_team_score",
+                          "home",
+                          "away")
+  ) |>
+  select(season_end, round_number, match_number, date_utc,
+         attacker_short_name, defender_short_name, home_or_away, score = value,
+         attacker_name, defender_name, attacker_code, defender_code)
+
+# Want to separate into past and future
+```
+
 -   Plus home advantage
 
 -   Plus changes over time

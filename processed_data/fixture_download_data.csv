@@ -257,8 +257,8 @@ MatchNumber,RoundNumber,DateUtc,Location,HomeTeam,AwayTeam,Group,HomeTeamScore,A
 256,26,2025-02-22 15:00:00Z,Portman Road,Ipswich,Spurs,NA,1,4
 260,26,2025-02-22 15:00:00Z,St. Mary's Stadium,Southampton,Brighton,NA,0,4
 252,26,2025-02-22 17:30:00Z,Villa Park,Aston Villa,Chelsea,NA,2,1
-259,26,2025-02-23 14:00:00Z,St. James' Park,Newcastle,Nott'm Forest,NA,NA,NA
-258,26,2025-02-23 16:30:00Z,Etihad Stadium,Man City,Liverpool,NA,NA,NA
+259,26,2025-02-23 14:00:00Z,St. James' Park,Newcastle,Nott'm Forest,NA,4,3
+258,26,2025-02-23 16:30:00Z,Etihad Stadium,Man City,Liverpool,NA,0,2
 262,27,2025-02-25 19:30:00Z,American Express Stadium,Brighton,Bournemouth,NA,NA,NA
 266,27,2025-02-25 19:30:00Z,Molineux Stadium,Wolves,Fulham,NA,NA,NA
 267,27,2025-02-25 19:30:00Z,Selhurst Park,Crystal Palace,Aston Villa,NA,NA,NA
