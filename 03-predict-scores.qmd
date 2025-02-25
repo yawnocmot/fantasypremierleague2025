@@ -18,8 +18,10 @@ editor: visual
 
 #Set up libraries required in addition to what is in get data
 
-# Already there but as an example:
 library(tidyverse)
+library(tidymodels)
+library(poissonreg)
+
 
 # Load datasets needed
 
@@ -172,7 +174,7 @@ all_fixtures
 # So actually need to reformat the data again.
 # Need each line to be attacker, defender, home/away, score
 
-fixtures_poission_format <- all_fixtures|>
+fixtures_poisson_format <- all_fixtures|>
   pivot_longer(
     cols = c(home_team_score, away_team_score),
     names_to = "home_or_away"
@@ -204,7 +206,31 @@ fixtures_poission_format <- all_fixtures|>
          attacker_short_name, defender_short_name, home_or_away, score = value,
          attacker_name, defender_name, attacker_code, defender_code)
 
-# Want to separate into past and future
+# Want to separate into past and future - regress on the past, predict the future
+
+fixtures_poisson_past <- fixtures_poisson_format |>
+  filter(!is.na(score))
+
+fixtures_poisson_future <- fixtures_poisson_format |>
+  filter(is.na(score))
+
+# Now, create a basic poisson regression model on the past fixtures
+# Use short_name for understandability
+
+poisson_model <- poisson_reg()|>
+  set_engine("glm")
+
+poisson_fit <- poisson_model |>
+  fit(score ~ attacker_short_name + defender_short_name + home_or_away,
+      data = fixtures_poisson_past)
+
+# This gives a list of coefficients for different scores.
+# From this we can identify a league table for how many goals each would be expected to score against each other.
+# Arsenal  vs Arsenal is the default - how could you show a rating?
+# Could fit all the possible scores and average?
+# Score 19% more goals at home
+
+
 ```
 
 -   Plus home advantage
