@@ -168,7 +168,7 @@ all_fixtures
 -   Set up a poisson model based on each team having an attack score and a defence score
 
 ```{r}
-#| label: poission-simple
+#| label: poisson-simple
 
 # Very simple model says score ~ Poiss(attacker + defender + home/away)
 # So actually need to reformat the data again.
@@ -226,11 +226,49 @@ poisson_fit <- poisson_model |>
 
 # This gives a list of coefficients for different scores.
 # From this we can identify a league table for how many goals each would be expected to score against each other.
-# Arsenal  vs Arsenal is the default - how could you show a rating?
-# Could fit all the possible scores and average?
+
+
+
 # Score 19% more goals at home
 
 
+```
+
+-   Create a table to demonstrate the quality of teams in relation to the model
+
+```{r}
+#| label: league-table
+
+# Have everyone play everyone and see total goal difference. Use this to create a team ranking.
+
+all_2025_fixtures <- fixtures_poisson_format |>
+   filter(season_end==2025)|>
+   select(!score)
+
+predicted_all_fixtures <- all_2025_fixtures |>
+  bind_cols(predict(poisson_fit, new_data = all_2025_fixtures))
+
+offensive_rank <- predicted_all_fixtures|>
+  group_by(attacker_short_name)|>
+  rename(short_name = attacker_short_name)|>
+  summarise(offence_score = sum(.pred) /38)|>
+  arrange(desc(offence_score))
+
+defensive_rank <- predicted_all_fixtures|>
+  group_by(defender_short_name)|>
+  rename(short_name = defender_short_name)|>
+  summarise(defence_score = sum(.pred) /38)|>
+  arrange(defence_score)
+
+total_rank <- full_join(offensive_rank, defensive_rank) |>
+  mutate(advantage_score = offence_score - defence_score)|>
+  arrange(desc(advantage_score))|>
+  left_join(name_finder)|>
+  relocate(team)
+
+total_rank
+
+# next thing is to predict a league table
 ```
 
 -   Plus home advantage
