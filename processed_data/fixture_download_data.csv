@@ -259,16 +259,16 @@ MatchNumber,RoundNumber,DateUtc,Location,HomeTeam,AwayTeam,Group,HomeTeamScore,A
 252,26,2025-02-22 17:30:00Z,Villa Park,Aston Villa,Chelsea,NA,2,1
 259,26,2025-02-23 14:00:00Z,St. James' Park,Newcastle,Nott'm Forest,NA,4,3
 258,26,2025-02-23 16:30:00Z,Etihad Stadium,Man City,Liverpool,NA,0,2
-262,27,2025-02-25 19:30:00Z,American Express Stadium,Brighton,Bournemouth,NA,NA,NA
-266,27,2025-02-25 19:30:00Z,Molineux Stadium,Wolves,Fulham,NA,NA,NA
-267,27,2025-02-25 19:30:00Z,Selhurst Park,Crystal Palace,Aston Villa,NA,NA,NA
-268,27,2025-02-25 20:15:00Z,Stamford Bridge,Chelsea,Southampton,NA,NA,NA
-261,27,2025-02-26 19:30:00Z,Gtech Community Stadium,Brentford,Everton,NA,NA,NA
-263,27,2025-02-26 19:30:00Z,The City Ground,Nott'm Forest,Arsenal,NA,NA,NA
-264,27,2025-02-26 19:30:00Z,Tottenham Hotspur Stadium,Spurs,Man City,NA,NA,NA
-270,27,2025-02-26 19:30:00Z,Old Trafford,Man Utd,Ipswich,NA,NA,NA
-269,27,2025-02-26 20:15:00Z,Anfield,Liverpool,Newcastle,NA,NA,NA
-265,27,2025-02-27 20:00:00Z,London Stadium,West Ham,Leicester,NA,NA,NA
+262,27,2025-02-25 19:30:00Z,American Express Stadium,Brighton,Bournemouth,NA,2,1
+266,27,2025-02-25 19:30:00Z,Molineux Stadium,Wolves,Fulham,NA,1,2
+267,27,2025-02-25 19:30:00Z,Selhurst Park,Crystal Palace,Aston Villa,NA,4,1
+268,27,2025-02-25 20:15:00Z,Stamford Bridge,Chelsea,Southampton,NA,4,0
+261,27,2025-02-26 19:30:00Z,Gtech Community Stadium,Brentford,Everton,NA,1,1
+263,27,2025-02-26 19:30:00Z,The City Ground,Nott'm Forest,Arsenal,NA,0,0
+264,27,2025-02-26 19:30:00Z,Tottenham Hotspur Stadium,Spurs,Man City,NA,0,1
+270,27,2025-02-26 19:30:00Z,Old Trafford,Man Utd,Ipswich,NA,3,2
+269,27,2025-02-26 20:15:00Z,Anfield,Liverpool,Newcastle,NA,2,0
+265,27,2025-02-27 20:00:00Z,London Stadium,West Ham,Leicester,NA,2,0
 277,28,2025-03-08 12:30:00Z,The City Ground,Nott'm Forest,Man City,NA,NA,NA
 272,28,2025-03-08 15:00:00Z,American Express Stadium,Brighton,Fulham,NA,NA,NA
 274,28,2025-03-08 15:00:00Z,Selhurst Park,Crystal Palace,Ipswich,NA,NA,NA

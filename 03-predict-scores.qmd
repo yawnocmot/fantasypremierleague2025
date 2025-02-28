@@ -21,6 +21,7 @@ editor: visual
 library(tidyverse)
 library(tidymodels)
 library(poissonreg)
+library(skellam)
 
 
 # Load datasets needed
@@ -173,9 +174,10 @@ all_fixtures
 # Very simple model says score ~ Poiss(attacker + defender + home/away)
 # So actually need to reformat the data again.
 # Need each line to be attacker, defender, home/away, score
+# create functions to pivot from score per row to match per row and vice versa
 
-fixtures_poisson_format <- all_fixtures|>
-  pivot_longer(
+score_per_row <- function(data) {
+  data|> pivot_longer(
     cols = c(home_team_score, away_team_score),
     names_to = "home_or_away"
   )|>
@@ -201,7 +203,42 @@ fixtures_poisson_format <- all_fixtures|>
     home_or_away = if_else(home_or_away == "home_team_score",
                           "home",
                           "away")
+  )
+}
+
+
+match_per_row <- function(data, score){
+  data |>
+  mutate(
+    home_team = if_else(home_or_away == "home",
+                        attacker_name,
+                        defender_name),
+    away_team = if_else(home_or_away == "home",
+                        defender_name,
+                        attacker_name),
+    home_code = if_else(home_or_away == "home",
+                        attacker_code,
+                        defender_code),
+    away_code = if_else(home_or_away == "home",
+                        defender_code,
+                        attacker_code),
+    home_short_name = if_else(home_or_away == "home",
+                              attacker_short_name,
+                              defender_short_name),
+    away_short_name = if_else(home_or_away == "home",
+                              defender_short_name,
+                              attacker_short_name),
   ) |>
+    select(season_end, round_number, match_number, date_utc, home_team, away_team,
+           home_or_away, {{score}}, home_code, away_code, home_short_name, away_short_name
+           )  |>
+  pivot_wider(names_from = home_or_away,
+              values_from = {{score}})
+
+}
+
+fixtures_poisson_format <- all_fixtures|>
+  score_per_row() |>
   select(season_end, round_number, match_number, date_utc,
          attacker_short_name, defender_short_name, home_or_away, score = value,
          attacker_name, defender_name, attacker_code, defender_code)
@@ -269,6 +306,19 @@ total_rank <- full_join(offensive_rank, defensive_rank) |>
 total_rank
 
 # next thing is to predict a league table
+# Need to have each row be a match
+
+# Want a function that can calculate the win, lose and draw probabilities from two poisson variables
+# The skellam functions do this
+
+predict_match_rows <- predicted_all_fixtures|>
+  match_per_row(.pred)|>
+  mutate(prob_home_win = pskellam(-1,home,away),
+          prob_draw = dskellam(0,home,away),
+          prob_away_win = 1-pskellam(0,home,away)
+  )
+
+# next format this as a league table
 ```
 
 -   Plus home advantage
