@@ -264,10 +264,9 @@ poisson_fit <- poisson_model |>
 # This gives a list of coefficients for different scores.
 # From this we can identify a league table for how many goals each would be expected to score against each other.
 
-
-
 # Score 19% more goals at home
 
+# Next step - modify model to weight older scores less. Look up maths of how to do this.
 
 ```
 
@@ -313,12 +312,43 @@ total_rank
 
 predict_match_rows <- predicted_all_fixtures|>
   match_per_row(.pred)|>
-  mutate(prob_home_win = pskellam(-1,home,away),
+  mutate(prob_home_win = 1-pskellam(0,home,away),
           prob_draw = dskellam(0,home,away),
-          prob_away_win = 1-pskellam(0,home,away)
+          prob_away_win = pskellam(-1,home,away)
   )
 
 # next format this as a league table
+
+home_record <- summarise(predict_match_rows,
+                         .by = home_short_name,
+                         home_wins = sum(prob_home_win),
+                         home_draws = sum(prob_draw),
+                         home_losses = sum(prob_away_win)
+)|>
+  rename(short_name = home_short_name)
+
+
+away_record <- summarise(predict_match_rows,
+                         .by = away_short_name,
+                         away_wins = sum(prob_away_win),
+                         away_draws = sum(prob_draw),
+                         away_losses = sum(prob_home_win)
+)|>
+  rename(short_name = away_short_name)
+
+pred_league_table = left_join(home_record, away_record, by = join_by(short_name))|>
+  mutate(
+    wins = home_wins + away_wins,
+    draws = home_draws + away_draws,
+    losses = home_losses + away_losses,
+    points = 3*wins + draws,
+    .keep = "unused"
+  )|>
+  arrange(desc(points))
+  
+pred_league_table
+
+
 ```
 
 -   Plus home advantage
