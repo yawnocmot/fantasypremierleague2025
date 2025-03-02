@@ -257,17 +257,63 @@ fixtures_poisson_future <- fixtures_poisson_format |>
 poisson_model <- poisson_reg()|>
   set_engine("glm")
 
-poisson_fit <- poisson_model |>
-  fit(score ~ attacker_short_name + defender_short_name + home_or_away,
-      data = fixtures_poisson_past)
+poisson_recipe <- recipe(score ~ attacker_short_name + 
+                                 defender_short_name + 
+                                 home_or_away,
+                         data = fixtures_poisson_past)
+
+poisson_workflow <- workflow() %>%
+  add_recipe(poisson_recipe) %>%
+  add_model(poisson_model)
+
+poisson_fit <- poisson_workflow |>
+  fit(data = fixtures_poisson_past)
 
 # This gives a list of coefficients for different scores.
 # From this we can identify a league table for how many goals each would be expected to score against each other.
 
 # Score 19% more goals at home
 
-# Next step - modify model to weight older scores less. Look up maths of how to do this.
 
+```
+
+-   Second model - weighted by time
+
+```{r}
+#| label: poisson-weighted
+
+# Choose an arbitrary decay parameter - 0.005 means last week's game has 3% less influence than today's game, last year's game has 16% of the influence.
+
+decay_parameter <- 0.005
+
+# Next version of model - use a weighted iteration.
+# Need to include weights
+fixtures_poisson_past <- fixtures_poisson_past |>
+  mutate(days_ago = (today() %--% date_utc)/days(1),
+         weight = exp(decay_parameter*days_ago))|>
+  arrange(desc(days_ago))
+
+# Now fit a weighted poisson model
+
+poisson_weighted_recipe <- recipe(score ~ attacker_short_name + home_or_away,
+                           data = fixtures_poisson_past,
+                           weights = fixtures_poisson_past$weight)
+
+poisson_weighted_workflow <- workflow() %>%
+  add_model(poisson_model)|>
+  add_recipe(poisson_weighted_recipe)
+
+poisson_weighted_fit <- 
+  fit(poisson_weighted_workflow, data = fixtures_poisson_past)
+
+glm(score ~ attacker_short_name + 
+            defender_short_name + 
+            home_or_away,
+    data = fixtures_poisson_past,
+    family = "poisson",
+    weights = weight)
+
+# WHY CAN'T I MAKE THIS WORK IN A WORKFLOW?
 ```
 
 -   Create a table to demonstrate the quality of teams in relation to the model
