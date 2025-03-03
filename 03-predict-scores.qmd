@@ -293,13 +293,15 @@ fixtures_poisson_past <- fixtures_poisson_past |>
          weight = exp(decay_parameter*days_ago))|>
   arrange(desc(days_ago))
 
-# Now fit a weighted poisson model
+# Now fit a weighted poisson model - this still the same as above
 
-poisson_weighted_recipe <- recipe(score ~ attacker_short_name + home_or_away,
-                           data = fixtures_poisson_past,
-                           weights = fixtures_poisson_past$weight)
+poisson_weighted_recipe <- recipe(score ~ attacker_short_name + defender_short_name + home_or_away,
+                           data = fixtures_poisson_past)
 
-poisson_weighted_workflow <- workflow() %>%
+poisson_weighted_model <- poisson_reg() |>
+  set_engine("glm")
+
+poisson_weighted_workflow <- workflow() |>
   add_model(poisson_model)|>
   add_recipe(poisson_weighted_recipe)
 
@@ -313,7 +315,10 @@ glm(score ~ attacker_short_name +
     family = "poisson",
     weights = weight)
 
-# WHY CAN'T I MAKE THIS WORK IN A WORKFLOW?
+
+fixtures_poisson_past
+
+# WHY CAN'T I MAKE THIS WORK IN A WORKFLOW? IS THIS EVEN REASONABLE? DOESN'T PRODUCE A GOOD RESULT. LOOK AT THE STATS SOME MORE
 ```
 
 -   Create a table to demonstrate the quality of teams in relation to the model
