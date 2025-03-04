@@ -308,13 +308,12 @@ poisson_weighted_workflow <- workflow() |>
 poisson_weighted_fit <- 
   fit(poisson_weighted_workflow, data = fixtures_poisson_past)
 
-glm(score ~ attacker_short_name + 
+weighted_fit <- glm(score ~ attacker_short_name + 
             defender_short_name + 
             home_or_away,
     data = fixtures_poisson_past,
     family = "poisson",
     weights = weight)
-
 
 fixtures_poisson_past
 
