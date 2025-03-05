@@ -315,12 +315,9 @@ weighted_fit <- glm(score ~ attacker_short_name +
     family = "poisson",
     weights = weight)
 
-fixtures_poisson_past
-
-# WHY CAN'T I MAKE THIS WORK IN A WORKFLOW? IS THIS EVEN REASONABLE? DOESN'T PRODUCE A GOOD RESULT. LOOK AT THE STATS SOME MORE
 ```
 
--   Create a table to demonstrate the quality of teams in relation to the model
+-   Create a table to demonstrate the quality of teams in relation to the model - weighted poisson data feels more right.
 
 ```{r}
 #| label: league-table
@@ -332,7 +329,8 @@ all_2025_fixtures <- fixtures_poisson_format |>
    select(!score)
 
 predicted_all_fixtures <- all_2025_fixtures |>
-  bind_cols(predict(poisson_fit, new_data = all_2025_fixtures))
+  bind_cols(predict(weighted_fit, newdata = all_2025_fixtures, type = "response")) |>
+  rename(.pred = ...12)
 
 offensive_rank <- predicted_all_fixtures|>
   group_by(attacker_short_name)|>
@@ -360,12 +358,30 @@ total_rank
 # Want a function that can calculate the win, lose and draw probabilities from two poisson variables
 # The skellam functions do this
 
-predict_match_rows <- predicted_all_fixtures|>
+# Want it to be for the future
+predicted_future_fixtures <- fixtures_poisson_future |>
+  select(!score)|>
+  bind_cols(predict(weighted_fit, newdata = fixtures_poisson_future, type = "response")) |>
+  rename(.pred = ...12)
+
+predict_future_rows <- predicted_future_fixtures|>
   match_per_row(.pred)|>
   mutate(prob_home_win = 1-pskellam(0,home,away),
           prob_draw = dskellam(0,home,away),
           prob_away_win = pskellam(-1,home,away)
   )
+
+# We want to combine the past scores with the predicted rows to create a table
+
+past_rows <- fixtures_poisson_past|>
+  match_per_row(score) |>
+  filter(season_end == 2025)|>
+  mutate(prob_home_win = as.numeric(home > away),
+          prob_draw = as.numeric(home == away),
+          prob_away_win = as.numeric(away > home)
+  )
+
+predict_match_rows <- bind_rows(past_rows, predict_future_rows)
 
 # next format this as a league table
 
@@ -386,7 +402,7 @@ away_record <- summarise(predict_match_rows,
 )|>
   rename(short_name = away_short_name)
 
-pred_league_table = left_join(home_record, away_record, by = join_by(short_name))|>
+pred_future_table <- left_join(home_record, away_record, by = join_by(short_name))|>
   mutate(
     wins = home_wins + away_wins,
     draws = home_draws + away_draws,
@@ -396,9 +412,9 @@ pred_league_table = left_join(home_record, away_record, by = join_by(short_name)
   )|>
   arrange(desc(points))
   
-pred_league_table
+pred_future_table
 
-
+# Then display this alongside 'now' ranks, as the final summary table
 ```
 
 -   Plus home advantage
