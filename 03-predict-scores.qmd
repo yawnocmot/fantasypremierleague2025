@@ -411,14 +411,27 @@ pred_future_table <- left_join(home_record, away_record, by = join_by(short_name
     .keep = "unused"
   )|>
   arrange(desc(points))
-  
-pred_future_table
+
 
 # Then display this alongside 'now' ranks, as the final summary table
+
+display_table <- left_join(pred_future_table, total_rank, by = join_by(short_name))|>
+  select(team, short_name, offence_score, defence_score, points, wins, draws, losses) |>
+  mutate(across(where(is.numeric), ~ format(round(.,1), nsmall = 1)))
+
+display_table
 ```
 
--   Plus home advantage
+-   Calculate for future games the chances of clean sheets, and save as CSV.
 
--   Plus changes over time
+    ```{r}
+    #| label: game_predictions
 
--   Create some visuals for demonstrating teams' ability and how it changes over time.
+    predict_future_rows <- predict_future_rows|>
+      mutate(
+        prob_home_clean_sheet = dpois(0,away),
+        prob_away_clean_sheet = dpois(0,home)
+        )
+
+    write_csv(predict_future_rows,"processed_data/predict_future_rows.csv")
+    ```

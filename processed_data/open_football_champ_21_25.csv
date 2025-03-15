@@ -2086,22 +2086,22 @@ Matchday 35,2025-03-01,15:00,Luton Town FC,Portsmouth FC,1,0,1,0,413,2025
 Matchday 35,2025-03-01,15:00,Middlesbrough FC,Derby County FC,0,0,1,0,414,2025
 Matchday 35,2025-03-01,15:00,Queens Park Rangers FC,Sheffield United FC,0,1,1,2,415,2025
 Matchday 35,2025-03-01,15:00,Stoke City FC,Watford FC,NA,NA,0,0,416,2025
-Matchday 35,2025-03-04,19:45,Cardiff City FC,Burnley FC,NA,NA,NA,NA,417,2025
-Matchday 35,2025-03-04,19:45,Hull City AFC,Plymouth Argyle FC,NA,NA,NA,NA,418,2025
-Matchday 35,2025-03-04,19:45,Millwall FC,Bristol City FC,NA,NA,NA,NA,419,2025
-Matchday 35,2025-03-04,19:45,Preston North End FC,Swansea City AFC,NA,NA,NA,NA,420,2025
-Matchday 36,2025-03-07,20:00,Norwich City FC,Oxford United FC,NA,NA,NA,NA,421,2025
-Matchday 36,2025-03-08,12:30,Coventry City FC,Stoke City FC,NA,NA,NA,NA,422,2025
-Matchday 36,2025-03-08,12:30,Watford FC,Millwall FC,NA,NA,NA,NA,423,2025
-Matchday 36,2025-03-08,15:00,Bristol City FC,Hull City AFC,NA,NA,NA,NA,424,2025
-Matchday 36,2025-03-08,15:00,Burnley FC,Luton Town FC,NA,NA,NA,NA,425,2025
-Matchday 36,2025-03-08,15:00,Derby County FC,Blackburn Rovers FC,NA,NA,NA,NA,426,2025
-Matchday 36,2025-03-08,15:00,Plymouth Argyle FC,Sheffield Wednesday FC,NA,NA,NA,NA,427,2025
-Matchday 36,2025-03-08,15:00,Sheffield United FC,Preston North End FC,NA,NA,NA,NA,428,2025
-Matchday 36,2025-03-08,15:00,Sunderland AFC,Cardiff City FC,NA,NA,NA,NA,429,2025
-Matchday 36,2025-03-08,15:00,Swansea City AFC,Middlesbrough FC,NA,NA,NA,NA,430,2025
-Matchday 36,2025-03-08,15:00,West Bromwich Albion FC,Queens Park Rangers FC,NA,NA,NA,NA,431,2025
-Matchday 36,2025-03-09,12:00,Portsmouth FC,Leeds United FC,NA,NA,NA,NA,432,2025
+Matchday 35,2025-03-04,19:45,Cardiff City FC,Burnley FC,1,2,1,2,417,2025
+Matchday 35,2025-03-04,19:45,Hull City AFC,Plymouth Argyle FC,0,0,2,0,418,2025
+Matchday 35,2025-03-04,19:45,Millwall FC,Bristol City FC,0,0,0,2,419,2025
+Matchday 35,2025-03-04,19:45,Preston North End FC,Swansea City AFC,NA,NA,0,0,420,2025
+Matchday 36,2025-03-07,20:00,Norwich City FC,Oxford United FC,1,1,1,1,421,2025
+Matchday 36,2025-03-08,12:30,Coventry City FC,Stoke City FC,2,0,3,2,422,2025
+Matchday 36,2025-03-08,12:30,Watford FC,Millwall FC,1,0,1,2,423,2025
+Matchday 36,2025-03-08,15:00,Bristol City FC,Hull City AFC,0,1,1,1,424,2025
+Matchday 36,2025-03-08,15:00,Burnley FC,Luton Town FC,2,0,4,0,425,2025
+Matchday 36,2025-03-08,15:00,Derby County FC,Blackburn Rovers FC,2,1,2,1,426,2025
+Matchday 36,2025-03-08,15:00,Plymouth Argyle FC,Sheffield Wednesday FC,0,2,0,3,427,2025
+Matchday 36,2025-03-08,15:00,Sheffield United FC,Preston North End FC,0,0,1,0,428,2025
+Matchday 36,2025-03-08,15:00,Sunderland AFC,Cardiff City FC,1,1,2,1,429,2025
+Matchday 36,2025-03-08,15:00,Swansea City AFC,Middlesbrough FC,1,0,1,0,430,2025
+Matchday 36,2025-03-08,15:00,West Bromwich Albion FC,Queens Park Rangers FC,1,0,1,0,431,2025
+Matchday 36,2025-03-09,12:00,Portsmouth FC,Leeds United FC,0,0,1,0,432,2025
 Matchday 37,2025-03-11,19:45,Burnley FC,West Bromwich Albion FC,NA,NA,NA,NA,433,2025
 Matchday 37,2025-03-11,19:45,Cardiff City FC,Luton Town FC,NA,NA,NA,NA,434,2025
 Matchday 37,2025-03-11,19:45,Derby County FC,Coventry City FC,NA,NA,NA,NA,435,2025
@@ -2126,17 +2126,17 @@ Matchday 38,2025-03-15,15:00,Preston North End FC,Portsmouth FC,NA,NA,NA,NA,453,
 Matchday 38,2025-03-15,15:00,Swansea City AFC,Burnley FC,NA,NA,NA,NA,454,2025
 Matchday 38,2025-03-15,15:00,West Bromwich Albion FC,Hull City AFC,NA,NA,NA,NA,455,2025
 Matchday 38,2025-03-16,12:30,Sheffield Wednesday FC,Sheffield United FC,NA,NA,NA,NA,456,2025
-Matchday 39,2025-03-29,15:00,Sunderland AFC,Millwall FC,NA,NA,NA,NA,457,2025
-Matchday 39,2025-03-29,15:00,Cardiff City FC,Sheffield Wednesday FC,NA,NA,NA,NA,458,2025
-Matchday 39,2025-03-29,15:00,Derby County FC,Preston North End FC,NA,NA,NA,NA,459,2025
-Matchday 39,2025-03-29,15:00,Burnley FC,Bristol City FC,NA,NA,NA,NA,460,2025
-Matchday 39,2025-03-29,15:00,Middlesbrough FC,Oxford United FC,NA,NA,NA,NA,461,2025
-Matchday 39,2025-03-29,15:00,Watford FC,Plymouth Argyle FC,NA,NA,NA,NA,462,2025
-Matchday 39,2025-03-29,15:00,Hull City AFC,Luton Town FC,NA,NA,NA,NA,463,2025
-Matchday 39,2025-03-29,15:00,Leeds United FC,Swansea City AFC,NA,NA,NA,NA,464,2025
-Matchday 39,2025-03-29,15:00,Norwich City FC,West Bromwich Albion FC,NA,NA,NA,NA,465,2025
-Matchday 39,2025-03-29,15:00,Portsmouth FC,Blackburn Rovers FC,NA,NA,NA,NA,466,2025
-Matchday 39,2025-03-29,15:00,Sheffield United FC,Coventry City FC,NA,NA,NA,NA,467,2025
+Matchday 39,2025-03-28,20:00,Sheffield United FC,Coventry City FC,NA,NA,NA,NA,457,2025
+Matchday 39,2025-03-29,12:30,Derby County FC,Preston North End FC,NA,NA,NA,NA,458,2025
+Matchday 39,2025-03-29,12:30,Watford FC,Plymouth Argyle FC,NA,NA,NA,NA,459,2025
+Matchday 39,2025-03-29,12:30,Hull City AFC,Luton Town FC,NA,NA,NA,NA,460,2025
+Matchday 39,2025-03-29,15:00,Sunderland AFC,Millwall FC,NA,NA,NA,NA,461,2025
+Matchday 39,2025-03-29,15:00,Cardiff City FC,Sheffield Wednesday FC,NA,NA,NA,NA,462,2025
+Matchday 39,2025-03-29,15:00,Burnley FC,Bristol City FC,NA,NA,NA,NA,463,2025
+Matchday 39,2025-03-29,15:00,Middlesbrough FC,Oxford United FC,NA,NA,NA,NA,464,2025
+Matchday 39,2025-03-29,15:00,Leeds United FC,Swansea City AFC,NA,NA,NA,NA,465,2025
+Matchday 39,2025-03-29,15:00,Norwich City FC,West Bromwich Albion FC,NA,NA,NA,NA,466,2025
+Matchday 39,2025-03-29,15:00,Portsmouth FC,Blackburn Rovers FC,NA,NA,NA,NA,467,2025
 Matchday 39,2025-03-29,15:00,Stoke City FC,Queens Park Rangers FC,NA,NA,NA,NA,468,2025
 Matchday 40,2025-04-05,12:30,Luton Town FC,Leeds United FC,NA,NA,NA,NA,469,2025
 Matchday 40,2025-04-05,15:00,Blackburn Rovers FC,Middlesbrough FC,NA,NA,NA,NA,470,2025
