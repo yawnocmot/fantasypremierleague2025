@@ -10,7 +10,24 @@ editor: visual
 
 ## Predict player scores
 
--   Import player data
+-   Set up required libraries and import csvs - requires running of both get-data and predict-scores
+
+```{r}
+#| label: set-up
+#| include: false
+
+#Set up libraries required in addition to what is in get data
+
+library(tidyverse)
+library(tidymodels)
+
+# Import required data
+
+predict_future_rows <- read_csv("processed_data/predict_future_rows.csv")
+fpl_elements <- read_csv("processed_data/fpl_elements.csv")
+```
+
+-   Format player data - for now just use from FPL API
 
 -   Model different kinds of player scores:
 

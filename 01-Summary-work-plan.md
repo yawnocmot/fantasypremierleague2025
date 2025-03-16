@@ -11,26 +11,20 @@ Tom Conway
 
 - work out headline model and create different files which will hold the
   engines. Rest of tasks are based on what was used last time.
-  - Format of different files - I think make each an R file, which runs
-    a specific engine. Then the engines each modify data tables that are
-    carried across between.
-  - For each engine we have a QMD file which has a description of how it
-    works? No - that has to contain the model, we don’t want it in two
-    separate places. Instead we break down the functions into different
-    files - and render them in order?
-  - This is an experiment - R code feels more natural, but QMD will help
-    communicate it.
-- So - I will create each of the below files as QMDs.
+  - Format of different files - each one is a QMD file that renders both
+    as R markdown and HTML
+  - For each engine we have a QMD file., each independent but need to
+    render them in order
 
 ## Get data
 
-- Scrape from FPL API
+- Connect to FPL API to get its data
 
-- Find data of results by team
+- Find data of results by team from open football and fixture download
 
-- Other team or player data?
+- In time, I might find other team or player data
 
-- Get Opta projections
+- Or other projections to compare with mine
 
 ## Predict the scores of matches based on the teams involved
 
@@ -40,7 +34,10 @@ Tom Conway
   attack vs defence scores + home advantage + exponential time weighting
   backoff
 
-## Predict player scores
+- This also displays a table of a predicted league table, with as-of-now
+  scores for attack and defence ability
+
+## Next - predict player scores
 
 - Import player data
 
@@ -60,13 +57,15 @@ Tom Conway
 
 - Create and model algorithm for picking players to make up a 15
 
-## Add other features of the game
+## Add other features of the game - note here we will need to go back and edit the other engines.
 
 - Injuries
 
 - Transfers
 
 - Chips
+
+- Assistant manager
 
 - Newly promoted teams
 
@@ -76,7 +75,7 @@ Tom Conway
 
 - Yellow cards
 
-## Refining and modelling
+## Refining and modelling - not in place yet.
 
 - Create season emulator for projecting the performance of different
   models across the season / for predicting the next gameweek

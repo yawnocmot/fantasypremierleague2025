@@ -5,9 +5,6 @@ Tom Conway
 
 ### Get data from FPL API and structure into separate files.
 
-NEED TO COME BACK TO THIS AND SAVE DATA EXPLICITLY AS CSVs SO THAT THE
-OTHER QUARTO DOCS CAN RENDER THEM.
-
 Get data from FPL API - keep separate so don’t re-run it.
 
 ``` r
@@ -167,16 +164,6 @@ fixture_download_data <- tibble(fromJSON(content(response3, "text")))
 write_csv(fixture_download_data,"processed_data/fixture_download_data.csv")
 ```
 
-- Should I be thinking about web scraping instead? I assume the premier
-  league wants this to be difficult so they can charge people for live
-  scores.
-
 - Other team or player data?
 
 - Projections to bring in?
-
-### Noting later data cleaning tasks
-
-- Deadline date needs to be in a time format
-
-- 

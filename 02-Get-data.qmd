@@ -187,14 +187,6 @@ fixture_download_data <- tibble(fromJSON(content(response3, "text")))
 write_csv(fixture_download_data,"processed_data/fixture_download_data.csv")
 ```
 
--   Should I be thinking about web scraping instead? I assume the premier league wants this to be difficult so they can charge people for live scores.
-
 -   Other team or player data?
 
 -   Projections to bring in?
-
-### Noting later data cleaning tasks
-
--   Deadline date needs to be in a time format
-
--   
