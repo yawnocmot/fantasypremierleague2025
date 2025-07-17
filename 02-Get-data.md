@@ -137,16 +137,20 @@ open_football_championship_2021_22 <- open_football_year("https://github.com/ope
 open_football_champ_21_25 <- rbind(
   open_football_championship_2021_22 |> mutate(
     match_number = row_number(date),
-    season_end = 2022),
+    season_end = 2022)|>
+    select(-stage),
   open_football_championship_2022_23 |> mutate(
     match_number = row_number(date),
-    season_end = 2023),
+    season_end = 2023)|>
+    select(-stage),
   open_football_championship_2023_24 |> mutate(
     match_number = row_number(date),
-    season_end = 2024),
+    season_end = 2024)|>
+    select(-stage),
   open_football_championship_2024_25 |> mutate(
     match_number = row_number(date),
-    season_end = 2025)
+    season_end = 2025)|>
+    select(-score_et)
 )
 
 open_football_champ_21_25 |> write_csv("processed_data/open_football_champ_21_25.csv")

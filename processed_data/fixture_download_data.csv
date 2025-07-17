@@ -285,97 +285,97 @@ MatchNumber,RoundNumber,DateUtc,Location,HomeTeam,AwayTeam,Group,HomeTeamScore,A
 288,29,2025-03-15 15:00:00Z,Etihad Stadium,Man City,Brighton,NA,2,2
 290,29,2025-03-15 15:00:00Z,St. Mary's Stadium,Southampton,Wolves,NA,1,2
 283,29,2025-03-15 17:30:00Z,Vitality Stadium,Bournemouth,Brentford,NA,1,2
-281,29,2025-03-16 13:30:00Z,Emirates Stadium,Arsenal,Chelsea,NA,NA,NA
-285,29,2025-03-16 13:30:00Z,Craven Cottage,Fulham,Spurs,NA,NA,NA
-287,29,2025-03-16 19:00:00Z,King Power Stadium,Leicester,Man Utd,NA,NA,NA
-289,29,2025-04-16 18:30:00Z,St. James' Park,Newcastle,Crystal Palace,NA,NA,NA
-291,30,2025-04-01 18:45:00Z,Emirates Stadium,Arsenal,Fulham,NA,NA,NA
-295,30,2025-04-01 18:45:00Z,Molineux Stadium,Wolves,West Ham,NA,NA,NA
-294,30,2025-04-01 19:00:00Z,The City Ground,Nott'm Forest,Man Utd,NA,NA,NA
-292,30,2025-04-02 18:45:00Z,Vitality Stadium,Bournemouth,Ipswich,NA,NA,NA
-293,30,2025-04-02 18:45:00Z,American Express Stadium,Brighton,Aston Villa,NA,NA,NA
-297,30,2025-04-02 18:45:00Z,Etihad Stadium,Man City,Leicester,NA,NA,NA
-298,30,2025-04-02 18:45:00Z,St. James' Park,Newcastle,Brentford,NA,NA,NA
-299,30,2025-04-02 18:45:00Z,St. Mary's Stadium,Southampton,Crystal Palace,NA,NA,NA
-300,30,2025-04-02 19:00:00Z,Anfield,Liverpool,Everton,NA,NA,NA
-296,30,2025-04-03 19:00:00Z,Stamford Bridge,Chelsea,Spurs,NA,NA,NA
-304,31,2025-04-05 11:30:00Z,Goodison Park,Everton,Arsenal,NA,NA,NA
-303,31,2025-04-05 14:00:00Z,Selhurst Park,Crystal Palace,Brighton,NA,NA,NA
-306,31,2025-04-05 14:00:00Z,Portman Road,Ipswich,Wolves,NA,NA,NA
-310,31,2025-04-05 14:00:00Z,London Stadium,West Ham,Bournemouth,NA,NA,NA
-301,31,2025-04-05 16:30:00Z,Villa Park,Aston Villa,Nott'm Forest,NA,NA,NA
-302,31,2025-04-06 13:00:00Z,Gtech Community Stadium,Brentford,Chelsea,NA,NA,NA
-305,31,2025-04-06 13:00:00Z,Craven Cottage,Fulham,Liverpool,NA,NA,NA
-309,31,2025-04-06 13:00:00Z,Tottenham Hotspur Stadium,Spurs,Southampton,NA,NA,NA
-308,31,2025-04-06 15:30:00Z,Old Trafford,Man Utd,Man City,NA,NA,NA
-307,31,2025-04-07 19:00:00Z,King Power Stadium,Leicester,Newcastle,NA,NA,NA
-316,32,2025-04-12 11:30:00Z,Etihad Stadium,Man City,Crystal Palace,NA,NA,NA
-313,32,2025-04-12 14:00:00Z,American Express Stadium,Brighton,Leicester,NA,NA,NA
-318,32,2025-04-12 14:00:00Z,The City Ground,Nott'm Forest,Everton,NA,NA,NA
-319,32,2025-04-12 14:00:00Z,St. Mary's Stadium,Southampton,Aston Villa,NA,NA,NA
-311,32,2025-04-12 16:30:00Z,Emirates Stadium,Arsenal,Brentford,NA,NA,NA
-314,32,2025-04-13 13:00:00Z,Stamford Bridge,Chelsea,Ipswich,NA,NA,NA
-315,32,2025-04-13 13:00:00Z,Anfield,Liverpool,West Ham,NA,NA,NA
-320,32,2025-04-13 13:00:00Z,Molineux Stadium,Wolves,Spurs,NA,NA,NA
-317,32,2025-04-13 15:30:00Z,St. James' Park,Newcastle,Man Utd,NA,NA,NA
-312,32,2025-04-14 19:00:00Z,Vitality Stadium,Bournemouth,Fulham,NA,NA,NA
-322,33,2025-04-19 14:00:00Z,Gtech Community Stadium,Brentford,Brighton,NA,NA,NA
-323,33,2025-04-19 14:00:00Z,Selhurst Park,Crystal Palace,Bournemouth,NA,NA,NA
-324,33,2025-04-19 14:00:00Z,Goodison Park,Everton,Man City,NA,NA,NA
-330,33,2025-04-19 14:00:00Z,London Stadium,West Ham,Southampton,NA,NA,NA
-321,33,2025-04-19 16:30:00Z,Villa Park,Aston Villa,Newcastle,NA,NA,NA
-325,33,2025-04-20 13:00:00Z,Craven Cottage,Fulham,Chelsea,NA,NA,NA
-326,33,2025-04-20 13:00:00Z,Portman Road,Ipswich,Arsenal,NA,NA,NA
-328,33,2025-04-20 13:00:00Z,Old Trafford,Man Utd,Wolves,NA,NA,NA
-327,33,2025-04-20 15:30:00Z,King Power Stadium,Leicester,Liverpool,NA,NA,NA
-329,33,2025-04-21 19:00:00Z,Tottenham Hotspur Stadium,Spurs,Nott'm Forest,NA,NA,NA
-334,34,2025-04-26 11:30:00Z,Stamford Bridge,Chelsea,Everton,NA,NA,NA
-333,34,2025-04-26 14:00:00Z,American Express Stadium,Brighton,West Ham,NA,NA,NA
-337,34,2025-04-26 14:00:00Z,St. James' Park,Newcastle,Ipswich,NA,NA,NA
-338,34,2025-04-26 14:00:00Z,The City Ground,Nott'm Forest,Brentford,NA,NA,NA
-339,34,2025-04-26 14:00:00Z,St. Mary's Stadium,Southampton,Fulham,NA,NA,NA
-340,34,2025-04-26 14:00:00Z,Molineux Stadium,Wolves,Leicester,NA,NA,NA
-331,34,2025-04-26 16:30:00Z,Emirates Stadium,Arsenal,Crystal Palace,NA,NA,NA
-332,34,2025-04-27 13:00:00Z,Vitality Stadium,Bournemouth,Man Utd,NA,NA,NA
-335,34,2025-04-27 15:30:00Z,Anfield,Liverpool,Spurs,NA,NA,NA
-336,34,2025-04-28 19:00:00Z,Etihad Stadium,Man City,Aston Villa,NA,NA,NA
-341,35,2025-05-03 14:00:00Z,Emirates Stadium,Arsenal,Bournemouth,NA,NA,NA
-342,35,2025-05-03 14:00:00Z,Villa Park,Aston Villa,Fulham,NA,NA,NA
-343,35,2025-05-03 14:00:00Z,Gtech Community Stadium,Brentford,Man Utd,NA,NA,NA
-344,35,2025-05-03 14:00:00Z,American Express Stadium,Brighton,Newcastle,NA,NA,NA
-345,35,2025-05-03 14:00:00Z,Stamford Bridge,Chelsea,Liverpool,NA,NA,NA
-346,35,2025-05-03 14:00:00Z,Selhurst Park,Crystal Palace,Nott'm Forest,NA,NA,NA
-347,35,2025-05-03 14:00:00Z,Goodison Park,Everton,Ipswich,NA,NA,NA
-348,35,2025-05-03 14:00:00Z,King Power Stadium,Leicester,Southampton,NA,NA,NA
-349,35,2025-05-03 14:00:00Z,Etihad Stadium,Man City,Wolves,NA,NA,NA
-350,35,2025-05-03 14:00:00Z,London Stadium,West Ham,Spurs,NA,NA,NA
-351,36,2025-05-10 14:00:00Z,Vitality Stadium,Bournemouth,Aston Villa,NA,NA,NA
-352,36,2025-05-10 14:00:00Z,Craven Cottage,Fulham,Everton,NA,NA,NA
-353,36,2025-05-10 14:00:00Z,Portman Road,Ipswich,Brentford,NA,NA,NA
-354,36,2025-05-10 14:00:00Z,Anfield,Liverpool,Arsenal,NA,NA,NA
-355,36,2025-05-10 14:00:00Z,Old Trafford,Man Utd,West Ham,NA,NA,NA
-356,36,2025-05-10 14:00:00Z,St. James' Park,Newcastle,Chelsea,NA,NA,NA
-357,36,2025-05-10 14:00:00Z,The City Ground,Nott'm Forest,Leicester,NA,NA,NA
-358,36,2025-05-10 14:00:00Z,St. Mary's Stadium,Southampton,Man City,NA,NA,NA
-359,36,2025-05-10 14:00:00Z,Tottenham Hotspur Stadium,Spurs,Crystal Palace,NA,NA,NA
-360,36,2025-05-10 14:00:00Z,Molineux Stadium,Wolves,Brighton,NA,NA,NA
-361,37,2025-05-18 14:00:00Z,Emirates Stadium,Arsenal,Newcastle,NA,NA,NA
-362,37,2025-05-18 14:00:00Z,Villa Park,Aston Villa,Spurs,NA,NA,NA
-363,37,2025-05-18 14:00:00Z,Gtech Community Stadium,Brentford,Fulham,NA,NA,NA
-364,37,2025-05-18 14:00:00Z,American Express Stadium,Brighton,Liverpool,NA,NA,NA
-365,37,2025-05-18 14:00:00Z,Stamford Bridge,Chelsea,Man Utd,NA,NA,NA
-366,37,2025-05-18 14:00:00Z,Selhurst Park,Crystal Palace,Wolves,NA,NA,NA
-367,37,2025-05-18 14:00:00Z,Goodison Park,Everton,Southampton,NA,NA,NA
-368,37,2025-05-18 14:00:00Z,King Power Stadium,Leicester,Ipswich,NA,NA,NA
-369,37,2025-05-18 14:00:00Z,Etihad Stadium,Man City,Bournemouth,NA,NA,NA
-370,37,2025-05-18 14:00:00Z,London Stadium,West Ham,Nott'm Forest,NA,NA,NA
-371,38,2025-05-25 15:00:00Z,Vitality Stadium,Bournemouth,Leicester,NA,NA,NA
-372,38,2025-05-25 15:00:00Z,Craven Cottage,Fulham,Man City,NA,NA,NA
-373,38,2025-05-25 15:00:00Z,Portman Road,Ipswich,West Ham,NA,NA,NA
-374,38,2025-05-25 15:00:00Z,Anfield,Liverpool,Crystal Palace,NA,NA,NA
-375,38,2025-05-25 15:00:00Z,Old Trafford,Man Utd,Aston Villa,NA,NA,NA
-376,38,2025-05-25 15:00:00Z,St. James' Park,Newcastle,Everton,NA,NA,NA
-377,38,2025-05-25 15:00:00Z,The City Ground,Nott'm Forest,Chelsea,NA,NA,NA
-378,38,2025-05-25 15:00:00Z,St. Mary's Stadium,Southampton,Arsenal,NA,NA,NA
-379,38,2025-05-25 15:00:00Z,Tottenham Hotspur Stadium,Spurs,Brighton,NA,NA,NA
-380,38,2025-05-25 15:00:00Z,Molineux Stadium,Wolves,Brentford,NA,NA,NA
+281,29,2025-03-16 13:30:00Z,Emirates Stadium,Arsenal,Chelsea,NA,1,0
+285,29,2025-03-16 13:30:00Z,Craven Cottage,Fulham,Spurs,NA,2,0
+287,29,2025-03-16 19:00:00Z,King Power Stadium,Leicester,Man Utd,NA,0,3
+289,29,2025-04-16 18:30:00Z,St. James' Park,Newcastle,Crystal Palace,NA,5,0
+291,30,2025-04-01 18:45:00Z,Emirates Stadium,Arsenal,Fulham,NA,2,1
+295,30,2025-04-01 18:45:00Z,Molineux Stadium,Wolves,West Ham,NA,1,0
+294,30,2025-04-01 19:00:00Z,The City Ground,Nott'm Forest,Man Utd,NA,1,0
+292,30,2025-04-02 18:45:00Z,Vitality Stadium,Bournemouth,Ipswich,NA,1,2
+293,30,2025-04-02 18:45:00Z,American Express Stadium,Brighton,Aston Villa,NA,0,3
+297,30,2025-04-02 18:45:00Z,Etihad Stadium,Man City,Leicester,NA,2,0
+298,30,2025-04-02 18:45:00Z,St. James' Park,Newcastle,Brentford,NA,2,1
+299,30,2025-04-02 18:45:00Z,St. Mary's Stadium,Southampton,Crystal Palace,NA,1,1
+300,30,2025-04-02 19:00:00Z,Anfield,Liverpool,Everton,NA,1,0
+296,30,2025-04-03 19:00:00Z,Stamford Bridge,Chelsea,Spurs,NA,1,0
+304,31,2025-04-05 11:30:00Z,Goodison Park,Everton,Arsenal,NA,1,1
+303,31,2025-04-05 14:00:00Z,Selhurst Park,Crystal Palace,Brighton,NA,2,1
+306,31,2025-04-05 14:00:00Z,Portman Road,Ipswich,Wolves,NA,1,2
+310,31,2025-04-05 14:00:00Z,London Stadium,West Ham,Bournemouth,NA,2,2
+301,31,2025-04-05 16:30:00Z,Villa Park,Aston Villa,Nott'm Forest,NA,2,1
+302,31,2025-04-06 13:00:00Z,Gtech Community Stadium,Brentford,Chelsea,NA,0,0
+305,31,2025-04-06 13:00:00Z,Craven Cottage,Fulham,Liverpool,NA,3,2
+309,31,2025-04-06 13:00:00Z,Tottenham Hotspur Stadium,Spurs,Southampton,NA,3,1
+308,31,2025-04-06 15:30:00Z,Old Trafford,Man Utd,Man City,NA,0,0
+307,31,2025-04-07 19:00:00Z,King Power Stadium,Leicester,Newcastle,NA,0,3
+316,32,2025-04-12 11:30:00Z,Etihad Stadium,Man City,Crystal Palace,NA,5,2
+313,32,2025-04-12 14:00:00Z,American Express Stadium,Brighton,Leicester,NA,2,2
+318,32,2025-04-12 14:00:00Z,The City Ground,Nott'm Forest,Everton,NA,0,1
+319,32,2025-04-12 14:00:00Z,St. Mary's Stadium,Southampton,Aston Villa,NA,0,3
+311,32,2025-04-12 16:30:00Z,Emirates Stadium,Arsenal,Brentford,NA,1,1
+314,32,2025-04-13 13:00:00Z,Stamford Bridge,Chelsea,Ipswich,NA,2,2
+315,32,2025-04-13 13:00:00Z,Anfield,Liverpool,West Ham,NA,2,1
+320,32,2025-04-13 13:00:00Z,Molineux Stadium,Wolves,Spurs,NA,4,2
+317,32,2025-04-13 15:30:00Z,St. James' Park,Newcastle,Man Utd,NA,4,1
+312,32,2025-04-14 19:00:00Z,Vitality Stadium,Bournemouth,Fulham,NA,1,0
+322,33,2025-04-19 14:00:00Z,Gtech Community Stadium,Brentford,Brighton,NA,4,2
+323,33,2025-04-19 14:00:00Z,Selhurst Park,Crystal Palace,Bournemouth,NA,0,0
+324,33,2025-04-19 14:00:00Z,Goodison Park,Everton,Man City,NA,0,2
+330,33,2025-04-19 14:00:00Z,London Stadium,West Ham,Southampton,NA,1,1
+321,33,2025-04-19 16:30:00Z,Villa Park,Aston Villa,Newcastle,NA,4,1
+325,33,2025-04-20 13:00:00Z,Craven Cottage,Fulham,Chelsea,NA,1,2
+326,33,2025-04-20 13:00:00Z,Portman Road,Ipswich,Arsenal,NA,0,4
+328,33,2025-04-20 13:00:00Z,Old Trafford,Man Utd,Wolves,NA,0,1
+327,33,2025-04-20 15:30:00Z,King Power Stadium,Leicester,Liverpool,NA,0,1
+329,33,2025-04-21 19:00:00Z,Tottenham Hotspur Stadium,Spurs,Nott'm Forest,NA,1,2
+336,34,2025-04-22 19:00:00Z,Etihad Stadium,Man City,Aston Villa,NA,2,1
+331,34,2025-04-23 19:00:00Z,Emirates Stadium,Arsenal,Crystal Palace,NA,2,2
+334,34,2025-04-26 11:30:00Z,Stamford Bridge,Chelsea,Everton,NA,1,0
+333,34,2025-04-26 14:00:00Z,American Express Stadium,Brighton,West Ham,NA,3,2
+337,34,2025-04-26 14:00:00Z,St. James' Park,Newcastle,Ipswich,NA,3,0
+339,34,2025-04-26 14:00:00Z,St. Mary's Stadium,Southampton,Fulham,NA,1,2
+340,34,2025-04-26 14:00:00Z,Molineux Stadium,Wolves,Leicester,NA,3,0
+332,34,2025-04-27 13:00:00Z,Vitality Stadium,Bournemouth,Man Utd,NA,1,1
+335,34,2025-04-27 15:30:00Z,Anfield,Liverpool,Spurs,NA,5,1
+338,34,2025-05-01 18:30:00Z,The City Ground,Nott'm Forest,Brentford,NA,0,2
+349,35,2025-05-02 19:00:00Z,Etihad Stadium,Man City,Wolves,NA,1,0
+342,35,2025-05-03 11:30:00Z,Villa Park,Aston Villa,Fulham,NA,1,0
+347,35,2025-05-03 14:00:00Z,Goodison Park,Everton,Ipswich,NA,2,2
+348,35,2025-05-03 14:00:00Z,King Power Stadium,Leicester,Southampton,NA,2,0
+341,35,2025-05-03 16:30:00Z,Emirates Stadium,Arsenal,Bournemouth,NA,1,2
+343,35,2025-05-04 13:00:00Z,Gtech Community Stadium,Brentford,Man Utd,NA,4,3
+344,35,2025-05-04 13:00:00Z,American Express Stadium,Brighton,Newcastle,NA,1,1
+350,35,2025-05-04 13:00:00Z,London Stadium,West Ham,Spurs,NA,1,1
+345,35,2025-05-04 15:30:00Z,Stamford Bridge,Chelsea,Liverpool,NA,3,1
+346,35,2025-05-05 19:00:00Z,Selhurst Park,Crystal Palace,Nott'm Forest,NA,1,1
+352,36,2025-05-10 14:00:00Z,Craven Cottage,Fulham,Everton,NA,1,3
+353,36,2025-05-10 14:00:00Z,Portman Road,Ipswich,Brentford,NA,0,1
+358,36,2025-05-10 14:00:00Z,St. Mary's Stadium,Southampton,Man City,NA,0,0
+360,36,2025-05-10 14:00:00Z,Molineux Stadium,Wolves,Brighton,NA,0,2
+351,36,2025-05-10 16:30:00Z,Vitality Stadium,Bournemouth,Aston Villa,NA,0,1
+356,36,2025-05-11 11:00:00Z,St. James' Park,Newcastle,Chelsea,NA,2,0
+355,36,2025-05-11 13:15:00Z,Old Trafford,Man Utd,West Ham,NA,0,2
+357,36,2025-05-11 13:15:00Z,The City Ground,Nott'm Forest,Leicester,NA,2,2
+359,36,2025-05-11 13:15:00Z,Tottenham Hotspur Stadium,Spurs,Crystal Palace,NA,0,2
+354,36,2025-05-11 15:30:00Z,Anfield,Liverpool,Arsenal,NA,2,2
+362,37,2025-05-16 18:30:00Z,Villa Park,Aston Villa,Spurs,NA,2,0
+365,37,2025-05-16 19:15:00Z,Stamford Bridge,Chelsea,Man Utd,NA,1,0
+367,37,2025-05-18 11:00:00Z,Goodison Park,Everton,Southampton,NA,2,0
+370,37,2025-05-18 13:15:00Z,London Stadium,West Ham,Nott'm Forest,NA,1,2
+363,37,2025-05-18 14:00:00Z,Gtech Community Stadium,Brentford,Fulham,NA,2,3
+368,37,2025-05-18 14:00:00Z,King Power Stadium,Leicester,Ipswich,NA,2,0
+361,37,2025-05-18 15:30:00Z,Emirates Stadium,Arsenal,Newcastle,NA,1,0
+364,37,2025-05-19 19:00:00Z,American Express Stadium,Brighton,Liverpool,NA,3,2
+366,37,2025-05-20 19:00:00Z,Selhurst Park,Crystal Palace,Wolves,NA,4,2
+369,37,2025-05-20 19:00:00Z,Etihad Stadium,Man City,Bournemouth,NA,3,1
+371,38,2025-05-25 15:00:00Z,Vitality Stadium,Bournemouth,Leicester,NA,2,0
+372,38,2025-05-25 15:00:00Z,Craven Cottage,Fulham,Man City,NA,0,2
+373,38,2025-05-25 15:00:00Z,Portman Road,Ipswich,West Ham,NA,1,3
+374,38,2025-05-25 15:00:00Z,Anfield,Liverpool,Crystal Palace,NA,1,1
+375,38,2025-05-25 15:00:00Z,Old Trafford,Man Utd,Aston Villa,NA,2,0
+376,38,2025-05-25 15:00:00Z,St. James' Park,Newcastle,Everton,NA,0,1
+377,38,2025-05-25 15:00:00Z,The City Ground,Nott'm Forest,Chelsea,NA,0,1
+378,38,2025-05-25 15:00:00Z,St. Mary's Stadium,Southampton,Arsenal,NA,1,2
+379,38,2025-05-25 15:00:00Z,Tottenham Hotspur Stadium,Spurs,Brighton,NA,1,4
+380,38,2025-05-25 15:00:00Z,Molineux Stadium,Wolves,Brentford,NA,1,1
