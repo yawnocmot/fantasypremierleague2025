@@ -8,7 +8,7 @@ format:
 editor: visual
 ---
 
-## Predict the scores of matches based on the teams involved  - BIG TASK HERE IS FINDING FUTURE FIXTURES
+## Predict the scores of matches based on the teams involved - BIG TASK HERE IS FINDING FUTURE FIXTURES
 
 -   Set up what libraries are needed, and name the precursors - requires running of get-data first.
 
