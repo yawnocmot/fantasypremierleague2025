@@ -21,6 +21,7 @@ editor: visual
 library(httr)
 library(jsonlite)
 library(tidyverse)
+library(worldfootballR)
 
 ```
 
@@ -191,6 +192,63 @@ fixture_download_data <- tibble(fromJSON(content(response3, "text")))
 write_csv(fixture_download_data,"processed_data/fixture_download_data.csv")
 ```
 
--   Other team or player data?
+-   Next - revert to using worldfootball R
+
+    ```{r}
+
+    # 3. Define the seasons by their end‑year:
+    #    2021–22 → 2022, …, 2025–26 → 2026
+    past_seasons <- 2022:2025
+    future_season <- 2026
+
+    # 4. Fetch all fixtures & results for those seasons
+    epl_fixtures_results <- load_match_results(
+      country          = "ENG",
+      gender           = "M",
+      season_end_year  = past_seasons,
+      tier             = "1st"
+    ) %>%
+      select(
+        Season_End_Year,   # the season (end year)
+        Date,              # match date
+        Home, Away,        # teams
+        HomeGoals, AwayGoals, # final scores
+        MatchURL           # FBref URL for joining
+      )|>  # :contentReference[oaicite:1]{index=1}
+    as.tibble()
+
+
+    # MATCH SUMMARY DATA DOESN'T INCLUDE EPL - HAVE TO TRY ANOTHER WAY
+    # 5. Fetch the detailed “match summary” timeline (goals, cards, subs)
+    epl_match_summaries <- load_fb_match_summary(
+      country          = "ENG",
+      gender           = "M",
+      tier             = "2nd",
+      season_end_year  = 2022
+    )  # includes columns event_time, event_type, event_players, score_progression :contentReference[oaicite:2]{index=2}
+
+    # 6. Filter out just the goal events
+    goal_events <- epl_match_summaries %>%
+      filter(event_type == "Goal") %>%       # keep only goals :contentReference[oaicite:3]{index=3}
+      select(
+        Season_End_Year, Date, Home, Away,   # context
+        event_time,                          # minute of goal
+        event_players,                       # scorer (and assist) text
+        score_progression,                   # e.g. “1–0”, “2–1”
+        MatchURL
+      )
+
+    # 7. (Optional) Join goal details back to your fixtures table
+    epl_goal_details <- goal_events %>%
+      left_join(epl_fixtures_results, by = c(
+        "Season_End_Year", "Date", "Home", "Away", "MatchURL"
+      ))
+
+    # Now:
+    # - `epl_fixtures_results` has one row per fixture with final score.
+    # - `goal_events` has one row per goal scored, with scorer info and minute.
+    # - `epl_goal_details` merges them if you need to see scorelines alongside scorer names.
+
+    ```
 
 -   Projections to bring in?
