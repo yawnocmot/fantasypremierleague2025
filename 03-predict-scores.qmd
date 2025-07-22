@@ -27,8 +27,9 @@ library(skellam)
 # Load datasets needed
 
 fpl_teams <- read_csv("processed_data/fpl_teams.csv")
-open_football_21_24 <- read_csv("processed_data/open_football_21_24.csv")
+open_football_21_25 <- read_csv("processed_data/open_football_21_25.csv")
 fixture_download_data <- read_csv("processed_data/fixture_download_data.csv")
+fpl_fixtures <- read_csv("processed_data/fpl_fixtures.csv")
 ```
 
 -   Set up a file with well coded data for team fixtures and scores
@@ -42,30 +43,32 @@ fixture_download_data <- read_csv("processed_data/fixture_download_data.csv")
 
 fpl_team_id_home <- fpl_teams |>
   select(home_code = code,
-         HomeTeam = name,
+         home_id = id,
+         home_team = name,
          home_short_name = short_name)
 
 fpl_team_id_away <- fpl_teams |>
   select(away_code = code,
-         AwayTeam = name,
+         away_id = id,
+         away_team = name,
          away_short_name = short_name)
 
 # Join these names with fixture_down_load data for this season's fixtures by the HomeTeam and AwayTeam names.
 
-fixture_data <- fixture_download_data |>
-  left_join(fpl_team_id_home)|>
-  left_join(fpl_team_id_away)|>
-  select(!c(Location,Group)) |>
+fixture_data <- fpl_fixtures |>
+  select(id, kickoff_time, finished, team_a, team_a_score, team_h, team_h_score, stats) |>
+  left_join(fpl_team_id_home, join_by(team_h == home_id))|>
+  left_join(fpl_team_id_away, join_by(team_a == away_id))|>
   janitor::clean_names()|>
   # turn date into a datetime
-  mutate(date_utc = ymd_hms(date_utc))|>
-  mutate(season_end = 2025)
+  mutate(kickoff_time = ymd_hms(kickoff_time))|>
+  mutate(season_end = 2026)
 
 # next - consider the open_football data - just premier league here.
 # We want to get the data in the same format as fixture_data
 
 
-open_football_21_24 <- open_football_21_24|>
+open_football_21_25 <- open_football_21_25|>
   select(match_number,
          round_number = round,
          date,
@@ -85,7 +88,7 @@ open_football_21_24 <- open_football_21_24|>
 
   # next we need to change the names of the teams - using a lookup table?
 
-names_open_football <- open_football_21_24|>
+names_open_football <- open_football_21_25|>
   group_by(home_team)|>
   summarise()
 
@@ -93,7 +96,7 @@ names_fixtures <- fixture_data |>
   group_by(home_team) |>
   summarise()
 
-# Create a function to change things.
+# Create a function to change things. THIS IS WHERE TO CONTINUE TO CHECK FOR SUNDERLAND ETC.
 
 names_open_football_to_fixtures <- function(names_data){
   # FC after each one

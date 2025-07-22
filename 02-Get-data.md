@@ -70,6 +70,12 @@ fpl_element_types <- tibble(fpl_data$element_types)
 fpl_elements <- tibble(fpl_data$elements)
 
 fpl_elements |> write_csv("processed_data/fpl_elements.csv")
+
+# Fixtures - this is also available from the API, the future fixtures.
+
+fpl_fixtures <- tibble(fromJSON("https://fantasy.premierleague.com/api/fixtures/"))
+
+fpl_fixtures |> write_csv("processed_data/fpl_fixtures.csv")
 ```
 
 fpl
@@ -168,6 +174,7 @@ fixture_download_data <- tibble(fromJSON(content(response3, "text")))
 write_csv(fixture_download_data,"processed_data/fixture_download_data.csv")
 ```
 
-- Other team or player data?
+- Next - revert to using worldfootball R - this all doesn’t add anything
+  yet, so delete it. We will go back and get past goals scored
 
 - Projections to bring in?

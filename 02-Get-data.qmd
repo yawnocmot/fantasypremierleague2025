@@ -95,6 +95,12 @@ fpl_element_types <- tibble(fpl_data$element_types)
 fpl_elements <- tibble(fpl_data$elements)
 
 fpl_elements |> write_csv("processed_data/fpl_elements.csv")
+
+# Fixtures - this is also available from the API, the future fixtures.
+
+fpl_fixtures <- tibble(fromJSON("https://fantasy.premierleague.com/api/fixtures/"))
+
+fpl_fixtures |> write_csv("processed_data/fpl_fixtures.csv")
 ```
 
 fpl
@@ -134,7 +140,7 @@ open_football_2023_24 <- open_football_year("https://github.com/openfootball/foo
 open_football_2022_23 <- open_football_year("https://github.com/openfootball/football.json/raw/refs/heads/master/2022-23/en.1.json")
 open_football_2021_22 <- open_football_year("https://github.com/openfootball/football.json/raw/refs/heads/master/2021-22/en.1.json")
 
-open_football_21_24 <- rbind(
+open_football_21_25 <- rbind(
   open_football_2021_22 |> mutate(
     match_number = row_number(date),
     season_end = 2022),
@@ -143,10 +149,13 @@ open_football_21_24 <- rbind(
     season_end = 2023),
   open_football_2023_24 |> mutate(
     match_number = row_number(date),
-    season_end = 2024)
-)
+    season_end = 2024),
+  open_football_data_2 |> mutate(
+    match_number = row_number(date),
+    season_end = 2025)
+  )
 
-open_football_21_24 |> write_csv("processed_data/open_football_21_24.csv")
+open_football_21_25 |> write_csv("processed_data/open_football_21_25.csv")
 
 # and also championship data for information on promoted teams
 
@@ -192,63 +201,6 @@ fixture_download_data <- tibble(fromJSON(content(response3, "text")))
 write_csv(fixture_download_data,"processed_data/fixture_download_data.csv")
 ```
 
--   Next - revert to using worldfootball R
-
-    ```{r}
-
-    # 3. Define the seasons by their end‑year:
-    #    2021–22 → 2022, …, 2025–26 → 2026
-    past_seasons <- 2022:2025
-    future_season <- 2026
-
-    # 4. Fetch all fixtures & results for those seasons
-    epl_fixtures_results <- load_match_results(
-      country          = "ENG",
-      gender           = "M",
-      season_end_year  = past_seasons,
-      tier             = "1st"
-    ) %>%
-      select(
-        Season_End_Year,   # the season (end year)
-        Date,              # match date
-        Home, Away,        # teams
-        HomeGoals, AwayGoals, # final scores
-        MatchURL           # FBref URL for joining
-      )|>  # :contentReference[oaicite:1]{index=1}
-    as.tibble()
-
-
-    # MATCH SUMMARY DATA DOESN'T INCLUDE EPL - HAVE TO TRY ANOTHER WAY
-    # 5. Fetch the detailed “match summary” timeline (goals, cards, subs)
-    epl_match_summaries <- load_fb_match_summary(
-      country          = "ENG",
-      gender           = "M",
-      tier             = "2nd",
-      season_end_year  = 2022
-    )  # includes columns event_time, event_type, event_players, score_progression :contentReference[oaicite:2]{index=2}
-
-    # 6. Filter out just the goal events
-    goal_events <- epl_match_summaries %>%
-      filter(event_type == "Goal") %>%       # keep only goals :contentReference[oaicite:3]{index=3}
-      select(
-        Season_End_Year, Date, Home, Away,   # context
-        event_time,                          # minute of goal
-        event_players,                       # scorer (and assist) text
-        score_progression,                   # e.g. “1–0”, “2–1”
-        MatchURL
-      )
-
-    # 7. (Optional) Join goal details back to your fixtures table
-    epl_goal_details <- goal_events %>%
-      left_join(epl_fixtures_results, by = c(
-        "Season_End_Year", "Date", "Home", "Away", "MatchURL"
-      ))
-
-    # Now:
-    # - `epl_fixtures_results` has one row per fixture with final score.
-    # - `goal_events` has one row per goal scored, with scorer info and minute.
-    # - `epl_goal_details` merges them if you need to see scorelines alongside scorer names.
-
-    ```
+-   Next - revert to using worldfootball R - this all doesn't add anything yet, so delete it. We will go back and get past goals scored
 
 -   Projections to bring in?
