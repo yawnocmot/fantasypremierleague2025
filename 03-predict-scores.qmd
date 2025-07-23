@@ -8,7 +8,7 @@ format:
 editor: visual
 ---
 
-## Predict the scores of matches based on the teams involved - BIG TASK HERE IS FINDING FUTURE FIXTURES
+## Predict the scores of matches based on the teams involved
 
 -   Set up what libraries are needed, and name the precursors - requires running of get-data first.
 
@@ -56,13 +56,19 @@ fpl_team_id_away <- fpl_teams |>
 # Join these names with fixture_down_load data for this season's fixtures by the HomeTeam and AwayTeam names.
 
 fixture_data <- fpl_fixtures |>
-  select(id, kickoff_time, finished, team_a, team_a_score, team_h, team_h_score, stats) |>
+  select(id, event, kickoff_time, team_a, team_a_score, team_h, team_h_score) |>
   left_join(fpl_team_id_home, join_by(team_h == home_id))|>
   left_join(fpl_team_id_away, join_by(team_a == away_id))|>
   janitor::clean_names()|>
   # turn date into a datetime
-  mutate(kickoff_time = ymd_hms(kickoff_time))|>
-  mutate(season_end = 2026)
+  mutate(date_utc = ymd_hms(kickoff_time),
+         match_number = id,
+         round_number = event,
+         home_team_score = team_h_score,
+         away_team_score = team_a_score,
+         season_end = 2026,
+         .keep = "unused") |>
+  select(!c(team_a, team_h))
 
 # next - consider the open_football data - just premier league here.
 # We want to get the data in the same format as fixture_data
@@ -96,7 +102,7 @@ names_fixtures <- fixture_data |>
   group_by(home_team) |>
   summarise()
 
-# Create a function to change things. THIS IS WHERE TO CONTINUE TO CHECK FOR SUNDERLAND ETC.
+# Create a function to change things.
 
 names_open_football_to_fixtures <- function(names_data){
   # FC after each one
@@ -116,7 +122,7 @@ names_open_football_to_fixtures <- function(names_data){
                     "Manchester" = "Man",
                     # Utd vs United for Manchester
                     "Man United" = "Man Utd",
-                    # No United after Newcastle or West Ham
+                    # No United after Newcastle, West Ham, or Leeds
                     " United" = "",
                     # Nottingham Forest to Nott'm Forest
                     "Nottingham" = "Nott'm")
@@ -129,7 +135,7 @@ names_open_football <- names_open_football |>
 
 # It does, apply to the main open_football dataset
 
-open_football_21_24 <- open_football_21_24 |>
+open_football_21_25 <- open_football_21_25 |>
   mutate(home_team = names_open_football_to_fixtures(home_team),
          away_team = names_open_football_to_fixtures(away_team)
   )
@@ -145,15 +151,16 @@ name_finder <- fixture_data |>
          short_name = home_short_name)|>
   # create dummy codes for those not here - can come back and change if promoted
   rbind(tribble(~team, ~code, ~short_name,
-               "Burnley", 99, "BUR",
-               "Leeds", 98, "LEE",
+               "Southampton", 99, "SOU",
+               "Leicester", 98, "LEI",
                "Luton Town", 97, "LUT",
                "Norwich City", 96, "NOR",
                "Sheffield", 95, "SHU",
                "Watford", 94, "WAT",
+               "Ipswich Town", 93, "IPS"
                ))
 
-open_football_21_24 <- open_football_21_24 |>
+open_football_21_25 <- open_football_21_25 |>
   left_join(name_finder, by = join_by(home_team == team))|>
   rename(home_code = code,
          home_short_name = short_name)|>
@@ -164,7 +171,7 @@ open_football_21_24 <- open_football_21_24 |>
 
 # Now should all be the same, can we rbind?
 
-all_fixtures <- rbind(fixture_data, open_football_21_24)
+all_fixtures <- rbind(fixture_data, open_football_21_25)
 
 all_fixtures
 ```
@@ -275,7 +282,7 @@ poisson_fit <- poisson_workflow |>
 # This gives a list of coefficients for different scores.
 # From this we can identify a league table for how many goals each would be expected to score against each other.
 
-# Score 19% more goals at home
+# Score 19% more goals at home - still true 2025
 
 
 ```
@@ -294,7 +301,16 @@ decay_parameter <- 0.005
 fixtures_poisson_past <- fixtures_poisson_past |>
   mutate(days_ago = (today() %--% date_utc)/days(1),
          weight = exp(decay_parameter*days_ago))|>
-  arrange(desc(days_ago))
+  arrange(desc(days_ago))|>
+  # THIS IS TO ASSIGN SOUTHAMPTON TO SUNDERLAND TO GIVE SUNDERLAND BASE DATA
+  mutate(
+    attacker_short_name = recode(attacker_short_name,
+                                 "SOU" = "SUN",
+                                 .default = attacker_short_name),
+    defender_short_name = recode(defender_short_name,
+                                 "SOU" = "SUN",
+                                 .default = defender_short_name),
+  )
 
 # Now fit a weighted poisson model - this still the same as above
 
@@ -326,13 +342,18 @@ weighted_fit <- glm(score ~ attacker_short_name +
 #| label: league-table
 
 # Have everyone play everyone and see total goal difference. Use this to create a team ranking.
+# BIG PROBLEM IS THAT THERE'S NO DATA AT ALL FOR SUNDERLAND
+# OPTIONS ARE:
+### INVENT DUMMY DATA FOR SUNDERLAND
+### ASSIGN SUNDERLAND ANOTHER TEAM (E.G. SOUTHAMPTON) IN PAST DATA - DO THIS ONE.
+### INCLUDE CHAMPIONSHIP DATA - GET TO THIS EVENTUALLY - COME BACK WITH AN IMPROVEMENT
 
-all_2025_fixtures <- fixtures_poisson_format |>
-   filter(season_end==2025)|>
+all_2026_fixtures <- fixtures_poisson_format |>
+   filter(season_end==2026)|>
    select(!score)
 
-predicted_all_fixtures <- all_2025_fixtures |>
-  bind_cols(predict(weighted_fit, newdata = all_2025_fixtures, type = "response")) |>
+predicted_all_fixtures <- all_2026_fixtures |>
+  bind_cols(predict(weighted_fit, newdata = all_2026_fixtures, type = "response")) |>
   rename(.pred = ...12)
 
 offensive_rank <- predicted_all_fixtures|>
@@ -378,7 +399,7 @@ predict_future_rows <- predicted_future_fixtures|>
 
 past_rows <- fixtures_poisson_past|>
   match_per_row(score) |>
-  filter(season_end == 2025)|>
+  filter(season_end == 2026)|>
   mutate(prob_home_win = as.numeric(home > away),
           prob_draw = as.numeric(home == away),
           prob_away_win = as.numeric(away > home)
