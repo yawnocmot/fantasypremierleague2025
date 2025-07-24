@@ -25,13 +25,25 @@ library(tidymodels)
 
 predict_future_rows <- read_csv("processed_data/predict_future_rows.csv")
 fpl_elements <- read_csv("processed_data/fpl_elements.csv")
+vaastav_2025 <- read_csv(vaastav_2025,"processed_data/vaastav_2025.csv")
 ```
-
--   
 
 -   Format player data - use FPL API data as a base
 
+```{r}
+#| label: player-data
+
+# Lots of data in the fpl_elements tab - for now we need name, ID, element type, team_code, now_cost. Might come back for other data.
+player_data <- fpl_elements |>
+  select(
+    first_name, second_name, web_name, id, element_type, team_code, now_cost
+  )
+
+```
+
 -   Bring in goals scored stats from worldfootballR
+
+-   
 
 -   And matches played in stats from the same source
 

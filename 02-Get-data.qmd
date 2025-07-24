@@ -201,6 +201,52 @@ fixture_download_data <- tibble(fromJSON(content(response3, "text")))
 write_csv(fixture_download_data,"processed_data/fixture_download_data.csv")
 ```
 
--   Next - revert to using worldfootball R - this all doesn't add anything yet, so delete it. We will go back and get past goals scored
+-   Want historical goal scored data per game - can use Vaastav's repository of FPL data for this
+
+```{r}
+#| label: vaastav-goals-assists-2025
+
+url4 <- "https://raw.githubusercontent.com/vaastav/Fantasy-Premier-League/master/data/2024-25/gws/merged_gw.csv"
+
+vaastav_2025 <- tibble(read.csv(url4))
+
+# Want to have player, gw, assists, goals, element, kickoff_time, minutes
+# Can come back to get yellow/red cards, bonus points
+
+vaastav_2025 <- vaastav_2025 |>
+  select(name, id_2025 = element, GW, kickoff_time, goals_scored, assists, minutes, team)
+
+# id numbers are different, so need to have a lookup distionary by name
+
+id_2026 <- fpl_elements |>
+  select(first_name, second_name, id_2026 = id) |>
+  mutate(name = str_c(first_name, " ", second_name),
+         .keep = "unused")
+
+vaastav_2025 <- vaastav_2025 |>
+  left_join(id_2026, join_by(name == name))
+
+# Only about 1/3 of players have matches by name. Looking at Spurs it makes sense, apart from Pedro Porro. United also makes sense
+
+# Check numbers by team
+
+vaastav_2025 |>
+  group_by(team)|>
+  summarise(
+    n_missing    = sum(is.na(id_2026)),
+    n_not_missing = sum(!is.na(id_2026)),
+    .groups = "drop"
+  )|>
+  mutate(
+    percent_missing = n_missing / (n_missing + n_not_missing)
+  ) |>
+  arrange(desc(n_missing))
+
+# Looks like Vaastav has loads of artefacts that sit in the data - for the teams the percentage missing looks right, so I think we're all good. Need to watch for people like Pedro Porro that have changed names and come back to it.
+
+
+write_csv(vaastav_2025,"processed_data/vaastav_2025.csv")
+
+```
 
 -   Projections to bring in?
