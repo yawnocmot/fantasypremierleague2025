@@ -156,9 +156,11 @@ name_finder <- fixture_data |>
                "Luton Town", 97, "LUT",
                "Norwich City", 96, "NOR",
                "Sheffield", 95, "SHU",
-               "Watford", 94, "WAT",
+               "Watford", 92, "WAT", # Note Brentford has 94
                "Ipswich Town", 93, "IPS"
                ))
+
+write_csv(name_finder, "processed_data/name_finder.csv")
 
 open_football_21_25 <- open_football_21_25 |>
   left_join(name_finder, by = join_by(home_team == team))|>

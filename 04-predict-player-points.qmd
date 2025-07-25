@@ -25,7 +25,8 @@ library(tidymodels)
 
 predict_future_rows <- read_csv("processed_data/predict_future_rows.csv")
 fpl_elements <- read_csv("processed_data/fpl_elements.csv")
-vaastav_2025 <- read_csv(vaastav_2025,"processed_data/vaastav_2025.csv")
+vaastav_2025 <- read_csv("processed_data/vaastav_2025.csv")
+team_name_finder <- read_csv("processed_data/name_finder.csv")
 ```
 
 -   Format player data - use FPL API data as a base
@@ -36,12 +37,54 @@ vaastav_2025 <- read_csv(vaastav_2025,"processed_data/vaastav_2025.csv")
 # Lots of data in the fpl_elements tab - for now we need name, ID, element type, team_code, now_cost. Might come back for other data.
 player_data <- fpl_elements |>
   select(
-    first_name, second_name, web_name, id, element_type, team_code, now_cost
+    first_name, second_name, web_name, id,
+    element_type, team_code, now_cost, minutes_fpl = minutes
+  ) |>
+  left_join(team_name_finder, join_by(team_code == code))
+
+# Create an exponential back-off summary for goals scored, assists, and minutes in Vaastav data
+
+decay_parameter <- 0.005
+
+player_2025_summary <- vaastav_2025 |>
+  filter(!is.na(id_2026))|>
+  mutate(
+    assists = as.numeric(assists),
+    minutes_any = as.numeric(minutes>0),
+    minutes_60_plus = as.numeric(minutes>60),
+    days_ago = (today() %--% kickoff_time)/days(1),
+    weight = exp(decay_parameter*days_ago)
+  )|>
+  group_by(id_2026)|>
+  summarise(
+    minutes_any_weighted = weighted.mean(minutes_any,weight),
+    minutes_60_weighted = weighted.mean(minutes_60_plus,weight),
+    goals_weighted = weighted.mean(goals_scored, weight),
+    assists_weighted = weighted.mean(assists, weight)
   )
+
+# Now match this to our player dataset
+player_data <- player_data|>
+  left_join(player_2025_summary, join_by(id == id_2026))
+
+# Which players don't have a match? 208 of them to start with, out of 653. Let's look by team
+
+player_data |>
+  filter(is.na(minutes_any_weighted))|>
+  count(short_name,sort = TRUE)
+
+# Sunderland, Burnley and Leeds have high numbers which is to be expected, but account for less than half of the total. The rest are those with high numbers of transfers, but let's take a closer look and flag those where you would expect a match.
+# Is there a new player flag in the dataset? Well not explicit - but past payers have data from the previous season. Best we can do is minutes - won't reveal which players have data which didn't match, but didn't get any minutes. That's kind of fine though!
+
+player_data |>
+  filter(minutes_fpl>0,
+         is.na(minutes_any_weighted))
+
+# This is the problem list - 44 players that had data last season but don't this season. A lot are people with strange characters - maybe vaastav normalises the characters?
 
 ```
 
--   Bring in goals scored stats from worldfootballR
+-   Bring in goals scored stats from Vaastav
 
 -   
 
