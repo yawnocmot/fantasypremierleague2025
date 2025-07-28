@@ -1,0 +1,45 @@
+"","name","first_name","second_name","web_name","id","element_type","team_code","now_cost","minutes_fpl","team","short_name","minutes_any_weighted","minutes_60_weighted","goals_weighted","assists_weighted"
+"1","David Raya Martín","David","Raya Martín","Raya",1,1,3,55,3420,"Arsenal","ARS",NA,NA,NA,NA
+"2","Kepa Arrizabalaga Revuelta","Kepa","Arrizabalaga Revuelta","Arrizabalaga",2,1,3,45,2790,"Arsenal","ARS",NA,NA,NA,NA
+"3","Mikel Merino Zazón","Mikel","Merino Zazón","Merino",22,3,3,60,1575,"Arsenal","ARS",NA,NA,NA,NA
+"4","Marcos Senesi Barón","Marcos","Senesi Barón","Senesi",72,2,91,45,1103,"Bournemouth","BOU",NA,NA,NA,NA
+"5","Julio Soler Barreto","Julio","Soler Barreto","Soler",80,2,91,40,9,"Bournemouth","BOU",NA,NA,NA,NA
+"6","Luis Sinisterra Lucumí","Luis","Sinisterra Lucumí","Sinisterra",91,3,91,50,229,"Bournemouth","BOU",NA,NA,NA,NA
+"7","Caoimhín Kelleher","Caoimhín","Kelleher","Kelleher",101,1,94,45,900,"Brentford","BRE",NA,NA,NA,NA
+"8","Hákon Rafn Valdimarsson","Hákon Rafn","Valdimarsson","Valdimarsson",105,1,94,40,144,"Brentford","BRE",NA,NA,NA,NA
+"9","Pervis Estupiñán Tenorio","Pervis","Estupiñán Tenorio","Estupiñan",147,2,36,45,2399,"Brighton","BHA",NA,NA,NA,NA
+"10","Ferdi Kadıoğlu","Ferdi","Kadıoğlu","F.Kadıoğlu",148,2,36,45,385,"Brighton","BHA",NA,NA,NA,NA
+"11","Julio Enciso Espínola","Julio","Enciso Espínola","Enciso",161,3,36,55,1155,"Brighton","BHA",NA,NA,NA,NA
+"12","Diego Gómez Amarilla","Diego","Gómez Amarilla","Gomez",169,3,36,50,507,"Brighton","BHA",NA,NA,NA,NA
+"13","Robert Lynch Sánchez","Robert","Lynch Sánchez","Sánchez",220,1,8,50,2880,"Chelsea","CHE",NA,NA,NA,NA
+"14","Filip Jörgensen","Filip","Jörgensen","Jörgensen",221,1,8,45,540,"Chelsea","CHE",NA,NA,NA,NA
+"15","Levi Samuels Colwill","Levi","Samuels Colwill","Colwill",227,2,8,50,3150,"Chelsea","CHE",NA,NA,NA,NA
+"16","Benoît Badiashile Mukinayi","Benoît","Badiashile Mukinayi","B.Badiashile",229,2,8,45,332,"Chelsea","CHE",NA,NA,NA,NA
+"17","Daniel Muñoz Mejía","Daniel","Muñoz Mejía","Muñoz",256,2,31,55,3229,"Crystal Palace","CRY",NA,NA,NA,NA
+"18","Odsonne Édouard","Odsonne","Édouard","Édouard",285,4,31,50,141,"Crystal Palace","CRY",NA,NA,NA,NA
+"19","Idrissa Gana Gueye","Idrissa Gana","Gueye","Gana",302,3,11,55,3063,"Everton","EVE",NA,NA,NA,NA
+"20","Adama Traoré Diarra","Adama","Traoré Diarra","Adama",326,3,54,55,1756,"Fulham","FUL",NA,NA,NA,NA
+"21","Raúl Jiménez Rodríguez","Raúl","Jiménez Rodríguez","Raúl",337,4,54,65,2486,"Fulham","FUL",NA,NA,NA,NA
+"22","Alisson Becker","Alisson","Becker","A.Becker",366,1,14,55,2508,"Liverpool","LIV",NA,NA,NA,NA
+"23","Luis Díaz Marulanda","Luis","Díaz Marulanda","Luis Díaz",383,3,14,80,2393,"Liverpool","LIV",NA,NA,NA,NA
+"24","Matheus Nunes","Matheus","Nunes","Matheus N.",407,2,43,55,1670,"Man City","MCI",NA,NA,NA,NA
+"25","Rúben dos Santos Gato Alves Dias","Rúben","dos Santos Gato Alves Dias","Rúben",408,2,43,55,2269,"Man City","MCI",NA,NA,NA,NA
+"26","Sávio Moreira de Oliveira","Sávio","Moreira de Oliveira","Savinho",415,3,43,70,1760,"Man City","MCI",NA,NA,NA,NA
+"27","Bernardo Mota Veiga de Carvalho e Silva","Bernardo","Mota Veiga de Carvalho e Silva","Bernardo",416,3,43,65,2667,"Man City","MCI",NA,NA,NA,NA
+"28","İlkay Gündoğan","İlkay","Gündoğan","Gündoğan",420,3,43,65,2218,"Man City","MCI",NA,NA,NA,NA
+"29","Rodrigo 'Rodri' Hernandez Cascante","Rodrigo 'Rodri'","Hernandez Cascante","Rodrigo",421,3,43,65,72,"Man City","MCI",NA,NA,NA,NA
+"30","Nico González Iglesias","Nico","González Iglesias","N.Gonzalez",423,3,43,60,760,"Man City","MCI",NA,NA,NA,NA
+"31","Altay Bayındır","Altay","Bayındır","Bayindir",431,1,1,50,360,"Man Utd","MUN",NA,NA,NA,NA
+"32","Matheus Santos Carneiro da Cunha","Matheus","Santos Carneiro da Cunha","Cunha",450,3,1,80,2596,"Man Utd","MUN",NA,NA,NA,NA
+"33","Alejandro Garnacho Ferreyra","Alejandro","Garnacho Ferreyra","Garnacho",453,3,1,65,2188,"Man Utd","MUN",NA,NA,NA,NA
+"34","Antony dos Santos","Antony","dos Santos","Antony",454,3,1,60,135,"Man Utd","MUN",NA,NA,NA,NA
+"35","Manuel Ugarte Ribeiro","Manuel","Ugarte Ribeiro","Ugarte",459,3,1,50,1777,"Man Utd","MUN",NA,NA,NA,NA
+"36","Chido Obi","Chido","Obi","Obi",467,4,1,45,160,"Man Utd","MUN",NA,NA,NA,NA
+"37","Murillo Costa dos Santos","Murillo","Costa dos Santos","Murillo",506,2,17,55,3188,"Nott'm Forest","NFO",NA,NA,NA,NA
+"38","João Pedro Ferreira da Silva","João Pedro","Ferreira da Silva","Jota",518,3,17,55,835,"Nott'm Forest","NFO",NA,NA,NA,NA
+"39","Antonín Kinský","Antonín","Kinský","Kinsky",567,1,6,40,540,"Spurs","TOT",NA,NA,NA,NA
+"40","Pedro Porro Sauceda","Pedro","Porro Sauceda","Pedro Porro",568,2,6,55,2606,"Spurs","TOT",NA,NA,NA,NA
+"41","Maximilian Kilman","Maximilian","Kilman","Kilman",605,2,21,45,3348,"West Ham","WHU",NA,NA,NA,NA
+"42","Yerson Mosquera Valdelamar","Yerson","Mosquera Valdelamar","Mosquera",634,2,39,45,441,"Wolves","WOL",NA,NA,NA,NA
+"43","Santiago Ignacio Bueno","Santiago","Ignacio Bueno","S.Bueno",636,2,39,45,1678,"Wolves","WOL",NA,NA,NA,NA
+"44","Toti Gomes","Toti","Gomes","Toti",637,2,39,45,2613,"Wolves","WOL",NA,NA,NA,NA

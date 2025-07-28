@@ -459,5 +459,6 @@ display_table
         prob_away_clean_sheet = dpois(0,home)
         )
 
+
     write_csv(predict_future_rows,"processed_data/predict_future_rows.csv")
     ```

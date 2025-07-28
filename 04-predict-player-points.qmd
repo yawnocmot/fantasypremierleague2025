@@ -27,6 +27,7 @@ predict_future_rows <- read_csv("processed_data/predict_future_rows.csv")
 fpl_elements <- read_csv("processed_data/fpl_elements.csv")
 vaastav_2025 <- read_csv("processed_data/vaastav_2025.csv")
 team_name_finder <- read_csv("processed_data/name_finder.csv")
+champ_players_2025 <- read_csv("processed_data/champ_players_2025.csv")
 ```
 
 -   Format player data - use FPL API data as a base
@@ -63,11 +64,13 @@ player_2025_summary <- vaastav_2025 |>
     assists_weighted = weighted.mean(assists, weight)
   )
 
+# Have to come back here to add in 2025-26 gameweeks straight from FPL.
+
 # Now match this to our player dataset
 player_data <- player_data|>
   left_join(player_2025_summary, join_by(id == id_2026))
 
-# Which players don't have a match? 208 of them to start with, out of 653. Let's look by team
+# Which players don't have a match? 164 now, out of 663. Let's look by team
 
 player_data |>
   filter(is.na(minutes_any_weighted))|>
@@ -76,21 +79,176 @@ player_data |>
 # Sunderland, Burnley and Leeds have high numbers which is to be expected, but account for less than half of the total. The rest are those with high numbers of transfers, but let's take a closer look and flag those where you would expect a match.
 # Is there a new player flag in the dataset? Well not explicit - but past payers have data from the previous season. Best we can do is minutes - won't reveal which players have data which didn't match, but didn't get any minutes. That's kind of fine though!
 
-player_data |>
+changed_name <- player_data |>
   filter(minutes_fpl>0,
-         is.na(minutes_any_weighted))
+         is.na(minutes_any_weighted))|>
+  mutate(name = str_c(first_name, " ", second_name),.before = 1)
 
-# This is the problem list - 44 players that had data last season but don't this season. A lot are people with strange characters - maybe vaastav normalises the characters?
+changed_name
+
+# This is the problem list - went back and hard-coded. Possible this will change as transfers happen (e.g. if an Ipswich player joins a PL team). So check again.
+
+# Rest of the players with missing data are new to the PL - we need to create some data for them. 
+
+# For newly promoted teams take data from Championship. A few players played more than once. Also some might have the same name... Not worried about players who played in championship and prem - just use prem data - rows_patch will help this.
+
+fpl_champ_players <- champ_players_2025 |>
+  filter(!is.na(id_2026))|>
+  mutate(minutes_any_weighted = minutes_any/46,
+         minutes_60_weighted = minutes_any/46,
+         goals_weighted = goals/46,
+         assists_weighted = assists/46)|>
+  group_by(id_2026)|>
+  summarise(
+    minutes_any_weighted = sum(minutes_any_weighted),
+    minutes_60_weighted = sum(minutes_60_weighted),
+    goals_weighted = sum(goals_weighted),
+    assists_weighted = sum(assists_weighted)
+    )|>
+  rename(id = id_2026)
+
+player_data <- player_data|>
+  rows_patch(fpl_champ_players)
+
+# Check again by team:
+player_data |>
+  filter(is.na(minutes_any_weighted)) |>
+  count(short_name,sort = TRUE)
+
+# Down to 106, Sunderland still very high - have a look through the players if something has gone wrong with names. No - looks like Sunderland just have loads of new players. So done here.
+
+
+# For incoming players, create dummy data based on team-mates - take the worst player in that position (conservative approach)
+
+worst_player <- player_data |>
+  group_by(element_type, team_code) |>
+  summarise(
+    minutes_any_weighted = min(minutes_any_weighted, na.rm = TRUE),
+    minutes_60_weighted = min(minutes_60_weighted, na.rm = TRUE),
+    goals_weighted = min(goals_weighted, na.rm = TRUE),
+    assists_weighted = min(assists_weighted, na.rm = TRUE)
+  )
+  
+new_player_dummy <- player_data |>
+  filter(is.na(minutes_any_weighted))|>
+  select(id, team_code, element_type)|>
+  left_join(worst_player, join_by(team_code == team_code, element_type == element_type))
+
+player_data <- player_data |>
+  rows_patch(new_player_dummy)
 
 ```
 
--   Bring in goals scored stats from Vaastav
-
--   
-
--   And matches played in stats from the same source
-
 -   Create an estimate of proportion of goals scored, and proportion of games played in for each player in each team
+
+```{r}
+#| label: player-score-predict
+
+# First step is to work out proportion of goals and assists the player will get for their team:
+
+# Summarise goals and assists per team
+goals_per_team <- player_data |>
+  group_by(team_code)|>
+  summarise(team_goals = sum(goals_weighted),
+            team_assists = sum(assists_weighted))
+
+# Look at what proportion are scored by each player
+
+player_data <- player_data |>
+  left_join(goals_per_team) |>
+  mutate(prop_goals = goals_weighted/team_goals,
+         prop_assists = assists_weighted/team_assists)
+
+
+# Next to look at goals/clean sheets the team will score at upcoming matches, with a decay parameter
+
+# Adjust predict_future_rows to give key info per team each game week.
+
+team_scores_per_week <- predict_future_rows |>
+  pivot_longer(
+    cols = c(home, away),
+    names_to = "home_or_away",
+    values_to = "goals"
+  ) |>
+  mutate(
+    attacker_short_name = if_else(home_or_away == "home",
+                                  home_short_name,
+                                  away_short_name),
+    defender_short_name = if_else(home_or_away == "home",
+                                  away_short_name,
+                                  home_short_name),
+    prob_clean_sheet = if_else(home_or_away == "home",
+                               prob_home_clean_sheet,
+                               prob_away_clean_sheet)
+  ) |>
+  select(round_number, match_number, date_utc, home_or_away,
+         attacker_short_name, defender_short_name, goals, prob_clean_sheet)
+
+future_decay_parameter <- 0.005
+
+goals_against <- team_scores_per_week |>
+  mutate (
+    days_from_now = (date_utc %--% today())/days(1),
+    weight = exp(decay_parameter*days_from_now)
+  ) |>
+  group_by(defender_short_name)|>
+  summarise(
+    weighted_2026_goals_against = sum(goals*weight)
+  ) |>
+  rename(short_name = defender_short_name)
+
+team_weighted_stats <- team_scores_per_week |>
+  mutate (
+    days_from_now = (date_utc %--% today())/days(1),
+    weight = exp(decay_parameter*days_from_now)
+  ) |>
+  group_by(attacker_short_name)|>
+  summarise(
+    weighted_2026_goals = sum(goals*weight),
+    weighted_2026_clean_sheets = sum(prob_clean_sheet*weight),
+    weighted_2026_games = sum(weight)
+  ) |>
+  rename(short_name = attacker_short_name)|>
+  left_join(goals_against)
+
+# Come back to this - account for wildcards etc. to have time limits. Is it better in fact to match at a gameweek level - bigger file but more flexibility.
+
+# Finally turn this into estimated points
+
+# Bring together player and team data
+
+player_data <- player_data |>
+  left_join(team_weighted_stats) |>
+  mutate(
+    goals_predict_2026 = prop_goals * weighted_2026_goals,
+    assists_predict_2026 = prop_assists * weighted_2026_goals,
+    play_predict_2026 = minutes_any_weighted * weighted_2026_games +
+                        minutes_60_weighted * weighted_2026_games,
+    goals_against_predict_2026 = minutes_any_weighted * weighted_2026_goals_against,
+    clean_sheets_predict_2026 = minutes_60_weighted * weighted_2026_clean_sheets
+  ) |>
+  mutate(
+    predicted_2026_points = case_when(
+      element_type == 1 ~ play_predict_2026 + 4*clean_sheets_predict_2026 
+                          + 10*goals_predict_2026 + 3*assists_predict_2026
+                          - 0.5*goals_against_predict_2026,
+      element_type == 2 ~ play_predict_2026 + 4*clean_sheets_predict_2026 
+                          + 6*goals_predict_2026 + 3*assists_predict_2026
+                          - 0.5*goals_against_predict_2026,
+      element_type == 3 ~ play_predict_2026 + 1*clean_sheets_predict_2026 
+                          + 5*goals_predict_2026 + 3*assists_predict_2026,
+      element_type == 4 ~ play_predict_2026  
+                          + 4*goals_predict_2026 + 3*assists_predict_2026
+    )
+  )
+
+player_data |>
+  arrange(desc(predicted_2026_points))
+    
+
+# MUST GO BACK AND FIX GOALS AGAINST BEFORE CONTINUING
+# ALSO INJURIES / TRANSFERS
+```
 
 -   Model different kinds of player scores by role:
 

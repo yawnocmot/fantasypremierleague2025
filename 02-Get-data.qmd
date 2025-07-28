@@ -221,7 +221,7 @@ vaastav_2025 <- vaastav_2025 |>
 id_2026 <- fpl_elements |>
   select(first_name, second_name, id_2026 = id) |>
   mutate(name = str_c(first_name, " ", second_name),
-         .keep = "unused")
+         .keep = "unused") 
 
 vaastav_2025 <- vaastav_2025 |>
   left_join(id_2026, join_by(name == name))
@@ -242,11 +242,106 @@ vaastav_2025 |>
   ) |>
   arrange(desc(n_missing))
 
-# Looks like Vaastav has loads of artefacts that sit in the data - for the teams the percentage missing looks right, so I think we're all good. Need to watch for people like Pedro Porro that have changed names and come back to it.
+# Looks like Vaastav has loads of artefacts that sit in the data - for the teams the percentage missing looks right, so I think we're all good. Need to watch for people like Pedro Porro that have changed names and come back to it. This will change the data for each:
 
+vaastav_2025 |>
+  filter(is.na(id_2026))|>
+  filter(!is.na(id_2025))|>
+  group_by(name)|>
+  summarise(first(id_2025))
+
+missing_match <- tribble(
+  ~id_2025, ~id_2026,
+  625, 420,
+  239, 326,
+  372, 453,
+  310, 366,
+  367, 431,
+  716, 567,
+  365, 454,
+  153, 229,
+  342, 416,
+  325, 101,
+  776, 467,
+  211, 256,
+  15,  1,
+  714, 169,
+  628, 148,
+  581, 221,
+  109, 105,
+  222, 302,
+  596, 518,
+  121, 161,
+  713, 80,
+  152, 2,
+  162, 227,
+  327, 383,
+  80,  91,
+  652, 459,
+  79,  72,
+  356, 407,
+  541, 450,
+  524, 605,
+  633, 22,
+  436, 506,
+  765, 423,
+  198, 285,
+  495, 568,
+  122, 147,
+  252, 337,
+  361, 408,
+  185, 220,
+  360, 421,
+  571, 415,
+  564, 636,
+  567, 637,
+  558, 634
+)
+
+vaastav_2025 <- vaastav_2025 |>
+  rows_patch(missing_match)
+  
 
 write_csv(vaastav_2025,"processed_data/vaastav_2025.csv")
 
 ```
 
--   Projections to bring in?
+-   Also can bring in fbref data using worldfootballR:
+
+```{r}
+#| label: fbref-championship
+
+
+# Fetch the standard stats for every player in the 2024–25 Championship
+champ_stats_24_25 <- fb_league_stats(
+  country          = "ENG",       # England
+  gender           = "M",         # Men’s competition
+  season_end_year  = 2025,        # season = 2024/25
+  tier             = "2nd",       # Championship is the 2nd tier
+  stat_type        = "standard",  # basic stats: apps, mins, goals, assists, etc.
+  team_or_player   = "player",    # we want per‑player, not per‑team
+  time_pause       = 3            # polite pause between FBref requests
+)|>
+  as_tibble()
+
+
+# Pull out just what you need and rename for clarity.
+champ_players_2025 <- champ_stats_24_25 |>
+  transmute(
+    name        = Player,
+    team        = Squad,
+    minutes_any = `MP_Playing Time`,    # matches played
+    minutes_60  = `Starts_Playing Time`,   # use as proxy for playing over 60 mins
+    goals       = Gls,   # goals scored
+    assists     = Ast    # assists
+  )
+
+# Match to FPL 2026 ids:
+
+champ_players_2025 <- champ_players_2025 |>
+  left_join(id_2026, join_by ( name == name))
+
+write_csv(champ_players_2025,"processed_data/champ_players_2025.csv")
+
+
+```
