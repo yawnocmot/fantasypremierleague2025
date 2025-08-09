@@ -179,10 +179,17 @@ team_scores_per_week <- predict_future_rows |>
                                   home_short_name),
     prob_clean_sheet = if_else(home_or_away == "home",
                                prob_home_clean_sheet,
-                               prob_away_clean_sheet)
+                               prob_away_clean_sheet),
+    prob_concede_2 = if_else(home_or_away == "home",
+                               prob_home_concede_2,
+                               prob_away_concede_2),
+    prob_concede_4 = if_else(home_or_away == "home",
+                               prob_home_concede_4,
+                               prob_away_concede_4)
   ) |>
   select(round_number, match_number, date_utc, home_or_away,
-         attacker_short_name, defender_short_name, goals, prob_clean_sheet)
+         attacker_short_name, defender_short_name, goals, prob_clean_sheet,
+         prob_concede_2, prob_concede_4)
 
 future_decay_parameter <- 0.005
 
@@ -206,6 +213,8 @@ team_weighted_stats <- team_scores_per_week |>
   summarise(
     weighted_2026_goals = sum(goals*weight),
     weighted_2026_clean_sheets = sum(prob_clean_sheet*weight),
+    weighted_2026_concede_2 = sum(prob_concede_2*weight),
+    weighted_2026_concede_4 = sum(prob_concede_4*weight),
     weighted_2026_games = sum(weight)
   ) |>
   rename(short_name = attacker_short_name)|>
@@ -225,16 +234,20 @@ player_data <- player_data |>
     play_predict_2026 = minutes_any_weighted * weighted_2026_games +
                         minutes_60_weighted * weighted_2026_games,
     goals_against_predict_2026 = minutes_any_weighted * weighted_2026_goals_against,
-    clean_sheets_predict_2026 = minutes_60_weighted * weighted_2026_clean_sheets
+    clean_sheets_predict_2026 = minutes_60_weighted * weighted_2026_clean_sheets,
+    concede_2_predict_2026 = minutes_60_weighted * weighted_2026_concede_2,
+    concede_4_predict_2026 = minutes_60_weighted * weighted_2026_concede_4
   ) |>
   mutate(
     predicted_2026_points = case_when(
       element_type == 1 ~ play_predict_2026 + 4*clean_sheets_predict_2026 
                           + 10*goals_predict_2026 + 3*assists_predict_2026
-                          - 0.5*goals_against_predict_2026,
+                          - 0.5*goals_against_predict_2026
+                          - concede_2_predict_2026 - concede_4_predict_2026, 
       element_type == 2 ~ play_predict_2026 + 4*clean_sheets_predict_2026 
                           + 6*goals_predict_2026 + 3*assists_predict_2026
-                          - 0.5*goals_against_predict_2026,
+                          - 0.5*goals_against_predict_2026
+                          - concede_2_predict_2026 - concede_4_predict_2026,
       element_type == 3 ~ play_predict_2026 + 1*clean_sheets_predict_2026 
                           + 5*goals_predict_2026 + 3*assists_predict_2026,
       element_type == 4 ~ play_predict_2026  
@@ -246,8 +259,7 @@ player_data |>
   arrange(desc(predicted_2026_points))
     
 
-# MUST GO BACK AND FIX GOALS AGAINST BEFORE CONTINUING
-# ALSO INJURIES / TRANSFERS
+# ADD INJURIES / TRANSFERS
 ```
 
 -   Model different kinds of player scores by role:

@@ -453,10 +453,16 @@ display_table
     ```{r}
     #| label: game_predictions
 
+
+    # Putting together probabilities of clean sheets and lots of goals scored
     predict_future_rows <- predict_future_rows|>
       mutate(
         prob_home_clean_sheet = dpois(0,away),
-        prob_away_clean_sheet = dpois(0,home)
+        prob_away_clean_sheet = dpois(0,home),
+        prob_home_concede_2 = 1-ppois(1,away),
+        prob_away_concede_2 = 1-ppois(1,home),
+        prob_home_concede_4 = 1-ppois(3,away),
+        prob_away_concede_4 = 1-ppois(3,home)
         )
 
 

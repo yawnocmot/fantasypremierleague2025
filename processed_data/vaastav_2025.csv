@@ -67,7 +67,7 @@ Adam Smith,81,1,2024-08-17T14:00:00Z,0,0,62,Bournemouth,73
 Miodrag Pivaš,574,1,2024-08-17T14:00:00Z,0,0,0,Newcastle,483
 Billy Gilmour,124,1,2024-08-17T14:00:00Z,0,0,8,Brighton,NA
 Rasmus Højlund,375,1,2024-08-16T19:00:00Z,0,0,0,Man Utd,465
-Callum Wilson,421,1,2024-08-17T14:00:00Z,0,0,0,Newcastle,NA
+Callum Wilson,421,1,2024-08-17T14:00:00Z,0,0,0,Newcastle,671
 Crysencio Summerville,587,1,2024-08-17T16:30:00Z,0,0,17,West Ham,615
 Jesurun Rak-Sakyi,213,1,2024-08-18T13:00:00Z,0,0,0,Crystal Palace,278
 Oliver Skipp,501,1,2024-08-19T19:00:00Z,0,0,0,Spurs,NA
@@ -99,7 +99,7 @@ Nélson Cabral Semedo,559,1,2024-08-17T14:00:00Z,0,0,0,Wolves,NA
 Tommy Doyle,544,1,2024-08-17T14:00:00Z,0,0,0,Wolves,NA
 Tom Heaton,374,1,2024-08-16T19:00:00Z,0,0,0,Man Utd,434
 Lucas Bergvall,481,1,2024-08-19T19:00:00Z,0,0,12,Spurs,586
-Lesley Ugochukwu,188,1,2024-08-18T15:30:00Z,0,0,0,Chelsea,NA
+Lesley Ugochukwu,188,1,2024-08-18T15:30:00Z,0,0,0,Chelsea,676
 Evan Ferguson,123,1,2024-08-17T14:00:00Z,0,0,0,Brighton,179
 Christian Eriksen,370,1,2024-08-16T19:00:00Z,0,0,0,Man Utd,NA
 Danny Ings,523,1,2024-08-17T16:30:00Z,0,0,5,West Ham,NA
@@ -217,7 +217,7 @@ Myles Peart-Harris,103,1,2024-08-18T13:00:00Z,0,0,0,Brentford,133
 Mahmoud Dahoud,119,1,2024-08-17T14:00:00Z,0,0,0,Brighton,NA
 Jonathan Panzo,441,1,2024-08-17T14:00:00Z,0,0,0,Nott'm Forest,NA
 Nico O'Reilly,607,1,2024-08-18T15:30:00Z,0,0,0,Man City,411
-Aaron Ramsdale,14,1,2024-08-17T14:00:00Z,0,0,0,Arsenal,NA
+Aaron Ramsdale,14,1,2024-08-17T14:00:00Z,0,0,0,Arsenal,674
 Moussa Diaby,34,1,2024-08-17T16:30:00Z,0,0,0,Aston Villa,NA
 Micky van de Ven,506,1,2024-08-19T19:00:00Z,0,0,90,Spurs,575
 Igor Thiago Nascimento Rodrigues,107,1,2024-08-18T13:00:00Z,0,0,0,Brentford,136
@@ -683,7 +683,7 @@ Adam Smith,81,2,2024-08-25T13:00:00Z,0,0,4,Bournemouth,73
 Miodrag Pivaš,574,2,2024-08-25T13:00:00Z,0,0,0,Newcastle,483
 Billy Gilmour,124,2,2024-08-24T11:30:00Z,0,0,89,Brighton,NA
 Rasmus Højlund,375,2,2024-08-24T11:30:00Z,0,0,0,Man Utd,465
-Callum Wilson,421,2,2024-08-25T13:00:00Z,0,0,0,Newcastle,NA
+Callum Wilson,421,2,2024-08-25T13:00:00Z,0,0,0,Newcastle,671
 Crysencio Summerville,587,2,2024-08-24T14:00:00Z,0,0,0,West Ham,615
 Jesurun Rak-Sakyi,213,2,2024-08-24T14:00:00Z,0,0,0,Crystal Palace,278
 Oliver Skipp,501,2,2024-08-24T14:00:00Z,0,0,19,Leicester,NA
@@ -716,7 +716,7 @@ Nélson Cabral Semedo,559,2,2024-08-25T13:00:00Z,0,0,0,Wolves,NA
 Tommy Doyle,544,2,2024-08-25T13:00:00Z,0,0,1,Wolves,NA
 Tom Heaton,374,2,2024-08-24T11:30:00Z,0,0,0,Man Utd,434
 Lucas Bergvall,481,2,2024-08-24T14:00:00Z,0,0,11,Spurs,586
-Lesley Ugochukwu,188,2,2024-08-24T14:00:00Z,0,0,0,Southampton,NA
+Lesley Ugochukwu,188,2,2024-08-24T14:00:00Z,0,0,0,Southampton,676
 Evan Ferguson,123,2,2024-08-24T11:30:00Z,0,0,0,Brighton,179
 Christian Eriksen,370,2,2024-08-24T11:30:00Z,0,0,0,Man Utd,NA
 Danny Ings,523,2,2024-08-24T14:00:00Z,0,0,0,West Ham,NA
@@ -836,7 +836,7 @@ Myles Peart-Harris,103,2,2024-08-25T15:30:00Z,0,0,0,Brentford,133
 Mahmoud Dahoud,119,2,2024-08-24T11:30:00Z,0,0,0,Brighton,NA
 Jonathan Panzo,441,2,2024-08-24T14:00:00Z,0,0,0,Nott'm Forest,NA
 Nico O'Reilly,607,2,2024-08-24T14:00:00Z,0,0,0,Man City,411
-Aaron Ramsdale,14,2,2024-08-24T16:30:00Z,0,0,0,Arsenal,NA
+Aaron Ramsdale,14,2,2024-08-24T16:30:00Z,0,0,0,Arsenal,674
 Moussa Diaby,34,2,2024-08-24T16:30:00Z,0,0,0,Aston Villa,NA
 Micky van de Ven,506,2,2024-08-24T14:00:00Z,0,1,90,Spurs,575
 Igor Thiago Nascimento Rodrigues,107,2,2024-08-25T15:30:00Z,0,0,0,Brentford,136
@@ -1312,7 +1312,7 @@ Adam Smith,81,3,2024-08-31T14:00:00Z,0,0,13,Bournemouth,73
 Miodrag Pivaš,574,3,2024-09-01T12:30:00Z,0,0,0,Newcastle,483
 Billy Gilmour,124,3,2024-08-31T11:30:00Z,0,0,0,Brighton,NA
 Rasmus Højlund,375,3,2024-09-01T15:00:00Z,0,0,0,Man Utd,465
-Callum Wilson,421,3,2024-09-01T12:30:00Z,0,0,0,Newcastle,NA
+Callum Wilson,421,3,2024-09-01T12:30:00Z,0,0,0,Newcastle,671
 Crysencio Summerville,587,3,2024-08-31T16:30:00Z,0,0,4,West Ham,615
 Jesurun Rak-Sakyi,213,3,2024-09-01T12:30:00Z,0,0,0,Crystal Palace,278
 Oliver Skipp,501,3,2024-08-31T14:00:00Z,0,0,67,Leicester,NA
@@ -1345,7 +1345,7 @@ Nélson Cabral Semedo,559,3,2024-08-31T14:00:00Z,0,0,74,Wolves,NA
 Tommy Doyle,544,3,2024-08-31T14:00:00Z,0,0,30,Wolves,NA
 Tom Heaton,374,3,2024-09-01T15:00:00Z,0,0,0,Man Utd,434
 Lucas Bergvall,481,3,2024-09-01T12:30:00Z,0,0,8,Spurs,586
-Lesley Ugochukwu,188,3,2024-08-31T14:00:00Z,0,0,0,Southampton,NA
+Lesley Ugochukwu,188,3,2024-08-31T14:00:00Z,0,0,0,Southampton,676
 Evan Ferguson,123,3,2024-08-31T11:30:00Z,0,0,0,Brighton,179
 Christian Eriksen,370,3,2024-09-01T15:00:00Z,0,0,4,Man Utd,NA
 Danny Ings,523,3,2024-08-31T16:30:00Z,0,0,0,West Ham,NA
@@ -1468,7 +1468,7 @@ Myles Peart-Harris,103,3,2024-08-31T14:00:00Z,0,0,0,Brentford,133
 Mahmoud Dahoud,119,3,2024-08-31T11:30:00Z,0,0,0,Brighton,NA
 Jonathan Panzo,441,3,2024-08-31T14:00:00Z,0,0,0,Nott'm Forest,NA
 Nico O'Reilly,607,3,2024-08-31T16:30:00Z,0,0,0,Man City,411
-Aaron Ramsdale,14,3,2024-08-31T14:00:00Z,0,0,90,Southampton,NA
+Aaron Ramsdale,14,3,2024-08-31T14:00:00Z,0,0,90,Southampton,674
 Moussa Diaby,34,3,2024-08-31T14:00:00Z,0,0,0,Aston Villa,NA
 Micky van de Ven,506,3,2024-09-01T12:30:00Z,0,0,0,Spurs,575
 Igor Thiago Nascimento Rodrigues,107,3,2024-08-31T14:00:00Z,0,0,0,Brentford,136
@@ -1960,7 +1960,7 @@ Adam Smith,81,4,2024-09-14T19:00:00Z,0,0,74,Bournemouth,73
 Miodrag Pivaš,574,4,2024-09-15T15:30:00Z,0,0,0,Newcastle,483
 Billy Gilmour,124,4,2024-09-14T14:00:00Z,0,0,0,Brighton,NA
 Rasmus Højlund,375,4,2024-09-14T11:30:00Z,0,0,0,Man Utd,465
-Callum Wilson,421,4,2024-09-15T15:30:00Z,0,0,0,Newcastle,NA
+Callum Wilson,421,4,2024-09-15T15:30:00Z,0,0,0,Newcastle,671
 Crysencio Summerville,587,4,2024-09-14T14:00:00Z,0,0,45,West Ham,615
 Jesurun Rak-Sakyi,213,4,2024-09-14T14:00:00Z,0,0,0,Crystal Palace,278
 Oliver Skipp,501,4,2024-09-14T14:00:00Z,0,0,90,Leicester,NA
@@ -1993,7 +1993,7 @@ Nélson Cabral Semedo,559,4,2024-09-15T15:30:00Z,0,0,76,Wolves,NA
 Tommy Doyle,544,4,2024-09-15T15:30:00Z,0,0,13,Wolves,NA
 Tom Heaton,374,4,2024-09-14T11:30:00Z,0,0,0,Man Utd,434
 Lucas Bergvall,481,4,2024-09-15T13:00:00Z,0,0,0,Spurs,586
-Lesley Ugochukwu,188,4,2024-09-14T11:30:00Z,0,0,63,Southampton,NA
+Lesley Ugochukwu,188,4,2024-09-14T11:30:00Z,0,0,63,Southampton,676
 Evan Ferguson,123,4,2024-09-14T14:00:00Z,0,0,5,Brighton,179
 Christian Eriksen,370,4,2024-09-14T11:30:00Z,0,0,72,Man Utd,NA
 Danny Ings,523,4,2024-09-14T14:00:00Z,1,0,8,West Ham,NA
@@ -2119,7 +2119,7 @@ Myles Peart-Harris,103,4,2024-09-14T14:00:00Z,0,0,0,Brentford,133
 Mahmoud Dahoud,119,4,2024-09-14T14:00:00Z,0,0,0,Brighton,NA
 Jonathan Panzo,441,4,2024-09-14T14:00:00Z,0,0,0,Nott'm Forest,NA
 Nico O'Reilly,607,4,2024-09-14T14:00:00Z,0,0,0,Man City,411
-Aaron Ramsdale,14,4,2024-09-14T11:30:00Z,0,0,90,Southampton,NA
+Aaron Ramsdale,14,4,2024-09-14T11:30:00Z,0,0,90,Southampton,674
 Moussa Diaby,34,4,2024-09-14T16:30:00Z,0,0,0,Aston Villa,NA
 Micky van de Ven,506,4,2024-09-15T13:00:00Z,0,0,90,Spurs,575
 Igor Thiago Nascimento Rodrigues,107,4,2024-09-14T14:00:00Z,0,0,0,Brentford,136
@@ -2619,7 +2619,7 @@ Adam Smith,81,5,2024-09-21T14:00:00Z,0,0,21,Bournemouth,73
 Miodrag Pivaš,574,5,2024-09-21T14:00:00Z,0,0,0,Newcastle,483
 Billy Gilmour,124,5,2024-09-22T13:00:00Z,0,0,0,Brighton,NA
 Rasmus Højlund,375,5,2024-09-21T16:30:00Z,0,0,14,Man Utd,465
-Callum Wilson,421,5,2024-09-21T14:00:00Z,0,0,0,Newcastle,NA
+Callum Wilson,421,5,2024-09-21T14:00:00Z,0,0,0,Newcastle,671
 Crysencio Summerville,587,5,2024-09-21T11:30:00Z,0,0,53,West Ham,615
 Jesurun Rak-Sakyi,213,5,2024-09-21T16:30:00Z,0,0,0,Crystal Palace,278
 Oliver Skipp,501,5,2024-09-21T14:00:00Z,0,0,0,Leicester,NA
@@ -2652,7 +2652,7 @@ Nélson Cabral Semedo,559,5,2024-09-21T14:00:00Z,0,0,90,Wolves,NA
 Tommy Doyle,544,5,2024-09-21T14:00:00Z,0,0,8,Wolves,NA
 Tom Heaton,374,5,2024-09-21T16:30:00Z,0,0,0,Man Utd,434
 Lucas Bergvall,481,5,2024-09-21T14:00:00Z,0,0,2,Spurs,586
-Lesley Ugochukwu,188,5,2024-09-21T14:00:00Z,0,0,31,Southampton,NA
+Lesley Ugochukwu,188,5,2024-09-21T14:00:00Z,0,0,31,Southampton,676
 Evan Ferguson,123,5,2024-09-22T13:00:00Z,0,0,8,Brighton,179
 Christian Eriksen,370,5,2024-09-21T16:30:00Z,0,0,75,Man Utd,NA
 Danny Ings,523,5,2024-09-21T11:30:00Z,0,0,0,West Ham,NA
@@ -2778,7 +2778,7 @@ Myles Peart-Harris,103,5,2024-09-21T14:00:00Z,0,0,0,Brentford,133
 Mahmoud Dahoud,119,5,2024-09-22T13:00:00Z,0,0,0,Brighton,NA
 Jonathan Panzo,441,5,2024-09-22T13:00:00Z,0,0,0,Nott'm Forest,NA
 Nico O'Reilly,607,5,2024-09-22T15:30:00Z,0,0,0,Man City,411
-Aaron Ramsdale,14,5,2024-09-21T14:00:00Z,0,0,90,Southampton,NA
+Aaron Ramsdale,14,5,2024-09-21T14:00:00Z,0,0,90,Southampton,674
 Moussa Diaby,34,5,2024-09-21T14:00:00Z,0,0,0,Aston Villa,NA
 Micky van de Ven,506,5,2024-09-21T14:00:00Z,0,0,90,Spurs,575
 Igor Thiago Nascimento Rodrigues,107,5,2024-09-21T14:00:00Z,0,0,0,Brentford,136
@@ -3281,7 +3281,7 @@ Adam Smith,81,6,2024-09-30T19:00:00Z,0,0,90,Bournemouth,73
 Miodrag Pivaš,574,6,2024-09-28T11:30:00Z,0,0,0,Newcastle,483
 Billy Gilmour,124,6,2024-09-28T14:00:00Z,0,0,0,Brighton,NA
 Rasmus Højlund,375,6,2024-09-29T15:30:00Z,0,0,17,Man Utd,465
-Callum Wilson,421,6,2024-09-28T11:30:00Z,0,0,0,Newcastle,NA
+Callum Wilson,421,6,2024-09-28T11:30:00Z,0,0,0,Newcastle,671
 Crysencio Summerville,587,6,2024-09-28T14:00:00Z,0,0,14,West Ham,615
 Jesurun Rak-Sakyi,213,6,2024-09-28T14:00:00Z,0,0,0,Crystal Palace,278
 Oliver Skipp,501,6,2024-09-28T14:00:00Z,0,0,90,Leicester,NA
@@ -3314,7 +3314,7 @@ Nélson Cabral Semedo,559,6,2024-09-28T16:30:00Z,0,0,90,Wolves,NA
 Tommy Doyle,544,6,2024-09-28T16:30:00Z,0,0,13,Wolves,NA
 Tom Heaton,374,6,2024-09-29T15:30:00Z,0,0,0,Man Utd,434
 Lucas Bergvall,481,6,2024-09-29T15:30:00Z,0,0,13,Spurs,586
-Lesley Ugochukwu,188,6,2024-09-30T19:00:00Z,0,0,45,Southampton,NA
+Lesley Ugochukwu,188,6,2024-09-30T19:00:00Z,0,0,45,Southampton,676
 Evan Ferguson,123,6,2024-09-28T14:00:00Z,0,0,9,Brighton,179
 Christian Eriksen,370,6,2024-09-29T15:30:00Z,0,0,18,Man Utd,NA
 Danny Ings,523,6,2024-09-28T14:00:00Z,0,0,15,West Ham,NA
@@ -3440,7 +3440,7 @@ Myles Peart-Harris,103,6,2024-09-28T14:00:00Z,0,0,0,Brentford,133
 Mahmoud Dahoud,119,6,2024-09-28T14:00:00Z,0,0,0,Brighton,NA
 Jonathan Panzo,441,6,2024-09-28T14:00:00Z,0,0,0,Nott'm Forest,NA
 Nico O'Reilly,607,6,2024-09-28T11:30:00Z,0,0,0,Man City,411
-Aaron Ramsdale,14,6,2024-09-30T19:00:00Z,0,0,90,Southampton,NA
+Aaron Ramsdale,14,6,2024-09-30T19:00:00Z,0,0,90,Southampton,674
 Moussa Diaby,34,6,2024-09-29T13:00:00Z,0,0,0,Aston Villa,NA
 Micky van de Ven,506,6,2024-09-29T15:30:00Z,0,1,80,Spurs,575
 Igor Thiago Nascimento Rodrigues,107,6,2024-09-28T14:00:00Z,0,0,0,Brentford,136
@@ -3945,7 +3945,7 @@ Adam Smith,81,7,2024-10-05T14:00:00Z,0,0,62,Bournemouth,73
 Miodrag Pivaš,574,7,2024-10-05T16:30:00Z,0,0,0,Newcastle,483
 Billy Gilmour,124,7,2024-10-06T15:30:00Z,0,0,0,Brighton,NA
 Rasmus Højlund,375,7,2024-10-06T13:00:00Z,0,0,63,Man Utd,465
-Callum Wilson,421,7,2024-10-05T16:30:00Z,0,0,0,Newcastle,NA
+Callum Wilson,421,7,2024-10-05T16:30:00Z,0,0,0,Newcastle,671
 Crysencio Summerville,587,7,2024-10-05T14:00:00Z,0,0,7,West Ham,615
 Jesurun Rak-Sakyi,213,7,2024-10-05T11:30:00Z,0,0,0,Crystal Palace,278
 Oliver Skipp,501,7,2024-10-05T14:00:00Z,0,0,90,Leicester,NA
@@ -3978,7 +3978,7 @@ Nélson Cabral Semedo,559,7,2024-10-05T14:00:00Z,0,1,90,Wolves,NA
 Tommy Doyle,544,7,2024-10-05T14:00:00Z,0,0,0,Wolves,NA
 Tom Heaton,374,7,2024-10-06T13:00:00Z,0,0,0,Man Utd,434
 Lucas Bergvall,481,7,2024-10-06T15:30:00Z,0,0,0,Spurs,586
-Lesley Ugochukwu,188,7,2024-10-05T14:00:00Z,0,0,0,Southampton,NA
+Lesley Ugochukwu,188,7,2024-10-05T14:00:00Z,0,0,0,Southampton,676
 Evan Ferguson,123,7,2024-10-06T15:30:00Z,0,0,0,Brighton,179
 Christian Eriksen,370,7,2024-10-06T13:00:00Z,0,0,90,Man Utd,NA
 Danny Ings,523,7,2024-10-05T14:00:00Z,0,0,0,West Ham,NA
@@ -4104,7 +4104,7 @@ Myles Peart-Harris,103,7,2024-10-05T14:00:00Z,0,0,0,Brentford,133
 Mahmoud Dahoud,119,7,2024-10-06T15:30:00Z,0,0,0,Brighton,NA
 Jonathan Panzo,441,7,2024-10-06T13:00:00Z,0,0,0,Nott'm Forest,NA
 Nico O'Reilly,607,7,2024-10-05T14:00:00Z,0,0,0,Man City,411
-Aaron Ramsdale,14,7,2024-10-05T14:00:00Z,0,0,90,Southampton,NA
+Aaron Ramsdale,14,7,2024-10-05T14:00:00Z,0,0,90,Southampton,674
 Moussa Diaby,34,7,2024-10-06T13:00:00Z,0,0,0,Aston Villa,NA
 Micky van de Ven,506,7,2024-10-06T15:30:00Z,0,0,90,Spurs,575
 Igor Thiago Nascimento Rodrigues,107,7,2024-10-05T14:00:00Z,0,0,0,Brentford,136
@@ -4611,7 +4611,7 @@ Adam Smith,81,8,2024-10-19T16:30:00Z,0,0,45,Bournemouth,73
 Miodrag Pivaš,574,8,2024-10-19T14:00:00Z,0,0,0,Newcastle,483
 Billy Gilmour,124,8,2024-10-19T14:00:00Z,0,0,0,Brighton,NA
 Rasmus Højlund,375,8,2024-10-19T14:00:00Z,1,0,73,Man Utd,465
-Callum Wilson,421,8,2024-10-19T14:00:00Z,0,0,0,Newcastle,NA
+Callum Wilson,421,8,2024-10-19T14:00:00Z,0,0,0,Newcastle,671
 Crysencio Summerville,587,8,2024-10-19T11:30:00Z,0,0,29,West Ham,615
 Jesurun Rak-Sakyi,213,8,2024-10-21T19:00:00Z,0,0,0,Crystal Palace,278
 Oliver Skipp,501,8,2024-10-19T14:00:00Z,0,0,45,Leicester,NA
@@ -4644,7 +4644,7 @@ Nélson Cabral Semedo,559,8,2024-10-20T13:00:00Z,0,1,90,Wolves,NA
 Tommy Doyle,544,8,2024-10-20T13:00:00Z,0,0,45,Wolves,NA
 Tom Heaton,374,8,2024-10-19T14:00:00Z,0,0,0,Man Utd,434
 Lucas Bergvall,481,8,2024-10-19T11:30:00Z,0,0,0,Spurs,586
-Lesley Ugochukwu,188,8,2024-10-19T14:00:00Z,0,0,0,Southampton,NA
+Lesley Ugochukwu,188,8,2024-10-19T14:00:00Z,0,0,0,Southampton,676
 Evan Ferguson,123,8,2024-10-19T14:00:00Z,0,0,59,Brighton,179
 Christian Eriksen,370,8,2024-10-19T14:00:00Z,0,0,90,Man Utd,NA
 Danny Ings,523,8,2024-10-19T11:30:00Z,0,0,0,West Ham,NA
@@ -4770,7 +4770,7 @@ Myles Peart-Harris,103,8,2024-10-19T14:00:00Z,0,0,0,Brentford,133
 Mahmoud Dahoud,119,8,2024-10-19T14:00:00Z,0,0,0,Brighton,NA
 Jonathan Panzo,441,8,2024-10-21T19:00:00Z,0,0,0,Nott'm Forest,NA
 Nico O'Reilly,607,8,2024-10-20T13:00:00Z,0,0,0,Man City,411
-Aaron Ramsdale,14,8,2024-10-19T14:00:00Z,0,0,90,Southampton,NA
+Aaron Ramsdale,14,8,2024-10-19T14:00:00Z,0,0,90,Southampton,674
 Moussa Diaby,34,8,2024-10-19T14:00:00Z,0,0,0,Aston Villa,NA
 Micky van de Ven,506,8,2024-10-19T11:30:00Z,0,0,90,Spurs,575
 Igor Thiago Nascimento Rodrigues,107,8,2024-10-19T14:00:00Z,0,0,0,Brentford,136
@@ -5279,7 +5279,7 @@ Adam Smith,81,9,2024-10-26T14:00:00Z,0,0,60,Bournemouth,73
 Miodrag Pivaš,574,9,2024-10-27T14:00:00Z,0,0,0,Newcastle,483
 Billy Gilmour,124,9,2024-10-26T14:00:00Z,0,0,0,Brighton,NA
 Rasmus Højlund,375,9,2024-10-27T14:00:00Z,0,0,90,Man Utd,465
-Callum Wilson,421,9,2024-10-27T14:00:00Z,0,0,0,Newcastle,NA
+Callum Wilson,421,9,2024-10-27T14:00:00Z,0,0,0,Newcastle,671
 Crysencio Summerville,587,9,2024-10-27T14:00:00Z,1,0,45,West Ham,615
 Jesurun Rak-Sakyi,213,9,2024-10-27T14:00:00Z,0,0,0,Crystal Palace,278
 Oliver Skipp,501,9,2024-10-25T19:00:00Z,0,0,0,Leicester,NA
@@ -5312,7 +5312,7 @@ Nélson Cabral Semedo,559,9,2024-10-26T14:00:00Z,0,0,90,Wolves,NA
 Tommy Doyle,544,9,2024-10-26T14:00:00Z,0,1,90,Wolves,NA
 Tom Heaton,374,9,2024-10-27T14:00:00Z,0,0,0,Man Utd,434
 Lucas Bergvall,481,9,2024-10-27T14:00:00Z,0,0,0,Spurs,586
-Lesley Ugochukwu,188,9,2024-10-26T14:00:00Z,0,0,0,Southampton,NA
+Lesley Ugochukwu,188,9,2024-10-26T14:00:00Z,0,0,0,Southampton,676
 Evan Ferguson,123,9,2024-10-26T14:00:00Z,1,0,17,Brighton,179
 Christian Eriksen,370,9,2024-10-27T14:00:00Z,0,0,78,Man Utd,NA
 Danny Ings,523,9,2024-10-27T14:00:00Z,0,2,19,West Ham,NA
@@ -5438,7 +5438,7 @@ Myles Peart-Harris,103,9,2024-10-26T14:00:00Z,0,0,0,Brentford,133
 Mahmoud Dahoud,119,9,2024-10-26T14:00:00Z,0,0,0,Brighton,NA
 Jonathan Panzo,441,9,2024-10-25T19:00:00Z,0,0,0,Nott'm Forest,NA
 Nico O'Reilly,607,9,2024-10-26T14:00:00Z,0,0,0,Man City,411
-Aaron Ramsdale,14,9,2024-10-26T14:00:00Z,0,0,90,Southampton,NA
+Aaron Ramsdale,14,9,2024-10-26T14:00:00Z,0,0,90,Southampton,674
 Moussa Diaby,34,9,2024-10-26T14:00:00Z,0,0,0,Aston Villa,NA
 Micky van de Ven,506,9,2024-10-27T14:00:00Z,0,0,90,Spurs,575
 Igor Thiago Nascimento Rodrigues,107,9,2024-10-26T14:00:00Z,0,0,0,Brentford,136
@@ -5950,7 +5950,7 @@ Adam Smith,81,10,2024-11-02T15:00:00Z,0,0,90,Bournemouth,73
 Miodrag Pivaš,574,10,2024-11-02T12:30:00Z,0,0,0,Newcastle,483
 Billy Gilmour,124,10,2024-11-02T15:00:00Z,0,0,0,Brighton,NA
 Rasmus Højlund,375,10,2024-11-03T16:30:00Z,0,1,83,Man Utd,465
-Callum Wilson,421,10,2024-11-02T12:30:00Z,0,0,0,Newcastle,NA
+Callum Wilson,421,10,2024-11-02T12:30:00Z,0,0,0,Newcastle,671
 Crysencio Summerville,587,10,2024-11-02T15:00:00Z,0,0,45,West Ham,615
 Jesurun Rak-Sakyi,213,10,2024-11-02T17:30:00Z,0,0,0,Crystal Palace,278
 Oliver Skipp,501,10,2024-11-02T15:00:00Z,0,0,0,Leicester,NA
@@ -5983,7 +5983,7 @@ Nélson Cabral Semedo,559,10,2024-11-02T17:30:00Z,0,0,90,Wolves,NA
 Tommy Doyle,544,10,2024-11-02T17:30:00Z,0,0,61,Wolves,NA
 Tom Heaton,374,10,2024-11-03T16:30:00Z,0,0,0,Man Utd,434
 Lucas Bergvall,481,10,2024-11-03T14:00:00Z,0,0,0,Spurs,586
-Lesley Ugochukwu,188,10,2024-11-02T15:00:00Z,0,0,1,Southampton,NA
+Lesley Ugochukwu,188,10,2024-11-02T15:00:00Z,0,0,1,Southampton,676
 Evan Ferguson,123,10,2024-11-02T15:00:00Z,0,0,2,Brighton,179
 Christian Eriksen,370,10,2024-11-03T16:30:00Z,0,0,0,Man Utd,NA
 Danny Ings,523,10,2024-11-02T15:00:00Z,0,0,0,West Ham,NA
@@ -6110,7 +6110,7 @@ Myles Peart-Harris,103,10,2024-11-04T20:00:00Z,0,0,0,Brentford,133
 Mahmoud Dahoud,119,10,2024-11-02T15:00:00Z,0,0,0,Brighton,NA
 Jonathan Panzo,441,10,2024-11-02T15:00:00Z,0,0,0,Nott'm Forest,NA
 Nico O'Reilly,607,10,2024-11-02T15:00:00Z,0,0,0,Man City,411
-Aaron Ramsdale,14,10,2024-11-02T15:00:00Z,0,0,90,Southampton,NA
+Aaron Ramsdale,14,10,2024-11-02T15:00:00Z,0,0,90,Southampton,674
 Moussa Diaby,34,10,2024-11-03T14:00:00Z,0,0,0,Aston Villa,NA
 Micky van de Ven,506,10,2024-11-03T14:00:00Z,0,0,0,Spurs,575
 Igor Thiago Nascimento Rodrigues,107,10,2024-11-04T20:00:00Z,0,0,0,Brentford,136
@@ -6624,7 +6624,7 @@ Adam Smith,81,11,2024-11-09T15:00:00Z,0,0,83,Bournemouth,73
 Miodrag Pivaš,574,11,2024-11-10T14:00:00Z,0,0,0,Newcastle,483
 Billy Gilmour,124,11,2024-11-09T17:30:00Z,0,0,0,Brighton,NA
 Rasmus Højlund,375,11,2024-11-10T14:00:00Z,0,0,74,Man Utd,465
-Callum Wilson,421,11,2024-11-10T14:00:00Z,0,0,0,Newcastle,NA
+Callum Wilson,421,11,2024-11-10T14:00:00Z,0,0,0,Newcastle,671
 Crysencio Summerville,587,11,2024-11-09T15:00:00Z,0,0,82,West Ham,615
 Jesurun Rak-Sakyi,213,11,2024-11-09T15:00:00Z,0,0,0,Crystal Palace,278
 Oliver Skipp,501,11,2024-11-10T14:00:00Z,0,0,0,Leicester,NA
@@ -6657,7 +6657,7 @@ Nélson Cabral Semedo,559,11,2024-11-09T15:00:00Z,0,0,90,Wolves,NA
 Tommy Doyle,544,11,2024-11-09T15:00:00Z,0,0,0,Wolves,NA
 Tom Heaton,374,11,2024-11-10T14:00:00Z,0,0,0,Man Utd,434
 Lucas Bergvall,481,11,2024-11-10T14:00:00Z,0,0,0,Spurs,586
-Lesley Ugochukwu,188,11,2024-11-09T15:00:00Z,0,0,30,Southampton,NA
+Lesley Ugochukwu,188,11,2024-11-09T15:00:00Z,0,0,30,Southampton,676
 Evan Ferguson,123,11,2024-11-09T17:30:00Z,0,0,0,Brighton,179
 Christian Eriksen,370,11,2024-11-10T14:00:00Z,0,0,11,Man Utd,NA
 Danny Ings,523,11,2024-11-09T15:00:00Z,0,0,23,West Ham,NA
@@ -6784,7 +6784,7 @@ Myles Peart-Harris,103,11,2024-11-09T15:00:00Z,0,0,0,Brentford,133
 Mahmoud Dahoud,119,11,2024-11-09T17:30:00Z,0,0,0,Brighton,NA
 Jonathan Panzo,441,11,2024-11-10T14:00:00Z,0,0,0,Nott'm Forest,NA
 Nico O'Reilly,607,11,2024-11-09T17:30:00Z,0,0,0,Man City,411
-Aaron Ramsdale,14,11,2024-11-09T15:00:00Z,0,0,90,Southampton,NA
+Aaron Ramsdale,14,11,2024-11-09T15:00:00Z,0,0,90,Southampton,674
 Moussa Diaby,34,11,2024-11-09T20:00:00Z,0,0,0,Aston Villa,NA
 Micky van de Ven,506,11,2024-11-10T14:00:00Z,0,0,0,Spurs,575
 Igor Thiago Nascimento Rodrigues,107,11,2024-11-09T15:00:00Z,0,0,0,Brentford,136
@@ -7302,7 +7302,7 @@ Adam Smith,81,12,2024-11-23T15:00:00Z,0,0,74,Bournemouth,73
 Miodrag Pivaš,574,12,2024-11-25T20:00:00Z,0,0,0,Newcastle,483
 Billy Gilmour,124,12,2024-11-23T15:00:00Z,0,0,0,Brighton,NA
 Rasmus Højlund,375,12,2024-11-24T16:30:00Z,0,0,22,Man Utd,465
-Callum Wilson,421,12,2024-11-25T20:00:00Z,0,0,22,Newcastle,NA
+Callum Wilson,421,12,2024-11-25T20:00:00Z,0,0,22,Newcastle,671
 Crysencio Summerville,587,12,2024-11-25T20:00:00Z,0,0,83,West Ham,615
 Jesurun Rak-Sakyi,213,12,2024-11-23T15:00:00Z,0,0,0,Crystal Palace,278
 Oliver Skipp,501,12,2024-11-23T12:30:00Z,0,0,79,Leicester,NA
@@ -7335,7 +7335,7 @@ Nélson Cabral Semedo,559,12,2024-11-23T15:00:00Z,0,0,90,Wolves,NA
 Tommy Doyle,544,12,2024-11-23T15:00:00Z,0,0,1,Wolves,NA
 Tom Heaton,374,12,2024-11-24T16:30:00Z,0,0,0,Man Utd,434
 Lucas Bergvall,481,12,2024-11-23T17:30:00Z,0,0,1,Spurs,586
-Lesley Ugochukwu,188,12,2024-11-24T14:00:00Z,0,0,38,Southampton,NA
+Lesley Ugochukwu,188,12,2024-11-24T14:00:00Z,0,0,38,Southampton,676
 Evan Ferguson,123,12,2024-11-23T15:00:00Z,0,0,4,Brighton,179
 Christian Eriksen,370,12,2024-11-24T16:30:00Z,0,0,67,Man Utd,NA
 Danny Ings,523,12,2024-11-25T20:00:00Z,0,0,15,West Ham,NA
@@ -7465,7 +7465,7 @@ Myles Peart-Harris,103,12,2024-11-23T15:00:00Z,0,0,0,Brentford,133
 Mahmoud Dahoud,119,12,2024-11-23T15:00:00Z,0,0,0,Brighton,NA
 Jonathan Panzo,441,12,2024-11-23T15:00:00Z,0,0,0,Nott'm Forest,NA
 Nico O'Reilly,607,12,2024-11-23T17:30:00Z,0,0,0,Man City,411
-Aaron Ramsdale,14,12,2024-11-24T14:00:00Z,0,0,0,Southampton,NA
+Aaron Ramsdale,14,12,2024-11-24T14:00:00Z,0,0,0,Southampton,674
 Moussa Diaby,34,12,2024-11-23T15:00:00Z,0,0,0,Aston Villa,NA
 Micky van de Ven,506,12,2024-11-23T17:30:00Z,0,0,0,Spurs,575
 Igor Thiago Nascimento Rodrigues,107,12,2024-11-23T15:00:00Z,0,0,18,Brentford,136
@@ -7987,7 +7987,7 @@ Adam Smith,81,13,2024-11-30T15:00:00Z,0,0,90,Bournemouth,73
 Miodrag Pivaš,574,13,2024-11-30T15:00:00Z,0,0,0,Newcastle,483
 Billy Gilmour,124,13,2024-11-29T20:00:00Z,0,0,0,Brighton,NA
 Rasmus Højlund,375,13,2024-12-01T13:30:00Z,0,0,0,Man Utd,465
-Callum Wilson,421,13,2024-11-30T15:00:00Z,0,0,15,Newcastle,NA
+Callum Wilson,421,13,2024-11-30T15:00:00Z,0,0,15,Newcastle,671
 Crysencio Summerville,587,13,2024-11-30T17:30:00Z,0,0,45,West Ham,615
 Jesurun Rak-Sakyi,213,13,2024-11-30T15:00:00Z,0,0,0,Crystal Palace,278
 Oliver Skipp,501,13,2024-11-30T15:00:00Z,0,0,26,Leicester,NA
@@ -8020,7 +8020,7 @@ Nélson Cabral Semedo,559,13,2024-11-30T15:00:00Z,0,0,90,Wolves,NA
 Tommy Doyle,544,13,2024-11-30T15:00:00Z,0,0,0,Wolves,NA
 Tom Heaton,374,13,2024-12-01T13:30:00Z,0,0,0,Man Utd,434
 Lucas Bergvall,481,13,2024-12-01T13:30:00Z,0,0,5,Spurs,586
-Lesley Ugochukwu,188,13,2024-11-29T20:00:00Z,0,0,0,Southampton,NA
+Lesley Ugochukwu,188,13,2024-11-29T20:00:00Z,0,0,0,Southampton,676
 Evan Ferguson,123,13,2024-11-29T20:00:00Z,0,0,11,Brighton,179
 Christian Eriksen,370,13,2024-12-01T13:30:00Z,0,0,0,Man Utd,NA
 Danny Ings,523,13,2024-11-30T17:30:00Z,0,0,25,West Ham,NA
@@ -8150,7 +8150,7 @@ Myles Peart-Harris,103,13,2024-11-30T15:00:00Z,0,0,0,Brentford,133
 Mahmoud Dahoud,119,13,2024-11-29T20:00:00Z,0,0,0,Brighton,NA
 Jonathan Panzo,441,13,2024-11-30T15:00:00Z,0,0,0,Nott'm Forest,NA
 Nico O'Reilly,607,13,2024-12-01T16:00:00Z,0,0,0,Man City,411
-Aaron Ramsdale,14,13,2024-11-29T20:00:00Z,0,0,0,Southampton,NA
+Aaron Ramsdale,14,13,2024-11-29T20:00:00Z,0,0,0,Southampton,674
 Moussa Diaby,34,13,2024-12-01T13:30:00Z,0,0,0,Aston Villa,NA
 Micky van de Ven,506,13,2024-12-01T13:30:00Z,0,0,0,Spurs,575
 Igor Thiago Nascimento Rodrigues,107,13,2024-11-30T15:00:00Z,0,0,20,Brentford,136
@@ -8677,7 +8677,7 @@ Adam Smith,81,14,2024-12-05T20:15:00Z,0,0,90,Bournemouth,73
 Miodrag Pivaš,574,14,2024-12-04T19:30:00Z,0,0,0,Newcastle,483
 Billy Gilmour,124,14,2024-12-05T19:30:00Z,0,0,0,Brighton,NA
 Rasmus Højlund,375,14,2024-12-04T20:15:00Z,0,0,78,Man Utd,465
-Callum Wilson,421,14,2024-12-04T19:30:00Z,0,0,3,Newcastle,NA
+Callum Wilson,421,14,2024-12-04T19:30:00Z,0,0,3,Newcastle,671
 Crysencio Summerville,587,14,2024-12-03T20:15:00Z,0,1,45,West Ham,615
 Jesurun Rak-Sakyi,213,14,2024-12-03T19:30:00Z,0,0,0,Crystal Palace,278
 Oliver Skipp,501,14,2024-12-03T20:15:00Z,0,0,0,Leicester,NA
@@ -8710,7 +8710,7 @@ Nélson Cabral Semedo,559,14,2024-12-04T19:30:00Z,0,0,0,Wolves,NA
 Tommy Doyle,544,14,2024-12-04T19:30:00Z,0,0,6,Wolves,NA
 Tom Heaton,374,14,2024-12-04T20:15:00Z,0,0,0,Man Utd,434
 Lucas Bergvall,481,14,2024-12-05T20:15:00Z,0,0,10,Spurs,586
-Lesley Ugochukwu,188,14,2024-12-04T19:30:00Z,0,0,0,Southampton,NA
+Lesley Ugochukwu,188,14,2024-12-04T19:30:00Z,0,0,0,Southampton,676
 Evan Ferguson,123,14,2024-12-05T19:30:00Z,0,0,10,Brighton,179
 Christian Eriksen,370,14,2024-12-04T20:15:00Z,0,0,0,Man Utd,NA
 Danny Ings,523,14,2024-12-03T20:15:00Z,0,0,45,West Ham,NA
@@ -8841,7 +8841,7 @@ Myles Peart-Harris,103,14,2024-12-04T20:15:00Z,0,0,0,Brentford,133
 Mahmoud Dahoud,119,14,2024-12-05T19:30:00Z,0,0,0,Brighton,NA
 Jonathan Panzo,441,14,2024-12-04T19:30:00Z,0,0,0,Nott'm Forest,NA
 Nico O'Reilly,607,14,2024-12-04T19:30:00Z,0,0,0,Man City,411
-Aaron Ramsdale,14,14,2024-12-04T19:30:00Z,0,0,0,Southampton,NA
+Aaron Ramsdale,14,14,2024-12-04T19:30:00Z,0,0,0,Southampton,674
 Moussa Diaby,34,14,2024-12-04T20:15:00Z,0,0,0,Aston Villa,NA
 Micky van de Ven,506,14,2024-12-05T20:15:00Z,0,0,0,Spurs,575
 Igor Thiago Nascimento Rodrigues,107,14,2024-12-04T20:15:00Z,0,0,19,Brentford,136
@@ -9365,7 +9365,7 @@ Adam Smith,81,15,2024-12-08T14:00:00Z,0,0,62,Bournemouth,73
 Miodrag Pivaš,574,15,2024-12-07T15:00:00Z,0,0,0,Newcastle,483
 Billy Gilmour,124,15,2024-12-08T14:00:00Z,0,0,0,Brighton,NA
 Rasmus Højlund,375,15,2024-12-07T17:30:00Z,1,0,90,Man Utd,465
-Callum Wilson,421,15,2024-12-07T15:00:00Z,0,0,17,Newcastle,NA
+Callum Wilson,421,15,2024-12-07T15:00:00Z,0,0,17,Newcastle,671
 Crysencio Summerville,587,15,2024-12-09T20:00:00Z,0,0,72,West Ham,615
 Jesurun Rak-Sakyi,213,15,2024-12-07T15:00:00Z,0,0,0,Crystal Palace,278
 Oliver Skipp,501,15,2024-12-08T14:00:00Z,0,0,38,Leicester,NA
@@ -9395,7 +9395,7 @@ Nélson Cabral Semedo,559,15,2024-12-09T20:00:00Z,0,0,90,Wolves,NA
 Tommy Doyle,544,15,2024-12-09T20:00:00Z,0,0,12,Wolves,NA
 Tom Heaton,374,15,2024-12-07T17:30:00Z,0,0,0,Man Utd,434
 Lucas Bergvall,481,15,2024-12-08T16:30:00Z,0,0,11,Spurs,586
-Lesley Ugochukwu,188,15,2024-12-07T15:00:00Z,0,0,0,Southampton,NA
+Lesley Ugochukwu,188,15,2024-12-07T15:00:00Z,0,0,0,Southampton,676
 Evan Ferguson,123,15,2024-12-08T14:00:00Z,0,0,69,Brighton,179
 Christian Eriksen,370,15,2024-12-07T17:30:00Z,0,0,0,Man Utd,NA
 Danny Ings,523,15,2024-12-09T20:00:00Z,0,0,17,West Ham,NA
@@ -9511,7 +9511,7 @@ Myles Peart-Harris,103,15,2024-12-07T15:00:00Z,0,0,0,Brentford,133
 Mahmoud Dahoud,119,15,2024-12-08T14:00:00Z,0,0,0,Brighton,NA
 Jonathan Panzo,441,15,2024-12-07T17:30:00Z,0,0,0,Nott'm Forest,NA
 Nico O'Reilly,607,15,2024-12-07T15:00:00Z,0,0,0,Man City,411
-Aaron Ramsdale,14,15,2024-12-07T15:00:00Z,0,0,0,Southampton,NA
+Aaron Ramsdale,14,15,2024-12-07T15:00:00Z,0,0,0,Southampton,674
 Moussa Diaby,34,15,2024-12-07T15:00:00Z,0,0,0,Aston Villa,NA
 Micky van de Ven,506,15,2024-12-08T16:30:00Z,0,0,78,Spurs,575
 Igor Thiago Nascimento Rodrigues,107,15,2024-12-07T15:00:00Z,0,0,72,Brentford,136
@@ -10000,7 +10000,7 @@ Adam Smith,81,16,2024-12-16T20:00:00Z,0,0,67,Bournemouth,73
 Miodrag Pivaš,574,16,2024-12-14T15:00:00Z,0,0,0,Newcastle,483
 Billy Gilmour,124,16,2024-12-15T14:00:00Z,0,0,0,Brighton,NA
 Rasmus Højlund,375,16,2024-12-15T16:30:00Z,0,0,77,Man Utd,465
-Callum Wilson,421,16,2024-12-14T15:00:00Z,0,0,0,Newcastle,NA
+Callum Wilson,421,16,2024-12-14T15:00:00Z,0,0,0,Newcastle,671
 Crysencio Summerville,587,16,2024-12-16T20:00:00Z,0,0,15,West Ham,615
 Jesurun Rak-Sakyi,213,16,2024-12-15T14:00:00Z,0,0,0,Crystal Palace,278
 Oliver Skipp,501,16,2024-12-14T15:00:00Z,0,0,90,Leicester,NA
@@ -10033,7 +10033,7 @@ Nélson Cabral Semedo,559,16,2024-12-14T15:00:00Z,0,0,90,Wolves,NA
 Tommy Doyle,544,16,2024-12-14T15:00:00Z,0,0,45,Wolves,NA
 Tom Heaton,374,16,2024-12-15T16:30:00Z,0,0,0,Man Utd,434
 Lucas Bergvall,481,16,2024-12-15T19:00:00Z,0,0,90,Spurs,586
-Lesley Ugochukwu,188,16,2024-12-15T19:00:00Z,0,0,0,Southampton,NA
+Lesley Ugochukwu,188,16,2024-12-15T19:00:00Z,0,0,0,Southampton,676
 Evan Ferguson,123,16,2024-12-15T14:00:00Z,0,0,18,Brighton,179
 Christian Eriksen,370,16,2024-12-15T16:30:00Z,0,0,0,Man Utd,NA
 Tyrique George,696,16,2024-12-15T19:00:00Z,0,0,0,Chelsea,243
@@ -10165,7 +10165,7 @@ Myles Peart-Harris,103,16,2024-12-15T19:00:00Z,0,0,0,Brentford,133
 Mahmoud Dahoud,119,16,2024-12-15T14:00:00Z,0,0,0,Brighton,NA
 Jonathan Panzo,441,16,2024-12-14T17:30:00Z,0,0,0,Nott'm Forest,NA
 Nico O'Reilly,607,16,2024-12-15T16:30:00Z,0,0,0,Man City,411
-Aaron Ramsdale,14,16,2024-12-15T19:00:00Z,0,0,0,Southampton,NA
+Aaron Ramsdale,14,16,2024-12-15T19:00:00Z,0,0,0,Southampton,674
 Moussa Diaby,34,16,2024-12-14T17:30:00Z,0,0,0,Aston Villa,NA
 Micky van de Ven,506,16,2024-12-15T19:00:00Z,0,0,0,Spurs,575
 Igor Thiago Nascimento Rodrigues,107,16,2024-12-15T19:00:00Z,0,0,0,Brentford,136
@@ -10701,7 +10701,7 @@ Adam Smith,81,17,2024-12-22T14:00:00Z,0,0,45,Bournemouth,73
 Miodrag Pivaš,574,17,2024-12-21T15:00:00Z,0,0,0,Newcastle,483
 Billy Gilmour,124,17,2024-12-21T15:00:00Z,0,0,0,Brighton,NA
 Rasmus Højlund,375,17,2024-12-22T14:00:00Z,0,0,36,Man Utd,465
-Callum Wilson,421,17,2024-12-21T15:00:00Z,0,0,0,Newcastle,NA
+Callum Wilson,421,17,2024-12-21T15:00:00Z,0,0,0,Newcastle,671
 Crysencio Summerville,587,17,2024-12-21T15:00:00Z,0,0,33,West Ham,615
 Jesurun Rak-Sakyi,213,17,2024-12-21T17:30:00Z,0,0,0,Crystal Palace,278
 Oliver Skipp,501,17,2024-12-22T14:00:00Z,0,0,45,Leicester,NA
@@ -10734,7 +10734,7 @@ Nélson Cabral Semedo,559,17,2024-12-22T14:00:00Z,0,1,88,Wolves,NA
 Tommy Doyle,544,17,2024-12-22T14:00:00Z,0,0,6,Wolves,NA
 Tom Heaton,374,17,2024-12-22T14:00:00Z,0,0,0,Man Utd,434
 Lucas Bergvall,481,17,2024-12-22T16:30:00Z,0,0,32,Spurs,586
-Lesley Ugochukwu,188,17,2024-12-22T14:00:00Z,0,0,33,Southampton,NA
+Lesley Ugochukwu,188,17,2024-12-22T14:00:00Z,0,0,33,Southampton,676
 Evan Ferguson,123,17,2024-12-21T15:00:00Z,0,0,5,Brighton,179
 Christian Eriksen,370,17,2024-12-22T14:00:00Z,0,0,0,Man Utd,NA
 Tyrique George,696,17,2024-12-22T14:00:00Z,0,0,0,Chelsea,243
@@ -10866,7 +10866,7 @@ Myles Peart-Harris,103,17,2024-12-21T15:00:00Z,0,0,0,Brentford,133
 Mahmoud Dahoud,119,17,2024-12-21T15:00:00Z,0,0,0,Brighton,NA
 Jonathan Panzo,441,17,2024-12-21T15:00:00Z,0,0,0,Nott'm Forest,NA
 Nico O'Reilly,607,17,2024-12-21T12:30:00Z,0,0,0,Man City,411
-Aaron Ramsdale,14,17,2024-12-22T14:00:00Z,0,0,90,Southampton,NA
+Aaron Ramsdale,14,17,2024-12-22T14:00:00Z,0,0,90,Southampton,674
 Moussa Diaby,34,17,2024-12-21T12:30:00Z,0,0,0,Aston Villa,NA
 Micky van de Ven,506,17,2024-12-22T16:30:00Z,0,0,0,Spurs,575
 Igor Thiago Nascimento Rodrigues,107,17,2024-12-21T15:00:00Z,0,0,0,Brentford,136
@@ -11402,7 +11402,7 @@ Adam Smith,81,18,2024-12-26T15:00:00Z,0,0,0,Bournemouth,73
 Miodrag Pivaš,574,18,2024-12-26T15:00:00Z,0,0,0,Newcastle,483
 Billy Gilmour,124,18,2024-12-27T19:30:00Z,0,0,0,Brighton,NA
 Rasmus Højlund,375,18,2024-12-26T17:30:00Z,0,0,78,Man Utd,465
-Callum Wilson,421,18,2024-12-26T15:00:00Z,0,0,0,Newcastle,NA
+Callum Wilson,421,18,2024-12-26T15:00:00Z,0,0,0,Newcastle,671
 Crysencio Summerville,587,18,2024-12-26T15:00:00Z,0,0,22,West Ham,615
 Jesurun Rak-Sakyi,213,18,2024-12-26T15:00:00Z,0,0,0,Crystal Palace,278
 Oliver Skipp,501,18,2024-12-26T20:00:00Z,0,0,25,Leicester,NA
@@ -11435,7 +11435,7 @@ Nélson Cabral Semedo,559,18,2024-12-26T17:30:00Z,0,0,90,Wolves,NA
 Tommy Doyle,544,18,2024-12-26T17:30:00Z,0,0,17,Wolves,NA
 Tom Heaton,374,18,2024-12-26T17:30:00Z,0,0,0,Man Utd,434
 Lucas Bergvall,481,18,2024-12-26T15:00:00Z,0,0,26,Spurs,586
-Lesley Ugochukwu,188,18,2024-12-26T15:00:00Z,0,0,86,Southampton,NA
+Lesley Ugochukwu,188,18,2024-12-26T15:00:00Z,0,0,86,Southampton,676
 Evan Ferguson,123,18,2024-12-27T19:30:00Z,0,0,0,Brighton,179
 Christian Eriksen,370,18,2024-12-26T17:30:00Z,0,0,27,Man Utd,NA
 Tyrique George,696,18,2024-12-26T15:00:00Z,0,0,0,Chelsea,243
@@ -11567,7 +11567,7 @@ Myles Peart-Harris,103,18,2024-12-27T19:30:00Z,0,0,0,Brentford,133
 Mahmoud Dahoud,119,18,2024-12-27T19:30:00Z,0,0,0,Brighton,NA
 Jonathan Panzo,441,18,2024-12-26T15:00:00Z,0,0,0,Nott'm Forest,NA
 Nico O'Reilly,607,18,2024-12-26T12:30:00Z,0,0,0,Man City,411
-Aaron Ramsdale,14,18,2024-12-26T15:00:00Z,0,0,90,Southampton,NA
+Aaron Ramsdale,14,18,2024-12-26T15:00:00Z,0,0,90,Southampton,674
 Moussa Diaby,34,18,2024-12-26T15:00:00Z,0,0,0,Aston Villa,NA
 Micky van de Ven,506,18,2024-12-26T15:00:00Z,0,0,0,Spurs,575
 Igor Thiago Nascimento Rodrigues,107,18,2024-12-27T19:30:00Z,0,0,0,Brentford,136
@@ -12107,7 +12107,7 @@ Adam Smith,81,19,2024-12-29T15:00:00Z,0,0,0,Bournemouth,73
 Miodrag Pivaš,574,19,2024-12-30T20:00:00Z,0,0,0,Newcastle,483
 Billy Gilmour,124,19,2024-12-30T19:45:00Z,0,0,0,Brighton,NA
 Rasmus Højlund,375,19,2024-12-30T20:00:00Z,0,0,90,Man Utd,465
-Callum Wilson,421,19,2024-12-30T20:00:00Z,0,0,0,Newcastle,NA
+Callum Wilson,421,19,2024-12-30T20:00:00Z,0,0,0,Newcastle,671
 Crysencio Summerville,587,19,2024-12-29T17:15:00Z,0,0,30,West Ham,615
 Jesurun Rak-Sakyi,213,19,2024-12-29T15:00:00Z,0,0,0,Crystal Palace,278
 Oliver Skipp,501,19,2024-12-29T14:30:00Z,0,0,0,Leicester,NA
@@ -12140,7 +12140,7 @@ Nélson Cabral Semedo,559,19,2024-12-29T15:00:00Z,0,0,90,Wolves,NA
 Tommy Doyle,544,19,2024-12-29T15:00:00Z,0,0,21,Wolves,NA
 Tom Heaton,374,19,2024-12-30T20:00:00Z,0,0,0,Man Utd,434
 Lucas Bergvall,481,19,2024-12-29T15:00:00Z,0,0,0,Spurs,586
-Lesley Ugochukwu,188,19,2024-12-29T15:00:00Z,0,0,39,Southampton,NA
+Lesley Ugochukwu,188,19,2024-12-29T15:00:00Z,0,0,39,Southampton,676
 Evan Ferguson,123,19,2024-12-30T19:45:00Z,0,0,0,Brighton,179
 Christian Eriksen,370,19,2024-12-30T20:00:00Z,0,0,90,Man Utd,NA
 Tyrique George,696,19,2024-12-30T19:45:00Z,0,0,0,Chelsea,243
@@ -12272,7 +12272,7 @@ Myles Peart-Harris,103,19,2025-01-01T17:30:00Z,0,0,0,Brentford,133
 Mahmoud Dahoud,119,19,2024-12-30T19:45:00Z,0,0,0,Brighton,NA
 Jonathan Panzo,441,19,2024-12-29T15:00:00Z,0,0,0,Nott'm Forest,NA
 Nico O'Reilly,607,19,2024-12-29T14:30:00Z,0,0,0,Man City,411
-Aaron Ramsdale,14,19,2024-12-29T15:00:00Z,0,0,90,Southampton,NA
+Aaron Ramsdale,14,19,2024-12-29T15:00:00Z,0,0,90,Southampton,674
 Moussa Diaby,34,19,2024-12-30T19:45:00Z,0,0,0,Aston Villa,NA
 Micky van de Ven,506,19,2024-12-29T15:00:00Z,0,0,0,Spurs,575
 Igor Thiago Nascimento Rodrigues,107,19,2025-01-01T17:30:00Z,0,0,0,Brentford,136
@@ -12816,7 +12816,7 @@ Adam Smith,81,20,2025-01-04T15:00:00Z,0,0,0,Bournemouth,73
 Miodrag Pivaš,574,20,2025-01-04T12:30:00Z,0,0,0,Newcastle,483
 Billy Gilmour,124,20,2025-01-04T17:30:00Z,0,0,0,Brighton,NA
 Rasmus Højlund,375,20,2025-01-05T16:30:00Z,0,0,86,Man Utd,465
-Callum Wilson,421,20,2025-01-04T12:30:00Z,0,0,0,Newcastle,NA
+Callum Wilson,421,20,2025-01-04T12:30:00Z,0,0,0,Newcastle,671
 Crysencio Summerville,587,20,2025-01-04T15:00:00Z,0,0,90,West Ham,615
 Jesurun Rak-Sakyi,213,20,2025-01-04T15:00:00Z,0,0,0,Crystal Palace,278
 Oliver Skipp,501,20,2025-01-04T15:00:00Z,0,0,0,Leicester,NA
@@ -12849,7 +12849,7 @@ Nélson Cabral Semedo,559,20,2025-01-06T20:00:00Z,0,0,0,Wolves,NA
 Tommy Doyle,544,20,2025-01-06T20:00:00Z,0,0,58,Wolves,NA
 Tom Heaton,374,20,2025-01-05T16:30:00Z,0,0,0,Man Utd,434
 Lucas Bergvall,481,20,2025-01-04T12:30:00Z,0,0,61,Spurs,586
-Lesley Ugochukwu,188,20,2025-01-04T15:00:00Z,0,0,90,Southampton,NA
+Lesley Ugochukwu,188,20,2025-01-04T15:00:00Z,0,0,90,Southampton,676
 Evan Ferguson,123,20,2025-01-04T17:30:00Z,0,0,0,Brighton,179
 Christian Eriksen,370,20,2025-01-05T16:30:00Z,0,0,0,Man Utd,NA
 Tyrique George,696,20,2025-01-04T15:00:00Z,0,0,0,Chelsea,243
@@ -12982,7 +12982,7 @@ Myles Peart-Harris,103,20,2025-01-04T15:00:00Z,0,0,0,Brentford,133
 Mahmoud Dahoud,119,20,2025-01-04T17:30:00Z,0,0,0,Brighton,NA
 Jonathan Panzo,441,20,2025-01-06T20:00:00Z,0,0,0,Nott'm Forest,NA
 Nico O'Reilly,607,20,2025-01-04T15:00:00Z,0,0,0,Man City,411
-Aaron Ramsdale,14,20,2025-01-04T15:00:00Z,0,0,90,Southampton,NA
+Aaron Ramsdale,14,20,2025-01-04T15:00:00Z,0,0,90,Southampton,674
 Moussa Diaby,34,20,2025-01-04T15:00:00Z,0,0,0,Aston Villa,NA
 Micky van de Ven,506,20,2025-01-04T12:30:00Z,0,0,0,Spurs,575
 Igor Thiago Nascimento Rodrigues,107,20,2025-01-04T15:00:00Z,0,0,0,Brentford,136
@@ -13529,7 +13529,7 @@ Adam Smith,81,21,2025-01-14T19:30:00Z,0,0,0,Bournemouth,73
 Miodrag Pivaš,574,21,2025-01-15T19:30:00Z,0,0,0,Newcastle,483
 Billy Gilmour,124,21,2025-01-16T19:30:00Z,0,0,0,Brighton,NA
 Rasmus Højlund,375,21,2025-01-16T20:00:00Z,0,0,52,Man Utd,465
-Callum Wilson,421,21,2025-01-15T19:30:00Z,0,0,0,Newcastle,NA
+Callum Wilson,421,21,2025-01-15T19:30:00Z,0,0,0,Newcastle,671
 Crysencio Summerville,587,21,2025-01-14T19:30:00Z,0,0,0,West Ham,615
 Jesurun Rak-Sakyi,213,21,2025-01-15T19:30:00Z,0,0,0,Crystal Palace,278
 Oliver Skipp,501,21,2025-01-15T19:30:00Z,0,0,24,Leicester,NA
@@ -13562,7 +13562,7 @@ Nélson Cabral Semedo,559,21,2025-01-15T19:30:00Z,0,0,21,Wolves,NA
 Tommy Doyle,544,21,2025-01-15T19:30:00Z,0,0,4,Wolves,NA
 Tom Heaton,374,21,2025-01-16T20:00:00Z,0,0,0,Man Utd,434
 Lucas Bergvall,481,21,2025-01-15T20:00:00Z,0,0,90,Spurs,586
-Lesley Ugochukwu,188,21,2025-01-16T20:00:00Z,0,0,82,Southampton,NA
+Lesley Ugochukwu,188,21,2025-01-16T20:00:00Z,0,0,82,Southampton,676
 Evan Ferguson,123,21,2025-01-16T19:30:00Z,0,0,0,Brighton,179
 Christian Eriksen,370,21,2025-01-16T20:00:00Z,0,1,7,Man Utd,NA
 Tyrique George,696,21,2025-01-14T19:30:00Z,0,0,0,Chelsea,243
@@ -13698,7 +13698,7 @@ Myles Peart-Harris,103,21,2025-01-14T19:30:00Z,0,0,0,Brentford,133
 Mahmoud Dahoud,119,21,2025-01-16T19:30:00Z,0,0,0,Brighton,NA
 Jonathan Panzo,441,21,2025-01-14T20:00:00Z,0,0,0,Nott'm Forest,NA
 Nico O'Reilly,607,21,2025-01-14T19:30:00Z,0,0,0,Man City,411
-Aaron Ramsdale,14,21,2025-01-16T20:00:00Z,0,0,90,Southampton,NA
+Aaron Ramsdale,14,21,2025-01-16T20:00:00Z,0,0,90,Southampton,674
 Moussa Diaby,34,21,2025-01-15T19:30:00Z,0,0,0,Aston Villa,NA
 Micky van de Ven,506,21,2025-01-15T20:00:00Z,0,0,0,Spurs,575
 Igor Thiago Nascimento Rodrigues,107,21,2025-01-14T19:30:00Z,0,0,0,Brentford,136
@@ -14331,7 +14331,7 @@ Billy Gilmour,124,0,2025-01-19T14:00:00Z,0,0,0,Brighton,NA
 -20,NA,NA,,NA,False,NA,20,NA
 Rasmus Højlund,375,1,2025-01-19T14:00:00Z,0,0,6,Man Utd,465
 -34481,NA,NA,,NA,True,NA,38413,NA
-Callum Wilson,421,0,2025-01-18T12:30:00Z,0,0,0,Newcastle,NA
+Callum Wilson,421,0,2025-01-18T12:30:00Z,0,0,0,Newcastle,671
 -40,NA,NA,,NA,True,NA,113,NA
 Crysencio Summerville,587,0,2025-01-18T15:00:00Z,0,0,0,West Ham,615
 -1682,NA,NA,,NA,True,NA,1751,NA
@@ -14397,7 +14397,7 @@ Tom Heaton,374,0,2025-01-19T14:00:00Z,0,0,0,Man Utd,434
 1147,NA,NA,,NA,True,NA,379,NA
 Lucas Bergvall,481,1,2025-01-19T14:00:00Z,0,0,90,Spurs,586
 6730,NA,NA,,NA,False,NA,5273,NA
-Lesley Ugochukwu,188,3,2025-01-19T14:00:00Z,0,1,45,Southampton,NA
+Lesley Ugochukwu,188,3,2025-01-19T14:00:00Z,0,1,45,Southampton,676
 1342,NA,NA,,NA,False,NA,869,NA
 Evan Ferguson,123,0,2025-01-19T14:00:00Z,0,0,0,Brighton,179
 -989,NA,NA,,NA,False,NA,1055,NA
@@ -14669,7 +14669,7 @@ Jonathan Panzo,441,0,2025-01-19T14:00:00Z,0,0,0,Nott'm Forest,NA
 -1,NA,NA,,NA,True,NA,1,NA
 Nico O'Reilly,607,1,2025-01-19T16:30:00Z,0,0,18,Man City,411
 -11,NA,NA,,NA,False,NA,38,NA
-Aaron Ramsdale,14,1,2025-01-19T14:00:00Z,0,0,90,Southampton,NA
+Aaron Ramsdale,14,1,2025-01-19T14:00:00Z,0,0,90,Southampton,674
 -2779,NA,NA,,NA,False,NA,4953,NA
 Moussa Diaby,34,0,2025-01-18T17:30:00Z,0,0,0,Aston Villa,NA
 -7,NA,NA,,NA,False,NA,7,NA
@@ -15793,7 +15793,7 @@ Billy Gilmour,124,0,2025-01-25T15:00:00Z,0,0,0,Brighton,NA
 -24,NA,NA,,NA,True,NA,24,NA
 Rasmus Højlund,375,1,2025-01-26T19:00:00Z,0,0,57,Man Utd,465
 -23120,NA,NA,,NA,False,NA,25095,NA
-Callum Wilson,421,0,2025-01-25T15:00:00Z,0,0,0,Newcastle,NA
+Callum Wilson,421,0,2025-01-25T15:00:00Z,0,0,0,Newcastle,671
 -74,NA,NA,,NA,False,NA,133,NA
 Crysencio Summerville,587,0,2025-01-26T16:30:00Z,0,0,0,West Ham,615
 -1544,NA,NA,,NA,False,NA,1598,NA
@@ -15861,7 +15861,7 @@ Tom Heaton,374,0,2025-01-26T19:00:00Z,0,0,0,Man Utd,434
 1565,NA,NA,,NA,False,NA,625,NA
 Lucas Bergvall,481,2,2025-01-26T14:00:00Z,0,0,90,Spurs,586
 5556,NA,NA,,NA,True,NA,7524,NA
-Lesley Ugochukwu,188,2,2025-01-25T15:00:00Z,0,0,78,Southampton,NA
+Lesley Ugochukwu,188,2,2025-01-25T15:00:00Z,0,0,78,Southampton,676
 2927,NA,NA,,NA,True,NA,1350,NA
 Evan Ferguson,123,0,2025-01-25T15:00:00Z,0,0,0,Brighton,179
 -1153,NA,NA,,NA,True,NA,1244,NA
@@ -16139,7 +16139,7 @@ Jonathan Panzo,441,0,2025-01-25T15:00:00Z,0,0,0,Nott'm Forest,NA
 -2,NA,NA,,NA,False,NA,2,NA
 Nico O'Reilly,607,0,2025-01-25T17:30:00Z,0,0,0,Man City,411
 -12,NA,NA,,NA,True,NA,45,NA
-Aaron Ramsdale,14,0,2025-01-25T15:00:00Z,0,0,0,Southampton,NA
+Aaron Ramsdale,14,0,2025-01-25T15:00:00Z,0,0,0,Southampton,674
 -4908,NA,NA,,NA,True,NA,7294,NA
 Moussa Diaby,34,0,2025-01-26T16:30:00Z,0,0,0,Aston Villa,NA
 -8,NA,NA,,NA,True,NA,8,NA
@@ -17315,7 +17315,7 @@ Billy Gilmour,124,0,2025-02-01T12:30:00Z,0,0,0,Brighton,NA
 -20,NA,NA,,NA,False,NA,20,NA
 Rasmus Højlund,375,1,2025-02-02T14:00:00Z,0,0,20,Man Utd,465
 -11301,NA,NA,,NA,True,NA,13038,NA
-Callum Wilson,421,0,2025-02-01T15:00:00Z,0,0,0,Newcastle,NA
+Callum Wilson,421,0,2025-02-01T15:00:00Z,0,0,0,Newcastle,671
 -64,NA,NA,,NA,True,NA,107,NA
 Crysencio Summerville,587,0,2025-02-03T20:00:00Z,0,0,0,West Ham,615
 -1107,NA,NA,,NA,False,NA,1141,NA
@@ -17389,7 +17389,7 @@ Tom Heaton,374,0,2025-02-02T14:00:00Z,0,0,0,Man Utd,434
 860,NA,NA,,NA,True,NA,627,NA
 Lucas Bergvall,481,1,2025-02-02T14:00:00Z,0,0,45,Spurs,586
 7991,NA,NA,,NA,False,NA,6588,NA
-Lesley Ugochukwu,188,2,2025-02-01T15:00:00Z,0,0,80,Southampton,NA
+Lesley Ugochukwu,188,2,2025-02-01T15:00:00Z,0,0,80,Southampton,676
 7895,NA,NA,,NA,False,NA,1673,NA
 Evan Ferguson,123,0,2025-02-01T12:30:00Z,0,0,0,Brighton,179
 -803,NA,NA,,NA,False,NA,922,NA
@@ -17701,7 +17701,7 @@ Jonathan Panzo,441,0,2025-02-01T12:30:00Z,0,0,0,Nott'm Forest,NA
 0,NA,NA,,NA,True,NA,0,NA
 Nico O'Reilly,607,0,2025-02-02T16:30:00Z,0,0,0,Man City,411
 -2,NA,NA,,NA,False,NA,53,NA
-Aaron Ramsdale,14,3,2025-02-01T15:00:00Z,0,0,90,Southampton,NA
+Aaron Ramsdale,14,3,2025-02-01T15:00:00Z,0,0,90,Southampton,674
 -7621,NA,NA,,NA,False,NA,8772,NA
 Moussa Diaby,34,0,2025-02-01T17:30:00Z,0,0,0,Aston Villa,NA
 -8,NA,NA,,NA,False,NA,8,NA
@@ -18979,7 +18979,7 @@ Billy Gilmour,124,0,2025-02-14T20:00:00Z,0,0,0,Brighton,NA
 -17,NA,NA,,NA,True,NA,17,NA
 Rasmus Højlund,375,2,2025-02-16T16:30:00Z,0,0,90,Man Utd,465
 -6093,NA,NA,,NA,False,NA,8592,NA
-Callum Wilson,421,1,2025-02-15T15:00:00Z,0,0,17,Newcastle,NA
+Callum Wilson,421,1,2025-02-15T15:00:00Z,0,0,17,Newcastle,671
 979,NA,NA,,NA,False,NA,232,NA
 Crysencio Summerville,587,0,2025-02-15T15:00:00Z,0,0,0,West Ham,615
 -1199,NA,NA,,NA,True,NA,1229,NA
@@ -19053,7 +19053,7 @@ Tom Heaton,374,0,2025-02-16T16:30:00Z,0,0,0,Man Utd,434
 325,NA,NA,,NA,False,NA,518,NA
 Lucas Bergvall,481,6,2025-02-16T16:30:00Z,0,1,63,Spurs,586
 -4162,NA,NA,,NA,True,NA,10083,NA
-Lesley Ugochukwu,188,1,2025-02-15T15:00:00Z,0,0,45,Southampton,NA
+Lesley Ugochukwu,188,1,2025-02-15T15:00:00Z,0,0,45,Southampton,676
 1740,NA,NA,,NA,True,NA,2822,NA
 Evan Ferguson,123,1,2025-02-15T15:00:00Z,0,0,45,West Ham,179
 10937,NA,NA,,NA,True,NA,1057,NA
@@ -19373,7 +19373,7 @@ Jonathan Panzo,441,0,2025-02-15T15:00:00Z,0,0,0,Nott'm Forest,NA
 -3,NA,NA,,NA,False,NA,3,NA
 Nico O'Reilly,607,1,2025-02-15T15:00:00Z,0,0,3,Man City,411
 -26,NA,NA,,NA,True,NA,61,NA
-Aaron Ramsdale,14,2,2025-02-15T15:00:00Z,0,0,90,Southampton,NA
+Aaron Ramsdale,14,2,2025-02-15T15:00:00Z,0,0,90,Southampton,674
 -1230,NA,NA,,NA,True,NA,3744,NA
 Moussa Diaby,34,0,2025-02-15T15:00:00Z,0,0,0,Aston Villa,NA
 -8,NA,NA,,NA,True,NA,8,NA
@@ -20685,7 +20685,7 @@ Billy Gilmour,124,0,2025-02-22T15:00:00Z,0,0,0,Brighton,NA
 -9,NA,NA,,NA,False,NA,9,NA
 Rasmus Højlund,375,2,2025-02-22T12:30:00Z,0,0,69,Man Utd,465
 1207,NA,NA,,NA,False,NA,4539,NA
-Callum Wilson,421,1,2025-02-23T14:00:00Z,0,0,3,Newcastle,NA
+Callum Wilson,421,1,2025-02-23T14:00:00Z,0,0,3,Newcastle,671
 803,NA,NA,,NA,True,NA,474,NA
 Crysencio Summerville,587,0,2025-02-22T15:00:00Z,0,0,0,West Ham,615
 -627,NA,NA,,NA,False,NA,675,NA
@@ -20757,7 +20757,7 @@ Tom Heaton,374,0,2025-02-22T12:30:00Z,0,0,0,Man Utd,434
 67,NA,NA,,NA,False,NA,499,NA
 Lucas Bergvall,481,2,2025-02-22T15:00:00Z,0,0,84,Spurs,586
 2658,NA,NA,,NA,False,NA,5472,NA
-Lesley Ugochukwu,188,1,2025-02-22T15:00:00Z,0,0,71,Southampton,NA
+Lesley Ugochukwu,188,1,2025-02-22T15:00:00Z,0,0,71,Southampton,676
 -850,NA,NA,,NA,True,NA,2140,NA
 Evan Ferguson,123,1,2025-02-22T15:00:00Z,0,0,8,West Ham,179
 428,NA,NA,,NA,False,NA,2420,NA
@@ -21049,7 +21049,7 @@ Jonathan Panzo,441,0,2025-02-23T14:00:00Z,0,0,0,Nott'm Forest,NA
 -1,NA,NA,,NA,False,NA,1,NA
 Nico O'Reilly,607,0,2025-02-23T16:30:00Z,0,0,0,Man City,411
 3,NA,NA,,NA,True,NA,31,NA
-Aaron Ramsdale,14,1,2025-02-22T15:00:00Z,0,0,90,Southampton,NA
+Aaron Ramsdale,14,1,2025-02-22T15:00:00Z,0,0,90,Southampton,674
 -1141,NA,NA,,NA,True,NA,2388,NA
 Moussa Diaby,34,0,2025-02-22T17:30:00Z,0,0,0,Aston Villa,NA
 -6,NA,NA,,NA,True,NA,6,NA
@@ -22251,7 +22251,7 @@ Billy Gilmour,124,0,2025-02-25T19:30:00Z,0,0,0,Brighton,NA
 -9,NA,NA,,NA,True,NA,9,NA
 Rasmus Højlund,375,1,2025-02-26T19:30:00Z,0,0,66,Man Utd,465
 1989,NA,NA,,NA,True,NA,5234,NA
-Callum Wilson,421,2,2025-02-26T20:15:00Z,0,0,68,Newcastle,NA
+Callum Wilson,421,2,2025-02-26T20:15:00Z,0,0,68,Newcastle,671
 65,NA,NA,,NA,False,NA,524,NA
 Crysencio Summerville,587,0,2025-02-27T20:00:00Z,0,0,0,West Ham,615
 -445,NA,NA,,NA,True,NA,457,NA
@@ -22323,7 +22323,7 @@ Tom Heaton,374,0,2025-02-26T19:30:00Z,0,0,0,Man Utd,434
 -833,NA,NA,,NA,True,NA,957,NA
 Lucas Bergvall,481,2,2025-02-26T19:30:00Z,0,0,90,Spurs,586
 2083,NA,NA,,NA,True,NA,6190,NA
-Lesley Ugochukwu,188,0,2025-02-25T20:15:00Z,0,0,0,Southampton,NA
+Lesley Ugochukwu,188,0,2025-02-25T20:15:00Z,0,0,0,Southampton,676
 -2283,NA,NA,,NA,False,NA,2871,NA
 Evan Ferguson,123,1,2025-02-27T20:00:00Z,0,0,17,West Ham,179
 627,NA,NA,,NA,True,NA,2539,NA
@@ -22615,7 +22615,7 @@ Jonathan Panzo,441,0,2025-02-26T19:30:00Z,0,0,0,Nott'm Forest,NA
 0,NA,NA,,NA,True,NA,0,NA
 Nico O'Reilly,607,0,2025-02-26T19:30:00Z,0,0,0,Man City,411
 -2,NA,NA,,NA,False,NA,25,NA
-Aaron Ramsdale,14,2,2025-02-25T20:15:00Z,0,0,90,Southampton,NA
+Aaron Ramsdale,14,2,2025-02-25T20:15:00Z,0,0,90,Southampton,674
 -12,NA,NA,,NA,False,NA,2776,NA
 Moussa Diaby,34,0,2025-02-25T19:30:00Z,0,0,0,Aston Villa,NA
 -2,NA,NA,,NA,False,NA,2,NA
@@ -23821,7 +23821,7 @@ Billy Gilmour,124,0,2025-03-08T15:00:00Z,0,0,0,Brighton,NA
 -12,NA,NA,,NA,True,NA,12,NA
 Rasmus Højlund,375,1,2025-03-09T16:30:00Z,0,0,14,Man Utd,465
 -5343,NA,NA,,NA,True,NA,7539,NA
-Callum Wilson,421,1,2025-03-10T20:00:00Z,0,0,11,Newcastle,NA
+Callum Wilson,421,1,2025-03-10T20:00:00Z,0,0,11,Newcastle,671
 3270,NA,NA,,NA,False,NA,909,NA
 Crysencio Summerville,587,0,2025-03-10T20:00:00Z,0,0,0,West Ham,615
 -422,NA,NA,,NA,True,NA,451,NA
@@ -23895,7 +23895,7 @@ Tom Heaton,374,0,2025-03-09T16:30:00Z,0,0,0,Man Utd,434
 -750,NA,NA,,NA,True,NA,908,NA
 Lucas Bergvall,481,4,2025-03-09T14:00:00Z,0,1,45,Spurs,586
 1932,NA,NA,,NA,True,NA,6334,NA
-Lesley Ugochukwu,188,2,2025-03-08T15:00:00Z,0,0,83,Southampton,NA
+Lesley Ugochukwu,188,2,2025-03-08T15:00:00Z,0,0,83,Southampton,676
 -1094,NA,NA,,NA,False,NA,2010,NA
 Evan Ferguson,123,1,2025-03-10T20:00:00Z,0,0,21,West Ham,179
 -2019,NA,NA,,NA,True,NA,3236,NA
@@ -24187,7 +24187,7 @@ Jonathan Panzo,441,0,2025-03-08T12:30:00Z,0,0,0,Nott'm Forest,NA
 0,NA,NA,,NA,True,NA,0,NA
 Nico O'Reilly,607,0,2025-03-08T12:30:00Z,0,0,0,Man City,411
 69,NA,NA,,NA,False,NA,43,NA
-Aaron Ramsdale,14,2,2025-03-08T15:00:00Z,0,0,90,Southampton,NA
+Aaron Ramsdale,14,2,2025-03-08T15:00:00Z,0,0,90,Southampton,674
 -1099,NA,NA,,NA,False,NA,3708,NA
 Moussa Diaby,34,0,2025-03-08T17:30:00Z,0,0,0,Aston Villa,NA
 -3,NA,NA,,NA,False,NA,3,NA
@@ -25435,7 +25435,7 @@ Tom Heaton,374,0,2025-03-16T19:00:00Z,0,0,0,Man Utd,434
 -642,NA,NA,,NA,False,NA,742,NA
 Lucas Bergvall,481,1,2025-03-16T13:30:00Z,0,0,45,Spurs,586
 1851,NA,NA,,NA,False,NA,5026,NA
-Lesley Ugochukwu,188,2,2025-03-15T15:00:00Z,0,0,82,Southampton,NA
+Lesley Ugochukwu,188,2,2025-03-15T15:00:00Z,0,0,82,Southampton,676
 -857,NA,NA,,NA,True,NA,1619,NA
 Evan Ferguson,123,1,2025-03-15T15:00:00Z,0,0,1,West Ham,179
 -662,NA,NA,,NA,False,NA,1842,NA
@@ -25681,7 +25681,7 @@ Jonathan Panzo,441,0,2025-03-15T15:00:00Z,0,0,0,Nott'm Forest,NA
 -1,NA,NA,,NA,False,NA,1,NA
 Nico O'Reilly,607,0,2025-03-15T15:00:00Z,0,0,0,Man City,411
 -7,NA,NA,,NA,True,NA,43,NA
-Aaron Ramsdale,14,1,2025-03-15T15:00:00Z,0,0,90,Southampton,NA
+Aaron Ramsdale,14,1,2025-03-15T15:00:00Z,0,0,90,Southampton,674
 2063,NA,NA,,NA,True,NA,2655,NA
 Micky van de Ven,506,0,2025-03-16T13:30:00Z,0,0,0,Spurs,575
 2783,NA,NA,,NA,False,NA,1123,NA
@@ -26677,7 +26677,7 @@ Billy Gilmour,124,0,2025-04-02T18:45:00Z,0,0,0,Brighton,NA
 -9,NA,NA,,NA,True,NA,9,NA
 Rasmus Højlund,375,1,2025-04-01T19:00:00Z,0,0,45,Man Utd,465
 5639,NA,NA,,NA,False,NA,6224,NA
-Callum Wilson,421,1,2025-04-02T18:45:00Z,0,0,24,Newcastle,NA
+Callum Wilson,421,1,2025-04-02T18:45:00Z,0,0,24,Newcastle,671
 1298,NA,NA,,NA,True,NA,939,NA
 Crysencio Summerville,587,0,2025-04-01T18:45:00Z,0,0,0,West Ham,615
 -250,NA,NA,,NA,False,NA,302,NA
@@ -26751,7 +26751,7 @@ Tom Heaton,374,0,2025-04-01T19:00:00Z,0,0,0,Man Utd,434
 -357,NA,NA,,NA,False,NA,1044,NA
 Lucas Bergvall,481,2,2025-04-03T19:00:00Z,0,0,63,Spurs,586
 -5596,NA,NA,,NA,False,NA,10787,NA
-Lesley Ugochukwu,188,3,2025-04-02T18:45:00Z,0,0,70,Southampton,NA
+Lesley Ugochukwu,188,3,2025-04-02T18:45:00Z,0,0,70,Southampton,676
 -937,NA,NA,,NA,True,NA,1984,NA
 Charlie Tasker,791,0,2025-04-02T18:45:00Z,0,0,0,Brighton,156
 0,NA,NA,,NA,True,NA,0,NA
@@ -27045,7 +27045,7 @@ Jonathan Panzo,441,0,2025-04-01T19:00:00Z,0,0,0,Nott'm Forest,NA
 0,NA,NA,,NA,True,NA,0,NA
 Nico O'Reilly,607,3,2025-04-02T18:45:00Z,0,0,90,Man City,411
 1251,NA,NA,,NA,True,NA,248,NA
-Aaron Ramsdale,14,2,2025-04-02T18:45:00Z,0,0,90,Southampton,NA
+Aaron Ramsdale,14,2,2025-04-02T18:45:00Z,0,0,90,Southampton,674
 -6284,NA,NA,,NA,True,NA,7598,NA
 Moussa Diaby,34,0,2025-04-02T18:45:00Z,0,0,0,Aston Villa,NA
 -2,NA,NA,,NA,False,NA,2,NA
@@ -28259,7 +28259,7 @@ Billy Gilmour,124,0,2025-04-05T14:00:00Z,0,0,0,Brighton,NA
 0,NA,NA,,NA,False,NA,0,NA
 Rasmus Højlund,375,2,2025-04-06T15:30:00Z,0,0,70,Man Utd,465
 -3591,NA,NA,,NA,True,NA,5761,NA
-Callum Wilson,421,1,2025-04-07T19:00:00Z,0,0,18,Newcastle,NA
+Callum Wilson,421,1,2025-04-07T19:00:00Z,0,0,18,Newcastle,671
 3534,NA,NA,,NA,False,NA,1061,NA
 Crysencio Summerville,587,0,2025-04-05T14:00:00Z,0,0,0,West Ham,615
 -88,NA,NA,,NA,True,NA,111,NA
@@ -28333,7 +28333,7 @@ Tom Heaton,374,0,2025-04-06T15:30:00Z,0,0,0,Man Utd,434
 172,NA,NA,,NA,True,NA,509,NA
 Lucas Bergvall,481,3,2025-04-06T13:00:00Z,0,0,79,Spurs,586
 -3973,NA,NA,,NA,True,NA,6476,NA
-Lesley Ugochukwu,188,1,2025-04-06T13:00:00Z,0,0,82,Southampton,NA
+Lesley Ugochukwu,188,1,2025-04-06T13:00:00Z,0,0,82,Southampton,676
 -827,NA,NA,,NA,False,NA,1372,NA
 Charlie Tasker,791,0,2025-04-05T14:00:00Z,0,0,0,Brighton,156
 35,NA,NA,,NA,False,NA,9,NA
@@ -28627,7 +28627,7 @@ Jonathan Panzo,441,0,2025-04-05T16:30:00Z,0,0,0,Nott'm Forest,NA
 -1,NA,NA,,NA,False,NA,1,NA
 Nico O'Reilly,607,3,2025-04-06T15:30:00Z,0,0,73,Man City,411
 251,NA,NA,,NA,False,NA,321,NA
-Aaron Ramsdale,14,2,2025-04-06T13:00:00Z,0,0,90,Southampton,NA
+Aaron Ramsdale,14,2,2025-04-06T13:00:00Z,0,0,90,Southampton,674
 -2589,NA,NA,,NA,False,NA,3337,NA
 Moussa Diaby,34,0,2025-04-05T16:30:00Z,0,0,0,Aston Villa,NA
 0,NA,NA,,NA,True,NA,0,NA
@@ -29859,9 +29859,9 @@ Billy Gilmour,124,0,2025-04-12T14:00:00Z,0,0,0,Brighton,NA
 -4,NA,NA,,NA,True,NA,4,NA
 Rasmus Højlund,375,1,2025-04-13T15:30:00Z,0,0,35,Man Utd,465
 -4496,NA,NA,,NA,False,NA,6143,NA
-Callum Wilson,421,1,2025-04-13T15:30:00Z,0,0,12,Newcastle,NA
+Callum Wilson,421,1,2025-04-13T15:30:00Z,0,0,12,Newcastle,671
 2764,NA,NA,,NA,True,NA,2524,NA
-Callum Wilson,421,1,2025-04-16T18:30:00Z,0,0,18,Newcastle,NA
+Callum Wilson,421,1,2025-04-16T18:30:00Z,0,0,18,Newcastle,671
 2764,NA,NA,,NA,True,NA,2524,NA
 Crysencio Summerville,587,0,2025-04-13T13:00:00Z,0,0,0,West Ham,615
 -100,NA,NA,,NA,False,NA,143,NA
@@ -29941,7 +29941,7 @@ Tom Heaton,374,0,2025-04-13T15:30:00Z,0,0,0,Man Utd,434
 216,NA,NA,,NA,False,NA,436,NA
 Lucas Bergvall,481,1,2025-04-13T13:00:00Z,0,0,35,Spurs,586
 -4508,NA,NA,,NA,False,NA,6313,NA
-Lesley Ugochukwu,188,2,2025-04-12T14:00:00Z,0,0,90,Southampton,NA
+Lesley Ugochukwu,188,2,2025-04-12T14:00:00Z,0,0,90,Southampton,676
 -797,NA,NA,,NA,True,NA,1141,NA
 Charlie Tasker,791,0,2025-04-12T14:00:00Z,0,0,0,Brighton,156
 29,NA,NA,,NA,True,NA,14,NA
@@ -30251,7 +30251,7 @@ Jonathan Panzo,441,0,2025-04-12T14:00:00Z,0,0,0,Nott'm Forest,NA
 0,NA,NA,,NA,True,NA,0,NA
 Nico O'Reilly,607,8,2025-04-12T11:30:00Z,1,0,90,Man City,411
 249,NA,NA,,NA,True,NA,390,NA
-Aaron Ramsdale,14,16,2025-04-12T14:00:00Z,0,0,90,Southampton,NA
+Aaron Ramsdale,14,16,2025-04-12T14:00:00Z,0,0,90,Southampton,674
 -243,NA,NA,,NA,True,NA,2607,NA
 Moussa Diaby,34,0,2025-04-12T14:00:00Z,0,0,0,Aston Villa,NA
 0,NA,NA,,NA,False,NA,0,NA
@@ -31609,7 +31609,7 @@ Billy Gilmour,124,0,2025-04-19T14:00:00Z,0,0,0,Brighton,NA
 -5,NA,NA,,NA,False,NA,5,NA
 Rasmus Højlund,375,2,2025-04-20T13:00:00Z,0,0,69,Man Utd,465
 -2115,NA,NA,,NA,True,NA,4955,NA
-Callum Wilson,421,1,2025-04-19T16:30:00Z,0,0,14,Newcastle,NA
+Callum Wilson,421,1,2025-04-19T16:30:00Z,0,0,14,Newcastle,671
 -2481,NA,NA,,NA,False,NA,3396,NA
 Crysencio Summerville,587,0,2025-04-19T14:00:00Z,0,0,0,West Ham,615
 -131,NA,NA,,NA,True,NA,177,NA
@@ -31693,7 +31693,7 @@ Tom Heaton,374,0,2025-04-20T13:00:00Z,0,0,0,Man Utd,434
 565,NA,NA,,NA,True,NA,502,NA
 Lucas Bergvall,481,1,2025-04-21T19:00:00Z,0,0,9,Spurs,586
 -3673,NA,NA,,NA,True,NA,5820,NA
-Lesley Ugochukwu,188,10,2025-04-19T14:00:00Z,1,0,90,Southampton,NA
+Lesley Ugochukwu,188,10,2025-04-19T14:00:00Z,1,0,90,Southampton,676
 -224,NA,NA,,NA,False,NA,1059,NA
 Charlie Tasker,791,0,2025-04-19T14:00:00Z,0,0,0,Brighton,156
 29,NA,NA,,NA,False,NA,16,NA
@@ -32041,7 +32041,7 @@ Nico O'Reilly,607,11,2025-04-19T14:00:00Z,1,0,90,Man City,411
 17348,NA,NA,,NA,False,NA,987,NA
 Nico O'Reilly,607,2,2025-04-22T19:00:00Z,0,0,90,Man City,411
 17348,NA,NA,,NA,True,NA,987,NA
-Aaron Ramsdale,14,3,2025-04-19T14:00:00Z,0,0,90,Southampton,NA
+Aaron Ramsdale,14,3,2025-04-19T14:00:00Z,0,0,90,Southampton,674
 10142,NA,NA,,NA,False,NA,2743,NA
 Moussa Diaby,34,0,2025-04-19T16:30:00Z,0,0,0,Aston Villa,NA
 -1,NA,NA,,NA,True,NA,1,NA
@@ -33461,7 +33461,7 @@ Billy Gilmour,124,0,2025-04-26T14:00:00Z,0,0,0,Brighton,NA
 -6,NA,NA,,NA,True,NA,6,NA
 Rasmus Højlund,375,9,2025-04-27T13:00:00Z,1,0,90,Man Utd,465
 660,NA,NA,,NA,False,NA,2820,NA
-Callum Wilson,421,1,2025-04-26T14:00:00Z,0,0,13,Newcastle,NA
+Callum Wilson,421,1,2025-04-26T14:00:00Z,0,0,13,Newcastle,671
 1382,NA,NA,,NA,True,NA,1520,NA
 Crysencio Summerville,587,0,2025-04-26T14:00:00Z,0,0,0,West Ham,615
 -51,NA,NA,,NA,False,NA,132,NA
@@ -33525,7 +33525,7 @@ Tom Heaton,374,0,2025-04-27T13:00:00Z,0,0,0,Man Utd,434
 55,NA,NA,,NA,False,NA,508,NA
 Lucas Bergvall,481,2,2025-04-27T15:30:00Z,0,0,90,Spurs,586
 -3055,NA,NA,,NA,False,NA,3740,NA
-Lesley Ugochukwu,188,2,2025-04-26T14:00:00Z,0,0,90,Southampton,NA
+Lesley Ugochukwu,188,2,2025-04-26T14:00:00Z,0,0,90,Southampton,676
 1829,NA,NA,,NA,True,NA,755,NA
 Charlie Tasker,791,0,2025-04-26T14:00:00Z,0,0,0,Brighton,156
 11,NA,NA,,NA,True,NA,17,NA
@@ -33765,7 +33765,7 @@ Mahmoud Dahoud,119,0,2025-04-26T14:00:00Z,0,0,0,Brighton,NA
 0,NA,NA,,NA,True,NA,0,NA
 Jonathan Panzo,441,0,2025-05-01T18:30:00Z,0,0,0,Nott'm Forest,NA
 -1,NA,NA,,NA,True,NA,1,NA
-Aaron Ramsdale,14,2,2025-04-26T14:00:00Z,0,0,90,Southampton,NA
+Aaron Ramsdale,14,2,2025-04-26T14:00:00Z,0,0,90,Southampton,674
 12979,NA,NA,,NA,True,NA,3841,NA
 Micky van de Ven,506,0,2025-04-27T15:30:00Z,0,0,0,Spurs,575
 -1379,NA,NA,,NA,False,NA,2342,NA
@@ -34779,7 +34779,7 @@ Billy Gilmour,124,0,2025-05-04T13:00:00Z,0,0,0,Brighton,NA
 -1,NA,NA,,NA,True,NA,1,NA
 Rasmus Højlund,375,0,2025-05-04T13:00:00Z,0,0,0,Man Utd,465
 429,NA,NA,,NA,False,NA,2086,NA
-Callum Wilson,421,1,2025-05-04T13:00:00Z,0,0,16,Newcastle,NA
+Callum Wilson,421,1,2025-05-04T13:00:00Z,0,0,16,Newcastle,671
 -1260,NA,NA,,NA,False,NA,1616,NA
 Crysencio Summerville,587,0,2025-05-04T13:00:00Z,0,0,0,West Ham,615
 -48,NA,NA,,NA,True,NA,94,NA
@@ -34853,7 +34853,7 @@ Tom Heaton,374,0,2025-05-04T13:00:00Z,0,0,0,Man Utd,434
 33,NA,NA,,NA,False,NA,341,NA
 Lucas Bergvall,481,0,2025-05-04T13:00:00Z,0,0,0,Spurs,586
 -3865,NA,NA,,NA,False,NA,4234,NA
-Lesley Ugochukwu,188,1,2025-05-03T14:00:00Z,0,0,78,Southampton,NA
+Lesley Ugochukwu,188,1,2025-05-03T14:00:00Z,0,0,78,Southampton,676
 1437,NA,NA,,NA,False,NA,945,NA
 Charlie Tasker,791,0,2025-05-04T13:00:00Z,0,0,0,Brighton,156
 -10,NA,NA,,NA,True,NA,18,NA
@@ -35149,7 +35149,7 @@ Jonathan Panzo,441,0,2025-05-05T19:00:00Z,0,0,0,Nott'm Forest,NA
 0,NA,NA,,NA,False,NA,0,NA
 Nico O'Reilly,607,1,2025-05-02T19:00:00Z,0,0,57,Man City,411
 18016,NA,NA,,NA,True,NA,1715,NA
-Aaron Ramsdale,14,1,2025-05-03T14:00:00Z,0,0,90,Southampton,NA
+Aaron Ramsdale,14,1,2025-05-03T14:00:00Z,0,0,90,Southampton,674
 4977,NA,NA,,NA,False,NA,3560,NA
 Moussa Diaby,34,0,2025-05-03T11:30:00Z,0,0,0,Aston Villa,NA
 -1,NA,NA,,NA,True,NA,1,NA
@@ -36381,7 +36381,7 @@ Billy Gilmour,124,0,2025-05-10T14:00:00Z,0,0,0,Brighton,NA
 -2,NA,NA,,NA,False,NA,2,NA
 Rasmus Højlund,375,2,2025-05-11T13:15:00Z,0,0,90,Man Utd,465
 -520,NA,NA,,NA,True,NA,3155,NA
-Callum Wilson,421,1,2025-05-11T11:00:00Z,0,0,1,Newcastle,NA
+Callum Wilson,421,1,2025-05-11T11:00:00Z,0,0,1,Newcastle,671
 -1060,NA,NA,,NA,True,NA,1444,NA
 Crysencio Summerville,587,0,2025-05-11T13:15:00Z,0,0,0,West Ham,615
 -38,NA,NA,,NA,False,NA,76,NA
@@ -36455,7 +36455,7 @@ Tom Heaton,374,0,2025-05-11T13:15:00Z,0,0,0,Man Utd,434
 -158,NA,NA,,NA,True,NA,412,NA
 Lucas Bergvall,481,0,2025-05-11T13:15:00Z,0,0,0,Spurs,586
 -7184,NA,NA,,NA,True,NA,7224,NA
-Lesley Ugochukwu,188,0,2025-05-10T14:00:00Z,0,0,45,Southampton,NA
+Lesley Ugochukwu,188,0,2025-05-10T14:00:00Z,0,0,45,Southampton,676
 148,NA,NA,,NA,True,NA,1870,NA
 Charlie Tasker,791,0,2025-05-10T14:00:00Z,0,0,0,Brighton,156
 20,NA,NA,,NA,False,NA,9,NA
@@ -36751,7 +36751,7 @@ Jonathan Panzo,441,0,2025-05-11T13:15:00Z,0,0,0,Nott'm Forest,NA
 -1,NA,NA,,NA,True,NA,1,NA
 Nico O'Reilly,607,1,2025-05-10T14:00:00Z,0,0,14,Man City,411
 3207,NA,NA,,NA,False,NA,7344,NA
-Aaron Ramsdale,14,10,2025-05-10T14:00:00Z,0,0,90,Southampton,NA
+Aaron Ramsdale,14,10,2025-05-10T14:00:00Z,0,0,90,Southampton,674
 -4702,NA,NA,,NA,True,NA,7486,NA
 Moussa Diaby,34,0,2025-05-10T16:30:00Z,0,0,0,Aston Villa,NA
 -2,NA,NA,,NA,False,NA,2,NA
@@ -37983,7 +37983,7 @@ Billy Gilmour,124,0,2025-05-19T19:00:00Z,0,0,0,Brighton,NA
 -2,NA,NA,,NA,True,NA,2,NA
 Rasmus Højlund,375,2,2025-05-16T19:15:00Z,0,0,90,Man Utd,465
 -785,NA,NA,,NA,False,NA,2673,NA
-Callum Wilson,421,2,2025-05-18T15:30:00Z,0,0,63,Newcastle,NA
+Callum Wilson,421,2,2025-05-18T15:30:00Z,0,0,63,Newcastle,671
 -405,NA,NA,,NA,False,NA,706,NA
 Crysencio Summerville,587,0,2025-05-18T13:15:00Z,0,0,0,West Ham,615
 -46,NA,NA,,NA,True,NA,82,NA
@@ -38057,7 +38057,7 @@ Tom Heaton,374,0,2025-05-16T19:15:00Z,0,0,0,Man Utd,434
 -217,NA,NA,,NA,False,NA,359,NA
 Lucas Bergvall,481,0,2025-05-16T18:30:00Z,0,0,0,Spurs,586
 -3268,NA,NA,,NA,False,NA,3290,NA
-Lesley Ugochukwu,188,0,2025-05-18T11:00:00Z,0,0,0,Southampton,NA
+Lesley Ugochukwu,188,0,2025-05-18T11:00:00Z,0,0,0,Southampton,676
 -91,NA,NA,,NA,False,NA,1115,NA
 Charlie Tasker,791,0,2025-05-19T19:00:00Z,0,0,0,Brighton,156
 2,NA,NA,,NA,True,NA,11,NA
@@ -38353,7 +38353,7 @@ Jonathan Panzo,441,0,2025-05-18T13:15:00Z,0,0,0,Nott'm Forest,NA
 0,NA,NA,,NA,False,NA,0,NA
 Nico O'Reilly,607,0,2025-05-20T19:00:00Z,0,0,0,Man City,411
 -8167,NA,NA,,NA,True,NA,8865,NA
-Aaron Ramsdale,14,1,2025-05-18T11:00:00Z,0,0,90,Southampton,NA
+Aaron Ramsdale,14,1,2025-05-18T11:00:00Z,0,0,90,Southampton,674
 3965,NA,NA,,NA,False,NA,2203,NA
 Moussa Diaby,34,0,2025-05-16T18:30:00Z,0,0,0,Aston Villa,NA
 -2,NA,NA,,NA,True,NA,2,NA
@@ -39585,7 +39585,7 @@ Billy Gilmour,124,0,2025-05-25T15:00:00Z,0,0,0,Brighton,NA
 -2,NA,NA,,NA,False,NA,2,NA
 Rasmus Højlund,375,2,2025-05-25T15:00:00Z,0,0,80,Man Utd,465
 -255,NA,NA,,NA,True,NA,2794,NA
-Callum Wilson,421,1,2025-05-25T15:00:00Z,0,0,20,Newcastle,NA
+Callum Wilson,421,1,2025-05-25T15:00:00Z,0,0,20,Newcastle,671
 6758,NA,NA,,NA,True,NA,1012,NA
 Crysencio Summerville,587,0,2025-05-25T15:00:00Z,0,0,0,West Ham,615
 5,NA,NA,,NA,False,NA,103,NA
@@ -39659,7 +39659,7 @@ Tom Heaton,374,0,2025-05-25T15:00:00Z,0,0,0,Man Utd,434
 -237,NA,NA,,NA,True,NA,535,NA
 Lucas Bergvall,481,0,2025-05-25T15:00:00Z,0,0,0,Spurs,586
 -3374,NA,NA,,NA,True,NA,3446,NA
-Lesley Ugochukwu,188,2,2025-05-25T15:00:00Z,0,0,85,Southampton,NA
+Lesley Ugochukwu,188,2,2025-05-25T15:00:00Z,0,0,85,Southampton,676
 -1214,NA,NA,,NA,True,NA,1539,NA
 Charlie Tasker,791,0,2025-05-25T15:00:00Z,0,0,0,Brighton,156
 24,NA,NA,,NA,False,NA,14,NA
@@ -39957,7 +39957,7 @@ Jonathan Panzo,441,0,2025-05-25T15:00:00Z,0,0,0,Nott'm Forest,NA
 0,NA,NA,,NA,True,NA,0,NA
 Nico O'Reilly,607,0,2025-05-25T15:00:00Z,0,0,0,Man City,411
 -9106,NA,NA,,NA,False,NA,9491,NA
-Aaron Ramsdale,14,3,2025-05-25T15:00:00Z,0,0,90,Southampton,NA
+Aaron Ramsdale,14,3,2025-05-25T15:00:00Z,0,0,90,Southampton,674
 -6934,NA,NA,,NA,True,NA,8511,NA
 Moussa Diaby,34,0,2025-05-25T15:00:00Z,0,0,0,Aston Villa,NA
 -1,NA,NA,,NA,False,NA,1,NA
