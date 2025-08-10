@@ -39,7 +39,8 @@ champ_players_2025 <- read_csv("processed_data/champ_players_2025.csv")
 player_data <- fpl_elements |>
   select(
     first_name, second_name, web_name, id,
-    element_type, team_code, now_cost, minutes_fpl = minutes
+    element_type, team_code, now_cost, minutes_fpl = minutes,
+    play_chance = chance_of_playing_next_round
   ) |>
   left_join(team_name_finder, join_by(team_code == code))
 
@@ -140,6 +141,15 @@ player_data <- player_data |>
 ```
 
 -   Create an estimate of proportion of goals scored, and proportion of games played in for each player in each team
+-   Model different kinds of player scores by role:
+    -   Goalkeeper - played + clean sheets
+
+    -   Defender - played + clean sheets + goals + assists
+
+    -   Midfielder - played + clean sheets + goals + assists
+
+    -   Striker - played + goals + assists
+-   Prediction for each player score for upcoming games, including an exponential backoff weighting.
 
 ```{r}
 #| label: player-score-predict
@@ -252,24 +262,20 @@ player_data <- player_data |>
                           + 5*goals_predict_2026 + 3*assists_predict_2026,
       element_type == 4 ~ play_predict_2026  
                           + 4*goals_predict_2026 + 3*assists_predict_2026
-    )
+    ) * if_else(is.na(play_chance),1,play_chance/100)
   )
 
 player_data |>
   arrange(desc(predicted_2026_points))
     
-
-# ADD INJURIES / TRANSFERS
 ```
 
--   Model different kinds of player scores by role:
+-   Export data as CSV for team picker:
 
-    -   Goalkeeper - played + clean sheets
+```{r}
 
-    -   Defender - played + clean sheets + goals + assists
+#| label: export_player_points
 
-    -   Midfielder - played + clean sheets + goals + assists
+write_csv(player_data,"processed_data/player_data.csv")
 
-    -   Striker - played + goals + assists
-
--   Prediction for each player score for upcoming games, including an exponential backoff weighting.
+```

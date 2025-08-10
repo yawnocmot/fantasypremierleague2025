@@ -10,4 +10,92 @@ editor: visual
 
 ## Pick a team
 
+-   Import player data and set up packages
+
+```{r}
+
+#|label: import-points-predictions
+
+library(tidyverse)
+library(tidymodels)
+
+player_data <- read_csv("processed_data/player_data.csv")
+
+```
+
 -   Create and model algorithm for picking players to make up a 15
+-   Create a function to assess if a team is legitimate or not, its cost, and its likely score
+
+```{r}
+
+#| label: team-functions
+
+example_team <- player_data |> filter(
+  web_name %in% c(
+    "Pickford",
+    "Sels",
+    "Gvardiol",
+    "Murillo",
+    "Mings",
+    "Pinnock",
+    "Aina",
+    "M.Salah",
+    "Joelinton",
+    "Rogers",
+    "J.Murphy",
+    "Kluivert",
+    "Bowen",
+    "Wissa",
+    "Mateta"
+  )
+)
+  
+# Check if it's a legal team (not cost)
+
+team_checker <- function(team) {
+  is_15 <- nrow(team) == 15
+  is_2_GK <- nrow(team |> filter (element_type == 1)) == 2
+  is_5_DF <- nrow(team |> filter (element_type == 2)) == 5
+  is_5_MD <- nrow(team |> filter (element_type == 3)) == 5
+  is_3_FW <- nrow(team |> filter (element_type == 4)) == 3
+  teams_with_over_3 <- count(team, short_name, sort = TRUE) |>
+    filter(n > 3)
+  max_three_per_team <- nrow(teams_with_over_3) == 0
+  all(is_15, is_2_GK, is_5_DF, is_5_MD, is_3_FW, max_three_per_team)
+}
+
+team_checker(example_team)
+
+# Check cost
+
+team_cost <- function(team) {
+  team |> summarise(total = sum(now_cost, na.rm = TRUE)) |> pull(total)
+
+}
+
+team_cost(example_team)
+
+# Calculate team score
+
+team_score <- function(team) {
+  # Set out likely weights for play time (can optimise later)
+  weights <- tribble(
+    ~weight, 0.7, 0.3, 1, 1, 0.7, 0.7, 0.6, 1.5, 1.3, 1, 0.6, 0.4, 1.2, 0.6, 0.4
+  )
+  #organise to be in the right order for weighting
+  team|>
+    arrange(desc(predicted_2026_points)) |>
+    arrange(element_type) |>
+  # then weight according to likely play time and captaincy and sum
+    cbind(weights)|>
+    mutate(weighted_score = predicted_2026_points * weights) |>
+    summarise(total = sum(weighted_score))|>
+    pull()
+}
+
+team_score(example_team)
+```
+
+-   Eliminate dominated players
+-   Use a greedy algorithm with cost penalty and randomness to create seeds (first of all need a checker of is it not broken yet - dummy players with minimum costs, fake teams, and 0 score)
+-   Do some swaps to see if you can improve on the seeds (how best to?)
