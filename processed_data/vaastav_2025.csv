@@ -28,7 +28,7 @@ Hannibal Mejbri,373,1,2024-08-16T19:00:00Z,0,0,0,Man Utd,207
 Brandon Austin,479,1,2024-08-19T19:00:00Z,0,0,0,Spurs,566
 Conor Coady,288,1,2024-08-19T19:00:00Z,0,0,0,Leicester,NA
 Wes Foderingham,522,1,2024-08-17T16:30:00Z,0,0,0,West Ham,601
-Armando Broja,156,1,2024-08-18T15:30:00Z,0,0,0,Chelsea,NA
+Armando Broja,156,1,2024-08-18T15:30:00Z,0,0,0,Chelsea,680
 Adam Webster,147,1,2024-08-17T14:00:00Z,0,0,14,Brighton,153
 Thomas Partey,20,1,2024-08-17T14:00:00Z,0,0,90,Arsenal,NA
 Harry Wilson,259,1,2024-08-16T19:00:00Z,0,0,12,Fulham,329
@@ -129,7 +129,7 @@ Rico Henry,92,1,2024-08-18T13:00:00Z,0,0,0,Brentford,109
 Mateusz Lis,465,1,2024-08-17T14:00:00Z,0,0,0,Southampton,NA
 Yoane Wissa,110,1,2024-08-18T13:00:00Z,1,1,83,Brentford,135
 Daniel Iversen,294,1,2024-08-19T19:00:00Z,0,0,0,Leicester,NA
-Mads Hermansen,293,1,2024-08-19T19:00:00Z,0,0,90,Leicester,NA
+Mads Hermansen,293,1,2024-08-19T19:00:00Z,0,0,90,Leicester,679
 Rob Holding,202,1,2024-08-18T13:00:00Z,0,0,0,Crystal Palace,264
 Ismaïla Sarr,585,1,2024-08-18T13:00:00Z,0,0,6,Crystal Palace,267
 Jarrod Bowen,514,1,2024-08-17T16:30:00Z,0,0,72,West Ham,624
@@ -644,7 +644,7 @@ Hannibal Mejbri,373,2,2024-08-24T11:30:00Z,0,0,0,Man Utd,207
 Brandon Austin,479,2,2024-08-24T14:00:00Z,0,0,0,Spurs,566
 Conor Coady,288,2,2024-08-24T14:00:00Z,0,0,0,Leicester,NA
 Wes Foderingham,522,2,2024-08-24T14:00:00Z,0,0,0,West Ham,601
-Armando Broja,156,2,2024-08-25T13:00:00Z,0,0,0,Chelsea,NA
+Armando Broja,156,2,2024-08-25T13:00:00Z,0,0,0,Chelsea,680
 Adam Webster,147,2,2024-08-24T11:30:00Z,0,0,0,Brighton,153
 Thomas Partey,20,2,2024-08-24T16:30:00Z,1,0,90,Arsenal,NA
 Harry Wilson,259,2,2024-08-24T14:00:00Z,0,0,21,Fulham,329
@@ -746,7 +746,7 @@ Rico Henry,92,2,2024-08-25T15:30:00Z,0,0,0,Brentford,109
 Mateusz Lis,465,2,2024-08-24T14:00:00Z,0,0,0,Southampton,NA
 Yoane Wissa,110,2,2024-08-25T15:30:00Z,0,0,72,Brentford,135
 Daniel Iversen,294,2,2024-08-24T14:00:00Z,0,0,0,Leicester,NA
-Mads Hermansen,293,2,2024-08-24T14:00:00Z,0,0,90,Leicester,NA
+Mads Hermansen,293,2,2024-08-24T14:00:00Z,0,0,90,Leicester,679
 Rob Holding,202,2,2024-08-24T14:00:00Z,0,0,0,Crystal Palace,264
 Ismaïla Sarr,585,2,2024-08-24T14:00:00Z,0,0,19,Crystal Palace,267
 Jarrod Bowen,514,2,2024-08-24T14:00:00Z,1,0,90,West Ham,624
@@ -1271,7 +1271,7 @@ Hannibal Mejbri,373,3,2024-09-01T15:00:00Z,0,0,0,Man Utd,207
 Brandon Austin,479,3,2024-09-01T12:30:00Z,0,0,0,Spurs,566
 Conor Coady,288,3,2024-08-31T14:00:00Z,0,0,0,Leicester,NA
 Wes Foderingham,522,3,2024-08-31T16:30:00Z,0,0,0,West Ham,601
-Armando Broja,156,3,2024-08-31T14:00:00Z,0,0,0,Everton,NA
+Armando Broja,156,3,2024-08-31T14:00:00Z,0,0,0,Everton,680
 Adam Webster,147,3,2024-08-31T11:30:00Z,0,0,0,Brighton,153
 Thomas Partey,20,3,2024-08-31T11:30:00Z,0,0,90,Arsenal,NA
 Harry Wilson,259,3,2024-08-31T14:00:00Z,0,0,3,Fulham,329
@@ -1376,7 +1376,7 @@ Rico Henry,92,3,2024-08-31T14:00:00Z,0,0,0,Brentford,109
 Mateusz Lis,465,3,2024-08-31T14:00:00Z,0,0,0,Southampton,NA
 Yoane Wissa,110,3,2024-08-31T14:00:00Z,1,0,90,Brentford,135
 Daniel Iversen,294,3,2024-08-31T14:00:00Z,0,0,0,Leicester,NA
-Mads Hermansen,293,3,2024-08-31T14:00:00Z,0,0,90,Leicester,NA
+Mads Hermansen,293,3,2024-08-31T14:00:00Z,0,0,90,Leicester,679
 Rob Holding,202,3,2024-09-01T12:30:00Z,0,0,0,Crystal Palace,264
 Ismaïla Sarr,585,3,2024-09-01T12:30:00Z,0,0,21,Crystal Palace,267
 Jarrod Bowen,514,3,2024-08-31T16:30:00Z,0,1,85,West Ham,624
@@ -1919,7 +1919,7 @@ Hannibal Mejbri,373,4,2024-09-14T11:30:00Z,0,0,0,Man Utd,207
 Brandon Austin,479,4,2024-09-15T13:00:00Z,0,0,0,Spurs,566
 Conor Coady,288,4,2024-09-14T14:00:00Z,0,0,7,Leicester,NA
 Wes Foderingham,522,4,2024-09-14T14:00:00Z,0,0,0,West Ham,601
-Armando Broja,156,4,2024-09-14T16:30:00Z,0,0,0,Everton,NA
+Armando Broja,156,4,2024-09-14T16:30:00Z,0,0,0,Everton,680
 Adam Webster,147,4,2024-09-14T14:00:00Z,0,0,0,Brighton,153
 Thomas Partey,20,4,2024-09-15T13:00:00Z,0,0,90,Arsenal,NA
 Harry Wilson,259,4,2024-09-14T14:00:00Z,0,0,0,Fulham,329
@@ -2024,7 +2024,7 @@ Rico Henry,92,4,2024-09-14T14:00:00Z,0,0,0,Brentford,109
 Mateusz Lis,465,4,2024-09-14T11:30:00Z,0,0,0,Southampton,NA
 Yoane Wissa,110,4,2024-09-14T14:00:00Z,1,0,45,Brentford,135
 Daniel Iversen,294,4,2024-09-14T14:00:00Z,0,0,0,Leicester,NA
-Mads Hermansen,293,4,2024-09-14T14:00:00Z,0,0,90,Leicester,NA
+Mads Hermansen,293,4,2024-09-14T14:00:00Z,0,0,90,Leicester,679
 Rob Holding,202,4,2024-09-14T14:00:00Z,0,0,0,Crystal Palace,264
 Ismaïla Sarr,585,4,2024-09-14T14:00:00Z,0,1,9,Crystal Palace,267
 Jarrod Bowen,514,4,2024-09-14T14:00:00Z,0,1,90,West Ham,624
@@ -2578,7 +2578,7 @@ Hannibal Mejbri,373,5,2024-09-21T16:30:00Z,0,0,0,Man Utd,207
 Brandon Austin,479,5,2024-09-21T14:00:00Z,0,0,0,Spurs,566
 Conor Coady,288,5,2024-09-21T14:00:00Z,0,0,0,Leicester,NA
 Wes Foderingham,522,5,2024-09-21T11:30:00Z,0,0,0,West Ham,601
-Armando Broja,156,5,2024-09-21T14:00:00Z,0,0,0,Everton,NA
+Armando Broja,156,5,2024-09-21T14:00:00Z,0,0,0,Everton,680
 Adam Webster,147,5,2024-09-22T13:00:00Z,0,0,0,Brighton,153
 Thomas Partey,20,5,2024-09-22T15:30:00Z,0,0,90,Arsenal,NA
 Harry Wilson,259,5,2024-09-21T14:00:00Z,0,0,0,Fulham,329
@@ -2683,7 +2683,7 @@ Rico Henry,92,5,2024-09-21T14:00:00Z,0,0,0,Brentford,109
 Mateusz Lis,465,5,2024-09-21T14:00:00Z,0,0,0,Southampton,NA
 Yoane Wissa,110,5,2024-09-21T14:00:00Z,0,0,0,Brentford,135
 Daniel Iversen,294,5,2024-09-21T14:00:00Z,0,0,0,Leicester,NA
-Mads Hermansen,293,5,2024-09-21T14:00:00Z,0,0,90,Leicester,NA
+Mads Hermansen,293,5,2024-09-21T14:00:00Z,0,0,90,Leicester,679
 Rob Holding,202,5,2024-09-21T16:30:00Z,0,0,0,Crystal Palace,264
 Ismaïla Sarr,585,5,2024-09-21T16:30:00Z,0,0,45,Crystal Palace,267
 Jarrod Bowen,514,5,2024-09-21T11:30:00Z,0,0,90,West Ham,624
@@ -3239,7 +3239,7 @@ Hannibal Mejbri,373,6,2024-09-29T15:30:00Z,0,0,0,Man Utd,207
 Brandon Austin,479,6,2024-09-29T15:30:00Z,0,0,0,Spurs,566
 Conor Coady,288,6,2024-09-28T14:00:00Z,0,0,0,Leicester,NA
 Wes Foderingham,522,6,2024-09-28T14:00:00Z,0,0,0,West Ham,601
-Armando Broja,156,6,2024-09-28T14:00:00Z,0,0,0,Everton,NA
+Armando Broja,156,6,2024-09-28T14:00:00Z,0,0,0,Everton,680
 Adam Webster,147,6,2024-09-28T14:00:00Z,0,0,56,Brighton,153
 Thomas Partey,20,6,2024-09-28T14:00:00Z,0,0,84,Arsenal,NA
 Harry Wilson,259,6,2024-09-28T14:00:00Z,0,0,0,Fulham,329
@@ -3345,7 +3345,7 @@ Rico Henry,92,6,2024-09-28T14:00:00Z,0,0,0,Brentford,109
 Mateusz Lis,465,6,2024-09-30T19:00:00Z,0,0,0,Southampton,NA
 Yoane Wissa,110,6,2024-09-28T14:00:00Z,0,0,0,Brentford,135
 Daniel Iversen,294,6,2024-09-28T14:00:00Z,0,0,0,Leicester,NA
-Mads Hermansen,293,6,2024-09-28T14:00:00Z,0,0,90,Leicester,NA
+Mads Hermansen,293,6,2024-09-28T14:00:00Z,0,0,90,Leicester,679
 Rob Holding,202,6,2024-09-28T14:00:00Z,0,0,0,Crystal Palace,264
 Ismaïla Sarr,585,6,2024-09-28T14:00:00Z,0,0,28,Crystal Palace,267
 Jarrod Bowen,514,6,2024-09-28T14:00:00Z,0,0,90,West Ham,624
@@ -3903,7 +3903,7 @@ Hannibal Mejbri,373,7,2024-10-06T13:00:00Z,0,0,0,Man Utd,207
 Brandon Austin,479,7,2024-10-06T15:30:00Z,0,0,0,Spurs,566
 Conor Coady,288,7,2024-10-05T14:00:00Z,0,0,0,Leicester,NA
 Wes Foderingham,522,7,2024-10-05T14:00:00Z,0,0,0,West Ham,601
-Armando Broja,156,7,2024-10-05T16:30:00Z,0,0,0,Everton,NA
+Armando Broja,156,7,2024-10-05T16:30:00Z,0,0,0,Everton,680
 Adam Webster,147,7,2024-10-06T15:30:00Z,0,0,8,Brighton,153
 Thomas Partey,20,7,2024-10-05T14:00:00Z,0,0,83,Arsenal,NA
 Harry Wilson,259,7,2024-10-05T14:00:00Z,0,0,0,Fulham,329
@@ -4009,7 +4009,7 @@ Rico Henry,92,7,2024-10-05T14:00:00Z,0,0,0,Brentford,109
 Mateusz Lis,465,7,2024-10-05T14:00:00Z,0,0,0,Southampton,NA
 Yoane Wissa,110,7,2024-10-05T14:00:00Z,0,0,0,Brentford,135
 Daniel Iversen,294,7,2024-10-05T14:00:00Z,0,0,0,Leicester,NA
-Mads Hermansen,293,7,2024-10-05T14:00:00Z,0,0,90,Leicester,NA
+Mads Hermansen,293,7,2024-10-05T14:00:00Z,0,0,90,Leicester,679
 Rob Holding,202,7,2024-10-05T11:30:00Z,0,0,0,Crystal Palace,264
 Ismaïla Sarr,585,7,2024-10-05T11:30:00Z,0,0,90,Crystal Palace,267
 Jarrod Bowen,514,7,2024-10-05T14:00:00Z,1,1,90,West Ham,624
@@ -4569,7 +4569,7 @@ Hannibal Mejbri,373,8,2024-10-19T14:00:00Z,0,0,0,Man Utd,207
 Brandon Austin,479,8,2024-10-19T11:30:00Z,0,0,0,Spurs,566
 Conor Coady,288,8,2024-10-19T14:00:00Z,0,0,0,Leicester,NA
 Wes Foderingham,522,8,2024-10-19T11:30:00Z,0,0,0,West Ham,601
-Armando Broja,156,8,2024-10-19T14:15:00Z,0,0,0,Everton,NA
+Armando Broja,156,8,2024-10-19T14:15:00Z,0,0,0,Everton,680
 Adam Webster,147,8,2024-10-19T14:00:00Z,0,0,0,Brighton,153
 Thomas Partey,20,8,2024-10-19T16:30:00Z,0,0,90,Arsenal,NA
 Harry Wilson,259,8,2024-10-19T14:00:00Z,0,0,10,Fulham,329
@@ -4675,7 +4675,7 @@ Rico Henry,92,8,2024-10-19T14:00:00Z,0,0,0,Brentford,109
 Mateusz Lis,465,8,2024-10-19T14:00:00Z,0,0,0,Southampton,NA
 Yoane Wissa,110,8,2024-10-19T14:00:00Z,0,0,24,Brentford,135
 Daniel Iversen,294,8,2024-10-19T14:00:00Z,0,0,0,Leicester,NA
-Mads Hermansen,293,8,2024-10-19T14:00:00Z,0,0,90,Leicester,NA
+Mads Hermansen,293,8,2024-10-19T14:00:00Z,0,0,90,Leicester,679
 Rob Holding,202,8,2024-10-21T19:00:00Z,0,0,0,Crystal Palace,264
 Ismaïla Sarr,585,8,2024-10-21T19:00:00Z,0,0,16,Crystal Palace,267
 Jarrod Bowen,514,8,2024-10-19T11:30:00Z,0,0,90,West Ham,624
@@ -5237,7 +5237,7 @@ Hannibal Mejbri,373,9,2024-10-27T14:00:00Z,0,0,0,Man Utd,207
 Brandon Austin,479,9,2024-10-27T14:00:00Z,0,0,0,Spurs,566
 Conor Coady,288,9,2024-10-25T19:00:00Z,0,0,0,Leicester,NA
 Wes Foderingham,522,9,2024-10-27T14:00:00Z,0,0,0,West Ham,601
-Armando Broja,156,9,2024-10-26T16:30:00Z,0,0,0,Everton,NA
+Armando Broja,156,9,2024-10-26T16:30:00Z,0,0,0,Everton,680
 Adam Webster,147,9,2024-10-26T14:00:00Z,0,0,0,Brighton,153
 Thomas Partey,20,9,2024-10-27T16:30:00Z,0,0,90,Arsenal,NA
 Harry Wilson,259,9,2024-10-26T16:30:00Z,0,0,11,Fulham,329
@@ -5343,7 +5343,7 @@ Rico Henry,92,9,2024-10-26T14:00:00Z,0,0,0,Brentford,109
 Mateusz Lis,465,9,2024-10-26T14:00:00Z,0,0,0,Southampton,NA
 Yoane Wissa,110,9,2024-10-26T14:00:00Z,1,1,90,Brentford,135
 Daniel Iversen,294,9,2024-10-25T19:00:00Z,0,0,0,Leicester,NA
-Mads Hermansen,293,9,2024-10-25T19:00:00Z,0,0,90,Leicester,NA
+Mads Hermansen,293,9,2024-10-25T19:00:00Z,0,0,90,Leicester,679
 Rob Holding,202,9,2024-10-27T14:00:00Z,0,0,0,Crystal Palace,264
 Ismaïla Sarr,585,9,2024-10-27T14:00:00Z,0,0,66,Crystal Palace,267
 Jarrod Bowen,514,9,2024-10-27T14:00:00Z,1,0,90,West Ham,624
@@ -5907,7 +5907,7 @@ Hannibal Mejbri,373,10,2024-11-03T16:30:00Z,0,0,0,Man Utd,207
 Brandon Austin,479,10,2024-11-03T14:00:00Z,0,0,0,Spurs,566
 Conor Coady,288,10,2024-11-02T15:00:00Z,0,0,0,Leicester,NA
 Wes Foderingham,522,10,2024-11-02T15:00:00Z,0,0,0,West Ham,601
-Armando Broja,156,10,2024-11-02T15:00:00Z,0,0,0,Everton,NA
+Armando Broja,156,10,2024-11-02T15:00:00Z,0,0,0,Everton,680
 Adam Webster,147,10,2024-11-02T15:00:00Z,0,0,0,Brighton,153
 Thomas Partey,20,10,2024-11-02T12:30:00Z,0,0,85,Arsenal,NA
 Harry Wilson,259,10,2024-11-04T20:00:00Z,2,0,8,Fulham,329
@@ -6014,7 +6014,7 @@ Rico Henry,92,10,2024-11-04T20:00:00Z,0,0,0,Brentford,109
 Mateusz Lis,465,10,2024-11-02T15:00:00Z,0,0,0,Southampton,NA
 Yoane Wissa,110,10,2024-11-04T20:00:00Z,0,0,71,Brentford,135
 Daniel Iversen,294,10,2024-11-02T15:00:00Z,0,0,0,Leicester,NA
-Mads Hermansen,293,10,2024-11-02T15:00:00Z,0,0,90,Leicester,NA
+Mads Hermansen,293,10,2024-11-02T15:00:00Z,0,0,90,Leicester,679
 Rob Holding,202,10,2024-11-02T17:30:00Z,0,0,0,Crystal Palace,264
 Ismaïla Sarr,585,10,2024-11-02T17:30:00Z,0,0,89,Crystal Palace,267
 Jarrod Bowen,514,10,2024-11-02T15:00:00Z,0,0,90,West Ham,624
@@ -6581,7 +6581,7 @@ Hannibal Mejbri,373,11,2024-11-10T14:00:00Z,0,0,0,Man Utd,207
 Brandon Austin,479,11,2024-11-10T14:00:00Z,0,0,0,Spurs,566
 Conor Coady,288,11,2024-11-10T14:00:00Z,0,0,0,Leicester,NA
 Wes Foderingham,522,11,2024-11-09T15:00:00Z,0,0,0,West Ham,601
-Armando Broja,156,11,2024-11-09T15:00:00Z,0,0,0,Everton,NA
+Armando Broja,156,11,2024-11-09T15:00:00Z,0,0,0,Everton,680
 Adam Webster,147,11,2024-11-09T17:30:00Z,0,0,0,Brighton,153
 Thomas Partey,20,11,2024-11-10T16:30:00Z,0,0,90,Arsenal,NA
 Harry Wilson,259,11,2024-11-09T15:00:00Z,1,0,8,Fulham,329
@@ -6688,7 +6688,7 @@ Rico Henry,92,11,2024-11-09T15:00:00Z,0,0,0,Brentford,109
 Mateusz Lis,465,11,2024-11-09T15:00:00Z,0,0,0,Southampton,NA
 Yoane Wissa,110,11,2024-11-09T15:00:00Z,2,0,90,Brentford,135
 Daniel Iversen,294,11,2024-11-10T14:00:00Z,0,0,0,Leicester,NA
-Mads Hermansen,293,11,2024-11-10T14:00:00Z,0,0,90,Leicester,NA
+Mads Hermansen,293,11,2024-11-10T14:00:00Z,0,0,90,Leicester,679
 Rob Holding,202,11,2024-11-09T15:00:00Z,0,0,0,Crystal Palace,264
 Ismaïla Sarr,585,11,2024-11-09T15:00:00Z,0,0,87,Crystal Palace,267
 Jarrod Bowen,514,11,2024-11-09T15:00:00Z,0,0,90,West Ham,624
@@ -7259,7 +7259,7 @@ Hannibal Mejbri,373,12,2024-11-24T16:30:00Z,0,0,0,Man Utd,207
 Brandon Austin,479,12,2024-11-23T17:30:00Z,0,0,0,Spurs,566
 Conor Coady,288,12,2024-11-23T12:30:00Z,0,0,0,Leicester,NA
 Wes Foderingham,522,12,2024-11-25T20:00:00Z,0,0,0,West Ham,601
-Armando Broja,156,12,2024-11-23T15:00:00Z,0,0,0,Everton,NA
+Armando Broja,156,12,2024-11-23T15:00:00Z,0,0,0,Everton,680
 Adam Webster,147,12,2024-11-23T15:00:00Z,0,0,0,Brighton,153
 Thomas Partey,20,12,2024-11-23T15:00:00Z,1,0,45,Arsenal,NA
 Harry Wilson,259,12,2024-11-23T15:00:00Z,0,0,31,Fulham,329
@@ -7367,7 +7367,7 @@ Rico Henry,92,12,2024-11-23T15:00:00Z,0,0,0,Brentford,109
 Mateusz Lis,465,12,2024-11-24T14:00:00Z,0,0,0,Southampton,NA
 Yoane Wissa,110,12,2024-11-23T15:00:00Z,0,0,71,Brentford,135
 Daniel Iversen,294,12,2024-11-23T12:30:00Z,0,0,0,Leicester,NA
-Mads Hermansen,293,12,2024-11-23T12:30:00Z,0,0,90,Leicester,NA
+Mads Hermansen,293,12,2024-11-23T12:30:00Z,0,0,90,Leicester,679
 Rob Holding,202,12,2024-11-23T15:00:00Z,0,0,0,Crystal Palace,264
 Ismaïla Sarr,585,12,2024-11-23T15:00:00Z,1,1,89,Crystal Palace,267
 Jarrod Bowen,514,12,2024-11-25T20:00:00Z,0,1,90,West Ham,624
@@ -7943,7 +7943,7 @@ Hannibal Mejbri,373,13,2024-12-01T13:30:00Z,0,0,0,Man Utd,207
 Brandon Austin,479,13,2024-12-01T13:30:00Z,0,0,0,Spurs,566
 Conor Coady,288,13,2024-11-30T15:00:00Z,0,0,90,Leicester,NA
 Wes Foderingham,522,13,2024-11-30T17:30:00Z,0,0,0,West Ham,601
-Armando Broja,156,13,2024-12-01T13:30:00Z,0,0,0,Everton,NA
+Armando Broja,156,13,2024-12-01T13:30:00Z,0,0,0,Everton,680
 Adam Webster,147,13,2024-11-29T20:00:00Z,0,0,0,Brighton,153
 Thomas Partey,20,13,2024-11-30T17:30:00Z,0,0,0,Arsenal,NA
 Harry Wilson,259,13,2024-12-01T13:30:00Z,0,0,28,Fulham,329
@@ -8052,7 +8052,7 @@ Rico Henry,92,13,2024-11-30T15:00:00Z,0,0,0,Brentford,109
 Mateusz Lis,465,13,2024-11-29T20:00:00Z,0,0,0,Southampton,NA
 Yoane Wissa,110,13,2024-11-30T15:00:00Z,1,0,90,Brentford,135
 Daniel Iversen,294,13,2024-11-30T15:00:00Z,0,0,0,Leicester,NA
-Mads Hermansen,293,13,2024-11-30T15:00:00Z,0,0,90,Leicester,NA
+Mads Hermansen,293,13,2024-11-30T15:00:00Z,0,0,90,Leicester,679
 Rob Holding,202,13,2024-11-30T15:00:00Z,0,0,0,Crystal Palace,264
 Ismaïla Sarr,585,13,2024-11-30T15:00:00Z,0,0,90,Crystal Palace,267
 Jarrod Bowen,514,13,2024-11-30T17:30:00Z,0,0,90,West Ham,624
@@ -8633,7 +8633,7 @@ Hannibal Mejbri,373,14,2024-12-04T20:15:00Z,0,0,0,Man Utd,207
 Brandon Austin,479,14,2024-12-05T20:15:00Z,0,0,0,Spurs,566
 Conor Coady,288,14,2024-12-03T20:15:00Z,0,0,90,Leicester,NA
 Wes Foderingham,522,14,2024-12-03T20:15:00Z,0,0,0,West Ham,601
-Armando Broja,156,14,2024-12-04T19:30:00Z,0,0,7,Everton,NA
+Armando Broja,156,14,2024-12-04T19:30:00Z,0,0,7,Everton,680
 Adam Webster,147,14,2024-12-05T19:30:00Z,0,0,0,Brighton,153
 Thomas Partey,20,14,2024-12-04T20:15:00Z,0,1,90,Arsenal,NA
 Harry Wilson,259,14,2024-12-05T19:30:00Z,0,0,79,Fulham,329
@@ -8742,7 +8742,7 @@ Rico Henry,92,14,2024-12-04T20:15:00Z,0,0,0,Brentford,109
 Mateusz Lis,465,14,2024-12-04T19:30:00Z,0,0,0,Southampton,NA
 Yoane Wissa,110,14,2024-12-04T20:15:00Z,0,0,70,Brentford,135
 Daniel Iversen,294,14,2024-12-03T20:15:00Z,0,0,0,Leicester,NA
-Mads Hermansen,293,14,2024-12-03T20:15:00Z,0,0,90,Leicester,NA
+Mads Hermansen,293,14,2024-12-03T20:15:00Z,0,0,90,Leicester,679
 Rob Holding,202,14,2024-12-03T19:30:00Z,0,0,0,Crystal Palace,264
 Ismaïla Sarr,585,14,2024-12-03T19:30:00Z,0,0,89,Crystal Palace,267
 Jarrod Bowen,514,14,2024-12-03T20:15:00Z,0,0,90,West Ham,624
@@ -9425,7 +9425,7 @@ Rico Henry,92,15,2024-12-07T15:00:00Z,0,0,0,Brentford,109
 Mateusz Lis,465,15,2024-12-07T15:00:00Z,0,0,0,Southampton,NA
 Yoane Wissa,110,15,2024-12-07T15:00:00Z,1,0,86,Brentford,135
 Daniel Iversen,294,15,2024-12-08T14:00:00Z,0,0,0,Leicester,NA
-Mads Hermansen,293,15,2024-12-08T14:00:00Z,0,0,90,Leicester,NA
+Mads Hermansen,293,15,2024-12-08T14:00:00Z,0,0,90,Leicester,679
 Rob Holding,202,15,2024-12-07T15:00:00Z,0,0,0,Crystal Palace,264
 Ismaïla Sarr,585,15,2024-12-07T15:00:00Z,0,0,76,Crystal Palace,267
 Jarrod Bowen,514,15,2024-12-09T20:00:00Z,1,1,90,West Ham,624
@@ -9956,7 +9956,7 @@ Hannibal Mejbri,373,16,2024-12-15T16:30:00Z,0,0,0,Man Utd,207
 Brandon Austin,479,16,2024-12-15T19:00:00Z,0,0,0,Spurs,566
 Conor Coady,288,16,2024-12-14T15:00:00Z,0,0,90,Leicester,NA
 Wes Foderingham,522,16,2024-12-16T20:00:00Z,0,0,0,West Ham,601
-Armando Broja,156,16,2024-12-14T15:00:00Z,0,0,24,Everton,NA
+Armando Broja,156,16,2024-12-14T15:00:00Z,0,0,24,Everton,680
 Adam Webster,147,16,2024-12-15T14:00:00Z,0,0,0,Brighton,153
 Thomas Partey,20,16,2024-12-14T15:00:00Z,0,0,21,Arsenal,NA
 Harry Wilson,259,16,2024-12-14T15:00:00Z,0,0,86,Fulham,329
@@ -10066,7 +10066,7 @@ Rico Henry,92,16,2024-12-15T19:00:00Z,0,0,0,Brentford,109
 Mateusz Lis,465,16,2024-12-15T19:00:00Z,0,0,0,Southampton,NA
 Yoane Wissa,110,16,2024-12-15T19:00:00Z,0,0,75,Brentford,135
 Daniel Iversen,294,16,2024-12-14T15:00:00Z,0,0,0,Leicester,NA
-Mads Hermansen,293,16,2024-12-14T15:00:00Z,0,0,45,Leicester,NA
+Mads Hermansen,293,16,2024-12-14T15:00:00Z,0,0,45,Leicester,679
 Rob Holding,202,16,2024-12-15T14:00:00Z,0,0,0,Crystal Palace,264
 Ismaïla Sarr,585,16,2024-12-15T14:00:00Z,2,1,90,Crystal Palace,267
 Jarrod Bowen,514,16,2024-12-16T20:00:00Z,0,0,90,West Ham,624
@@ -10657,7 +10657,7 @@ Hannibal Mejbri,373,17,2024-12-22T14:00:00Z,0,0,0,Man Utd,207
 Brandon Austin,479,17,2024-12-22T16:30:00Z,0,0,0,Spurs,566
 Conor Coady,288,17,2024-12-22T14:00:00Z,0,0,90,Leicester,NA
 Wes Foderingham,522,17,2024-12-21T15:00:00Z,0,0,0,West Ham,601
-Armando Broja,156,17,2024-12-22T14:00:00Z,0,0,0,Everton,NA
+Armando Broja,156,17,2024-12-22T14:00:00Z,0,0,0,Everton,680
 Adam Webster,147,17,2024-12-21T15:00:00Z,0,0,0,Brighton,153
 Thomas Partey,20,17,2024-12-21T17:30:00Z,0,1,90,Arsenal,NA
 Harry Wilson,259,17,2024-12-22T14:00:00Z,0,0,86,Fulham,329
@@ -10767,7 +10767,7 @@ Rico Henry,92,17,2024-12-21T15:00:00Z,0,0,0,Brentford,109
 Mateusz Lis,465,17,2024-12-22T14:00:00Z,0,0,0,Southampton,NA
 Yoane Wissa,110,17,2024-12-21T15:00:00Z,0,0,90,Brentford,135
 Daniel Iversen,294,17,2024-12-22T14:00:00Z,0,0,0,Leicester,NA
-Mads Hermansen,293,17,2024-12-22T14:00:00Z,0,0,0,Leicester,NA
+Mads Hermansen,293,17,2024-12-22T14:00:00Z,0,0,0,Leicester,679
 Rob Holding,202,17,2024-12-21T17:30:00Z,0,0,0,Crystal Palace,264
 Ismaïla Sarr,585,17,2024-12-21T17:30:00Z,1,0,90,Crystal Palace,267
 Jarrod Bowen,514,17,2024-12-21T15:00:00Z,0,1,90,West Ham,624
@@ -11358,7 +11358,7 @@ Hannibal Mejbri,373,18,2024-12-26T17:30:00Z,0,0,0,Man Utd,207
 Brandon Austin,479,18,2024-12-26T15:00:00Z,0,0,0,Spurs,566
 Conor Coady,288,18,2024-12-26T20:00:00Z,0,0,90,Leicester,NA
 Wes Foderingham,522,18,2024-12-26T15:00:00Z,0,0,0,West Ham,601
-Armando Broja,156,18,2024-12-26T12:30:00Z,0,0,20,Everton,NA
+Armando Broja,156,18,2024-12-26T12:30:00Z,0,0,20,Everton,680
 Adam Webster,147,18,2024-12-27T19:30:00Z,0,0,0,Brighton,153
 Thomas Partey,20,18,2024-12-27T20:15:00Z,0,0,3,Arsenal,NA
 Harry Wilson,259,18,2024-12-26T15:00:00Z,1,0,23,Fulham,329
@@ -11468,7 +11468,7 @@ Rico Henry,92,18,2024-12-27T19:30:00Z,0,0,0,Brentford,109
 Mateusz Lis,465,18,2024-12-26T15:00:00Z,0,0,0,Southampton,NA
 Yoane Wissa,110,18,2024-12-27T19:30:00Z,0,0,90,Brentford,135
 Daniel Iversen,294,18,2024-12-26T20:00:00Z,0,0,0,Leicester,NA
-Mads Hermansen,293,18,2024-12-26T20:00:00Z,0,0,0,Leicester,NA
+Mads Hermansen,293,18,2024-12-26T20:00:00Z,0,0,0,Leicester,679
 Rob Holding,202,18,2024-12-26T15:00:00Z,0,0,0,Crystal Palace,264
 Ismaïla Sarr,585,18,2024-12-26T15:00:00Z,0,0,90,Crystal Palace,267
 Jarrod Bowen,514,18,2024-12-26T15:00:00Z,1,0,90,West Ham,624
@@ -12063,7 +12063,7 @@ Hannibal Mejbri,373,19,2024-12-30T20:00:00Z,0,0,0,Man Utd,207
 Brandon Austin,479,19,2024-12-29T15:00:00Z,0,0,0,Spurs,566
 Conor Coady,288,19,2024-12-29T14:30:00Z,0,0,84,Leicester,NA
 Wes Foderingham,522,19,2024-12-29T17:15:00Z,0,0,0,West Ham,601
-Armando Broja,156,19,2024-12-29T15:00:00Z,0,0,74,Everton,NA
+Armando Broja,156,19,2024-12-29T15:00:00Z,0,0,74,Everton,680
 Adam Webster,147,19,2024-12-30T19:45:00Z,0,0,0,Brighton,153
 Thomas Partey,20,19,2025-01-01T17:30:00Z,0,1,90,Arsenal,NA
 Harry Wilson,259,19,2024-12-29T15:00:00Z,1,0,77,Fulham,329
@@ -12173,7 +12173,7 @@ Rico Henry,92,19,2025-01-01T17:30:00Z,0,0,0,Brentford,109
 Mateusz Lis,465,19,2024-12-29T15:00:00Z,0,0,0,Southampton,NA
 Yoane Wissa,110,19,2025-01-01T17:30:00Z,0,0,74,Brentford,135
 Daniel Iversen,294,19,2024-12-29T14:30:00Z,0,0,0,Leicester,NA
-Mads Hermansen,293,19,2024-12-29T14:30:00Z,0,0,0,Leicester,NA
+Mads Hermansen,293,19,2024-12-29T14:30:00Z,0,0,0,Leicester,679
 Rob Holding,202,19,2024-12-29T15:00:00Z,0,0,0,Crystal Palace,264
 Ismaïla Sarr,585,19,2024-12-29T15:00:00Z,0,0,90,Crystal Palace,267
 Jarrod Bowen,514,19,2024-12-29T17:15:00Z,0,0,59,West Ham,624
@@ -12772,7 +12772,7 @@ Hannibal Mejbri,373,20,2025-01-05T16:30:00Z,0,0,0,Man Utd,207
 Brandon Austin,479,20,2025-01-04T12:30:00Z,0,0,90,Spurs,566
 Conor Coady,288,20,2025-01-04T15:00:00Z,0,0,81,Leicester,NA
 Wes Foderingham,522,20,2025-01-04T15:00:00Z,0,0,0,West Ham,601
-Armando Broja,156,20,2025-01-04T15:00:00Z,0,0,31,Everton,NA
+Armando Broja,156,20,2025-01-04T15:00:00Z,0,0,31,Everton,680
 Adam Webster,147,20,2025-01-04T17:30:00Z,0,0,24,Brighton,153
 Thomas Partey,20,20,2025-01-04T17:30:00Z,0,0,90,Arsenal,NA
 Harry Wilson,259,20,2025-01-05T14:00:00Z,0,1,90,Fulham,329
@@ -12883,7 +12883,7 @@ Rico Henry,92,20,2025-01-04T15:00:00Z,0,0,0,Brentford,109
 Mateusz Lis,465,20,2025-01-04T15:00:00Z,0,0,0,Southampton,NA
 Yoane Wissa,110,20,2025-01-04T15:00:00Z,1,1,90,Brentford,135
 Daniel Iversen,294,20,2025-01-04T15:00:00Z,0,0,0,Leicester,NA
-Mads Hermansen,293,20,2025-01-04T15:00:00Z,0,0,0,Leicester,NA
+Mads Hermansen,293,20,2025-01-04T15:00:00Z,0,0,0,Leicester,679
 Rob Holding,202,20,2025-01-04T15:00:00Z,0,0,0,Crystal Palace,264
 Ismaïla Sarr,585,20,2025-01-04T15:00:00Z,0,0,90,Crystal Palace,267
 Jarrod Bowen,514,20,2025-01-04T15:00:00Z,0,0,0,West Ham,624
@@ -13485,7 +13485,7 @@ Hannibal Mejbri,373,21,2025-01-16T20:00:00Z,0,0,0,Man Utd,207
 Brandon Austin,479,21,2025-01-15T20:00:00Z,0,0,0,Spurs,566
 Conor Coady,288,21,2025-01-15T19:30:00Z,0,0,0,Leicester,NA
 Wes Foderingham,522,21,2025-01-14T19:30:00Z,0,0,0,West Ham,601
-Armando Broja,156,21,2025-01-15T19:30:00Z,0,0,0,Everton,NA
+Armando Broja,156,21,2025-01-15T19:30:00Z,0,0,0,Everton,680
 Adam Webster,147,21,2025-01-16T19:30:00Z,0,0,62,Brighton,153
 Thomas Partey,20,21,2025-01-15T20:00:00Z,0,0,90,Arsenal,NA
 Harry Wilson,259,21,2025-01-14T19:30:00Z,0,0,84,Fulham,329
@@ -13596,7 +13596,7 @@ Rico Henry,92,21,2025-01-14T19:30:00Z,0,0,3,Brentford,109
 Mateusz Lis,465,21,2025-01-16T20:00:00Z,0,0,0,Southampton,NA
 Yoane Wissa,110,21,2025-01-14T19:30:00Z,1,0,90,Brentford,135
 Daniel Iversen,294,21,2025-01-15T19:30:00Z,0,0,0,Leicester,NA
-Mads Hermansen,293,21,2025-01-15T19:30:00Z,0,0,0,Leicester,NA
+Mads Hermansen,293,21,2025-01-15T19:30:00Z,0,0,0,Leicester,679
 Rob Holding,202,21,2025-01-15T19:30:00Z,0,0,0,Crystal Palace,264
 Ismaïla Sarr,585,21,2025-01-15T19:30:00Z,0,1,90,Crystal Palace,267
 Jarrod Bowen,514,21,2025-01-14T19:30:00Z,0,0,0,West Ham,624
@@ -14241,7 +14241,7 @@ Conor Coady,288,0,2025-01-18T15:00:00Z,0,0,0,Leicester,NA
 -1065,NA,NA,,NA,True,NA,1924,NA
 Wes Foderingham,522,0,2025-01-18T15:00:00Z,0,0,0,West Ham,601
 -109,NA,NA,,NA,True,NA,332,NA
-Armando Broja,156,0,2025-01-19T14:00:00Z,0,0,0,Everton,NA
+Armando Broja,156,0,2025-01-19T14:00:00Z,0,0,0,Everton,680
 -358,NA,NA,,NA,True,NA,409,NA
 Adam Webster,147,0,2025-01-19T14:00:00Z,0,0,0,Brighton,153
 304,NA,NA,,NA,False,NA,120,NA
@@ -14465,7 +14465,7 @@ Yoane Wissa,110,2,2025-01-18T15:00:00Z,0,0,90,Brentford,135
 29064,NA,NA,,NA,True,NA,85212,NA
 Daniel Iversen,294,0,2025-01-18T15:00:00Z,0,0,0,Leicester,NA
 -1007,NA,NA,,NA,True,NA,2219,NA
-Mads Hermansen,293,0,2025-01-18T15:00:00Z,0,0,0,Leicester,NA
+Mads Hermansen,293,0,2025-01-18T15:00:00Z,0,0,0,Leicester,679
 -2410,NA,NA,,NA,True,NA,2755,NA
 Rob Holding,202,0,2025-01-18T15:00:00Z,0,0,0,Crystal Palace,264
 9,NA,NA,,NA,False,NA,117,NA
@@ -15701,7 +15701,7 @@ Conor Coady,288,1,2025-01-26T14:00:00Z,0,0,3,Leicester,NA
 -1960,NA,NA,,NA,False,NA,2588,NA
 Wes Foderingham,522,0,2025-01-26T16:30:00Z,0,0,0,West Ham,601
 -294,NA,NA,,NA,False,NA,433,NA
-Armando Broja,156,0,2025-01-25T15:00:00Z,0,0,0,Everton,NA
+Armando Broja,156,0,2025-01-25T15:00:00Z,0,0,0,Everton,680
 -370,NA,NA,,NA,False,NA,414,NA
 Adam Webster,147,1,2025-01-25T15:00:00Z,0,0,1,Brighton,153
 121,NA,NA,,NA,True,NA,189,NA
@@ -15929,7 +15929,7 @@ Yoane Wissa,110,2,2025-01-26T14:00:00Z,0,0,90,Brentford,135
 93130,NA,NA,,NA,False,NA,97380,NA
 Daniel Iversen,294,0,2025-01-26T14:00:00Z,0,0,0,Leicester,NA
 -1542,NA,NA,,NA,False,NA,2592,NA
-Mads Hermansen,293,0,2025-01-26T14:00:00Z,0,0,0,Leicester,NA
+Mads Hermansen,293,0,2025-01-26T14:00:00Z,0,0,0,Leicester,679
 -2996,NA,NA,,NA,False,NA,3099,NA
 Rob Holding,202,0,2025-01-26T14:00:00Z,0,0,0,Crystal Palace,264
 -26,NA,NA,,NA,True,NA,166,NA
@@ -17215,9 +17215,9 @@ Conor Coady,288,0,2025-02-01T15:00:00Z,0,0,0,Leicester,NA
 -995,NA,NA,,NA,False,NA,1784,NA
 Wes Foderingham,522,0,2025-02-03T20:00:00Z,0,0,0,West Ham,601
 -148,NA,NA,,NA,False,NA,274,NA
-Armando Broja,156,0,2025-02-01T15:00:00Z,0,0,0,Everton,NA
+Armando Broja,156,0,2025-02-01T15:00:00Z,0,0,0,Everton,680
 -210,NA,NA,,NA,True,NA,235,NA
-Armando Broja,156,0,2025-02-12T19:30:00Z,0,0,0,Everton,NA
+Armando Broja,156,0,2025-02-12T19:30:00Z,0,0,0,Everton,680
 -210,NA,NA,,NA,True,NA,235,NA
 Adam Webster,147,0,2025-02-01T12:30:00Z,0,0,0,Brighton,153
 48,NA,NA,,NA,False,NA,172,NA
@@ -17461,7 +17461,7 @@ Yoane Wissa,110,2,2025-02-02T14:00:00Z,0,0,90,Brentford,135
 26744,NA,NA,,NA,True,NA,153231,NA
 Daniel Iversen,294,0,2025-02-01T15:00:00Z,0,0,0,Leicester,NA
 -956,NA,NA,,NA,False,NA,2029,NA
-Mads Hermansen,293,1,2025-02-01T15:00:00Z,0,0,90,Leicester,NA
+Mads Hermansen,293,1,2025-02-01T15:00:00Z,0,0,90,Leicester,679
 -1636,NA,NA,,NA,False,NA,1918,NA
 Rob Holding,202,0,2025-02-02T14:00:00Z,0,0,0,Crystal Palace,264
 -14,NA,NA,,NA,False,NA,151,NA
@@ -18879,7 +18879,7 @@ Conor Coady,288,0,2025-02-15T12:30:00Z,0,0,0,Leicester,NA
 -1011,NA,NA,,NA,True,NA,1653,NA
 Wes Foderingham,522,0,2025-02-15T15:00:00Z,0,0,0,West Ham,601
 -98,NA,NA,,NA,True,NA,275,NA
-Armando Broja,156,0,2025-02-15T17:30:00Z,0,0,0,Everton,NA
+Armando Broja,156,0,2025-02-15T17:30:00Z,0,0,0,Everton,680
 -139,NA,NA,,NA,False,NA,183,NA
 Adam Webster,147,6,2025-02-14T20:00:00Z,0,0,90,Brighton,153
 73,NA,NA,,NA,True,NA,217,NA
@@ -19133,7 +19133,7 @@ Daniel Iversen,294,0,2025-02-15T12:30:00Z,0,0,0,Leicester,NA
 -771,NA,NA,,NA,True,NA,1614,NA
 Kevin Danso,767,6,2025-02-16T16:30:00Z,0,0,77,Spurs,570
 875,NA,NA,,NA,True,NA,78,NA
-Mads Hermansen,293,2,2025-02-15T12:30:00Z,0,0,90,Leicester,NA
+Mads Hermansen,293,2,2025-02-15T12:30:00Z,0,0,90,Leicester,679
 1141,NA,NA,,NA,True,NA,817,NA
 Rob Holding,202,0,2025-02-15T17:30:00Z,0,0,0,Crystal Palace,264
 -380,NA,NA,,NA,True,NA,443,NA
@@ -20591,7 +20591,7 @@ Conor Coady,288,1,2025-02-21T20:00:00Z,0,0,7,Leicester,NA
 -687,NA,NA,,NA,True,NA,1181,NA
 Wes Foderingham,522,0,2025-02-22T15:00:00Z,0,0,0,West Ham,601
 20,NA,NA,,NA,False,NA,171,NA
-Armando Broja,156,0,2025-02-22T12:30:00Z,0,0,0,Everton,NA
+Armando Broja,156,0,2025-02-22T12:30:00Z,0,0,0,Everton,680
 -67,NA,NA,,NA,True,NA,112,NA
 Adam Webster,147,6,2025-02-22T15:00:00Z,0,0,90,Brighton,153
 1694,NA,NA,,NA,False,NA,197,NA
@@ -20829,7 +20829,7 @@ Daniel Iversen,294,0,2025-02-21T20:00:00Z,0,0,0,Leicester,NA
 -1005,NA,NA,,NA,True,NA,1379,NA
 Kevin Danso,767,2,2025-02-22T15:00:00Z,0,0,90,Spurs,570
 4518,NA,NA,,NA,False,NA,658,NA
-Mads Hermansen,293,1,2025-02-21T20:00:00Z,0,0,90,Leicester,NA
+Mads Hermansen,293,1,2025-02-21T20:00:00Z,0,0,90,Leicester,679
 -925,NA,NA,,NA,True,NA,1643,NA
 Rob Holding,202,0,2025-02-22T15:00:00Z,0,0,0,Crystal Palace,264
 -280,NA,NA,,NA,False,NA,280,NA
@@ -22157,7 +22157,7 @@ Conor Coady,288,0,2025-02-27T20:00:00Z,0,0,0,Leicester,NA
 -504,NA,NA,,NA,False,NA,1157,NA
 Wes Foderingham,522,0,2025-02-27T20:00:00Z,0,0,0,West Ham,601
 -3,NA,NA,,NA,True,NA,255,NA
-Armando Broja,156,0,2025-02-26T19:30:00Z,0,0,0,Everton,NA
+Armando Broja,156,0,2025-02-26T19:30:00Z,0,0,0,Everton,680
 -66,NA,NA,,NA,False,NA,89,NA
 Adam Webster,147,2,2025-02-25T19:30:00Z,0,0,90,Brighton,153
 2694,NA,NA,,NA,True,NA,370,NA
@@ -22395,7 +22395,7 @@ Daniel Iversen,294,0,2025-02-27T20:00:00Z,0,0,0,Leicester,NA
 -947,NA,NA,,NA,False,NA,1355,NA
 Kevin Danso,767,2,2025-02-26T19:30:00Z,0,0,90,Spurs,570
 499,NA,NA,,NA,True,NA,833,NA
-Mads Hermansen,293,1,2025-02-27T20:00:00Z,0,0,90,Leicester,NA
+Mads Hermansen,293,1,2025-02-27T20:00:00Z,0,0,90,Leicester,679
 -358,NA,NA,,NA,False,NA,865,NA
 Rob Holding,202,0,2025-02-25T19:30:00Z,0,0,0,Crystal Palace,264
 -134,NA,NA,,NA,True,NA,134,NA
@@ -23725,7 +23725,7 @@ Conor Coady,288,2,2025-03-09T14:00:00Z,0,0,90,Leicester,NA
 -968,NA,NA,,NA,False,NA,1331,NA
 Wes Foderingham,522,0,2025-03-10T20:00:00Z,0,0,0,West Ham,601
 -123,NA,NA,,NA,True,NA,241,NA
-Armando Broja,156,0,2025-03-08T20:00:00Z,0,0,0,Everton,NA
+Armando Broja,156,0,2025-03-08T20:00:00Z,0,0,0,Everton,680
 -35,NA,NA,,NA,False,NA,65,NA
 Adam Webster,147,2,2025-03-08T15:00:00Z,0,0,90,Brighton,153
 2008,NA,NA,,NA,True,NA,1095,NA
@@ -23967,7 +23967,7 @@ Daniel Iversen,294,0,2025-03-09T14:00:00Z,0,0,0,Leicester,NA
 -945,NA,NA,,NA,False,NA,1464,NA
 Kevin Danso,767,1,2025-03-09T14:00:00Z,0,0,90,Spurs,570
 532,NA,NA,,NA,True,NA,741,NA
-Mads Hermansen,293,10,2025-03-09T14:00:00Z,0,0,90,Leicester,NA
+Mads Hermansen,293,10,2025-03-09T14:00:00Z,0,0,90,Leicester,679
 -488,NA,NA,,NA,False,NA,928,NA
 Rob Holding,202,0,2025-03-08T15:00:00Z,0,0,0,Crystal Palace,264
 -177,NA,NA,,NA,True,NA,177,NA
@@ -25293,7 +25293,7 @@ Conor Coady,288,1,2025-03-16T19:00:00Z,0,0,90,Leicester,NA
 -662,NA,NA,,NA,True,NA,1176,NA
 Wes Foderingham,522,0,2025-03-15T15:00:00Z,0,0,0,West Ham,601
 7,NA,NA,,NA,False,NA,171,NA
-Armando Broja,156,1,2025-03-15T15:00:00Z,0,0,10,Everton,NA
+Armando Broja,156,1,2025-03-15T15:00:00Z,0,0,10,Everton,680
 -13,NA,NA,,NA,True,NA,55,NA
 Adam Webster,147,1,2025-03-15T15:00:00Z,0,0,90,Brighton,153
 -113,NA,NA,,NA,False,NA,1361,NA
@@ -25499,7 +25499,7 @@ Daniel Iversen,294,0,2025-03-16T19:00:00Z,0,0,0,Leicester,NA
 -1367,NA,NA,,NA,True,NA,1829,NA
 Kevin Danso,767,0,2025-03-16T13:30:00Z,0,0,0,Spurs,570
 -1437,NA,NA,,NA,False,NA,1861,NA
-Mads Hermansen,293,1,2025-03-16T19:00:00Z,0,0,90,Leicester,NA
+Mads Hermansen,293,1,2025-03-16T19:00:00Z,0,0,90,Leicester,679
 944,NA,NA,,NA,True,NA,612,NA
 Jarrod Bowen,514,5,2025-03-15T15:00:00Z,0,1,90,West Ham,624
 162721,NA,NA,,NA,False,NA,32131,NA
@@ -26581,7 +26581,7 @@ Conor Coady,288,1,2025-04-02T18:45:00Z,0,0,90,Leicester,NA
 -836,NA,NA,,NA,False,NA,1578,NA
 Wes Foderingham,522,0,2025-04-01T18:45:00Z,0,0,0,West Ham,601
 -108,NA,NA,,NA,False,NA,223,NA
-Armando Broja,156,1,2025-04-02T19:00:00Z,0,0,11,Everton,NA
+Armando Broja,156,1,2025-04-02T19:00:00Z,0,0,11,Everton,680
 227,NA,NA,,NA,False,NA,64,NA
 Adam Webster,147,0,2025-04-02T18:45:00Z,0,0,0,Brighton,153
 -1275,NA,NA,,NA,True,NA,1886,NA
@@ -26825,7 +26825,7 @@ Daniel Iversen,294,0,2025-04-02T18:45:00Z,0,0,0,Leicester,NA
 -2755,NA,NA,,NA,False,NA,3884,NA
 Kevin Danso,767,0,2025-04-03T19:00:00Z,0,0,0,Spurs,570
 -1748,NA,NA,,NA,False,NA,1763,NA
-Mads Hermansen,293,2,2025-04-02T18:45:00Z,0,0,90,Leicester,NA
+Mads Hermansen,293,2,2025-04-02T18:45:00Z,0,0,90,Leicester,679
 721,NA,NA,,NA,False,NA,1573,NA
 Rob Holding,202,0,2025-04-02T18:45:00Z,0,0,0,Crystal Palace,264
 -69,NA,NA,,NA,False,NA,69,NA
@@ -28163,7 +28163,7 @@ Conor Coady,288,1,2025-04-07T19:00:00Z,0,0,90,Leicester,NA
 -527,NA,NA,,NA,True,NA,963,NA
 Wes Foderingham,522,0,2025-04-05T14:00:00Z,0,0,0,West Ham,601
 -23,NA,NA,,NA,True,NA,92,NA
-Armando Broja,156,1,2025-04-05T11:30:00Z,0,0,25,Everton,NA
+Armando Broja,156,1,2025-04-05T11:30:00Z,0,0,25,Everton,680
 137,NA,NA,,NA,True,NA,79,NA
 Adam Webster,147,0,2025-04-05T14:00:00Z,0,0,0,Brighton,153
 -1507,NA,NA,,NA,False,NA,1526,NA
@@ -28407,7 +28407,7 @@ Daniel Iversen,294,0,2025-04-07T19:00:00Z,0,0,0,Leicester,NA
 -1717,NA,NA,,NA,True,NA,2263,NA
 Kevin Danso,767,0,2025-04-06T13:00:00Z,0,0,0,Spurs,570
 -554,NA,NA,,NA,True,NA,565,NA
-Mads Hermansen,293,1,2025-04-07T19:00:00Z,0,0,90,Leicester,NA
+Mads Hermansen,293,1,2025-04-07T19:00:00Z,0,0,90,Leicester,679
 -805,NA,NA,,NA,True,NA,1725,NA
 Rob Holding,202,0,2025-04-05T14:00:00Z,0,0,0,Crystal Palace,264
 -44,NA,NA,,NA,True,NA,44,NA
@@ -29753,7 +29753,7 @@ Conor Coady,288,0,2025-04-12T14:00:00Z,0,0,90,Leicester,NA
 -213,NA,NA,,NA,False,NA,976,NA
 Wes Foderingham,522,0,2025-04-13T13:00:00Z,0,0,0,West Ham,601
 -105,NA,NA,,NA,False,NA,142,NA
-Armando Broja,156,2,2025-04-12T14:00:00Z,0,0,63,Everton,NA
+Armando Broja,156,2,2025-04-12T14:00:00Z,0,0,63,Everton,680
 82,NA,NA,,NA,False,NA,102,NA
 Adam Webster,147,0,2025-04-12T14:00:00Z,0,0,0,Brighton,153
 -1067,NA,NA,,NA,True,NA,1082,NA
@@ -30015,7 +30015,7 @@ Daniel Iversen,294,0,2025-04-12T14:00:00Z,0,0,0,Leicester,NA
 -876,NA,NA,,NA,False,NA,1541,NA
 Kevin Danso,767,0,2025-04-13T13:00:00Z,0,0,0,Spurs,570
 -466,NA,NA,,NA,False,NA,474,NA
-Mads Hermansen,293,1,2025-04-12T14:00:00Z,0,0,90,Leicester,NA
+Mads Hermansen,293,1,2025-04-12T14:00:00Z,0,0,90,Leicester,679
 809,NA,NA,,NA,False,NA,861,NA
 Rob Holding,202,0,2025-04-12T11:30:00Z,0,0,0,Crystal Palace,264
 -44,NA,NA,,NA,False,NA,44,NA
@@ -31495,7 +31495,7 @@ Conor Coady,288,2,2025-04-20T15:30:00Z,0,0,90,Leicester,NA
 -941,NA,NA,,NA,True,NA,1411,NA
 Wes Foderingham,522,0,2025-04-19T14:00:00Z,0,0,0,West Ham,601
 -17,NA,NA,,NA,True,NA,127,NA
-Armando Broja,156,2,2025-04-19T14:00:00Z,0,0,62,Everton,NA
+Armando Broja,156,2,2025-04-19T14:00:00Z,0,0,62,Everton,680
 245,NA,NA,,NA,True,NA,165,NA
 Adam Webster,147,0,2025-04-19T14:00:00Z,0,0,0,Brighton,153
 -647,NA,NA,,NA,False,NA,671,NA
@@ -31783,7 +31783,7 @@ Daniel Iversen,294,0,2025-04-20T15:30:00Z,0,0,0,Leicester,NA
 -1359,NA,NA,,NA,True,NA,1935,NA
 Kevin Danso,767,1,2025-04-21T19:00:00Z,0,0,45,Spurs,570
 -263,NA,NA,,NA,True,NA,299,NA
-Mads Hermansen,293,4,2025-04-20T15:30:00Z,0,0,90,Leicester,NA
+Mads Hermansen,293,4,2025-04-20T15:30:00Z,0,0,90,Leicester,679
 -1447,NA,NA,,NA,True,NA,1968,NA
 Rob Holding,202,0,2025-04-19T14:00:00Z,0,0,0,Crystal Palace,264
 -65,NA,NA,,NA,True,NA,65,NA
@@ -33383,7 +33383,7 @@ Conor Coady,288,1,2025-04-26T14:00:00Z,0,0,90,Leicester,NA
 -326,NA,NA,,NA,False,NA,828,NA
 Wes Foderingham,522,0,2025-04-26T14:00:00Z,0,0,0,West Ham,601
 -29,NA,NA,,NA,False,NA,118,NA
-Armando Broja,156,0,2025-04-26T11:30:00Z,0,0,0,Everton,NA
+Armando Broja,156,0,2025-04-26T11:30:00Z,0,0,0,Everton,680
 -206,NA,NA,,NA,False,NA,286,NA
 Adam Webster,147,0,2025-04-26T14:00:00Z,0,0,0,Brighton,153
 -406,NA,NA,,NA,True,NA,451,NA
@@ -33583,7 +33583,7 @@ Daniel Iversen,294,0,2025-04-26T14:00:00Z,0,0,0,Leicester,NA
 -1414,NA,NA,,NA,False,NA,1759,NA
 Kevin Danso,767,0,2025-04-27T15:30:00Z,0,0,90,Spurs,570
 -16,NA,NA,,NA,False,NA,90,NA
-Mads Hermansen,293,1,2025-04-26T14:00:00Z,0,0,90,Leicester,NA
+Mads Hermansen,293,1,2025-04-26T14:00:00Z,0,0,90,Leicester,679
 566,NA,NA,,NA,False,NA,897,NA
 Jarrod Bowen,514,10,2025-04-26T14:00:00Z,0,2,90,West Ham,624
 131224,NA,NA,,NA,False,NA,30812,NA
@@ -34683,7 +34683,7 @@ Conor Coady,288,8,2025-05-03T14:00:00Z,0,0,90,Leicester,NA
 1946,NA,NA,,NA,True,NA,623,NA
 Wes Foderingham,522,0,2025-05-04T13:00:00Z,0,0,0,West Ham,601
 -35,NA,NA,,NA,True,NA,95,NA
-Armando Broja,156,0,2025-05-03T14:00:00Z,0,0,0,Everton,NA
+Armando Broja,156,0,2025-05-03T14:00:00Z,0,0,0,Everton,680
 717,NA,NA,,NA,True,NA,162,NA
 Adam Webster,147,0,2025-05-04T13:00:00Z,0,0,0,Brighton,153
 -222,NA,NA,,NA,True,NA,230,NA
@@ -34927,7 +34927,7 @@ Daniel Iversen,294,0,2025-05-03T14:00:00Z,0,0,0,Leicester,NA
 -802,NA,NA,,NA,True,NA,1210,NA
 Kevin Danso,767,2,2025-05-04T13:00:00Z,0,0,90,Spurs,570
 11,NA,NA,,NA,False,NA,70,NA
-Mads Hermansen,293,0,2025-05-03T14:00:00Z,0,0,0,Leicester,NA
+Mads Hermansen,293,0,2025-05-03T14:00:00Z,0,0,0,Leicester,679
 -456,NA,NA,,NA,True,NA,2336,NA
 Rob Holding,202,0,2025-05-05T19:00:00Z,0,0,0,Crystal Palace,264
 -23,NA,NA,,NA,True,NA,23,NA
@@ -36285,7 +36285,7 @@ Conor Coady,288,7,2025-05-11T13:15:00Z,1,0,90,Leicester,NA
 65,NA,NA,,NA,False,NA,2099,NA
 Wes Foderingham,522,0,2025-05-11T13:15:00Z,0,0,0,West Ham,601
 -33,NA,NA,,NA,False,NA,85,NA
-Armando Broja,156,0,2025-05-10T14:00:00Z,0,0,0,Everton,NA
+Armando Broja,156,0,2025-05-10T14:00:00Z,0,0,0,Everton,680
 -295,NA,NA,,NA,False,NA,507,NA
 Adam Webster,147,8,2025-05-10T14:00:00Z,0,0,90,Brighton,153
 -70,NA,NA,,NA,False,NA,107,NA
@@ -36529,7 +36529,7 @@ Daniel Iversen,294,0,2025-05-11T13:15:00Z,0,0,0,Leicester,NA
 -1406,NA,NA,,NA,False,NA,1634,NA
 Kevin Danso,767,1,2025-05-11T13:15:00Z,0,0,90,Spurs,570
 154,NA,NA,,NA,True,NA,72,NA
-Mads Hermansen,293,0,2025-05-11T13:15:00Z,0,0,0,Leicester,NA
+Mads Hermansen,293,0,2025-05-11T13:15:00Z,0,0,0,Leicester,679
 -1746,NA,NA,,NA,False,NA,1852,NA
 Rob Holding,202,0,2025-05-11T13:15:00Z,0,0,0,Crystal Palace,264
 -21,NA,NA,,NA,False,NA,21,NA
@@ -37887,7 +37887,7 @@ Conor Coady,288,7,2025-05-18T14:00:00Z,0,0,90,Leicester,NA
 12924,NA,NA,,NA,True,NA,729,NA
 Wes Foderingham,522,0,2025-05-18T13:15:00Z,0,0,0,West Ham,601
 -9,NA,NA,,NA,True,NA,59,NA
-Armando Broja,156,0,2025-05-18T11:00:00Z,0,0,0,Everton,NA
+Armando Broja,156,0,2025-05-18T11:00:00Z,0,0,0,Everton,680
 173,NA,NA,,NA,True,NA,300,NA
 Adam Webster,147,0,2025-05-19T19:00:00Z,0,0,90,Brighton,153
 203,NA,NA,,NA,True,NA,69,NA
@@ -38131,7 +38131,7 @@ Daniel Iversen,294,0,2025-05-18T14:00:00Z,0,0,0,Leicester,NA
 -990,NA,NA,,NA,True,NA,1109,NA
 Kevin Danso,767,1,2025-05-16T18:30:00Z,0,0,90,Spurs,570
 -68,NA,NA,,NA,False,NA,146,NA
-Mads Hermansen,293,0,2025-05-18T14:00:00Z,0,0,0,Leicester,NA
+Mads Hermansen,293,0,2025-05-18T14:00:00Z,0,0,0,Leicester,679
 -697,NA,NA,,NA,True,NA,818,NA
 Rob Holding,202,0,2025-05-20T19:00:00Z,0,0,0,Crystal Palace,264
 -14,NA,NA,,NA,True,NA,14,NA
@@ -39489,7 +39489,7 @@ Conor Coady,288,0,2025-05-25T15:00:00Z,0,0,90,Leicester,NA
 4275,NA,NA,,NA,False,NA,5222,NA
 Wes Foderingham,522,0,2025-05-25T15:00:00Z,0,0,0,West Ham,601
 1,NA,NA,,NA,False,NA,105,NA
-Armando Broja,156,0,2025-05-25T15:00:00Z,0,0,0,Everton,NA
+Armando Broja,156,0,2025-05-25T15:00:00Z,0,0,0,Everton,680
 -130,NA,NA,,NA,False,NA,303,NA
 Adam Webster,147,5,2025-05-25T15:00:00Z,0,1,90,Brighton,153
 165,NA,NA,,NA,False,NA,140,NA
@@ -39735,7 +39735,7 @@ Daniel Iversen,294,0,2025-05-25T15:00:00Z,0,0,0,Leicester,NA
 -1294,NA,NA,,NA,False,NA,1650,NA
 Kevin Danso,767,0,2025-05-25T15:00:00Z,0,0,90,Spurs,570
 127,NA,NA,,NA,True,NA,117,NA
-Mads Hermansen,293,0,2025-05-25T15:00:00Z,0,0,0,Leicester,NA
+Mads Hermansen,293,0,2025-05-25T15:00:00Z,0,0,0,Leicester,679
 -680,NA,NA,,NA,False,NA,951,NA
 Rob Holding,202,0,2025-05-25T15:00:00Z,0,0,0,Crystal Palace,264
 -30,NA,NA,,NA,False,NA,30,NA

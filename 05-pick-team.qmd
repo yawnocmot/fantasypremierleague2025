@@ -97,5 +97,30 @@ team_score(example_team)
 ```
 
 -   Eliminate dominated players
--   Use a greedy algorithm with cost penalty and randomness to create seeds (first of all need a checker of is it not broken yet - dummy players with minimum costs, fake teams, and 0 score)
+-   Use a greedy algorithm with cost penalty (per element type?) and randomness to create seeds (first of all need a checker of is it not broken yet - dummy players with minimum costs, fake teams, and 0 score).
 -   Do some swaps to see if you can improve on the seeds (how best to?)
+
+```{r}
+
+#| label: eliminate-dominated-players
+
+# Calculate rank of whether players are the best for their cost in their category
+
+ranked_players <- player_data |>
+  group_by(element_type) |>
+  mutate(
+    dominance_rank = map2_int(predicted_2026_points, now_cost, ~ {
+      # compare against this group's rows with cost <= this row's cost
+      pool <- predicted_2026_points[now_cost <= .y]
+      1L + sum(pool > .x)   # rank 1 = best; use >= for min-rank ties
+    })
+  ) |>
+  ungroup() |>
+  relocate(dominance_rank)|>
+  arrange(dominance_rank) |>
+  filter(dominance_rank <=5)
+
+# For the algorithms, only want the top 5 ranks for each cost
+
+
+```
