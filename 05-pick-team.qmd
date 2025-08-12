@@ -66,6 +66,20 @@ team_checker <- function(team) {
 
 team_checker(example_team)
 
+# Also need a checker of if it's on the way to being a legal team:
+
+partial_team_checker <- function(team) {
+  is_15 <- nrow(team) <= 15
+  is_2_GK <- nrow(team |> filter (element_type == 1)) <= 2
+  is_5_DF <- nrow(team |> filter (element_type == 2)) <= 5
+  is_5_MD <- nrow(team |> filter (element_type == 3)) <= 5
+  is_3_FW <- nrow(team |> filter (element_type == 4)) <= 3
+  teams_with_over_3 <- count(team, short_name, sort = TRUE) |>
+    filter(n > 3)
+  max_three_per_team <- nrow(teams_with_over_3) == 0
+  all(is_15, is_2_GK, is_5_DF, is_5_MD, is_3_FW, max_three_per_team)
+}
+
 # Check cost
 
 team_cost <- function(team) {
@@ -97,7 +111,6 @@ team_score(example_team)
 ```
 
 -   Eliminate dominated players
--   Use a greedy algorithm with cost penalty (per element type?) and randomness to create seeds (first of all need a checker of is it not broken yet - dummy players with minimum costs, fake teams, and 0 score).
 -   Do some swaps to see if you can improve on the seeds (how best to?)
 
 ```{r}
@@ -107,7 +120,7 @@ team_score(example_team)
 # Calculate rank of whether players are the best for their cost in their category
 
 ranked_players <- player_data |>
-  group_by(element_type) |>
+  group_by(element_name) |>
   mutate(
     dominance_rank = map2_int(predicted_2026_points, now_cost, ~ {
       # compare against this group's rows with cost <= this row's cost
@@ -116,11 +129,151 @@ ranked_players <- player_data |>
     })
   ) |>
   ungroup() |>
-  relocate(dominance_rank)|>
+  relocate(dominance_rank, predicted_2026_points)|>
   arrange(dominance_rank) |>
   filter(dominance_rank <=5)
 
 # For the algorithms, only want the top 5 ranks for each cost
 
 
+```
+
+-   Use a greedy algorithm with cost penalty (per element type?) and randomness to create seeds (first of all need a checker of is it not broken yet - dummy players with minimum costs, fake teams, and 0 score).
+
+```{r}
+
+#| label: create-seeds
+
+# Set up cost parameters
+
+element_limits <- tribble(
+  ~.category, ~ .target,
+  "GK", 2, 
+  "DEF", 5,
+  "MID", 5,
+  "FWD", 3
+  )
+
+cost_penalty <- c(GK = 2, DEF = 5, MID = 5, FWD = 3)
+
+budget <- 1000
+
+greedy_seed_hard_capped <- function(
+  df,
+  budget,
+  id_col    = "id",
+  cat_col   = "element_name",
+  cost_col  = "now_cost",
+  score_col = "predicted_2026_points",
+  max_iter  = 40
+) {
+  # ---- Hard-coded category targets (EDIT THESE) ----
+  # Example FPL-style squad shape that sums to 15:
+  targets_tbl <- tribble(
+    ~.category, ~.target,
+    "GK",        2L,
+    "DEF",        5L,
+    "MID",        5L,
+    "FWD",        3L
+  )
+  # --------------------------------------------------
+
+  # Build working frame with standardized temp columns
+  X <- df %>%
+    transmute(
+      .id       = .data[[id_col]],
+      .category = as.character(.data[[cat_col]]),   # ensure character for joining
+      .cost     = as.numeric(.data[[cost_col]]),
+      .value    = as.numeric(.data[[score_col]])
+    )
+
+  # Check that all categories present in X exist in targets
+  miss <- setdiff(unique(X$.category), targets_tbl$.category)
+  if (length(miss)) {
+    stop("Missing targets for categories: ", paste(miss, collapse = ", "), call. = FALSE)
+  }
+
+  # Helper: given alpha, rank within each category and take the top N for that category
+  pick_with_alpha <- function(alpha) {
+    cand <- X %>%
+      mutate(
+        .key      = .value - alpha * .cost,
+        .tiebreak = .value / pmax(.cost, 1e-9)
+      ) %>%
+      arrange(.category, desc(.key), desc(.tiebreak), desc(.value), .cost) %>%
+      left_join(targets_tbl, by = join_by(.category))
+
+    # Slice per category using the joined .target (guaranteed scalar per group)
+    chosen <- cand %>%
+      group_by(.category) %>%
+      group_modify(~ dplyr::slice_head(.x, n = as.integer(.x$.target[1]))) %>%
+      ungroup()
+
+    list(
+      chosen      = chosen,
+      total_cost  = sum(chosen$.cost),
+      total_value = sum(chosen$.value)
+    )
+  }
+
+  # ---- Binary search on alpha to meet budget ----
+  alpha_lo  <- 0
+  alpha_hi  <- 10      # start; will expand if needed
+  best      <- NULL
+
+  # Ensure alpha_hi is tight enough to get under budget
+  for (k in 1:10) {
+    trial <- pick_with_alpha(alpha_hi)
+    best  <- trial
+    if (trial$total_cost <= budget) break
+    alpha_hi <- alpha_hi * 2
+  }
+
+  if (best$total_cost > budget) {
+    warning("Could not meet budget even with strong cost penalty; returning cheapest-by-penalty pick.")
+    return(list(
+      selection   = best$chosen %>% select(.id, .category, now_cost = .cost, score = .value),
+      total_cost  = best$total_cost,
+      total_value = best$total_value,
+      alpha_used  = alpha_hi,
+      by_category = best$chosen %>% count(.category, name = "picked_n") %>% arrange(.category)
+    ))
+  }
+
+  for (it in 1:max_iter) {
+    alpha_mid <- 0.5 * (alpha_lo + alpha_hi)
+    trial <- pick_with_alpha(alpha_mid)
+
+    if (trial$total_cost <= budget) {
+      best <- trial
+      alpha_hi <- alpha_mid
+    } else {
+      alpha_lo <- alpha_mid
+    }
+
+    if (abs(trial$total_cost - budget) <= 1e-6 || (alpha_hi - alpha_lo) < 1e-4) break
+  }
+  # ----------------------------------------------
+
+  # Return tidy outputs
+  list(
+    selection   = best$chosen %>% 
+      select(.id, .category, now_cost = .cost, score = .value) %>%
+      arrange(.category, desc(score)),
+    total_cost  = best$total_cost,
+    total_value = best$total_value,
+    alpha_used  = alpha_hi,
+    by_category = best$chosen %>% count(.category, name = "picked_n") %>% arrange(.category)
+  )
+}
+
+seed_1 <- greedy_seed_hard_capped(ranked_players,
+                                    budget
+                                  )
+
+seed_1$selection |> left_join(ranked_players|> select(id, web_name), by = join_by(.id == id))|> print(n=16)
+
+team_checker(seed_1$selection |> left_join(ranked_players, by = join_by(.id == id)))
+
+# This created a legal team but we got lucky with it - didn't check on the way through that it worked. Should come back and fix this to something I am happy with.
 ```

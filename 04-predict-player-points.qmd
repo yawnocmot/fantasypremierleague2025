@@ -42,7 +42,15 @@ player_data <- fpl_elements |>
     element_type, team_code, now_cost, minutes_fpl = minutes,
     play_chance = chance_of_playing_next_round
   ) |>
-  left_join(team_name_finder, join_by(team_code == code))
+  left_join(team_name_finder, join_by(team_code == code)) |>
+  mutate(element_name = case_when(
+    element_type == 1 ~ "GK",
+    element_type == 2 ~ "DEF",
+    element_type == 3 ~ "MID",
+    element_type == 4 ~ "FWD",
+    .default = NA
+    )
+  )
 
 # Create an exponential back-off summary for goals scored, assists, and minutes in Vaastav data
 
