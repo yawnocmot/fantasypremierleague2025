@@ -23,6 +23,7 @@ player_data <- read_csv("processed_data/player_data.csv")
 
 ```
 
+-   Only run this page when selecting a team - initially or as a wild-card. Put week-by-week changes into page 06.
 -   Create and model algorithm for picking players to make up a 15
 -   Create a function to assess if a team is legitimate or not, its cost, and its likely score
 
@@ -111,7 +112,6 @@ team_score(example_team)
 ```
 
 -   Eliminate dominated players
--   Do some swaps to see if you can improve on the seeds (how best to?)
 
 ```{r}
 
@@ -139,6 +139,7 @@ ranked_players <- player_data |>
 ```
 
 -   Use a greedy algorithm with cost penalty (per element type?) and randomness to create seeds (first of all need a checker of is it not broken yet - dummy players with minimum costs, fake teams, and 0 score).
+-   Do some swaps to see if you can improve on the seeds (how best to?)
 
 ```{r}
 
@@ -161,6 +162,8 @@ budget <- 1000
 greedy_seed_hard_capped <- function(
   df,
   budget,
+  n_runs = 5,
+  rng_seeds = NULL,
   id_col    = "id",
   cat_col   = "element_name",
   cost_col  = "now_cost",
@@ -193,53 +196,91 @@ greedy_seed_hard_capped <- function(
     stop("Missing targets for categories: ", paste(miss, collapse = ", "), call. = FALSE)
   }
 
+    # helper: run ONE jittered greedy seed
+  run_one_seed <- function(z_vec) {
   # Helper: given alpha, rank within each category and take the top N for that category
-  pick_with_alpha <- function(alpha) {
-    cand <- X %>%
-      mutate(
-        .key      = .value - alpha * .cost,
-        .tiebreak = .value / pmax(.cost, 1e-9)
-      ) %>%
-      arrange(.category, desc(.key), desc(.tiebreak), desc(.value), .cost) %>%
-      left_join(targets_tbl, by = join_by(.category))
+    pick_with_alpha <- function(alpha) {
+      base_key <- X$.value - alpha * X$.cost
+      sigma <- sd(base_key)
+      if (!is.finite(sigma) || sigma == 0) sigma <- 0
+      eps   <- rnorm(nrow(X), sd = 1e-6) 
+      key <- base_key + 0.3 * sigma * z_vec + eps  # jitter with sd = 0.2 * sd(key)
+      
+      cand <- X %>%
+        mutate(
+          .key      = key,
+          .tiebreak = .value / pmax(.cost, 1e-9)
+        ) %>%
+        arrange(.category, desc(.key), desc(.tiebreak), desc(.value), .cost) %>%
+        left_join(targets_tbl, by = join_by(.category))
+  
+      # Slice per category using the joined .target (guaranteed scalar per group)
+      M_factor <- 2L
+      chosen <- cand %>%
+        group_by(.category) %>%
+        group_modify(~ {
+    .x <- .x
+    t <- as.integer(.x$.target[1])            # required picks for this category
+    if (is.na(t) || t <= 0L) return(.x[0, ])  # nothing to pick
 
-    # Slice per category using the joined .target (guaranteed scalar per group)
-    chosen <- cand %>%
-      group_by(.category) %>%
-      group_modify(~ dplyr::slice_head(.x, n = as.integer(.x$.target[1]))) %>%
-      ungroup()
+    # frontier size: top M rows within this category
+    M <- min(nrow(.x), max(t, M_factor * t))
+    frontier <- .x[1:M, , drop = FALSE]
 
-    list(
-      chosen      = chosen,
-      total_cost  = sum(chosen$.cost),
-      total_value = sum(chosen$.value)
-    )
-  }
+    # compute softmax-like weights from .key
+    k <- frontier$.key
+    k[!is.finite(k)] <- min(k[is.finite(k)], na.rm = TRUE)
+    kmax <- max(k, na.rm = TRUE)
+    tau  <- sd(k, na.rm = TRUE)
+    if (!is.finite(tau) || tau <= 0) tau <- 1  # avoid divide-by-zero
 
-  # ---- Binary search on alpha to meet budget ----
-  alpha_lo  <- 0
-  alpha_hi  <- 10      # start; will expand if needed
-  best      <- NULL
+    w <- exp((k - kmax) / tau)
 
-  # Ensure alpha_hi is tight enough to get under budget
-  for (k in 1:10) {
-    trial <- pick_with_alpha(alpha_hi)
-    best  <- trial
-    if (trial$total_cost <= budget) break
-    alpha_hi <- alpha_hi * 2
-  }
+    # fallbacks if weights misbehave
+    if (any(!is.finite(w)) || any(is.na(w)) || all(w <= 0)) {
+      w <- rep(1, length(k))
+    }
 
-  if (best$total_cost > budget) {
-    warning("Could not meet budget even with strong cost penalty; returning cheapest-by-penalty pick.")
-    return(list(
-      selection   = best$chosen %>% select(.id, .category, now_cost = .cost, score = .value),
-      total_cost  = best$total_cost,
-      total_value = best$total_value,
-      alpha_used  = alpha_hi,
-      by_category = best$chosen %>% count(.category, name = "picked_n") %>% arrange(.category)
-    ))
-  }
+    # sample WITHOUT replacement using 'sample()', not sample.int()
+    idx <- sample(seq_len(nrow(frontier)), size = t, replace = FALSE, prob = w)
+    frontier[idx, , drop = FALSE]
+  }) %>%
+  ungroup()
+  
+      list(
+        chosen      = chosen,
+        total_cost  = sum(chosen$.cost),
+        total_value = sum(chosen$.value)
+      )
+    }
+  
+    # ---- Binary search on alpha to meet budget ----
+    alpha_lo  <- 0
+    alpha_hi  <- 10      # start; will expand if needed
+    best      <- NULL
+  
+    # Ensure alpha_hi is tight enough to get under budget
+    for (k in 1:10) {
+      trial <- pick_with_alpha(alpha_hi)
+      best  <- trial
+      if (trial$total_cost <= budget) break
+      alpha_hi <- alpha_hi * 2
+    }
+  
+    if (best$total_cost > budget) {
+      warning("Could not meet budget even with strong cost penalty; returning cheapest-by-penalty pick.")
+      return(list(
+        selection   = best$chosen %>% select(.id, .category, now_cost = .cost, score = .value),
+        total_cost  = best$total_cost,
+        total_value = best$total_value,
+        alpha_used  = alpha_hi,
+        by_category = best$chosen %>% count(.category, name = "picked_n") %>% arrange(.category)
+      ))
+    }
 
+  
+
+  
   for (it in 1:max_iter) {
     alpha_mid <- 0.5 * (alpha_lo + alpha_hi)
     trial <- pick_with_alpha(alpha_mid)
@@ -265,15 +306,364 @@ greedy_seed_hard_capped <- function(
     alpha_used  = alpha_hi,
     by_category = best$chosen %>% count(.category, name = "picked_n") %>% arrange(.category)
   )
+  }
+    # --- prepare jitter z-vectors for each run ---
+  if (is.null(rng_seeds)) {
+    z_list <- replicate(n_runs, rnorm(nrow(X)), simplify = FALSE)
+  } else {
+    stopifnot(length(rng_seeds) >= n_runs)
+    z_list <- map(seq_len(n_runs), ~ { set.seed(rng_seeds[.x]); rnorm(nrow(X)) })
+  }
+
+  # ---  run the greedy seed multiple times and store ---
+  seeds <- map(z_list, run_one_seed)
+  
+  summary <- tibble(
+    run         = seq_len(n_runs),
+    total_cost  = map_dbl(seeds, "total_cost"),
+    total_value = map_dbl(seeds, "total_value"),
+    alpha_used  = map_dbl(seeds, "alpha_used")
+  )
+  
+   #--- order seeds by total_value (descending) ---
+order_idx <- order(summary$total_value, decreasing = TRUE)
+seeds <- seeds[order_idx]
+summary <- summary[order_idx, ] %>%
+  mutate(run = seq_len(n())) 
+
+  list(seeds = seeds, summary = summary)
 }
 
-seed_1 <- greedy_seed_hard_capped(ranked_players,
-                                    budget
+
+
+seeds <- greedy_seed_hard_capped(ranked_players,
+                                    budget,
+                                 n=5
                                   )
+# Give the outcome of the best changes
+seeds$summary
 
-seed_1$selection |> left_join(ranked_players|> select(id, web_name), by = join_by(.id == id))|> print(n=16)
+# What is the best team emerging from the seeds, for info
+best_seed <- seeds$seeds[[1]]$selection |> left_join(ranked_players|> select(id, web_name), by = join_by(.id == id))|> print(n=16)
 
-team_checker(seed_1$selection |> left_join(ranked_players, by = join_by(.id == id)))
+worst_seed <- seeds$seeds[[50]]$selection |> left_join(ranked_players|> select(id, web_name), by = join_by(.id == id))|> print(n=16)
+
+#Is that team legal?
+team_checker(seeds$seeds[[1]]$selection |> left_join(ranked_players, by = join_by(.id == id)))
+
 
 # This created a legal team but we got lucky with it - didn't check on the way through that it worked. Should come back and fix this to something I am happy with.
 ```
+
+-   Pairwise swaps to improve from the seed
+
+```{r}
+
+#| label: swaps-to-improve
+
+# First of all a function that reveals the best pairwise swap for a given team
+
+
+best_pairwise_swap <- function(
+  df,        # full player table (ranked_players)
+  chosen,    # tibble of current picks (has .id)
+  budget,
+  cat_col   = "element_name",
+  cost_col  = "now_cost",
+  score_col = "predicted_2026_points"
+) {
+  # Extract chosen IDs from `.id` column in chosen
+  chosen_ids <- chosen$.id
+
+  # Build chosen / unchosen views from df
+  chosen_tbl <- df %>%
+    filter(id %in% chosen_ids) %>%
+    transmute(
+      out_id    = id,
+      category  = .data[[cat_col]],
+      out_cost  = .data[[cost_col]],
+      out_score = .data[[score_col]]
+    )
+
+  unchosen_tbl <- df %>%
+    filter(!(id %in% chosen_ids)) %>%
+    transmute(
+      in_id    = id,
+      category = .data[[cat_col]],
+      in_cost  = .data[[cost_col]],
+      in_score = .data[[score_col]]
+    )
+
+  # Current totals
+  current_cost  <- sum(chosen_tbl$out_cost, na.rm = TRUE)
+  current_score <- sum(chosen_tbl$out_score, na.rm = TRUE)
+  leftover      <- budget - current_cost
+
+  # Join within same category; look for feasible improving swaps
+  cand_pairs <- inner_join(chosen_tbl, unchosen_tbl, by = "category") %>%
+    mutate(
+      delta_cost  = in_cost  - out_cost,
+      delta_score = in_score - out_score,
+      feasible    = (delta_cost <= leftover)
+    ) %>%
+    filter(feasible, delta_score > 0)
+
+  if (nrow(cand_pairs) == 0) return(NULL)
+
+  # Pick best swap: highest score gain, then lowest extra cost, then best incoming score
+  best <- cand_pairs %>%
+    arrange(desc(delta_score), delta_cost, desc(in_score)) %>%
+    slice(1)
+
+  list(
+    out_id          = best$out_id,
+    in_id           = best$in_id,
+    delta_score     = as.numeric(best$delta_score),
+    delta_cost      = as.numeric(best$delta_cost),
+    new_total_cost  = as.numeric(current_cost + best$delta_cost),
+    new_total_score = as.numeric(current_score + best$delta_score)
+  )
+}
+
+
+# Where the team is pairwise optimal, it returns NULL. Where there is a swap that works it returns the best swap.
+
+
+
+# Next try a function to implement random swaps for a certain number of steps.
+
+library(dplyr)
+
+stochastic_local_search <- function(
+  ranked_players,   # full pool
+  team,             # tibble with .id for current picks
+  budget,
+  n_steps   = 400,
+  cat_col   = "element_name",
+  cost_col  = "now_cost",
+  score_col = "predicted_2026_points",
+  tabu_len  = 2,      # small tabu to reduce back-and-forth during anneal
+  pick_bias = 0.6     # bias to choose a lower-scoring 'out' player
+) {
+  # --- Prepare pool ---
+  pool <- ranked_players %>%
+    transmute(
+      id    = .data[["id"]],
+      cat   = .data[[cat_col]],
+      cost  = .data[[cost_col]],
+      score = .data[[score_col]]
+    )
+  idx_by_cat <- split(seq_len(nrow(pool)), pool$cat)
+
+  # Current team state
+  team_ids <- as.vector(team$.id)
+  cur_cost  <- sum(pool$cost[match(team_ids, pool$id)])
+  cur_score <- sum(pool$score[match(team_ids, pool$id)])
+  if (cur_cost > budget) stop("Initial team exceeds budget.", call. = FALSE)
+
+  # Best-so-far snapshot
+  best_ids   <- team_ids
+  best_cost  <- cur_cost
+  best_score <- cur_score
+
+  # Simple tabu memory (by id) during anneal
+  tabu_queue <- character(0)
+
+  # --- helpers ---
+  feasible_swaps_for <- function(out_id, current_ids = team_ids, current_cost = cur_cost) {
+    r <- pool[pool$id == out_id, ]
+    leftover <- budget - current_cost
+    cand_idx <- setdiff(idx_by_cat[[as.character(r$cat)]], match(current_ids, pool$id))
+    if (length(cand_idx) == 0) return(NULL)
+
+    tibble(
+      in_id       = pool$id[cand_idx],
+      in_cost     = pool$cost[cand_idx],
+      in_score    = pool$score[cand_idx],
+      delta_cost  = pool$cost[cand_idx]  - r$cost,
+      delta_score = pool$score[cand_idx] - r$score
+    ) %>%
+      filter(delta_cost <= leftover)
+  }
+
+  pick_out <- function(current_ids = team_ids) {
+    team_rows <- pool[match(current_ids, pool$id), ]
+    if (runif(1) < pick_bias) {
+      ord <- order(team_rows$score, decreasing = FALSE)
+      pick_set <- team_rows$id[ord[seq_len(max(1, length(ord) %/% 2))]]
+      sample(pick_set, 1)
+    } else {
+      sample(current_ids, 1)
+    }
+  }
+
+  # Cooling schedule (simulated annealing)
+  T0 <- max(1, sd(pool$score, na.rm = TRUE))
+  temp <- function(step) T0 * (1 - (step - 1) / max(1, n_steps))
+
+  # --- main annealing loop ---
+  for (i in seq_len(n_steps)) {
+    out_id <- pick_out()
+    fs <- feasible_swaps_for(out_id) %>%
+      filter(!(in_id %in% tabu_queue))
+
+    if (!is.null(fs) && nrow(fs)) {
+      # best improving swap first
+      improving <- fs %>%
+        filter(delta_score > 0) %>%
+        arrange(desc(delta_score), delta_cost, desc(in_score)) %>%
+        slice_head(n = 1)
+
+      if (nrow(improving)) {
+        in_id <- improving$in_id
+        team_ids <- c(setdiff(team_ids, out_id), in_id)
+        cur_cost  <- cur_cost  + improving$delta_cost
+        cur_score <- cur_score + improving$delta_score
+
+        tabu_queue <- c(tabu_queue, out_id, in_id)
+        if (length(tabu_queue) > 2 * tabu_len) tabu_queue <- tail(tabu_queue, 2 * tabu_len)
+
+      } else {
+        # least-damaging feasible swap; accept with Metropolis prob
+        candidate <- fs %>% arrange(delta_score, delta_cost) %>% slice_head(n = 1)
+        dS <- candidate$delta_score
+        T  <- temp(i)
+        if (!is.na(dS) && runif(1) < exp(dS / max(1e-9, T))) {
+          in_id <- candidate$in_id
+          team_ids <- c(setdiff(team_ids, out_id), in_id)
+          cur_cost  <- cur_cost  + candidate$delta_cost
+          cur_score <- cur_score + candidate$delta_score
+
+          tabu_queue <- c(tabu_queue, out_id, in_id)
+          if (length(tabu_queue) > 2 * tabu_len) tabu_queue <- tail(tabu_queue, 2 * tabu_len)
+        }
+      }
+
+      # update best-so-far
+      if (cur_score > best_score && cur_cost <= budget) {
+        best_ids   <- team_ids
+        best_cost  <- cur_cost
+        best_score <- cur_score
+      }
+    }
+  }
+
+  # --- FINAL HILL-CLIMB PASS (one sweep) ---
+  # Start from best-so-far, iterate once through each position and apply the best improving swap if any.
+  team_ids <- best_ids
+  cur_cost  <- best_cost
+  cur_score <- best_score
+
+  for (out_id in team_ids) {
+    fs <- feasible_swaps_for(out_id, current_ids = team_ids, current_cost = cur_cost)
+    if (!is.null(fs) && nrow(fs)) {
+      improving <- fs %>%
+        filter(delta_score > 0) %>%
+        arrange(desc(delta_score), delta_cost, desc(in_score)) %>%
+        slice_head(n = 1)
+      if (nrow(improving)) {
+        in_id <- improving$in_id
+        team_ids <- c(setdiff(team_ids, out_id), in_id)
+        cur_cost  <- cur_cost  + improving$delta_cost
+        cur_score <- cur_score + improving$delta_score
+      }
+    }
+  }
+
+  # Return the post-hill-climb team
+  list(
+    team_ids    = team_ids,
+    team        = pool %>% filter(id %in% team_ids) %>% arrange(cat, desc(score)),
+    total_cost  = cur_cost,
+    total_score = cur_score
+  )
+}
+
+
+stochastic_output <- stochastic_local_search(ranked_players, best_seed, 1000)
+
+stochastic_team <- stochastic_output$team|> left_join(ranked_players, by = join_by(id == id))
+
+sum(best_seed$score)
+sum(stochastic_team$score)
+
+#Best seed still the same for this. 
+
+# Next - run a number of seeds, for a number of steps, according to the optimal balance - first round to pick best candidate seeds, second round to go deep on these.
+
+
+budget <- 1000
+
+# ---- Phase A: 24 seeds × 600 steps (≈ 3–5 mins on most laptops) ----
+set.seed(125)
+phaseA <- greedy_seed_hard_capped(
+  df        = ranked_players,
+  budget    = budget,
+  n_runs    = 24,
+  rng_seeds = sample.int(1e6, 24),
+  id_col    = "id",
+  cat_col   = "element_name",
+  cost_col  = "now_cost",
+  score_col = "predicted_2026_points"
+)
+
+anneal_A <- imap(phaseA$seeds, ~ {
+  set.seed(1000 + .y)
+  stochastic_local_search(
+    ranked_players = ranked_players,
+    team           = .x$selection,   # has .id
+    budget         = budget,
+    n_steps        = 1000,            # shallow
+    cat_col        = "element_name",
+    cost_col       = "now_cost",
+    score_col      = "predicted_2026_points",
+    tabu_len       = 2,
+    pick_bias      = 0.8
+  )
+})
+
+summary_A <- tibble(
+  idx         = seq_along(anneal_A),
+  total_score = map_dbl(anneal_A, "total_score"),
+  total_cost  = map_dbl(anneal_A, "total_cost")
+) %>% arrange(desc(total_score))
+
+# ---- Phase B: deepen the best 5 seeds × 3000 steps (≈ 5–7 mins) ----
+top_k <- head(summary_A$idx, 1)
+anneal_B <- map(top_k, ~
+  stochastic_local_search(
+    ranked_players = ranked_players,
+    team           = phaseA$seeds[[.x]]$selection,
+    budget         = budget,
+    n_steps        = 3000,           # deep
+    cat_col        = "element_name",
+    cost_col       = "now_cost",
+    score_col      = "predicted_2026_points",
+    tabu_len       = 2,
+    pick_bias      = 0.6
+  )
+)
+
+summary_B <- tibble(
+  seed_from_A  = top_k,
+  total_score  = map_dbl(anneal_B, "total_score"),
+  total_cost   = map_dbl(anneal_B, "total_cost")
+) %>% arrange(desc(total_score))
+
+# ---- Final pick ----
+best_idx <- which.max(map_dbl(anneal_B, "total_score"))
+best_team  <- anneal_B[[best_idx]]$team
+best_score <- anneal_B[[best_idx]]$total_score
+best_cost  <- anneal_B[[best_idx]]$total_cost
+
+best_score
+best_cost
+best_team |> left_join(ranked_players|> select(id, web_name), by = join_by(id == id))|> print(n=16)
+
+# Team picked - don't have in place captaincy so assume Salah. Go back and work in 'next game' codes - and see the effect of adjusting parameters around future games.
+
+```
+
+-   Picking a captain within the team - likely score this week.
+
+-   Once the game has started - incorporate live data, substitutions.
