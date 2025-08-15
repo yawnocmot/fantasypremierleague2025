@@ -346,7 +346,6 @@ seeds$summary
 # What is the best team emerging from the seeds, for info
 best_seed <- seeds$seeds[[1]]$selection |> left_join(ranked_players|> select(id, web_name), by = join_by(.id == id))|> print(n=16)
 
-worst_seed <- seeds$seeds[[50]]$selection |> left_join(ranked_players|> select(id, web_name), by = join_by(.id == id))|> print(n=16)
 
 #Is that team legal?
 team_checker(seeds$seeds[[1]]$selection |> left_join(ranked_players, by = join_by(.id == id)))
@@ -432,7 +431,6 @@ best_pairwise_swap <- function(
 
 # Next try a function to implement random swaps for a certain number of steps.
 
-library(dplyr)
 
 stochastic_local_search <- function(
   ranked_players,   # full pool
@@ -587,14 +585,15 @@ stochastic_team <- stochastic_output$team|> left_join(ranked_players, by = join_
 sum(best_seed$score)
 sum(stochastic_team$score)
 
-#Best seed still the same for this. 
+#Improves best seed. 
 
 # Next - run a number of seeds, for a number of steps, according to the optimal balance - first round to pick best candidate seeds, second round to go deep on these.
 
 
 budget <- 1000
 
-# ---- Phase A: 24 seeds × 600 steps (≈ 3–5 mins on most laptops) ----
+
+# ---- Phase A: 24 seeds × 1000 steps (≈ 5 mins on most laptops) ----
 set.seed(125)
 phaseA <- greedy_seed_hard_capped(
   df        = ranked_players,
@@ -628,8 +627,8 @@ summary_A <- tibble(
   total_cost  = map_dbl(anneal_A, "total_cost")
 ) %>% arrange(desc(total_score))
 
-# ---- Phase B: deepen the best 5 seeds × 3000 steps (≈ 5–7 mins) ----
-top_k <- head(summary_A$idx, 1)
+# ---- Phase B: deepen the best 5 seeds if different × 3000 steps (≈ 5–7 mins) ----
+top_k <- head(summary_A$idx, 5)
 anneal_B <- map(top_k, ~
   stochastic_local_search(
     ranked_players = ranked_players,

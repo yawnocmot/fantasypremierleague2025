@@ -287,6 +287,11 @@ player_data <- player_data |>
     concede_2_predict_2026 = minutes_60_weighted * weighted_2026_concede_2,
     concede_4_predict_2026 = minutes_60_weighted * weighted_2026_concede_4
   ) |>
+    #Chance to edit if needed:
+  mutate(play_chance = case_when(
+    id == 47 ~ 75,
+    TRUE    ~ play_chance
+  )) |>
   mutate(
     predicted_2026_points = case_when(
       element_type == 1 ~ play_predict_2026 + 4*clean_sheets_predict_2026 
@@ -303,6 +308,7 @@ player_data <- player_data |>
                           + 4*goals_predict_2026 + 3*assists_predict_2026
     ) * if_else(is.na(play_chance),1,play_chance/100)
   )
+
 
 player_data |>
   arrange(desc(predicted_2026_points))
