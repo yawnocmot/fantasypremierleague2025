@@ -1,0 +1,121 @@
+---
+title: "06-weekly-update"
+author: "Tom Conway"
+format: 
+  gfm: default
+  html:
+    embed-resources: true
+editor: visual
+---
+
+## Weekly changes
+
+-   Import data required
+
+```{r}
+#|label: import-points-predictions
+
+library(tidyverse)
+library(tidymodels)
+
+player_data <- read_csv("processed_data/player_data.csv")
+
+```
+
+-   Name current team, and bring in improvement function
+
+```{r}
+#| label: team-improvement
+
+current_team <- player_data |> filter(
+  id %in% c(
+    65,
+    82,
+    106,
+    220,
+    256,
+    287,
+    381,
+    402,
+    427,
+    489,
+    505,
+    515,
+    610,
+    624,
+    654
+    )
+) |>
+  rename(.id = id)
+
+current_team
+
+# Bring back swap function:
+
+best_pairwise_swap <- function(
+  df,        # full player table (ranked_players)
+  chosen,    # tibble of current picks (has .id)
+  budget,
+  cat_col   = "element_name",
+  cost_col  = "now_cost",
+  score_col = "predicted_2026_points"
+) {
+  # Extract chosen IDs from `.id` column in chosen
+  chosen_ids <- chosen$.id
+
+  # Build chosen / unchosen views from df
+  chosen_tbl <- df %>%
+    filter(id %in% chosen_ids) %>%
+    transmute(
+      out_id    = id,
+      out_name = web_name,
+      category  = .data[[cat_col]],
+      out_cost  = .data[[cost_col]],
+      out_score = .data[[score_col]]
+    )
+
+  unchosen_tbl <- df %>%
+    filter(!(id %in% chosen_ids)) %>%
+    transmute(
+      in_id    = id,
+      in_name = web_name,
+      category = .data[[cat_col]],
+      in_cost  = .data[[cost_col]],
+      in_score = .data[[score_col]]
+    )
+
+  # Current totals
+  current_cost  <- sum(chosen_tbl$out_cost, na.rm = TRUE)
+  current_score <- sum(chosen_tbl$out_score, na.rm = TRUE)
+  leftover      <- budget - current_cost
+
+  # Join within same category; look for feasible improving swaps
+  cand_pairs <- inner_join(chosen_tbl, unchosen_tbl, by = "category") %>%
+    mutate(
+      delta_cost  = in_cost  - out_cost,
+      delta_score = in_score - out_score,
+      feasible    = (delta_cost <= leftover)
+    ) %>%
+    filter(feasible, delta_score > 0)
+
+  if (nrow(cand_pairs) == 0) return(NULL)
+
+  # Pick best swap: highest score gain, then lowest extra cost, then best incoming score
+  best <- cand_pairs %>%
+    arrange(desc(delta_score), delta_cost, desc(in_score)) %>%
+    slice(1)
+
+  list(
+    out_id          = best$out_id,
+    out_name        = best$out_name,
+    in_id           = best$in_id,
+    in_name         = best$in_name,
+    delta_score     = as.numeric(best$delta_score),
+    delta_cost      = as.numeric(best$delta_cost),
+    new_total_cost  = as.numeric(current_cost + best$delta_cost),
+    new_total_score = as.numeric(current_score + best$delta_score)
+  )
+}
+
+best_pairwise_swap(player_data, current_team, budget =1000)
+```

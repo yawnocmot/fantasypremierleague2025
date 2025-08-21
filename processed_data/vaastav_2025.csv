@@ -110,7 +110,7 @@ Radu Drăgușin,486,1,2024-08-19T19:00:00Z,0,0,0,Spurs,572
 Jack Stephens,472,1,2024-08-17T14:00:00Z,0,0,90,Southampton,NA
 Mateo Kovačić,354,1,2024-08-18T15:30:00Z,1,0,90,Man City,422
 Nicolás Domínguez,431,1,2024-08-17T14:00:00Z,0,0,36,Nott'm Forest,519
-Ben Doak,318,1,2024-08-17T11:30:00Z,0,0,0,Liverpool,391
+Ben Doak,318,1,2024-08-17T11:30:00Z,0,0,0,Liverpool,NA
 Phil Foden,348,1,2024-08-18T15:30:00Z,0,0,45,Man City,414
 Mason Mount,382,1,2024-08-16T19:00:00Z,0,0,60,Man Utd,455
 Gabriel Martinelli Silva,9,1,2024-08-17T14:00:00Z,0,0,90,Arsenal,19
@@ -319,7 +319,7 @@ Luke Woolfenden,284,1,2024-08-17T11:30:00Z,0,0,90,Ipswich,NA
 Łukasz Fabiański,521,1,2024-08-17T16:30:00Z,0,0,0,West Ham,NA
 Idrissa Gueye,222,1,2024-08-17T14:00:00Z,0,0,90,Everton,302
 Joe Gomez,322,1,2024-08-17T11:30:00Z,0,0,0,Liverpool,376
-Dominic Calvert-Lewin,220,1,2024-08-17T14:00:00Z,0,0,75,Everton,NA
+Dominic Calvert-Lewin,220,1,2024-08-17T14:00:00Z,0,0,75,Everton,691
 Yerson Mosquera,558,1,2024-08-17T14:00:00Z,0,0,90,Wolves,634
 Konstantinos Tsimikas,337,1,2024-08-17T11:30:00Z,0,0,11,Liverpool,377
 Christian Nørgaard,101,1,2024-08-18T13:00:00Z,0,0,90,Brentford,24
@@ -727,7 +727,7 @@ Radu Drăgușin,486,2,2024-08-24T14:00:00Z,0,0,0,Spurs,572
 Jack Stephens,472,2,2024-08-24T14:00:00Z,0,0,90,Southampton,NA
 Mateo Kovačić,354,2,2024-08-24T14:00:00Z,0,0,49,Man City,422
 Nicolás Domínguez,431,2,2024-08-24T14:00:00Z,0,0,15,Nott'm Forest,519
-Ben Doak,318,2,2024-08-25T15:30:00Z,0,0,0,Liverpool,391
+Ben Doak,318,2,2024-08-25T15:30:00Z,0,0,0,Liverpool,NA
 Phil Foden,348,2,2024-08-24T14:00:00Z,0,0,0,Man City,414
 Mason Mount,382,2,2024-08-24T11:30:00Z,0,0,45,Man Utd,455
 Gabriel Martinelli Silva,9,2,2024-08-24T16:30:00Z,0,0,64,Arsenal,19
@@ -938,7 +938,7 @@ Luke Woolfenden,284,2,2024-08-24T14:00:00Z,0,0,90,Ipswich,NA
 Łukasz Fabiański,521,2,2024-08-24T14:00:00Z,0,0,0,West Ham,NA
 Idrissa Gueye,222,2,2024-08-24T14:00:00Z,0,0,90,Everton,302
 Joe Gomez,322,2,2024-08-25T15:30:00Z,0,0,0,Liverpool,376
-Dominic Calvert-Lewin,220,2,2024-08-24T14:00:00Z,0,0,71,Everton,NA
+Dominic Calvert-Lewin,220,2,2024-08-24T14:00:00Z,0,0,71,Everton,691
 Yerson Mosquera,558,2,2024-08-25T13:00:00Z,0,0,90,Wolves,634
 Konstantinos Tsimikas,337,2,2024-08-25T15:30:00Z,0,0,0,Liverpool,377
 Christian Nørgaard,101,2,2024-08-25T15:30:00Z,0,0,90,Brentford,24
@@ -1356,7 +1356,7 @@ Radu Drăgușin,486,3,2024-09-01T12:30:00Z,0,0,90,Spurs,572
 Jack Stephens,472,3,2024-08-31T14:00:00Z,0,0,90,Southampton,NA
 Mateo Kovačić,354,3,2024-08-31T16:30:00Z,0,0,90,Man City,422
 Nicolás Domínguez,431,3,2024-08-31T14:00:00Z,0,0,0,Nott'm Forest,519
-Ben Doak,318,3,2024-09-01T15:00:00Z,0,0,0,Liverpool,391
+Ben Doak,318,3,2024-09-01T15:00:00Z,0,0,0,Liverpool,NA
 Phil Foden,348,3,2024-08-31T16:30:00Z,0,0,0,Man City,414
 Mason Mount,382,3,2024-09-01T15:00:00Z,0,0,0,Man Utd,455
 Gabriel Martinelli Silva,9,3,2024-08-31T11:30:00Z,0,0,16,Arsenal,19
@@ -1577,7 +1577,7 @@ Luke Woolfenden,284,3,2024-08-31T14:00:00Z,0,0,90,Ipswich,NA
 Łukasz Fabiański,521,3,2024-08-31T16:30:00Z,0,0,45,West Ham,NA
 Idrissa Gueye,222,3,2024-08-31T14:00:00Z,0,0,90,Everton,302
 Joe Gomez,322,3,2024-09-01T15:00:00Z,0,0,0,Liverpool,376
-Dominic Calvert-Lewin,220,3,2024-08-31T14:00:00Z,1,1,87,Everton,NA
+Dominic Calvert-Lewin,220,3,2024-08-31T14:00:00Z,1,1,87,Everton,691
 Yerson Mosquera,558,3,2024-08-31T14:00:00Z,0,0,90,Wolves,634
 Sil Swinkels,640,3,2024-08-31T14:00:00Z,0,0,0,Aston Villa,NA
 Konstantinos Tsimikas,337,3,2024-09-01T15:00:00Z,0,0,7,Liverpool,377
@@ -2004,7 +2004,7 @@ Radu Drăgușin,486,4,2024-09-15T13:00:00Z,0,0,0,Spurs,572
 Jack Stephens,472,4,2024-09-14T11:30:00Z,0,0,78,Southampton,NA
 Mateo Kovačić,354,4,2024-09-14T14:00:00Z,0,0,45,Man City,422
 Nicolás Domínguez,431,4,2024-09-14T14:00:00Z,0,0,53,Nott'm Forest,519
-Ben Doak,318,4,2024-09-14T14:00:00Z,0,0,0,Liverpool,391
+Ben Doak,318,4,2024-09-14T14:00:00Z,0,0,0,Liverpool,NA
 Phil Foden,348,4,2024-09-14T14:00:00Z,0,0,0,Man City,414
 Mason Mount,382,4,2024-09-14T11:30:00Z,0,0,0,Man Utd,455
 Gabriel Martinelli Silva,9,4,2024-09-15T13:00:00Z,0,0,79,Arsenal,19
@@ -2229,7 +2229,7 @@ Luke Woolfenden,284,4,2024-09-14T14:00:00Z,0,0,0,Ipswich,NA
 Łukasz Fabiański,521,4,2024-09-14T14:00:00Z,0,0,0,West Ham,NA
 Idrissa Gueye,222,4,2024-09-14T16:30:00Z,0,0,63,Everton,302
 Joe Gomez,322,4,2024-09-14T14:00:00Z,0,0,0,Liverpool,376
-Dominic Calvert-Lewin,220,4,2024-09-14T16:30:00Z,1,0,90,Everton,NA
+Dominic Calvert-Lewin,220,4,2024-09-14T16:30:00Z,1,0,90,Everton,691
 Yerson Mosquera,558,4,2024-09-15T15:30:00Z,0,0,90,Wolves,634
 Sil Swinkels,640,4,2024-09-14T16:30:00Z,0,0,0,Aston Villa,NA
 Konstantinos Tsimikas,337,4,2024-09-14T14:00:00Z,0,0,15,Liverpool,377
@@ -2663,7 +2663,7 @@ Radu Drăgușin,486,5,2024-09-21T14:00:00Z,0,0,0,Spurs,572
 Jack Stephens,472,5,2024-09-21T14:00:00Z,0,0,0,Southampton,NA
 Mateo Kovačić,354,5,2024-09-22T15:30:00Z,0,1,69,Man City,422
 Nicolás Domínguez,431,5,2024-09-22T13:00:00Z,0,0,0,Nott'm Forest,519
-Ben Doak,318,5,2024-09-21T14:00:00Z,0,0,0,Liverpool,391
+Ben Doak,318,5,2024-09-21T14:00:00Z,0,0,0,Liverpool,NA
 Phil Foden,348,5,2024-09-22T15:30:00Z,0,0,20,Man City,414
 Mason Mount,382,5,2024-09-21T16:30:00Z,0,0,0,Man Utd,455
 Gabriel Martinelli Silva,9,5,2024-09-22T15:30:00Z,0,1,86,Arsenal,19
@@ -2889,7 +2889,7 @@ Luke Woolfenden,284,5,2024-09-21T14:00:00Z,0,0,0,Ipswich,NA
 Łukasz Fabiański,521,5,2024-09-21T11:30:00Z,0,0,0,West Ham,NA
 Idrissa Gueye,222,5,2024-09-21T14:00:00Z,0,0,0,Everton,302
 Joe Gomez,322,5,2024-09-21T14:00:00Z,0,0,0,Liverpool,376
-Dominic Calvert-Lewin,220,5,2024-09-21T14:00:00Z,0,0,90,Everton,NA
+Dominic Calvert-Lewin,220,5,2024-09-21T14:00:00Z,0,0,90,Everton,691
 Yerson Mosquera,558,5,2024-09-21T14:00:00Z,0,0,81,Wolves,634
 Sil Swinkels,640,5,2024-09-21T14:00:00Z,0,0,0,Aston Villa,NA
 Konstantinos Tsimikas,337,5,2024-09-21T14:00:00Z,0,0,0,Liverpool,377
@@ -3325,7 +3325,7 @@ Radu Drăgușin,486,6,2024-09-29T15:30:00Z,0,0,9,Spurs,572
 Jack Stephens,472,6,2024-09-30T19:00:00Z,0,0,0,Southampton,NA
 Mateo Kovačić,354,6,2024-09-28T11:30:00Z,0,0,90,Man City,422
 Nicolás Domínguez,431,6,2024-09-28T14:00:00Z,0,0,56,Nott'm Forest,519
-Ben Doak,318,6,2024-09-28T16:30:00Z,0,0,0,Liverpool,391
+Ben Doak,318,6,2024-09-28T16:30:00Z,0,0,0,Liverpool,NA
 Phil Foden,348,6,2024-09-28T11:30:00Z,0,0,24,Man City,414
 Mason Mount,382,6,2024-09-29T15:30:00Z,0,0,39,Man Utd,455
 Gabriel Martinelli Silva,9,6,2024-09-28T14:00:00Z,1,1,73,Arsenal,19
@@ -3551,7 +3551,7 @@ Luke Woolfenden,284,6,2024-09-29T13:00:00Z,0,0,0,Ipswich,NA
 Łukasz Fabiański,521,6,2024-09-28T14:00:00Z,0,0,0,West Ham,NA
 Idrissa Gueye,222,6,2024-09-28T14:00:00Z,0,0,7,Everton,302
 Joe Gomez,322,6,2024-09-28T16:30:00Z,0,0,1,Liverpool,376
-Dominic Calvert-Lewin,220,6,2024-09-28T14:00:00Z,0,0,90,Everton,NA
+Dominic Calvert-Lewin,220,6,2024-09-28T14:00:00Z,0,0,90,Everton,691
 Yerson Mosquera,558,6,2024-09-28T16:30:00Z,0,0,0,Wolves,634
 Sil Swinkels,640,6,2024-09-29T13:00:00Z,0,0,0,Aston Villa,NA
 Konstantinos Tsimikas,337,6,2024-09-28T16:30:00Z,0,0,0,Liverpool,377
@@ -3989,7 +3989,7 @@ Radu Drăgușin,486,7,2024-10-06T15:30:00Z,0,0,0,Spurs,572
 Jack Stephens,472,7,2024-10-05T14:00:00Z,0,0,0,Southampton,NA
 Mateo Kovačić,354,7,2024-10-05T14:00:00Z,2,0,90,Man City,422
 Nicolás Domínguez,431,7,2024-10-06T13:00:00Z,0,0,14,Nott'm Forest,519
-Ben Doak,318,7,2024-10-05T11:30:00Z,0,0,0,Liverpool,391
+Ben Doak,318,7,2024-10-05T11:30:00Z,0,0,0,Liverpool,NA
 Phil Foden,348,7,2024-10-05T14:00:00Z,0,0,77,Man City,414
 Mason Mount,382,7,2024-10-06T13:00:00Z,0,0,0,Man Utd,455
 Gabriel Martinelli Silva,9,7,2024-10-05T14:00:00Z,1,0,30,Arsenal,19
@@ -4215,7 +4215,7 @@ Luke Woolfenden,284,7,2024-10-05T14:00:00Z,0,0,0,Ipswich,NA
 Łukasz Fabiański,521,7,2024-10-05T14:00:00Z,0,0,0,West Ham,NA
 Idrissa Gueye,222,7,2024-10-05T16:30:00Z,0,0,33,Everton,302
 Joe Gomez,322,7,2024-10-05T11:30:00Z,0,0,0,Liverpool,376
-Dominic Calvert-Lewin,220,7,2024-10-05T16:30:00Z,0,0,90,Everton,NA
+Dominic Calvert-Lewin,220,7,2024-10-05T16:30:00Z,0,0,90,Everton,691
 Yerson Mosquera,558,7,2024-10-05T14:00:00Z,0,0,0,Wolves,634
 Sil Swinkels,640,7,2024-10-06T13:00:00Z,0,0,0,Aston Villa,NA
 Konstantinos Tsimikas,337,7,2024-10-05T11:30:00Z,0,0,78,Liverpool,377
@@ -4655,7 +4655,7 @@ Radu Drăgușin,486,8,2024-10-19T11:30:00Z,0,0,0,Spurs,572
 Jack Stephens,472,8,2024-10-19T14:00:00Z,0,0,0,Southampton,NA
 Mateo Kovačić,354,8,2024-10-20T13:00:00Z,0,0,85,Man City,422
 Nicolás Domínguez,431,8,2024-10-21T19:00:00Z,0,0,90,Nott'm Forest,519
-Ben Doak,318,8,2024-10-20T15:30:00Z,0,0,0,Liverpool,391
+Ben Doak,318,8,2024-10-20T15:30:00Z,0,0,0,Liverpool,NA
 Phil Foden,348,8,2024-10-20T13:00:00Z,0,1,24,Man City,414
 Mason Mount,382,8,2024-10-19T14:00:00Z,0,0,0,Man Utd,455
 Gabriel Martinelli Silva,9,8,2024-10-19T16:30:00Z,0,0,26,Arsenal,19
@@ -4882,7 +4882,7 @@ Luke Woolfenden,284,8,2024-10-19T14:15:00Z,0,0,90,Ipswich,NA
 Łukasz Fabiański,521,8,2024-10-19T11:30:00Z,0,0,0,West Ham,NA
 Idrissa Gueye,222,8,2024-10-19T14:15:00Z,0,0,90,Everton,302
 Joe Gomez,322,8,2024-10-20T15:30:00Z,0,0,9,Liverpool,376
-Dominic Calvert-Lewin,220,8,2024-10-19T14:15:00Z,0,0,90,Everton,NA
+Dominic Calvert-Lewin,220,8,2024-10-19T14:15:00Z,0,0,90,Everton,691
 Yerson Mosquera,558,8,2024-10-20T13:00:00Z,0,0,0,Wolves,634
 Sil Swinkels,640,8,2024-10-19T14:00:00Z,0,0,0,Aston Villa,NA
 Konstantinos Tsimikas,337,8,2024-10-20T15:30:00Z,0,0,0,Liverpool,377
@@ -5323,7 +5323,7 @@ Radu Drăgușin,486,9,2024-10-27T14:00:00Z,0,0,0,Spurs,572
 Jack Stephens,472,9,2024-10-26T14:00:00Z,0,0,90,Southampton,NA
 Mateo Kovačić,354,9,2024-10-26T14:00:00Z,0,0,90,Man City,422
 Nicolás Domínguez,431,9,2024-10-25T19:00:00Z,0,0,90,Nott'm Forest,519
-Ben Doak,318,9,2024-10-27T16:30:00Z,0,0,0,Liverpool,391
+Ben Doak,318,9,2024-10-27T16:30:00Z,0,0,0,Liverpool,NA
 Phil Foden,348,9,2024-10-26T14:00:00Z,0,0,90,Man City,414
 Mason Mount,382,9,2024-10-27T14:00:00Z,0,0,0,Man Utd,455
 Gabriel Martinelli Silva,9,9,2024-10-27T16:30:00Z,0,0,84,Arsenal,19
@@ -5552,7 +5552,7 @@ Luke Woolfenden,284,9,2024-10-26T14:00:00Z,0,0,17,Ipswich,NA
 Łukasz Fabiański,521,9,2024-10-27T14:00:00Z,0,0,90,West Ham,NA
 Idrissa Gueye,222,9,2024-10-26T16:30:00Z,0,0,90,Everton,302
 Joe Gomez,322,9,2024-10-27T16:30:00Z,0,0,0,Liverpool,376
-Dominic Calvert-Lewin,220,9,2024-10-26T16:30:00Z,0,0,80,Everton,NA
+Dominic Calvert-Lewin,220,9,2024-10-26T16:30:00Z,0,0,80,Everton,691
 Yerson Mosquera,558,9,2024-10-26T14:00:00Z,0,0,0,Wolves,634
 Sil Swinkels,640,9,2024-10-26T14:00:00Z,0,0,0,Aston Villa,NA
 Konstantinos Tsimikas,337,9,2024-10-27T16:30:00Z,0,0,27,Liverpool,377
@@ -5994,7 +5994,7 @@ Radu Drăgușin,486,10,2024-11-03T14:00:00Z,0,0,90,Spurs,572
 Jack Stephens,472,10,2024-11-02T15:00:00Z,0,0,78,Southampton,NA
 Mateo Kovačić,354,10,2024-11-02T15:00:00Z,0,0,90,Man City,422
 Nicolás Domínguez,431,10,2024-11-02T15:00:00Z,0,0,90,Nott'm Forest,519
-Ben Doak,318,10,2024-11-02T15:00:00Z,0,0,0,Liverpool,391
+Ben Doak,318,10,2024-11-02T15:00:00Z,0,0,0,Liverpool,NA
 Phil Foden,348,10,2024-11-02T15:00:00Z,0,0,90,Man City,414
 Mason Mount,382,10,2024-11-03T16:30:00Z,0,0,0,Man Utd,455
 Gabriel Martinelli Silva,9,10,2024-11-02T12:30:00Z,0,0,60,Arsenal,19
@@ -6225,7 +6225,7 @@ Luke Woolfenden,284,10,2024-11-02T15:00:00Z,0,0,0,Ipswich,NA
 Łukasz Fabiański,521,10,2024-11-02T15:00:00Z,0,0,90,West Ham,NA
 Idrissa Gueye,222,10,2024-11-02T15:00:00Z,0,0,90,Everton,302
 Joe Gomez,322,10,2024-11-02T15:00:00Z,0,0,45,Liverpool,376
-Dominic Calvert-Lewin,220,10,2024-11-02T15:00:00Z,0,0,61,Everton,NA
+Dominic Calvert-Lewin,220,10,2024-11-02T15:00:00Z,0,0,61,Everton,691
 Yerson Mosquera,558,10,2024-11-02T17:30:00Z,0,0,0,Wolves,634
 Sil Swinkels,640,10,2024-11-03T14:00:00Z,0,0,0,Aston Villa,NA
 Konstantinos Tsimikas,337,10,2024-11-02T15:00:00Z,0,0,90,Liverpool,377
@@ -6668,7 +6668,7 @@ Radu Drăgușin,486,11,2024-11-10T14:00:00Z,0,0,90,Spurs,572
 Jack Stephens,472,11,2024-11-09T15:00:00Z,0,0,59,Southampton,NA
 Mateo Kovačić,354,11,2024-11-09T17:30:00Z,0,0,90,Man City,422
 Nicolás Domínguez,431,11,2024-11-10T14:00:00Z,0,0,73,Nott'm Forest,519
-Ben Doak,318,11,2024-11-09T20:00:00Z,0,0,0,Liverpool,391
+Ben Doak,318,11,2024-11-09T20:00:00Z,0,0,0,Liverpool,NA
 Phil Foden,348,11,2024-11-09T17:30:00Z,0,0,90,Man City,414
 Mason Mount,382,11,2024-11-10T14:00:00Z,0,0,0,Man Utd,455
 Gabriel Martinelli Silva,9,11,2024-11-10T16:30:00Z,1,0,70,Arsenal,19
@@ -6899,7 +6899,7 @@ Luke Woolfenden,284,11,2024-11-10T14:00:00Z,0,0,0,Ipswich,NA
 Łukasz Fabiański,521,11,2024-11-09T15:00:00Z,0,0,90,West Ham,NA
 Idrissa Gueye,222,11,2024-11-09T15:00:00Z,0,0,90,Everton,302
 Joe Gomez,322,11,2024-11-09T20:00:00Z,0,0,0,Liverpool,376
-Dominic Calvert-Lewin,220,11,2024-11-09T15:00:00Z,0,0,74,Everton,NA
+Dominic Calvert-Lewin,220,11,2024-11-09T15:00:00Z,0,0,74,Everton,691
 Yerson Mosquera,558,11,2024-11-09T15:00:00Z,0,0,0,Wolves,634
 Sil Swinkels,640,11,2024-11-09T20:00:00Z,0,0,0,Aston Villa,NA
 Konstantinos Tsimikas,337,11,2024-11-09T20:00:00Z,0,0,0,Liverpool,377
@@ -7346,7 +7346,7 @@ Radu Drăgușin,486,12,2024-11-23T17:30:00Z,0,0,90,Spurs,572
 Jack Stephens,472,12,2024-11-24T14:00:00Z,0,0,90,Southampton,NA
 Mateo Kovačić,354,12,2024-11-23T17:30:00Z,0,0,0,Man City,422
 Nicolás Domínguez,431,12,2024-11-23T15:00:00Z,0,0,62,Nott'm Forest,519
-Ben Doak,318,12,2024-11-24T14:00:00Z,0,0,0,Liverpool,391
+Ben Doak,318,12,2024-11-24T14:00:00Z,0,0,0,Liverpool,NA
 Phil Foden,348,12,2024-11-23T17:30:00Z,0,0,90,Man City,414
 Mason Mount,382,12,2024-11-24T16:30:00Z,0,0,4,Man Utd,455
 Gabriel Martinelli Silva,9,12,2024-11-23T15:00:00Z,0,0,0,Arsenal,19
@@ -7582,7 +7582,7 @@ Luke Woolfenden,284,12,2024-11-24T16:30:00Z,0,0,0,Ipswich,NA
 Łukasz Fabiański,521,12,2024-11-25T20:00:00Z,0,0,90,West Ham,NA
 Idrissa Gueye,222,12,2024-11-23T15:00:00Z,0,0,90,Everton,302
 Joe Gomez,322,12,2024-11-24T14:00:00Z,0,0,0,Liverpool,376
-Dominic Calvert-Lewin,220,12,2024-11-23T15:00:00Z,0,0,90,Everton,NA
+Dominic Calvert-Lewin,220,12,2024-11-23T15:00:00Z,0,0,90,Everton,691
 Yerson Mosquera,558,12,2024-11-23T15:00:00Z,0,0,0,Wolves,634
 Sil Swinkels,640,12,2024-11-23T15:00:00Z,0,0,0,Aston Villa,NA
 Konstantinos Tsimikas,337,12,2024-11-24T14:00:00Z,0,0,0,Liverpool,377
@@ -8031,7 +8031,7 @@ Radu Drăgușin,486,13,2024-12-01T13:30:00Z,0,0,90,Spurs,572
 Jack Stephens,472,13,2024-11-29T20:00:00Z,0,0,90,Southampton,NA
 Mateo Kovačić,354,13,2024-12-01T16:00:00Z,0,0,0,Man City,422
 Nicolás Domínguez,431,13,2024-11-30T15:00:00Z,0,0,19,Nott'm Forest,519
-Ben Doak,318,13,2024-12-01T16:00:00Z,0,0,0,Liverpool,391
+Ben Doak,318,13,2024-12-01T16:00:00Z,0,0,0,Liverpool,NA
 Phil Foden,348,13,2024-12-01T16:00:00Z,0,0,78,Man City,414
 Mason Mount,382,13,2024-12-01T13:30:00Z,0,0,10,Man Utd,455
 Gabriel Martinelli Silva,9,13,2024-11-30T17:30:00Z,0,0,0,Arsenal,19
@@ -8270,7 +8270,7 @@ Luke Woolfenden,284,13,2024-11-30T15:00:00Z,0,0,0,Ipswich,NA
 Łukasz Fabiański,521,13,2024-11-30T17:30:00Z,0,0,90,West Ham,NA
 Idrissa Gueye,222,13,2024-12-01T13:30:00Z,0,0,66,Everton,302
 Joe Gomez,322,13,2024-12-01T16:00:00Z,0,0,90,Liverpool,376
-Dominic Calvert-Lewin,220,13,2024-12-01T13:30:00Z,0,0,23,Everton,NA
+Dominic Calvert-Lewin,220,13,2024-12-01T13:30:00Z,0,0,23,Everton,691
 Yerson Mosquera,558,13,2024-11-30T15:00:00Z,0,0,0,Wolves,634
 Sil Swinkels,640,13,2024-12-01T13:30:00Z,0,0,0,Aston Villa,NA
 Konstantinos Tsimikas,337,13,2024-12-01T16:00:00Z,0,0,0,Liverpool,377
@@ -8721,7 +8721,7 @@ Radu Drăgușin,486,14,2024-12-05T20:15:00Z,0,0,90,Spurs,572
 Jack Stephens,472,14,2024-12-04T19:30:00Z,0,0,38,Southampton,NA
 Mateo Kovačić,354,14,2024-12-04T19:30:00Z,0,0,0,Man City,422
 Nicolás Domínguez,431,14,2024-12-04T19:30:00Z,0,0,90,Nott'm Forest,519
-Ben Doak,318,14,2024-12-04T19:30:00Z,0,0,0,Liverpool,391
+Ben Doak,318,14,2024-12-04T19:30:00Z,0,0,0,Liverpool,NA
 Phil Foden,348,14,2024-12-04T19:30:00Z,0,0,0,Man City,414
 Mason Mount,382,14,2024-12-04T20:15:00Z,0,0,58,Man Utd,455
 Gabriel Martinelli Silva,9,14,2024-12-04T20:15:00Z,0,0,70,Arsenal,19
@@ -8963,7 +8963,7 @@ Luke Woolfenden,284,14,2024-12-03T19:30:00Z,0,0,0,Ipswich,NA
 Łukasz Fabiański,521,14,2024-12-03T20:15:00Z,0,0,90,West Ham,NA
 Idrissa Gueye,222,14,2024-12-04T19:30:00Z,0,0,90,Everton,302
 Joe Gomez,322,14,2024-12-04T19:30:00Z,0,0,66,Liverpool,376
-Dominic Calvert-Lewin,220,14,2024-12-04T19:30:00Z,0,1,82,Everton,NA
+Dominic Calvert-Lewin,220,14,2024-12-04T19:30:00Z,0,1,82,Everton,691
 Yerson Mosquera,558,14,2024-12-04T19:30:00Z,0,0,0,Wolves,634
 Sil Swinkels,640,14,2024-12-04T20:15:00Z,0,0,0,Aston Villa,NA
 Konstantinos Tsimikas,337,14,2024-12-04T19:30:00Z,0,0,0,Liverpool,377
@@ -10045,7 +10045,7 @@ Radu Drăgușin,486,16,2024-12-15T19:00:00Z,0,0,90,Spurs,572
 Jack Stephens,472,16,2024-12-15T19:00:00Z,0,0,0,Southampton,NA
 Mateo Kovačić,354,16,2024-12-15T16:30:00Z,0,0,22,Man City,422
 Nicolás Domínguez,431,16,2024-12-14T17:30:00Z,0,0,76,Nott'm Forest,519
-Ben Doak,318,16,2024-12-14T15:00:00Z,0,0,0,Liverpool,391
+Ben Doak,318,16,2024-12-14T15:00:00Z,0,0,0,Liverpool,NA
 Phil Foden,348,16,2024-12-15T16:30:00Z,0,0,90,Man City,414
 Mason Mount,382,16,2024-12-15T16:30:00Z,0,0,13,Man Utd,455
 Gabriel Martinelli Silva,9,16,2024-12-14T15:00:00Z,0,0,73,Arsenal,19
@@ -10288,7 +10288,7 @@ Luke Woolfenden,284,16,2024-12-14T15:00:00Z,0,0,0,Ipswich,NA
 Łukasz Fabiański,521,16,2024-12-16T20:00:00Z,0,0,90,West Ham,NA
 Idrissa Gueye,222,16,2024-12-14T15:00:00Z,0,0,90,Everton,302
 Joe Gomez,322,16,2024-12-14T15:00:00Z,0,0,90,Liverpool,376
-Dominic Calvert-Lewin,220,16,2024-12-14T15:00:00Z,0,0,65,Everton,NA
+Dominic Calvert-Lewin,220,16,2024-12-14T15:00:00Z,0,0,65,Everton,691
 Yerson Mosquera,558,16,2024-12-14T15:00:00Z,0,0,0,Wolves,634
 Sil Swinkels,640,16,2024-12-14T17:30:00Z,0,0,0,Aston Villa,NA
 Konstantinos Tsimikas,337,16,2024-12-14T15:00:00Z,0,0,0,Liverpool,377
@@ -10746,7 +10746,7 @@ Radu Drăgușin,486,17,2024-12-22T16:30:00Z,0,0,90,Spurs,572
 Jack Stephens,472,17,2024-12-22T14:00:00Z,0,0,0,Southampton,NA
 Mateo Kovačić,354,17,2024-12-21T12:30:00Z,0,0,83,Man City,422
 Nicolás Domínguez,431,17,2024-12-21T15:00:00Z,0,0,26,Nott'm Forest,519
-Ben Doak,318,17,2024-12-22T16:30:00Z,0,0,0,Liverpool,391
+Ben Doak,318,17,2024-12-22T16:30:00Z,0,0,0,Liverpool,NA
 Phil Foden,348,17,2024-12-21T12:30:00Z,1,0,90,Man City,414
 Mason Mount,382,17,2024-12-22T14:00:00Z,0,0,0,Man Utd,455
 Gabriel Martinelli Silva,9,17,2024-12-21T17:30:00Z,1,0,90,Arsenal,19
@@ -10989,7 +10989,7 @@ Luke Woolfenden,284,17,2024-12-21T15:00:00Z,0,0,0,Ipswich,NA
 Łukasz Fabiański,521,17,2024-12-21T15:00:00Z,0,0,90,West Ham,NA
 Idrissa Gueye,222,17,2024-12-22T14:00:00Z,0,0,90,Everton,302
 Joe Gomez,322,17,2024-12-22T16:30:00Z,0,0,90,Liverpool,376
-Dominic Calvert-Lewin,220,17,2024-12-22T14:00:00Z,0,0,72,Everton,NA
+Dominic Calvert-Lewin,220,17,2024-12-22T14:00:00Z,0,0,72,Everton,691
 Yerson Mosquera,558,17,2024-12-22T14:00:00Z,0,0,0,Wolves,634
 Sil Swinkels,640,17,2024-12-21T12:30:00Z,0,0,0,Aston Villa,NA
 Konstantinos Tsimikas,337,17,2024-12-22T16:30:00Z,0,0,0,Liverpool,377
@@ -11447,7 +11447,7 @@ Radu Drăgușin,486,18,2024-12-26T15:00:00Z,0,0,86,Spurs,572
 Jack Stephens,472,18,2024-12-26T15:00:00Z,0,0,0,Southampton,NA
 Mateo Kovačić,354,18,2024-12-26T12:30:00Z,0,0,84,Man City,422
 Nicolás Domínguez,431,18,2024-12-26T15:00:00Z,0,0,0,Nott'm Forest,519
-Ben Doak,318,18,2024-12-26T20:00:00Z,0,0,0,Liverpool,391
+Ben Doak,318,18,2024-12-26T20:00:00Z,0,0,0,Liverpool,NA
 Phil Foden,348,18,2024-12-26T12:30:00Z,0,0,90,Man City,414
 Mason Mount,382,18,2024-12-26T17:30:00Z,0,0,0,Man Utd,455
 Gabriel Martinelli Silva,9,18,2024-12-27T20:15:00Z,0,0,90,Arsenal,19
@@ -11691,7 +11691,7 @@ Luke Woolfenden,284,18,2024-12-27T20:15:00Z,0,0,90,Ipswich,NA
 Łukasz Fabiański,521,18,2024-12-26T15:00:00Z,0,0,35,West Ham,NA
 Idrissa Gueye,222,18,2024-12-26T12:30:00Z,0,0,90,Everton,302
 Joe Gomez,322,18,2024-12-26T20:00:00Z,0,0,90,Liverpool,376
-Dominic Calvert-Lewin,220,18,2024-12-26T12:30:00Z,0,0,69,Everton,NA
+Dominic Calvert-Lewin,220,18,2024-12-26T12:30:00Z,0,0,69,Everton,691
 Yerson Mosquera,558,18,2024-12-26T17:30:00Z,0,0,0,Wolves,634
 Sil Swinkels,640,18,2024-12-26T15:00:00Z,0,0,0,Aston Villa,NA
 Konstantinos Tsimikas,337,18,2024-12-26T20:00:00Z,0,0,4,Liverpool,377
@@ -12152,7 +12152,7 @@ Radu Drăgușin,486,19,2024-12-29T15:00:00Z,0,0,90,Spurs,572
 Jack Stephens,472,19,2024-12-29T15:00:00Z,0,0,0,Southampton,NA
 Mateo Kovačić,354,19,2024-12-29T14:30:00Z,0,0,90,Man City,422
 Nicolás Domínguez,431,19,2024-12-29T15:00:00Z,0,0,90,Nott'm Forest,519
-Ben Doak,318,19,2024-12-29T17:15:00Z,0,0,0,Liverpool,391
+Ben Doak,318,19,2024-12-29T17:15:00Z,0,0,0,Liverpool,NA
 Phil Foden,348,19,2024-12-29T14:30:00Z,0,1,65,Man City,414
 Mason Mount,382,19,2024-12-30T20:00:00Z,0,0,0,Man Utd,455
 Gabriel Martinelli Silva,9,19,2025-01-01T17:30:00Z,1,0,90,Arsenal,19
@@ -12397,7 +12397,7 @@ Luke Woolfenden,284,19,2024-12-30T19:45:00Z,0,0,90,Ipswich,NA
 Łukasz Fabiański,521,19,2024-12-29T17:15:00Z,0,0,0,West Ham,NA
 Idrissa Gueye,222,19,2024-12-29T15:00:00Z,0,0,67,Everton,302
 Joe Gomez,322,19,2024-12-29T17:15:00Z,0,0,36,Liverpool,376
-Dominic Calvert-Lewin,220,19,2024-12-29T15:00:00Z,0,0,22,Everton,NA
+Dominic Calvert-Lewin,220,19,2024-12-29T15:00:00Z,0,0,22,Everton,691
 Yerson Mosquera,558,19,2024-12-29T15:00:00Z,0,0,0,Wolves,634
 Sil Swinkels,640,19,2024-12-30T19:45:00Z,0,0,0,Aston Villa,NA
 Konstantinos Tsimikas,337,19,2024-12-29T17:15:00Z,0,0,16,Liverpool,377
@@ -12586,7 +12586,7 @@ Kortney Hause,40,19,2024-12-30T19:45:00Z,0,0,0,Aston Villa,NA
 Liam Delap,268,19,2024-12-30T19:45:00Z,1,1,90,Ipswich,250
 Bastien Meupiyou,637,19,2024-12-29T15:00:00Z,0,0,0,Wolves,NA
 Tino Livramento,409,19,2024-12-30T20:00:00Z,0,0,32,Newcastle,477
-Remy Rees-Dottin,707,19,2024-12-29T15:00:00Z,0,0,0,Bournemouth,NA
+Remy Rees-Dottin,707,19,2024-12-29T15:00:00Z,0,0,0,Bournemouth,687
 Tyler Adams,60,19,2024-12-29T15:00:00Z,0,0,0,Bournemouth,85
 Danilo dos Santos de Oliveira,429,19,2024-12-29T15:00:00Z,0,0,0,Nott'm Forest,NA
 Jenson Metcalfe,614,19,2024-12-29T15:00:00Z,0,0,0,Everton,309
@@ -12861,7 +12861,7 @@ Radu Drăgușin,486,20,2025-01-04T12:30:00Z,0,0,45,Spurs,572
 Jack Stephens,472,20,2025-01-04T15:00:00Z,0,0,0,Southampton,NA
 Mateo Kovačić,354,20,2025-01-04T15:00:00Z,0,0,60,Man City,422
 Nicolás Domínguez,431,20,2025-01-06T20:00:00Z,0,0,59,Nott'm Forest,519
-Ben Doak,318,20,2025-01-05T16:30:00Z,0,0,0,Liverpool,391
+Ben Doak,318,20,2025-01-05T16:30:00Z,0,0,0,Liverpool,NA
 Phil Foden,348,20,2025-01-04T15:00:00Z,1,0,90,Man City,414
 Mason Mount,382,20,2025-01-05T16:30:00Z,0,0,0,Man Utd,455
 Gabriel Martinelli Silva,9,20,2025-01-04T17:30:00Z,0,0,45,Arsenal,19
@@ -13107,7 +13107,7 @@ Luke Woolfenden,284,20,2025-01-05T14:00:00Z,0,0,90,Ipswich,NA
 Łukasz Fabiański,521,20,2025-01-04T15:00:00Z,0,0,0,West Ham,NA
 Idrissa Gueye,222,20,2025-01-04T15:00:00Z,0,0,80,Everton,302
 Joe Gomez,322,20,2025-01-05T16:30:00Z,0,0,0,Liverpool,376
-Dominic Calvert-Lewin,220,20,2025-01-04T15:00:00Z,0,0,58,Everton,NA
+Dominic Calvert-Lewin,220,20,2025-01-04T15:00:00Z,0,0,58,Everton,691
 Yerson Mosquera,558,20,2025-01-06T20:00:00Z,0,0,0,Wolves,634
 Sil Swinkels,640,20,2025-01-04T15:00:00Z,0,0,0,Aston Villa,NA
 Konstantinos Tsimikas,337,20,2025-01-05T16:30:00Z,0,0,0,Liverpool,377
@@ -13297,7 +13297,7 @@ Kortney Hause,40,20,2025-01-04T15:00:00Z,0,0,0,Aston Villa,NA
 Liam Delap,268,20,2025-01-05T14:00:00Z,1,0,87,Ipswich,250
 Bastien Meupiyou,637,20,2025-01-06T20:00:00Z,0,0,0,Wolves,NA
 Tino Livramento,409,20,2025-01-04T12:30:00Z,0,0,90,Newcastle,477
-Remy Rees-Dottin,707,20,2025-01-04T15:00:00Z,0,0,0,Bournemouth,NA
+Remy Rees-Dottin,707,20,2025-01-04T15:00:00Z,0,0,0,Bournemouth,687
 Tyler Adams,60,20,2025-01-04T15:00:00Z,0,0,20,Bournemouth,85
 Danilo dos Santos de Oliveira,429,20,2025-01-06T20:00:00Z,0,0,0,Nott'm Forest,NA
 Jenson Metcalfe,614,20,2025-01-04T15:00:00Z,0,0,0,Everton,309
@@ -13574,7 +13574,7 @@ Radu Drăgușin,486,21,2025-01-15T20:00:00Z,0,0,90,Spurs,572
 Jack Stephens,472,21,2025-01-16T20:00:00Z,0,0,0,Southampton,NA
 Mateo Kovačić,354,21,2025-01-14T19:30:00Z,0,0,75,Man City,422
 Nicolás Domínguez,431,21,2025-01-14T20:00:00Z,0,0,14,Nott'm Forest,519
-Ben Doak,318,21,2025-01-14T20:00:00Z,0,0,0,Liverpool,391
+Ben Doak,318,21,2025-01-14T20:00:00Z,0,0,0,Liverpool,NA
 Phil Foden,348,21,2025-01-14T19:30:00Z,2,0,86,Man City,414
 Mason Mount,382,21,2025-01-16T20:00:00Z,0,0,0,Man Utd,455
 Gabriel Martinelli Silva,9,21,2025-01-15T20:00:00Z,0,0,29,Arsenal,19
@@ -13826,7 +13826,7 @@ Luke Woolfenden,284,21,2025-01-16T19:30:00Z,0,0,90,Ipswich,NA
 Łukasz Fabiański,521,21,2025-01-14T19:30:00Z,0,0,90,West Ham,NA
 Idrissa Gueye,222,21,2025-01-15T19:30:00Z,0,0,90,Everton,302
 Joe Gomez,322,21,2025-01-14T20:00:00Z,0,0,0,Liverpool,376
-Dominic Calvert-Lewin,220,21,2025-01-15T19:30:00Z,0,0,90,Everton,NA
+Dominic Calvert-Lewin,220,21,2025-01-15T19:30:00Z,0,0,90,Everton,691
 Yerson Mosquera,558,21,2025-01-15T19:30:00Z,0,0,0,Wolves,634
 Sil Swinkels,640,21,2025-01-15T19:30:00Z,0,0,0,Aston Villa,NA
 Konstantinos Tsimikas,337,21,2025-01-14T20:00:00Z,0,1,25,Liverpool,377
@@ -14019,7 +14019,7 @@ Kortney Hause,40,21,2025-01-15T19:30:00Z,0,0,0,Aston Villa,NA
 Liam Delap,268,21,2025-01-16T19:30:00Z,0,0,83,Ipswich,250
 Bastien Meupiyou,637,21,2025-01-15T19:30:00Z,0,0,0,Wolves,NA
 Tino Livramento,409,21,2025-01-15T19:30:00Z,0,0,84,Newcastle,477
-Remy Rees-Dottin,707,21,2025-01-14T19:30:00Z,0,0,0,Bournemouth,NA
+Remy Rees-Dottin,707,21,2025-01-14T19:30:00Z,0,0,0,Bournemouth,687
 Tyler Adams,60,21,2025-01-14T19:30:00Z,0,0,90,Bournemouth,85
 Danilo dos Santos de Oliveira,429,21,2025-01-14T20:00:00Z,0,0,0,Nott'm Forest,NA
 Jenson Metcalfe,614,21,2025-01-15T19:30:00Z,0,0,0,Everton,309
@@ -14421,7 +14421,7 @@ Mateo Kovačić,354,13,2025-01-19T16:30:00Z,1,1,71,Man City,422
 -1889,NA,NA,,NA,False,NA,3448,NA
 Nicolás Domínguez,431,2,2025-01-19T14:00:00Z,0,0,82,Nott'm Forest,519
 -10,NA,NA,,NA,True,NA,202,NA
-Ben Doak,318,0,2025-01-18T15:00:00Z,0,0,0,Liverpool,391
+Ben Doak,318,0,2025-01-18T15:00:00Z,0,0,0,Liverpool,NA
 -11,NA,NA,,NA,False,NA,11,NA
 Phil Foden,348,19,2025-01-19T16:30:00Z,2,1,62,Man City,414
 136999,NA,NA,,NA,False,NA,12428,NA
@@ -14925,7 +14925,7 @@ Idrissa Gueye,222,11,2025-01-19T14:00:00Z,0,2,90,Everton,302
 -104,NA,NA,,NA,True,NA,494,NA
 Joe Gomez,322,0,2025-01-18T15:00:00Z,0,0,0,Liverpool,376
 -12758,NA,NA,,NA,False,NA,12814,NA
-Dominic Calvert-Lewin,220,5,2025-01-19T14:00:00Z,1,0,90,Everton,NA
+Dominic Calvert-Lewin,220,5,2025-01-19T14:00:00Z,1,0,90,Everton,691
 -1783,NA,NA,,NA,True,NA,6739,NA
 Yerson Mosquera,558,0,2025-01-20T20:00:00Z,0,0,0,Wolves,634
 -973,NA,NA,,NA,False,NA,1189,NA
@@ -15317,7 +15317,7 @@ Bastien Meupiyou,637,0,2025-01-20T20:00:00Z,0,0,0,Wolves,NA
 1590,NA,NA,,NA,False,NA,727,NA
 Tino Livramento,409,0,2025-01-18T12:30:00Z,0,0,90,Newcastle,477
 5818,NA,NA,,NA,True,NA,4846,NA
-Remy Rees-Dottin,707,1,2025-01-18T12:30:00Z,0,0,1,Bournemouth,NA
+Remy Rees-Dottin,707,1,2025-01-18T12:30:00Z,0,0,1,Bournemouth,687
 -1271,NA,NA,,NA,False,NA,2042,NA
 Tyler Adams,60,5,2025-01-18T12:30:00Z,0,1,90,Bournemouth,85
 39,NA,NA,,NA,False,NA,178,NA
@@ -15885,7 +15885,7 @@ Mateo Kovačić,354,1,2025-01-25T17:30:00Z,0,0,90,Man City,422
 4482,NA,NA,,NA,True,NA,3700,NA
 Nicolás Domínguez,431,1,2025-01-25T15:00:00Z,0,0,45,Nott'm Forest,519
 154,NA,NA,,NA,False,NA,233,NA
-Ben Doak,318,0,2025-01-25T15:00:00Z,0,0,0,Liverpool,391
+Ben Doak,318,0,2025-01-25T15:00:00Z,0,0,0,Liverpool,NA
 -14,NA,NA,,NA,True,NA,14,NA
 Phil Foden,348,7,2025-01-25T17:30:00Z,1,0,90,Man City,414
 169872,NA,NA,,NA,True,NA,59583,NA
@@ -16407,7 +16407,7 @@ Idrissa Gueye,222,3,2025-01-25T15:00:00Z,0,0,90,Everton,302
 15055,NA,NA,,NA,False,NA,1795,NA
 Joe Gomez,322,0,2025-01-25T15:00:00Z,0,0,0,Liverpool,376
 -10185,NA,NA,,NA,True,NA,10224,NA
-Dominic Calvert-Lewin,220,1,2025-01-25T15:00:00Z,0,0,12,Everton,NA
+Dominic Calvert-Lewin,220,1,2025-01-25T15:00:00Z,0,0,12,Everton,691
 52117,NA,NA,,NA,False,NA,8353,NA
 Yerson Mosquera,558,0,2025-01-25T15:00:00Z,0,0,0,Wolves,634
 -1073,NA,NA,,NA,True,NA,1369,NA
@@ -16813,7 +16813,7 @@ Bastien Meupiyou,637,0,2025-01-25T15:00:00Z,0,0,0,Wolves,NA
 2011,NA,NA,,NA,True,NA,1171,NA
 Tino Livramento,409,2,2025-01-25T15:00:00Z,0,0,90,Newcastle,477
 1499,NA,NA,,NA,False,NA,9512,NA
-Remy Rees-Dottin,707,0,2025-01-25T15:00:00Z,0,0,0,Bournemouth,NA
+Remy Rees-Dottin,707,0,2025-01-25T15:00:00Z,0,0,0,Bournemouth,687
 1189,NA,NA,,NA,True,NA,1459,NA
 Tyler Adams,60,9,2025-01-25T15:00:00Z,0,2,90,Bournemouth,85
 591,NA,NA,,NA,True,NA,237,NA
@@ -17413,9 +17413,9 @@ Mateo Kovačić,354,2,2025-02-02T16:30:00Z,0,0,90,Man City,422
 1282,NA,NA,,NA,False,NA,5057,NA
 Nicolás Domínguez,431,1,2025-02-01T12:30:00Z,0,0,25,Nott'm Forest,519
 66,NA,NA,,NA,True,NA,230,NA
-Ben Doak,318,0,2025-02-01T15:00:00Z,0,0,0,Liverpool,391
+Ben Doak,318,0,2025-02-01T15:00:00Z,0,0,0,Liverpool,NA
 -13,NA,NA,,NA,False,NA,13,NA
-Ben Doak,318,0,2025-02-12T19:30:00Z,0,0,0,Liverpool,391
+Ben Doak,318,0,2025-02-12T19:30:00Z,0,0,0,Liverpool,NA
 -13,NA,NA,,NA,False,NA,13,NA
 Phil Foden,348,2,2025-02-02T16:30:00Z,0,0,71,Man City,414
 35470,NA,NA,,NA,False,NA,81615,NA
@@ -17989,9 +17989,9 @@ Joe Gomez,322,0,2025-02-01T15:00:00Z,0,0,0,Liverpool,376
 -5334,NA,NA,,NA,False,NA,5398,NA
 Joe Gomez,322,0,2025-02-12T19:30:00Z,0,0,0,Liverpool,376
 -5334,NA,NA,,NA,False,NA,5398,NA
-Dominic Calvert-Lewin,220,0,2025-02-01T15:00:00Z,0,0,0,Everton,NA
+Dominic Calvert-Lewin,220,0,2025-02-01T15:00:00Z,0,0,0,Everton,691
 -47960,NA,NA,,NA,True,NA,54625,NA
-Dominic Calvert-Lewin,220,0,2025-02-12T19:30:00Z,0,0,0,Everton,NA
+Dominic Calvert-Lewin,220,0,2025-02-12T19:30:00Z,0,0,0,Everton,691
 -47960,NA,NA,,NA,True,NA,54625,NA
 Yerson Mosquera,558,0,2025-02-01T17:30:00Z,0,0,0,Wolves,634
 -871,NA,NA,,NA,True,NA,1119,NA
@@ -18445,7 +18445,7 @@ Bastien Meupiyou,637,0,2025-02-01T17:30:00Z,0,0,0,Wolves,NA
 2071,NA,NA,,NA,True,NA,1018,NA
 Tino Livramento,409,2,2025-02-01T15:00:00Z,0,0,63,Newcastle,477
 -4512,NA,NA,,NA,True,NA,8811,NA
-Remy Rees-Dottin,707,0,2025-02-01T15:00:00Z,0,0,0,Bournemouth,NA
+Remy Rees-Dottin,707,0,2025-02-01T15:00:00Z,0,0,0,Bournemouth,687
 457,NA,NA,,NA,True,NA,1220,NA
 Tyler Adams,60,2,2025-02-01T15:00:00Z,0,0,90,Bournemouth,85
 3358,NA,NA,,NA,True,NA,483,NA
@@ -19079,9 +19079,9 @@ Mateo Kovačić,354,1,2025-02-15T15:00:00Z,0,0,3,Man City,422
 -1302,NA,NA,,NA,True,NA,5851,NA
 Nicolás Domínguez,431,0,2025-02-15T15:00:00Z,0,0,0,Nott'm Forest,519
 -62,NA,NA,,NA,False,NA,234,NA
-Ben Doak,318,0,2025-02-16T14:00:00Z,0,0,0,Liverpool,391
+Ben Doak,318,0,2025-02-16T14:00:00Z,0,0,0,Liverpool,NA
 -18,NA,NA,,NA,True,NA,18,NA
-Ben Doak,318,0,2025-02-19T19:30:00Z,0,0,0,Liverpool,391
+Ben Doak,318,0,2025-02-19T19:30:00Z,0,0,0,Liverpool,NA
 -18,NA,NA,,NA,False,NA,18,NA
 Phil Foden,348,3,2025-02-15T15:00:00Z,0,0,75,Man City,414
 -69630,NA,NA,,NA,True,NA,120969,NA
@@ -19669,7 +19669,7 @@ Joe Gomez,322,0,2025-02-16T14:00:00Z,0,0,0,Liverpool,376
 -2137,NA,NA,,NA,True,NA,2360,NA
 Joe Gomez,322,0,2025-02-19T19:30:00Z,0,0,0,Liverpool,376
 -2137,NA,NA,,NA,False,NA,2360,NA
-Dominic Calvert-Lewin,220,0,2025-02-15T17:30:00Z,0,0,0,Everton,NA
+Dominic Calvert-Lewin,220,0,2025-02-15T17:30:00Z,0,0,0,Everton,691
 -18402,NA,NA,,NA,False,NA,18491,NA
 Yerson Mosquera,558,0,2025-02-16T14:00:00Z,0,0,0,Wolves,634
 21016,NA,NA,,NA,False,NA,2321,NA
@@ -20141,7 +20141,7 @@ Bastien Meupiyou,637,0,2025-02-16T14:00:00Z,0,0,0,Wolves,NA
 673,NA,NA,,NA,False,NA,1177,NA
 Tino Livramento,409,1,2025-02-15T15:00:00Z,0,0,45,Newcastle,477
 -11107,NA,NA,,NA,False,NA,13989,NA
-Remy Rees-Dottin,707,0,2025-02-15T15:00:00Z,0,0,0,Bournemouth,NA
+Remy Rees-Dottin,707,0,2025-02-15T15:00:00Z,0,0,0,Bournemouth,687
 237,NA,NA,,NA,False,NA,1131,NA
 Tyler Adams,60,2,2025-02-15T15:00:00Z,0,0,90,Bournemouth,85
 2945,NA,NA,,NA,False,NA,1007,NA
@@ -20783,7 +20783,7 @@ Mateo Kovačić,354,1,2025-02-23T16:30:00Z,0,0,12,Man City,422
 -1450,NA,NA,,NA,True,NA,5084,NA
 Nicolás Domínguez,431,1,2025-02-23T14:00:00Z,0,0,75,Nott'm Forest,519
 -74,NA,NA,,NA,False,NA,163,NA
-Ben Doak,318,0,2025-02-23T16:30:00Z,0,0,0,Liverpool,391
+Ben Doak,318,0,2025-02-23T16:30:00Z,0,0,0,Liverpool,NA
 -9,NA,NA,,NA,False,NA,9,NA
 Phil Foden,348,2,2025-02-23T16:30:00Z,0,0,90,Man City,414
 -73066,NA,NA,,NA,True,NA,97866,NA
@@ -21321,7 +21321,7 @@ Idrissa Gueye,222,1,2025-02-22T12:30:00Z,0,0,90,Everton,302
 -9470,NA,NA,,NA,True,NA,11166,NA
 Joe Gomez,322,0,2025-02-23T16:30:00Z,0,0,0,Liverpool,376
 -1326,NA,NA,,NA,False,NA,1346,NA
-Dominic Calvert-Lewin,220,0,2025-02-22T12:30:00Z,0,0,0,Everton,NA
+Dominic Calvert-Lewin,220,0,2025-02-22T12:30:00Z,0,0,0,Everton,691
 -8737,NA,NA,,NA,True,NA,8802,NA
 Yerson Mosquera,558,0,2025-02-22T15:00:00Z,0,0,0,Wolves,634
 12799,NA,NA,,NA,False,NA,3226,NA
@@ -21743,7 +21743,7 @@ Bastien Meupiyou,637,0,2025-02-22T15:00:00Z,0,0,0,Wolves,NA
 252,NA,NA,,NA,False,NA,905,NA
 Tino Livramento,409,0,2025-02-23T14:00:00Z,0,0,90,Newcastle,477
 -4608,NA,NA,,NA,True,NA,5939,NA
-Remy Rees-Dottin,707,0,2025-02-22T15:00:00Z,0,0,0,Bournemouth,NA
+Remy Rees-Dottin,707,0,2025-02-22T15:00:00Z,0,0,0,Bournemouth,687
 -360,NA,NA,,NA,True,NA,921,NA
 Tyler Adams,60,1,2025-02-22T15:00:00Z,0,0,30,Bournemouth,85
 83,NA,NA,,NA,True,NA,1057,NA
@@ -22349,7 +22349,7 @@ Mateo Kovačić,354,3,2025-02-26T19:30:00Z,0,0,90,Man City,422
 -2459,NA,NA,,NA,False,NA,3860,NA
 Nicolás Domínguez,431,3,2025-02-26T19:30:00Z,0,0,62,Nott'm Forest,519
 -45,NA,NA,,NA,True,NA,141,NA
-Ben Doak,318,0,2025-02-26T20:15:00Z,0,0,0,Liverpool,391
+Ben Doak,318,0,2025-02-26T20:15:00Z,0,0,0,Liverpool,NA
 -10,NA,NA,,NA,True,NA,10,NA
 Phil Foden,348,1,2025-02-26T19:30:00Z,0,0,16,Man City,414
 -86935,NA,NA,,NA,False,NA,96471,NA
@@ -22887,7 +22887,7 @@ Idrissa Gueye,222,2,2025-02-26T19:30:00Z,0,0,74,Everton,302
 -8540,NA,NA,,NA,False,NA,9110,NA
 Joe Gomez,322,0,2025-02-26T20:15:00Z,0,0,0,Liverpool,376
 -892,NA,NA,,NA,True,NA,910,NA
-Dominic Calvert-Lewin,220,0,2025-02-26T19:30:00Z,0,0,0,Everton,NA
+Dominic Calvert-Lewin,220,0,2025-02-26T19:30:00Z,0,0,0,Everton,691
 -5426,NA,NA,,NA,False,NA,5445,NA
 Yerson Mosquera,558,0,2025-02-25T19:30:00Z,0,0,0,Wolves,634
 8432,NA,NA,,NA,True,NA,3975,NA
@@ -23309,7 +23309,7 @@ Bastien Meupiyou,637,0,2025-02-25T19:30:00Z,0,0,0,Wolves,NA
 50,NA,NA,,NA,True,NA,883,NA
 Tino Livramento,409,1,2025-02-26T20:15:00Z,0,0,68,Newcastle,477
 -7395,NA,NA,,NA,False,NA,8384,NA
-Remy Rees-Dottin,707,0,2025-02-25T19:30:00Z,0,0,0,Bournemouth,NA
+Remy Rees-Dottin,707,0,2025-02-25T19:30:00Z,0,0,0,Bournemouth,687
 -463,NA,NA,,NA,False,NA,781,NA
 Tyler Adams,60,2,2025-02-25T19:30:00Z,0,0,90,Bournemouth,85
 -796,NA,NA,,NA,False,NA,1125,NA
@@ -23921,7 +23921,7 @@ Mateo Kovačić,354,1,2025-03-08T12:30:00Z,0,0,29,Man City,422
 -1281,NA,NA,,NA,False,NA,3139,NA
 Nicolás Domínguez,431,3,2025-03-08T12:30:00Z,0,0,68,Nott'm Forest,519
 36,NA,NA,,NA,True,NA,147,NA
-Ben Doak,318,0,2025-03-08T15:00:00Z,0,0,0,Liverpool,391
+Ben Doak,318,0,2025-03-08T15:00:00Z,0,0,0,Liverpool,NA
 -12,NA,NA,,NA,True,NA,12,NA
 Phil Foden,348,3,2025-03-08T12:30:00Z,0,0,68,Man City,414
 -54499,NA,NA,,NA,False,NA,68624,NA
@@ -24459,7 +24459,7 @@ Idrissa Gueye,222,3,2025-03-08T20:00:00Z,0,0,90,Everton,302
 -5459,NA,NA,,NA,False,NA,6501,NA
 Joe Gomez,322,0,2025-03-08T15:00:00Z,0,0,0,Liverpool,376
 -859,NA,NA,,NA,True,NA,887,NA
-Dominic Calvert-Lewin,220,0,2025-03-08T20:00:00Z,0,0,0,Everton,NA
+Dominic Calvert-Lewin,220,0,2025-03-08T20:00:00Z,0,0,0,Everton,691
 -3706,NA,NA,,NA,False,NA,3736,NA
 Yerson Mosquera,558,0,2025-03-08T20:00:00Z,0,0,0,Wolves,634
 2671,NA,NA,,NA,True,NA,5495,NA
@@ -24885,7 +24885,7 @@ Bastien Meupiyou,637,0,2025-03-08T20:00:00Z,0,0,0,Wolves,NA
 -184,NA,NA,,NA,True,NA,943,NA
 Tino Livramento,409,7,2025-03-10T20:00:00Z,0,0,90,Newcastle,477
 1788,NA,NA,,NA,False,NA,5854,NA
-Remy Rees-Dottin,707,0,2025-03-09T14:00:00Z,0,0,0,Bournemouth,NA
+Remy Rees-Dottin,707,0,2025-03-09T14:00:00Z,0,0,0,Bournemouth,687
 -378,NA,NA,,NA,False,NA,720,NA
 Tyler Adams,60,2,2025-03-09T14:00:00Z,0,0,90,Bournemouth,85
 -801,NA,NA,,NA,False,NA,1068,NA
@@ -25905,7 +25905,7 @@ Luke Woolfenden,284,0,2025-03-15T15:00:00Z,0,0,90,Ipswich,NA
 -53923,NA,NA,,NA,False,NA,57361,NA
 Idrissa Gueye,222,6,2025-03-15T15:00:00Z,0,1,90,Everton,302
 -2382,NA,NA,,NA,True,NA,3521,NA
-Dominic Calvert-Lewin,220,0,2025-03-15T15:00:00Z,0,0,0,Everton,NA
+Dominic Calvert-Lewin,220,0,2025-03-15T15:00:00Z,0,0,0,Everton,691
 -2281,NA,NA,,NA,True,NA,2316,NA
 Yerson Mosquera,558,0,2025-03-15T15:00:00Z,0,0,0,Wolves,634
 -2574,NA,NA,,NA,False,NA,7059,NA
@@ -26245,7 +26245,7 @@ Liam Delap,268,2,2025-03-15T15:00:00Z,0,0,78,Ipswich,250
 1088,NA,NA,,NA,True,NA,21830,NA
 Bastien Meupiyou,637,0,2025-03-15T15:00:00Z,0,0,0,Wolves,NA
 -582,NA,NA,,NA,False,NA,1011,NA
-Remy Rees-Dottin,707,0,2025-03-15T17:30:00Z,0,0,0,Bournemouth,NA
+Remy Rees-Dottin,707,0,2025-03-15T17:30:00Z,0,0,0,Bournemouth,687
 -373,NA,NA,,NA,True,NA,619,NA
 Tyler Adams,60,2,2025-03-15T17:30:00Z,0,0,78,Bournemouth,85
 -281,NA,NA,,NA,True,NA,514,NA
@@ -26779,7 +26779,7 @@ Mateo Kovačić,354,0,2025-04-02T18:45:00Z,0,0,0,Man City,422
 -1872,NA,NA,,NA,True,NA,2894,NA
 Nicolás Domínguez,431,1,2025-04-01T19:00:00Z,0,0,23,Nott'm Forest,519
 13,NA,NA,,NA,True,NA,172,NA
-Ben Doak,318,0,2025-04-02T19:00:00Z,0,0,0,Liverpool,391
+Ben Doak,318,0,2025-04-02T19:00:00Z,0,0,0,Liverpool,NA
 -3,NA,NA,,NA,True,NA,3,NA
 Phil Foden,348,0,2025-04-02T18:45:00Z,0,0,0,Man City,414
 62632,NA,NA,,NA,True,NA,82888,NA
@@ -27317,7 +27317,7 @@ Idrissa Gueye,222,2,2025-04-02T19:00:00Z,0,0,90,Everton,302
 -6261,NA,NA,,NA,False,NA,6961,NA
 Joe Gomez,322,0,2025-04-02T19:00:00Z,0,0,0,Liverpool,376
 -481,NA,NA,,NA,True,NA,504,NA
-Dominic Calvert-Lewin,220,0,2025-04-02T19:00:00Z,0,0,0,Everton,NA
+Dominic Calvert-Lewin,220,0,2025-04-02T19:00:00Z,0,0,0,Everton,691
 -2037,NA,NA,,NA,False,NA,2088,NA
 Yerson Mosquera,558,0,2025-04-01T18:45:00Z,0,0,0,Wolves,634
 -1219,NA,NA,,NA,True,NA,7877,NA
@@ -27745,7 +27745,7 @@ Bastien Meupiyou,637,0,2025-04-01T18:45:00Z,0,0,0,Wolves,NA
 -156,NA,NA,,NA,True,NA,707,NA
 Tino Livramento,409,2,2025-04-02T18:45:00Z,0,0,90,Newcastle,477
 215108,NA,NA,,NA,True,NA,38063,NA
-Remy Rees-Dottin,707,0,2025-04-02T18:45:00Z,0,0,0,Bournemouth,NA
+Remy Rees-Dottin,707,0,2025-04-02T18:45:00Z,0,0,0,Bournemouth,687
 -363,NA,NA,,NA,True,NA,621,NA
 Tyler Adams,60,1,2025-04-02T18:45:00Z,0,0,45,Bournemouth,85
 -371,NA,NA,,NA,True,NA,731,NA
@@ -28361,7 +28361,7 @@ Mateo Kovačić,354,3,2025-04-06T15:30:00Z,0,0,90,Man City,422
 -1438,NA,NA,,NA,False,NA,1816,NA
 Nicolás Domínguez,431,2,2025-04-05T16:30:00Z,0,0,73,Nott'm Forest,519
 -67,NA,NA,,NA,False,NA,121,NA
-Ben Doak,318,0,2025-04-06T13:00:00Z,0,0,0,Liverpool,391
+Ben Doak,318,0,2025-04-06T13:00:00Z,0,0,0,Liverpool,NA
 -3,NA,NA,,NA,False,NA,3,NA
 Phil Foden,348,1,2025-04-06T15:30:00Z,0,0,57,Man City,414
 -79736,NA,NA,,NA,False,NA,89324,NA
@@ -28899,7 +28899,7 @@ Idrissa Gueye,222,2,2025-04-05T11:30:00Z,0,0,90,Everton,302
 -4005,NA,NA,,NA,True,NA,4654,NA
 Joe Gomez,322,0,2025-04-06T13:00:00Z,0,0,0,Liverpool,376
 -209,NA,NA,,NA,False,NA,219,NA
-Dominic Calvert-Lewin,220,0,2025-04-05T11:30:00Z,0,0,0,Everton,NA
+Dominic Calvert-Lewin,220,0,2025-04-05T11:30:00Z,0,0,0,Everton,691
 -741,NA,NA,,NA,True,NA,834,NA
 Yerson Mosquera,558,0,2025-04-05T14:00:00Z,0,0,0,Wolves,634
 -1590,NA,NA,,NA,False,NA,4399,NA
@@ -29329,7 +29329,7 @@ Bastien Meupiyou,637,0,2025-04-05T14:00:00Z,0,0,0,Wolves,NA
 -96,NA,NA,,NA,False,NA,463,NA
 Tino Livramento,409,11,2025-04-07T19:00:00Z,0,1,90,Newcastle,477
 243292,NA,NA,,NA,False,NA,21949,NA
-Remy Rees-Dottin,707,0,2025-04-05T14:00:00Z,0,0,0,Bournemouth,NA
+Remy Rees-Dottin,707,0,2025-04-05T14:00:00Z,0,0,0,Bournemouth,687
 -112,NA,NA,,NA,False,NA,300,NA
 Tyler Adams,60,2,2025-04-05T14:00:00Z,0,0,90,Bournemouth,85
 -485,NA,NA,,NA,False,NA,592,NA
@@ -29969,7 +29969,7 @@ Mateo Kovačić,354,10,2025-04-12T11:30:00Z,1,0,86,Man City,422
 -308,NA,NA,,NA,True,NA,1516,NA
 Nicolás Domínguez,431,3,2025-04-12T14:00:00Z,0,0,74,Nott'm Forest,519
 -28,NA,NA,,NA,True,NA,111,NA
-Ben Doak,318,0,2025-04-13T13:00:00Z,0,0,0,Liverpool,391
+Ben Doak,318,0,2025-04-13T13:00:00Z,0,0,0,Liverpool,NA
 -5,NA,NA,,NA,True,NA,5,NA
 Phil Foden,348,0,2025-04-12T11:30:00Z,0,0,0,Man City,414
 -54317,NA,NA,,NA,True,NA,64680,NA
@@ -30549,7 +30549,7 @@ Idrissa Gueye,222,2,2025-04-12T14:00:00Z,0,0,90,Everton,302
 -3942,NA,NA,,NA,False,NA,4845,NA
 Joe Gomez,322,0,2025-04-13T13:00:00Z,0,0,0,Liverpool,376
 -227,NA,NA,,NA,True,NA,249,NA
-Dominic Calvert-Lewin,220,0,2025-04-12T14:00:00Z,0,0,0,Everton,NA
+Dominic Calvert-Lewin,220,0,2025-04-12T14:00:00Z,0,0,0,Everton,691
 -763,NA,NA,,NA,False,NA,817,NA
 Yerson Mosquera,558,0,2025-04-13T13:00:00Z,0,0,0,Wolves,634
 -1373,NA,NA,,NA,True,NA,4074,NA
@@ -31017,7 +31017,7 @@ Tino Livramento,409,2,2025-04-13T15:30:00Z,0,0,90,Newcastle,477
 439248,NA,NA,,NA,True,NA,11765,NA
 Tino Livramento,409,6,2025-04-16T18:30:00Z,0,0,90,Newcastle,477
 439248,NA,NA,,NA,True,NA,11765,NA
-Remy Rees-Dottin,707,0,2025-04-14T19:00:00Z,0,0,0,Bournemouth,NA
+Remy Rees-Dottin,707,0,2025-04-14T19:00:00Z,0,0,0,Bournemouth,687
 -220,NA,NA,,NA,True,NA,341,NA
 Tyler Adams,60,2,2025-04-14T19:00:00Z,0,0,90,Bournemouth,85
 -413,NA,NA,,NA,True,NA,532,NA
@@ -31723,7 +31723,7 @@ Mateo Kovačić,354,2,2025-04-22T19:00:00Z,0,0,90,Man City,422
 27063,NA,NA,,NA,True,NA,1836,NA
 Nicolás Domínguez,431,4,2025-04-21T19:00:00Z,0,1,57,Nott'm Forest,519
 -60,NA,NA,,NA,False,NA,144,NA
-Ben Doak,318,0,2025-04-20T15:30:00Z,0,0,0,Liverpool,391
+Ben Doak,318,0,2025-04-20T15:30:00Z,0,0,0,Liverpool,NA
 -3,NA,NA,,NA,False,NA,3,NA
 Phil Foden,348,0,2025-04-19T14:00:00Z,0,0,0,Man City,414
 -89656,NA,NA,,NA,False,NA,91875,NA
@@ -32375,7 +32375,7 @@ Idrissa Gueye,222,2,2025-04-19T14:00:00Z,0,0,78,Everton,302
 -3560,NA,NA,,NA,True,NA,3935,NA
 Joe Gomez,322,0,2025-04-20T15:30:00Z,0,0,0,Liverpool,376
 -260,NA,NA,,NA,False,NA,281,NA
-Dominic Calvert-Lewin,220,0,2025-04-19T14:00:00Z,0,0,0,Everton,NA
+Dominic Calvert-Lewin,220,0,2025-04-19T14:00:00Z,0,0,0,Everton,691
 -765,NA,NA,,NA,True,NA,863,NA
 Yerson Mosquera,558,0,2025-04-20T13:00:00Z,0,0,0,Wolves,634
 645,NA,NA,,NA,False,NA,3989,NA
@@ -32889,7 +32889,7 @@ Bastien Meupiyou,637,0,2025-04-20T13:00:00Z,0,0,0,Wolves,NA
 26,NA,NA,,NA,False,NA,568,NA
 Tino Livramento,409,0,2025-04-19T16:30:00Z,0,0,90,Newcastle,477
 -57374,NA,NA,,NA,False,NA,99625,NA
-Remy Rees-Dottin,707,0,2025-04-19T14:00:00Z,0,0,0,Bournemouth,NA
+Remy Rees-Dottin,707,0,2025-04-19T14:00:00Z,0,0,0,Bournemouth,687
 -118,NA,NA,,NA,False,NA,307,NA
 Tyler Adams,60,2,2025-04-19T14:00:00Z,0,0,60,Bournemouth,85
 -304,NA,NA,,NA,False,NA,529,NA
@@ -33551,7 +33551,7 @@ Jack Stephens,472,7,2025-04-26T14:00:00Z,1,0,90,Southampton,NA
 -295,NA,NA,,NA,True,NA,482,NA
 Nicolás Domínguez,431,1,2025-05-01T18:30:00Z,0,0,45,Nott'm Forest,519
 85,NA,NA,,NA,True,NA,65,NA
-Ben Doak,318,0,2025-04-27T15:30:00Z,0,0,0,Liverpool,391
+Ben Doak,318,0,2025-04-27T15:30:00Z,0,0,0,Liverpool,NA
 -2,NA,NA,,NA,True,NA,2,NA
 Mason Mount,382,1,2025-04-27T13:00:00Z,0,0,25,Man Utd,455
 303,NA,NA,,NA,False,NA,157,NA
@@ -33983,7 +33983,7 @@ Idrissa Gueye,222,2,2025-04-26T11:30:00Z,0,0,90,Everton,302
 -1341,NA,NA,,NA,False,NA,1705,NA
 Joe Gomez,322,0,2025-04-27T15:30:00Z,0,0,0,Liverpool,376
 -173,NA,NA,,NA,True,NA,212,NA
-Dominic Calvert-Lewin,220,0,2025-04-26T11:30:00Z,0,0,0,Everton,NA
+Dominic Calvert-Lewin,220,0,2025-04-26T11:30:00Z,0,0,0,Everton,691
 -527,NA,NA,,NA,False,NA,589,NA
 Yerson Mosquera,558,0,2025-04-26T14:00:00Z,0,0,0,Wolves,634
 -2684,NA,NA,,NA,True,NA,4386,NA
@@ -34335,7 +34335,7 @@ Bastien Meupiyou,637,0,2025-04-26T14:00:00Z,0,0,0,Wolves,NA
 -327,NA,NA,,NA,True,NA,680,NA
 Tino Livramento,409,6,2025-04-26T14:00:00Z,0,0,90,Newcastle,477
 69709,NA,NA,,NA,True,NA,30664,NA
-Remy Rees-Dottin,707,0,2025-04-27T13:00:00Z,0,0,0,Bournemouth,NA
+Remy Rees-Dottin,707,0,2025-04-27T13:00:00Z,0,0,0,Bournemouth,687
 -162,NA,NA,,NA,True,NA,270,NA
 Tyler Adams,60,1,2025-04-27T13:00:00Z,0,0,90,Bournemouth,85
 -107,NA,NA,,NA,True,NA,304,NA
@@ -34881,7 +34881,7 @@ Mateo Kovačić,354,3,2025-05-02T19:00:00Z,0,0,90,Man City,422
 4762,NA,NA,,NA,True,NA,2198,NA
 Nicolás Domínguez,431,1,2025-05-05T19:00:00Z,0,0,65,Nott'm Forest,519
 19,NA,NA,,NA,False,NA,58,NA
-Ben Doak,318,0,2025-05-04T15:30:00Z,0,0,0,Liverpool,391
+Ben Doak,318,0,2025-05-04T15:30:00Z,0,0,0,Liverpool,NA
 -1,NA,NA,,NA,False,NA,1,NA
 Phil Foden,348,1,2025-05-02T19:00:00Z,0,0,6,Man City,414
 -6936,NA,NA,,NA,True,NA,13284,NA
@@ -35425,7 +35425,7 @@ Idrissa Gueye,222,2,2025-05-03T14:00:00Z,0,0,89,Everton,302
 -315,NA,NA,,NA,True,NA,1155,NA
 Joe Gomez,322,0,2025-05-04T15:30:00Z,0,0,0,Liverpool,376
 -93,NA,NA,,NA,False,NA,115,NA
-Dominic Calvert-Lewin,220,1,2025-05-03T14:00:00Z,0,0,13,Everton,NA
+Dominic Calvert-Lewin,220,1,2025-05-03T14:00:00Z,0,0,13,Everton,691
 -262,NA,NA,,NA,True,NA,384,NA
 Yerson Mosquera,558,0,2025-05-02T19:00:00Z,0,0,0,Wolves,634
 -519,NA,NA,,NA,False,NA,2316,NA
@@ -35859,7 +35859,7 @@ Bastien Meupiyou,637,0,2025-05-02T19:00:00Z,0,0,0,Wolves,NA
 -85,NA,NA,,NA,False,NA,352,NA
 Tino Livramento,409,2,2025-05-04T13:00:00Z,0,0,90,Newcastle,477
 -22836,NA,NA,,NA,False,NA,41289,NA
-Remy Rees-Dottin,707,0,2025-05-03T16:30:00Z,0,0,0,Bournemouth,NA
+Remy Rees-Dottin,707,0,2025-05-03T16:30:00Z,0,0,0,Bournemouth,687
 -104,NA,NA,,NA,False,NA,202,NA
 Tyler Adams,60,2,2025-05-03T16:30:00Z,0,0,90,Bournemouth,85
 -126,NA,NA,,NA,False,NA,211,NA
@@ -36483,7 +36483,7 @@ Mateo Kovačić,354,3,2025-05-10T14:00:00Z,0,0,83,Man City,422
 8105,NA,NA,,NA,False,NA,4546,NA
 Nicolás Domínguez,431,2,2025-05-11T13:15:00Z,0,0,73,Nott'm Forest,519
 78,NA,NA,,NA,True,NA,91,NA
-Ben Doak,318,0,2025-05-11T15:30:00Z,0,0,0,Liverpool,391
+Ben Doak,318,0,2025-05-11T15:30:00Z,0,0,0,Liverpool,NA
 -1,NA,NA,,NA,True,NA,1,NA
 Phil Foden,348,3,2025-05-10T14:00:00Z,0,0,75,Man City,414
 -3610,NA,NA,,NA,False,NA,11079,NA
@@ -37027,7 +37027,7 @@ Idrissa Gueye,222,2,2025-05-10T14:00:00Z,0,0,90,Everton,302
 -1122,NA,NA,,NA,False,NA,1633,NA
 Joe Gomez,322,0,2025-05-11T15:30:00Z,0,0,0,Liverpool,376
 -108,NA,NA,,NA,True,NA,130,NA
-Dominic Calvert-Lewin,220,1,2025-05-10T14:00:00Z,0,0,1,Everton,NA
+Dominic Calvert-Lewin,220,1,2025-05-10T14:00:00Z,0,0,1,Everton,691
 506,NA,NA,,NA,False,NA,322,NA
 Yerson Mosquera,558,0,2025-05-10T14:00:00Z,0,0,0,Wolves,634
 -391,NA,NA,,NA,True,NA,2776,NA
@@ -37461,7 +37461,7 @@ Bastien Meupiyou,637,0,2025-05-10T14:00:00Z,0,0,0,Wolves,NA
 -37,NA,NA,,NA,True,NA,386,NA
 Tino Livramento,409,7,2025-05-11T11:00:00Z,0,0,90,Newcastle,477
 -56273,NA,NA,,NA,True,NA,65704,NA
-Remy Rees-Dottin,707,0,2025-05-10T16:30:00Z,0,0,0,Bournemouth,NA
+Remy Rees-Dottin,707,0,2025-05-10T16:30:00Z,0,0,0,Bournemouth,687
 -164,NA,NA,,NA,True,NA,229,NA
 Tyler Adams,60,2,2025-05-10T16:30:00Z,0,0,75,Bournemouth,85
 -95,NA,NA,,NA,True,NA,242,NA
@@ -38085,7 +38085,7 @@ Mateo Kovačić,354,2,2025-05-20T19:00:00Z,0,1,66,Man City,422
 -2931,NA,NA,,NA,True,NA,5252,NA
 Nicolás Domínguez,431,2,2025-05-18T13:15:00Z,0,0,90,Nott'm Forest,519
 14,NA,NA,,NA,False,NA,87,NA
-Ben Doak,318,0,2025-05-19T19:00:00Z,0,0,0,Liverpool,391
+Ben Doak,318,0,2025-05-19T19:00:00Z,0,0,0,Liverpool,NA
 -1,NA,NA,,NA,False,NA,1,NA
 Phil Foden,348,0,2025-05-20T19:00:00Z,0,0,0,Man City,414
 -2576,NA,NA,,NA,True,NA,5512,NA
@@ -38629,7 +38629,7 @@ Idrissa Gueye,222,3,2025-05-18T11:00:00Z,0,0,90,Everton,302
 -542,NA,NA,,NA,True,NA,987,NA
 Joe Gomez,322,0,2025-05-19T19:00:00Z,0,0,0,Liverpool,376
 -73,NA,NA,,NA,False,NA,99,NA
-Dominic Calvert-Lewin,220,1,2025-05-18T11:00:00Z,0,0,15,Everton,NA
+Dominic Calvert-Lewin,220,1,2025-05-18T11:00:00Z,0,0,15,Everton,691
 1350,NA,NA,,NA,True,NA,424,NA
 Yerson Mosquera,558,0,2025-05-20T19:00:00Z,0,0,0,Wolves,634
 -203,NA,NA,,NA,False,NA,2150,NA
@@ -39063,7 +39063,7 @@ Bastien Meupiyou,637,0,2025-05-20T19:00:00Z,0,0,0,Wolves,NA
 50,NA,NA,,NA,False,NA,291,NA
 Tino Livramento,409,2,2025-05-18T15:30:00Z,0,0,90,Newcastle,477
 -25025,NA,NA,,NA,False,NA,34401,NA
-Remy Rees-Dottin,707,0,2025-05-20T19:00:00Z,0,0,0,Bournemouth,NA
+Remy Rees-Dottin,707,0,2025-05-20T19:00:00Z,0,0,0,Bournemouth,687
 -33,NA,NA,,NA,False,NA,122,NA
 Tyler Adams,60,2,2025-05-20T19:00:00Z,0,0,90,Bournemouth,85
 -66,NA,NA,,NA,False,NA,157,NA
@@ -39687,7 +39687,7 @@ Mateo Kovačić,354,0,2025-05-25T15:00:00Z,0,0,0,Man City,422
 -17488,NA,NA,,NA,False,NA,17989,NA
 Nicolás Domínguez,431,2,2025-05-25T15:00:00Z,0,0,67,Nott'm Forest,519
 -72,NA,NA,,NA,True,NA,133,NA
-Ben Doak,318,0,2025-05-25T15:00:00Z,0,0,0,Liverpool,391
+Ben Doak,318,0,2025-05-25T15:00:00Z,0,0,0,Liverpool,NA
 -4,NA,NA,,NA,True,NA,4,NA
 Phil Foden,348,1,2025-05-25T15:00:00Z,0,0,8,Man City,414
 -5399,NA,NA,,NA,False,NA,8141,NA
@@ -40233,7 +40233,7 @@ Idrissa Gueye,222,2,2025-05-25T15:00:00Z,0,0,90,Everton,302
 -1300,NA,NA,,NA,False,NA,1413,NA
 Joe Gomez,322,0,2025-05-25T15:00:00Z,0,0,0,Liverpool,376
 235,NA,NA,,NA,True,NA,93,NA
-Dominic Calvert-Lewin,220,1,2025-05-25T15:00:00Z,0,0,2,Everton,NA
+Dominic Calvert-Lewin,220,1,2025-05-25T15:00:00Z,0,0,2,Everton,691
 -224,NA,NA,,NA,False,NA,970,NA
 Yerson Mosquera,558,0,2025-05-25T15:00:00Z,0,0,0,Wolves,634
 2580,NA,NA,,NA,True,NA,3383,NA
@@ -40669,7 +40669,7 @@ Bastien Meupiyou,637,0,2025-05-25T15:00:00Z,0,0,0,Wolves,NA
 463,NA,NA,,NA,True,NA,454,NA
 Tino Livramento,409,2,2025-05-25T15:00:00Z,0,0,90,Newcastle,477
 28193,NA,NA,,NA,True,NA,16143,NA
-Remy Rees-Dottin,707,0,2025-05-25T15:00:00Z,0,0,0,Bournemouth,NA
+Remy Rees-Dottin,707,0,2025-05-25T15:00:00Z,0,0,0,Bournemouth,687
 45,NA,NA,,NA,True,NA,208,NA
 Tyler Adams,60,3,2025-05-25T15:00:00Z,0,0,90,Bournemouth,85
 125,NA,NA,,NA,True,NA,187,NA

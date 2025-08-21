@@ -255,6 +255,11 @@ fixtures_poisson_format <- all_fixtures|>
          attacker_short_name, defender_short_name, home_or_away, score = value,
          attacker_name, defender_name, attacker_code, defender_code)
 
+# Save to use again
+
+fixtures_poisson_format |> write_csv("processed_data/fixtures_poisson_format.csv")
+
+
 # Want to separate into past and future - regress on the past, predict the future
 
 fixtures_poisson_past <- fixtures_poisson_format |>

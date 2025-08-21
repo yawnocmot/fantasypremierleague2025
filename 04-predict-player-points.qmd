@@ -28,6 +28,9 @@ fpl_elements <- read_csv("processed_data/fpl_elements.csv")
 vaastav_2025 <- read_csv("processed_data/vaastav_2025.csv")
 team_name_finder <- read_csv("processed_data/name_finder.csv")
 champ_players_2025 <- read_csv("processed_data/champ_players_2025.csv")
+fpl_gw <- read_csv("processed_data/fpl_gw.csv")
+fpl_fixtures <- read_csv("processed_data/fpl_fixtures.csv")
+fixtures_poisson_format <- read_csv("processed_data/fixtures_poisson_format.csv")
 ```
 
 -   Format player data - use FPL API data as a base
@@ -52,11 +55,40 @@ player_data <- fpl_elements |>
     )
   )
 
+# Have gw data from fpl input - bring in webname, team and kick-off time
+
+
+fpl_player_fixtures <- fpl_gw |>
+  left_join(player_data, join_by(id_2026 == id))|>
+              select(web_name,
+                     GW,
+                     goals_scored,
+                     assists,
+                     minutes,
+                     team,
+                     team_code,
+                     id_2026) |>
+  left_join(fixtures_poisson_format|> filter(season_end == 2026), by = join_by(team == attacker_name, GW == round_number)) |>
+              select(name = web_name,
+                     GW,
+                     kickoff_time = date_utc,
+                     goals_scored,
+                     assists,
+                     minutes,
+                     team,
+                     id_2026)
+
+# WARNING: When there are double game weeks this will break.
+
+player_fixture_data <- vaastav_2025 |>
+  select(!id_2025)|>
+  rbind(fpl_player_fixtures)
+
 # Create an exponential back-off summary for goals scored, assists, and minutes in Vaastav data
 
 decay_parameter <- 0.005
 
-player_2025_summary <- vaastav_2025 |>
+player_2025_summary <- player_fixture_data |>
   filter(!is.na(id_2026))|>
   mutate(
     assists = as.numeric(assists),
@@ -73,7 +105,7 @@ player_2025_summary <- vaastav_2025 |>
     assists_weighted = weighted.mean(assists, weight)
   )
 
-# Have to come back here to add in 2025-26 gameweeks straight from FPL.
+# Bit of a problem that for teams/players with no 2025 data, assumption in GW is that every week will be like GW 1 - so new players who happened to score/assist have done very well. It should settle down soon..
 
 # Now match this to our player dataset
 player_data <- player_data|>

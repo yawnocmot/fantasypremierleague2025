@@ -101,11 +101,33 @@ fpl_elements |> write_csv("processed_data/fpl_elements.csv")
 fpl_fixtures <- tibble(fromJSON("https://fantasy.premierleague.com/api/fixtures/"))
 
 fpl_fixtures |> write_csv("processed_data/fpl_fixtures.csv")
+
+
+# Game week data - pull the summaries of what has happened in each gameweek
+
+game_week_data <- function(gw){
+  url <- sprintf("https://fantasy.premierleague.com/api/event/%d/live/", gw)
+  response <- GET(url)
+  fpl_data <- fromJSON(content(response, "text"))
+  
+  fpl_data$elements$stats|>
+    as_tibble()|>
+    cbind(fpl_data$elements$id)|>
+    mutate(id = `fpl_data$elements$id`,
+            GW = gw,
+            .keep = "unused")|>
+    as_tibble()
+}
+
+# Only have gw 1 for now so can't test binding multiple game weeks.
+fpl_gw <- game_week_data(1) |>
+  select(id_2026 = id, GW, goals_scored, assists, minutes)
+
+fpl_gw |> write_csv("processed_data/fpl_gw.csv")
+
 ```
 
-fpl
-
--   Find data of results by team - get data from Openfootball API in Github. Openfootball has the full list of scores in table format, but with some errors. It also depends on when someone updates their repository on github, which slows down the process. Can I find a better place to get live premier league scores from?
+Find data of results by team - get data from Openfootball API in Github. Openfootball has the full list of scores in table format, but with some errors. It also depends on when someone updates their repository on github, which slows down the process. Can I find a better place to get live premier league scores from?
 
 ```{r}
 #| label: openfootball-api
