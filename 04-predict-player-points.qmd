@@ -274,6 +274,8 @@ team_scores_per_week <- predict_future_rows |>
 
 future_decay_parameter <- 0.005
 
+# Want goals against for the season
+
 goals_against <- team_scores_per_week |>
   mutate (
     days_from_now = (date_utc %--% today())/days(1),
@@ -284,6 +286,22 @@ goals_against <- team_scores_per_week |>
     weighted_2026_goals_against = sum(goals*weight)
   ) |>
   rename(short_name = defender_short_name)
+
+# Also what happens next week for selecting who to play
+
+next_week <- team_scores_per_week |>
+  arrange(round_number)|>
+  head(1)|>
+  pull(round_number)
+
+stats_next_week <- team_scores_per_week |> 
+  filter(round_number == next_week)|>
+  select(short_name = attacker_short_name, 
+         next_goals = goals, 
+         next_clean_sheet = prob_clean_sheet,
+         next_concede_2 = prob_concede_2,
+         next_concede_4 = prob_concede_4)
+
 
 team_weighted_stats <- team_scores_per_week |>
   mutate (
@@ -299,7 +317,8 @@ team_weighted_stats <- team_scores_per_week |>
     weighted_2026_games = sum(weight)
   ) |>
   rename(short_name = attacker_short_name)|>
-  left_join(goals_against)
+  left_join(goals_against) |>
+  left_join(stats_next_week)
 
 # Come back to this - account for wildcards etc. to have time limits. Is it better in fact to match at a gameweek level - bigger file but more flexibility.
 
@@ -317,7 +336,12 @@ player_data <- player_data |>
     goals_against_predict_2026 = minutes_any_weighted * weighted_2026_goals_against,
     clean_sheets_predict_2026 = minutes_60_weighted * weighted_2026_clean_sheets,
     concede_2_predict_2026 = minutes_60_weighted * weighted_2026_concede_2,
-    concede_4_predict_2026 = minutes_60_weighted * weighted_2026_concede_4
+    concede_4_predict_2026 = minutes_60_weighted * weighted_2026_concede_4,
+    player_goals_next = next_goals*prop_goals,
+    player_assists_next = next_goals*prop_assists,
+    player_clean_sheets_next = minutes_60_weighted * next_clean_sheet,
+    player_concede_2_next = minutes_60_weighted * next_concede_2,
+    player_concede_4_next = minutes_60_weighted * next_concede_4
   ) |>
     #Chance to edit if needed:
   mutate(play_chance = case_when(
@@ -328,16 +352,29 @@ player_data <- player_data |>
     predicted_2026_points = case_when(
       element_type == 1 ~ play_predict_2026 + 4*clean_sheets_predict_2026 
                           + 10*goals_predict_2026 + 3*assists_predict_2026
-                          - 0.5*goals_against_predict_2026
                           - concede_2_predict_2026 - concede_4_predict_2026, 
       element_type == 2 ~ play_predict_2026 + 4*clean_sheets_predict_2026 
                           + 6*goals_predict_2026 + 3*assists_predict_2026
-                          - 0.5*goals_against_predict_2026
                           - concede_2_predict_2026 - concede_4_predict_2026,
       element_type == 3 ~ play_predict_2026 + 1*clean_sheets_predict_2026 
                           + 5*goals_predict_2026 + 3*assists_predict_2026,
       element_type == 4 ~ play_predict_2026  
                           + 4*goals_predict_2026 + 3*assists_predict_2026
+    ) * if_else(is.na(play_chance),1,play_chance/100),
+    predicted_next_week_points = case_when(
+      element_type == 1 ~ minutes_any_weighted + minutes_60_weighted
+                          + 4*player_clean_sheets_next
+                          + 10*player_goals_next + 3*player_assists_next
+                          - player_concede_2_next - player_concede_4_next, 
+      element_type == 2 ~ minutes_any_weighted + minutes_60_weighted
+                          + 4*player_clean_sheets_next
+                          + 6*player_goals_next + 3*player_assists_next
+                          - player_concede_2_next - player_concede_4_next,
+      element_type == 3 ~ minutes_any_weighted + minutes_60_weighted 
+                          + 1*player_clean_sheets_next
+                          + 5*player_goals_next + 3*player_assists_next,
+      element_type == 4 ~ minutes_any_weighted + minutes_60_weighted  
+                          + 4*player_goals_next + 3*player_assists_next
     ) * if_else(is.na(play_chance),1,play_chance/100)
   )
 

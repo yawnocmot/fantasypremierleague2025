@@ -119,8 +119,14 @@ game_week_data <- function(gw){
     as_tibble()
 }
 
+gw_max <- fpl_fixtures |> 
+  filter(finished == TRUE) |> 
+  arrange(desc(event)) |>
+  head(1) |>
+  pull(event)
+
 # Only have gw 1 for now so can't test binding multiple game weeks.
-fpl_gw <- game_week_data(1) |>
+fpl_gw <- map_dfr(1:gw_max,game_week_data) |>
   select(id_2026 = id, GW, goals_scored, assists, minutes)
 
 fpl_gw |> write_csv("processed_data/fpl_gw.csv")

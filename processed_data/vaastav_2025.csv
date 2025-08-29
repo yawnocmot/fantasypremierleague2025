@@ -176,7 +176,7 @@ Dango Ouattara,74,1,2024-08-17T14:00:00Z,0,0,68,Bournemouth,83
 Emmanuel Dennis,430,1,2024-08-17T14:00:00Z,0,0,0,Nott'm Forest,NA
 Yehor Yarmoliuk,111,1,2024-08-18T13:00:00Z,0,0,0,Brentford,129
 Julián Álvarez,352,1,2024-08-18T15:30:00Z,0,0,0,Man City,NA
-Tyler Dibling,608,1,2024-08-17T14:00:00Z,0,0,20,Southampton,NA
+Tyler Dibling,608,1,2024-08-17T14:00:00Z,0,0,20,Southampton,707
 Paul Onuachu,470,1,2024-08-17T14:00:00Z,0,0,0,Southampton,NA
 Bobby Clark,315,1,2024-08-17T11:30:00Z,0,0,0,Liverpool,NA
 Kieran Tierney,21,1,2024-08-17T14:00:00Z,0,0,0,Arsenal,NA
@@ -247,7 +247,7 @@ Rodrigo Bentancur,480,1,2024-08-19T19:00:00Z,0,0,77,Spurs,585
 Dominic Solanke-Mitchell,82,1,2024-08-19T19:00:00Z,0,0,90,Spurs,596
 Chris Richards,194,1,2024-08-18T13:00:00Z,0,0,83,Crystal Palace,261
 Rayan Aït-Nouri,533,1,2024-08-17T14:00:00Z,0,0,83,Wolves,402
-James Justin,295,1,2024-08-19T19:00:00Z,0,0,90,Leicester,NA
+James Justin,295,1,2024-08-19T19:00:00Z,0,0,90,Leicester,706
 Joshua Zirkzee,389,1,2024-08-16T19:00:00Z,1,0,29,Man Utd,466
 Martin Ødegaard,13,1,2024-08-17T14:00:00Z,0,0,90,Arsenal,17
 Cesare Casadei,158,1,2024-08-18T15:30:00Z,0,0,0,Chelsea,NA
@@ -794,7 +794,7 @@ Dango Ouattara,74,2,2024-08-25T13:00:00Z,0,0,18,Bournemouth,83
 Emmanuel Dennis,430,2,2024-08-24T14:00:00Z,0,0,0,Nott'm Forest,NA
 Yehor Yarmoliuk,111,2,2024-08-25T15:30:00Z,0,0,0,Brentford,129
 Julián Álvarez,352,2,2024-08-24T14:00:00Z,0,0,0,Man City,NA
-Tyler Dibling,608,2,2024-08-24T14:00:00Z,0,0,6,Southampton,NA
+Tyler Dibling,608,2,2024-08-24T14:00:00Z,0,0,6,Southampton,707
 Paul Onuachu,470,2,2024-08-24T14:00:00Z,0,0,0,Southampton,NA
 Bobby Clark,315,2,2024-08-25T15:30:00Z,0,0,0,Liverpool,NA
 Kieran Tierney,21,2,2024-08-24T16:30:00Z,0,0,0,Arsenal,NA
@@ -866,7 +866,7 @@ Rodrigo Bentancur,480,2,2024-08-24T14:00:00Z,0,0,0,Spurs,585
 Dominic Solanke-Mitchell,82,2,2024-08-24T14:00:00Z,0,0,0,Spurs,596
 Chris Richards,194,2,2024-08-24T14:00:00Z,0,0,80,Crystal Palace,261
 Rayan Aït-Nouri,533,2,2024-08-25T13:00:00Z,0,1,67,Wolves,402
-James Justin,295,2,2024-08-24T14:00:00Z,0,0,90,Leicester,NA
+James Justin,295,2,2024-08-24T14:00:00Z,0,0,90,Leicester,706
 Joshua Zirkzee,389,2,2024-08-24T11:30:00Z,0,0,45,Man Utd,466
 Martin Ødegaard,13,2,2024-08-24T16:30:00Z,0,0,90,Arsenal,17
 Cesare Casadei,158,2,2024-08-25T13:00:00Z,0,0,0,Chelsea,NA
@@ -1183,7 +1183,7 @@ Malo Gusto,171,2,2024-08-25T13:00:00Z,0,0,90,Chelsea,228
 Hwang Ui-jo,446,2,2024-08-24T14:00:00Z,0,0,0,Nott'm Forest,NA
 Jakub Stolarczyk,304,2,2024-08-24T14:00:00Z,0,0,0,Leicester,NA
 Lloyd Kelly,404,2,2024-08-25T13:00:00Z,0,0,68,Newcastle,NA
-Mateus Gonçalo Espanha Fernandes,623,2,2024-08-24T14:00:00Z,0,0,14,Southampton,NA
+Mateus Gonçalo Espanha Fernandes,623,2,2024-08-24T14:00:00Z,0,0,14,Southampton,708
 Valentín Barco,116,2,2024-08-24T11:30:00Z,0,0,0,Brighton,NA
 Dean Huijsen,580,2,2024-08-25T13:00:00Z,0,0,0,Bournemouth,NA
 Max Aarons,59,2,2024-08-25T13:00:00Z,0,0,0,Bournemouth,NA
@@ -1425,7 +1425,7 @@ Dango Ouattara,74,3,2024-08-31T14:00:00Z,0,1,24,Bournemouth,83
 Emmanuel Dennis,430,3,2024-08-31T14:00:00Z,0,0,0,Nott'm Forest,NA
 Yehor Yarmoliuk,111,3,2024-08-31T14:00:00Z,0,0,0,Brentford,129
 Julián Álvarez,352,3,2024-08-31T16:30:00Z,0,0,0,Man City,NA
-Tyler Dibling,608,3,2024-08-31T14:00:00Z,0,0,34,Southampton,NA
+Tyler Dibling,608,3,2024-08-31T14:00:00Z,0,0,34,Southampton,707
 Paul Onuachu,470,3,2024-08-31T14:00:00Z,0,0,0,Southampton,NA
 Bobby Clark,315,3,2024-09-01T15:00:00Z,0,0,0,Liverpool,NA
 Kieran Tierney,21,3,2024-08-31T11:30:00Z,0,0,0,Arsenal,NA
@@ -1501,7 +1501,7 @@ Rodrigo Bentancur,480,3,2024-09-01T12:30:00Z,0,0,8,Spurs,585
 Dominic Solanke-Mitchell,82,3,2024-09-01T12:30:00Z,0,0,0,Spurs,596
 Chris Richards,194,3,2024-09-01T12:30:00Z,0,0,90,Crystal Palace,261
 Rayan Aït-Nouri,533,3,2024-08-31T14:00:00Z,0,0,59,Wolves,402
-James Justin,295,3,2024-08-31T14:00:00Z,0,0,90,Leicester,NA
+James Justin,295,3,2024-08-31T14:00:00Z,0,0,90,Leicester,706
 Joshua Zirkzee,389,3,2024-09-01T15:00:00Z,0,0,85,Man Utd,466
 Martin Ødegaard,13,3,2024-08-31T11:30:00Z,0,0,73,Arsenal,17
 Cesare Casadei,158,3,2024-09-01T12:30:00Z,0,0,0,Chelsea,NA
@@ -1830,7 +1830,7 @@ Malo Gusto,171,3,2024-09-01T12:30:00Z,0,0,73,Chelsea,228
 Hwang Ui-jo,446,3,2024-08-31T14:00:00Z,0,0,0,Nott'm Forest,NA
 Jakub Stolarczyk,304,3,2024-08-31T14:00:00Z,0,0,0,Leicester,NA
 Lloyd Kelly,404,3,2024-09-01T12:30:00Z,0,1,67,Newcastle,NA
-Mateus Gonçalo Espanha Fernandes,623,3,2024-08-31T14:00:00Z,0,0,45,Southampton,NA
+Mateus Gonçalo Espanha Fernandes,623,3,2024-08-31T14:00:00Z,0,0,45,Southampton,708
 Valentín Barco,116,3,2024-08-31T11:30:00Z,0,0,0,Brighton,NA
 Dean Huijsen,580,3,2024-08-31T14:00:00Z,0,0,13,Bournemouth,NA
 André Trindade da Costa Neto,642,3,2024-08-31T14:00:00Z,0,0,4,Wolves,643
@@ -2073,7 +2073,7 @@ Dango Ouattara,74,4,2024-09-14T19:00:00Z,0,0,0,Bournemouth,83
 Emmanuel Dennis,430,4,2024-09-14T14:00:00Z,0,0,0,Nott'm Forest,NA
 Yehor Yarmoliuk,111,4,2024-09-14T14:00:00Z,0,0,6,Brentford,129
 Julián Álvarez,352,4,2024-09-14T14:00:00Z,0,0,0,Man City,NA
-Tyler Dibling,608,4,2024-09-14T11:30:00Z,0,0,62,Southampton,NA
+Tyler Dibling,608,4,2024-09-14T11:30:00Z,0,0,62,Southampton,707
 Paul Onuachu,470,4,2024-09-14T11:30:00Z,0,0,0,Southampton,NA
 Bobby Clark,315,4,2024-09-14T14:00:00Z,0,0,0,Liverpool,NA
 Kieran Tierney,21,4,2024-09-15T13:00:00Z,0,0,0,Arsenal,NA
@@ -2153,7 +2153,7 @@ Rodrigo Bentancur,480,4,2024-09-15T13:00:00Z,0,0,67,Spurs,585
 Dominic Solanke-Mitchell,82,4,2024-09-15T13:00:00Z,0,0,90,Spurs,596
 Chris Richards,194,4,2024-09-14T14:00:00Z,0,0,0,Crystal Palace,261
 Rayan Aït-Nouri,533,4,2024-09-15T15:30:00Z,0,0,85,Wolves,402
-James Justin,295,4,2024-09-14T14:00:00Z,0,0,90,Leicester,NA
+James Justin,295,4,2024-09-14T14:00:00Z,0,0,90,Leicester,706
 Joshua Zirkzee,389,4,2024-09-14T11:30:00Z,0,0,90,Man Utd,466
 Martin Ødegaard,13,4,2024-09-15T13:00:00Z,0,0,0,Arsenal,17
 Cesare Casadei,158,4,2024-09-14T19:00:00Z,0,0,0,Chelsea,NA
@@ -2487,7 +2487,7 @@ Malo Gusto,171,4,2024-09-14T19:00:00Z,0,0,0,Chelsea,228
 Hwang Ui-jo,446,4,2024-09-14T14:00:00Z,0,0,0,Nott'm Forest,NA
 Jakub Stolarczyk,304,4,2024-09-14T14:00:00Z,0,0,0,Leicester,NA
 Lloyd Kelly,404,4,2024-09-15T15:30:00Z,0,0,3,Newcastle,NA
-Mateus Gonçalo Espanha Fernandes,623,4,2024-09-14T11:30:00Z,0,0,80,Southampton,NA
+Mateus Gonçalo Espanha Fernandes,623,4,2024-09-14T11:30:00Z,0,0,80,Southampton,708
 Valentín Barco,116,4,2024-09-14T14:00:00Z,0,0,0,Brighton,NA
 Dean Huijsen,580,4,2024-09-14T19:00:00Z,0,0,0,Bournemouth,NA
 Carlos Roberto Forbs Borges,655,4,2024-09-15T15:30:00Z,0,0,4,Wolves,NA
@@ -2732,7 +2732,7 @@ Dango Ouattara,74,5,2024-09-21T14:00:00Z,0,0,45,Bournemouth,83
 Emmanuel Dennis,430,5,2024-09-22T13:00:00Z,0,0,0,Nott'm Forest,NA
 Yehor Yarmoliuk,111,5,2024-09-21T14:00:00Z,0,0,62,Brentford,129
 Julián Álvarez,352,5,2024-09-22T15:30:00Z,0,0,0,Man City,NA
-Tyler Dibling,608,5,2024-09-21T14:00:00Z,1,0,81,Southampton,NA
+Tyler Dibling,608,5,2024-09-21T14:00:00Z,1,0,81,Southampton,707
 Paul Onuachu,470,5,2024-09-21T14:00:00Z,0,0,0,Southampton,NA
 Bobby Clark,315,5,2024-09-21T14:00:00Z,0,0,0,Liverpool,NA
 Kieran Tierney,21,5,2024-09-22T15:30:00Z,0,0,0,Arsenal,NA
@@ -2812,7 +2812,7 @@ Rodrigo Bentancur,480,5,2024-09-21T14:00:00Z,0,0,62,Spurs,585
 Dominic Solanke-Mitchell,82,5,2024-09-21T14:00:00Z,1,0,87,Spurs,596
 Chris Richards,194,5,2024-09-21T16:30:00Z,0,0,90,Crystal Palace,261
 Rayan Aït-Nouri,533,5,2024-09-21T14:00:00Z,0,0,90,Wolves,402
-James Justin,295,5,2024-09-21T14:00:00Z,0,0,90,Leicester,NA
+James Justin,295,5,2024-09-21T14:00:00Z,0,0,90,Leicester,706
 Joshua Zirkzee,389,5,2024-09-21T16:30:00Z,0,0,60,Man Utd,466
 Martin Ødegaard,13,5,2024-09-22T15:30:00Z,0,0,0,Arsenal,17
 Cesare Casadei,158,5,2024-09-21T11:30:00Z,0,0,0,Chelsea,NA
@@ -3148,7 +3148,7 @@ Malo Gusto,171,5,2024-09-21T11:30:00Z,0,0,0,Chelsea,228
 Hwang Ui-jo,446,5,2024-09-22T13:00:00Z,0,0,0,Nott'm Forest,NA
 Jakub Stolarczyk,304,5,2024-09-21T14:00:00Z,0,0,0,Leicester,NA
 Lloyd Kelly,404,5,2024-09-21T14:00:00Z,0,0,45,Newcastle,NA
-Mateus Gonçalo Espanha Fernandes,623,5,2024-09-21T14:00:00Z,0,0,90,Southampton,NA
+Mateus Gonçalo Espanha Fernandes,623,5,2024-09-21T14:00:00Z,0,0,90,Southampton,708
 Valentín Barco,116,5,2024-09-22T13:00:00Z,0,0,0,Brighton,NA
 Dean Huijsen,580,5,2024-09-21T14:00:00Z,0,0,90,Bournemouth,NA
 Carlos Roberto Forbs Borges,655,5,2024-09-21T14:00:00Z,0,0,0,Wolves,NA
@@ -3394,7 +3394,7 @@ Dango Ouattara,74,6,2024-09-30T19:00:00Z,1,0,60,Bournemouth,83
 Emmanuel Dennis,430,6,2024-09-28T14:00:00Z,0,0,0,Nott'm Forest,NA
 Yehor Yarmoliuk,111,6,2024-09-28T14:00:00Z,0,0,30,Brentford,129
 Julián Álvarez,352,6,2024-09-28T11:30:00Z,0,0,0,Man City,NA
-Tyler Dibling,608,6,2024-09-30T19:00:00Z,0,0,75,Southampton,NA
+Tyler Dibling,608,6,2024-09-30T19:00:00Z,0,0,75,Southampton,707
 Paul Onuachu,470,6,2024-09-30T19:00:00Z,0,0,0,Southampton,NA
 Bobby Clark,315,6,2024-09-28T16:30:00Z,0,0,0,Liverpool,NA
 Kieran Tierney,21,6,2024-09-28T14:00:00Z,0,0,0,Arsenal,NA
@@ -3474,7 +3474,7 @@ Rodrigo Bentancur,480,6,2024-09-29T15:30:00Z,0,0,90,Spurs,585
 Dominic Solanke-Mitchell,82,6,2024-09-29T15:30:00Z,1,0,90,Spurs,596
 Chris Richards,194,6,2024-09-28T14:00:00Z,0,0,0,Crystal Palace,261
 Rayan Aït-Nouri,533,6,2024-09-28T16:30:00Z,1,0,90,Wolves,402
-James Justin,295,6,2024-09-28T14:00:00Z,2,0,90,Leicester,NA
+James Justin,295,6,2024-09-28T14:00:00Z,2,0,90,Leicester,706
 Joshua Zirkzee,389,6,2024-09-29T15:30:00Z,0,0,45,Man Utd,466
 Martin Ødegaard,13,6,2024-09-28T14:00:00Z,0,0,0,Arsenal,17
 Cesare Casadei,158,6,2024-09-28T14:00:00Z,0,0,0,Chelsea,NA
@@ -3811,7 +3811,7 @@ Malo Gusto,171,6,2024-09-28T14:00:00Z,0,0,90,Chelsea,228
 Hwang Ui-jo,446,6,2024-09-28T14:00:00Z,0,0,0,Nott'm Forest,NA
 Jakub Stolarczyk,304,6,2024-09-28T14:00:00Z,0,0,0,Leicester,NA
 Lloyd Kelly,404,6,2024-09-28T11:30:00Z,0,0,0,Newcastle,NA
-Mateus Gonçalo Espanha Fernandes,623,6,2024-09-30T19:00:00Z,0,0,69,Southampton,NA
+Mateus Gonçalo Espanha Fernandes,623,6,2024-09-30T19:00:00Z,0,0,69,Southampton,708
 Valentín Barco,116,6,2024-09-28T14:00:00Z,0,0,0,Brighton,NA
 Dean Huijsen,580,6,2024-09-30T19:00:00Z,0,0,0,Bournemouth,NA
 Carlos Roberto Forbs Borges,655,6,2024-09-28T16:30:00Z,0,0,38,Wolves,NA
@@ -4058,7 +4058,7 @@ Dango Ouattara,74,7,2024-10-05T14:00:00Z,0,0,45,Bournemouth,83
 Emmanuel Dennis,430,7,2024-10-06T13:00:00Z,0,0,0,Nott'm Forest,NA
 Yehor Yarmoliuk,111,7,2024-10-05T14:00:00Z,0,0,13,Brentford,129
 Julián Álvarez,352,7,2024-10-05T14:00:00Z,0,0,0,Man City,NA
-Tyler Dibling,608,7,2024-10-05T14:00:00Z,0,0,90,Southampton,NA
+Tyler Dibling,608,7,2024-10-05T14:00:00Z,0,0,90,Southampton,707
 Paul Onuachu,470,7,2024-10-05T14:00:00Z,0,0,16,Southampton,NA
 Bobby Clark,315,7,2024-10-05T11:30:00Z,0,0,0,Liverpool,NA
 Kieran Tierney,21,7,2024-10-05T14:00:00Z,0,0,0,Arsenal,NA
@@ -4138,7 +4138,7 @@ Rodrigo Bentancur,480,7,2024-10-06T15:30:00Z,0,0,78,Spurs,585
 Dominic Solanke-Mitchell,82,7,2024-10-06T15:30:00Z,0,1,90,Spurs,596
 Chris Richards,194,7,2024-10-05T11:30:00Z,0,0,0,Crystal Palace,261
 Rayan Aït-Nouri,533,7,2024-10-05T14:00:00Z,1,1,90,Wolves,402
-James Justin,295,7,2024-10-05T14:00:00Z,0,1,90,Leicester,NA
+James Justin,295,7,2024-10-05T14:00:00Z,0,1,90,Leicester,706
 Joshua Zirkzee,389,7,2024-10-06T13:00:00Z,0,0,26,Man Utd,466
 Martin Ødegaard,13,7,2024-10-05T14:00:00Z,0,0,0,Arsenal,17
 Cesare Casadei,158,7,2024-10-06T13:00:00Z,0,0,0,Chelsea,NA
@@ -4477,7 +4477,7 @@ Nathan Butler-Oyedeji,665,7,2024-10-05T14:00:00Z,0,0,0,Arsenal,NA
 Hwang Ui-jo,446,7,2024-10-06T13:00:00Z,0,0,0,Nott'm Forest,NA
 Jakub Stolarczyk,304,7,2024-10-05T14:00:00Z,0,0,0,Leicester,NA
 Lloyd Kelly,404,7,2024-10-05T16:30:00Z,0,0,0,Newcastle,NA
-Mateus Gonçalo Espanha Fernandes,623,7,2024-10-05T14:00:00Z,0,1,73,Southampton,NA
+Mateus Gonçalo Espanha Fernandes,623,7,2024-10-05T14:00:00Z,0,1,73,Southampton,708
 Valentín Barco,116,7,2024-10-06T15:30:00Z,0,0,0,Brighton,NA
 Dean Huijsen,580,7,2024-10-05T14:00:00Z,0,0,0,Bournemouth,NA
 Carlos Roberto Forbs Borges,655,7,2024-10-05T14:00:00Z,0,0,67,Wolves,NA
@@ -4724,7 +4724,7 @@ Dango Ouattara,74,8,2024-10-19T16:30:00Z,0,0,62,Bournemouth,83
 Emmanuel Dennis,430,8,2024-10-21T19:00:00Z,0,0,0,Nott'm Forest,NA
 Yehor Yarmoliuk,111,8,2024-10-19T14:00:00Z,0,0,15,Brentford,129
 Julián Álvarez,352,8,2024-10-20T13:00:00Z,0,0,0,Man City,NA
-Tyler Dibling,608,8,2024-10-19T14:00:00Z,0,0,77,Southampton,NA
+Tyler Dibling,608,8,2024-10-19T14:00:00Z,0,0,77,Southampton,707
 Paul Onuachu,470,8,2024-10-19T14:00:00Z,0,0,22,Southampton,NA
 Bobby Clark,315,8,2024-10-20T15:30:00Z,0,0,0,Liverpool,NA
 Kieran Tierney,21,8,2024-10-19T16:30:00Z,0,0,0,Arsenal,NA
@@ -4804,7 +4804,7 @@ Rodrigo Bentancur,480,8,2024-10-19T11:30:00Z,0,0,9,Spurs,585
 Dominic Solanke-Mitchell,82,8,2024-10-19T11:30:00Z,0,0,80,Spurs,596
 Chris Richards,194,8,2024-10-21T19:00:00Z,0,0,0,Crystal Palace,261
 Rayan Aït-Nouri,533,8,2024-10-20T13:00:00Z,0,0,90,Wolves,402
-James Justin,295,8,2024-10-19T14:00:00Z,0,0,90,Leicester,NA
+James Justin,295,8,2024-10-19T14:00:00Z,0,0,90,Leicester,706
 Joshua Zirkzee,389,8,2024-10-19T14:00:00Z,0,0,16,Man Utd,466
 Martin Ødegaard,13,8,2024-10-19T16:30:00Z,0,0,0,Arsenal,17
 Cesare Casadei,158,8,2024-10-20T15:30:00Z,0,0,0,Chelsea,NA
@@ -5144,7 +5144,7 @@ Nathan Butler-Oyedeji,665,8,2024-10-19T16:30:00Z,0,0,0,Arsenal,NA
 Hwang Ui-jo,446,8,2024-10-21T19:00:00Z,0,0,0,Nott'm Forest,NA
 Jakub Stolarczyk,304,8,2024-10-19T14:00:00Z,0,0,0,Leicester,NA
 Lloyd Kelly,404,8,2024-10-19T14:00:00Z,0,0,0,Newcastle,NA
-Mateus Gonçalo Espanha Fernandes,623,8,2024-10-19T14:00:00Z,0,0,67,Southampton,NA
+Mateus Gonçalo Espanha Fernandes,623,8,2024-10-19T14:00:00Z,0,0,67,Southampton,708
 Valentín Barco,116,8,2024-10-19T14:00:00Z,0,0,0,Brighton,NA
 Dean Huijsen,580,8,2024-10-19T16:30:00Z,0,0,0,Bournemouth,NA
 Carlos Roberto Forbs Borges,655,8,2024-10-20T13:00:00Z,0,0,23,Wolves,NA
@@ -5392,7 +5392,7 @@ Dango Ouattara,74,9,2024-10-26T14:00:00Z,0,0,90,Bournemouth,83
 Emmanuel Dennis,430,9,2024-10-25T19:00:00Z,0,0,0,Nott'm Forest,NA
 Yehor Yarmoliuk,111,9,2024-10-26T14:00:00Z,0,0,0,Brentford,129
 Julián Álvarez,352,9,2024-10-26T14:00:00Z,0,0,0,Man City,NA
-Tyler Dibling,608,9,2024-10-26T14:00:00Z,0,0,45,Southampton,NA
+Tyler Dibling,608,9,2024-10-26T14:00:00Z,0,0,45,Southampton,707
 Paul Onuachu,470,9,2024-10-26T14:00:00Z,0,0,3,Southampton,NA
 Bobby Clark,315,9,2024-10-27T16:30:00Z,0,0,0,Liverpool,NA
 Kieran Tierney,21,9,2024-10-27T16:30:00Z,0,0,0,Arsenal,NA
@@ -5473,7 +5473,7 @@ Rodrigo Bentancur,480,9,2024-10-27T14:00:00Z,0,0,3,Spurs,585
 Dominic Solanke-Mitchell,82,9,2024-10-27T14:00:00Z,0,0,90,Spurs,596
 Chris Richards,194,9,2024-10-27T14:00:00Z,0,0,0,Crystal Palace,261
 Rayan Aït-Nouri,533,9,2024-10-26T14:00:00Z,1,0,90,Wolves,402
-James Justin,295,9,2024-10-25T19:00:00Z,0,0,90,Leicester,NA
+James Justin,295,9,2024-10-25T19:00:00Z,0,0,90,Leicester,706
 Joshua Zirkzee,389,9,2024-10-27T14:00:00Z,0,1,11,Man Utd,466
 Martin Ødegaard,13,9,2024-10-27T16:30:00Z,0,0,0,Arsenal,17
 Cesare Casadei,158,9,2024-10-27T14:00:00Z,0,0,0,Chelsea,NA
@@ -5814,7 +5814,7 @@ Nathan Butler-Oyedeji,665,9,2024-10-27T16:30:00Z,0,0,0,Arsenal,NA
 Hwang Ui-jo,446,9,2024-10-25T19:00:00Z,0,0,0,Nott'm Forest,NA
 Jakub Stolarczyk,304,9,2024-10-25T19:00:00Z,0,0,0,Leicester,NA
 Lloyd Kelly,404,9,2024-10-27T14:00:00Z,0,0,1,Newcastle,NA
-Mateus Gonçalo Espanha Fernandes,623,9,2024-10-26T14:00:00Z,0,0,90,Southampton,NA
+Mateus Gonçalo Espanha Fernandes,623,9,2024-10-26T14:00:00Z,0,0,90,Southampton,708
 Valentín Barco,116,9,2024-10-26T14:00:00Z,0,0,0,Brighton,NA
 Dean Huijsen,580,9,2024-10-26T14:00:00Z,0,0,0,Bournemouth,NA
 Carlos Roberto Forbs Borges,655,9,2024-10-26T14:00:00Z,0,0,49,Wolves,NA
@@ -6064,7 +6064,7 @@ Dango Ouattara,74,10,2024-11-02T15:00:00Z,0,0,0,Bournemouth,83
 Emmanuel Dennis,430,10,2024-11-02T15:00:00Z,0,0,0,Nott'm Forest,NA
 Yehor Yarmoliuk,111,10,2024-11-04T20:00:00Z,0,0,1,Brentford,129
 Julián Álvarez,352,10,2024-11-02T15:00:00Z,0,0,0,Man City,NA
-Tyler Dibling,608,10,2024-11-02T15:00:00Z,0,0,31,Southampton,NA
+Tyler Dibling,608,10,2024-11-02T15:00:00Z,0,0,31,Southampton,707
 Paul Onuachu,470,10,2024-11-02T15:00:00Z,0,0,1,Southampton,NA
 Bobby Clark,315,10,2024-11-02T15:00:00Z,0,0,0,Liverpool,NA
 Kieran Tierney,21,10,2024-11-02T12:30:00Z,0,0,0,Arsenal,NA
@@ -6146,7 +6146,7 @@ Rodrigo Bentancur,480,10,2024-11-03T14:00:00Z,0,0,55,Spurs,585
 Dominic Solanke-Mitchell,82,10,2024-11-03T14:00:00Z,2,1,90,Spurs,596
 Chris Richards,194,10,2024-11-02T17:30:00Z,0,0,0,Crystal Palace,261
 Rayan Aït-Nouri,533,10,2024-11-02T17:30:00Z,0,0,90,Wolves,402
-James Justin,295,10,2024-11-02T15:00:00Z,0,0,0,Leicester,NA
+James Justin,295,10,2024-11-02T15:00:00Z,0,0,0,Leicester,706
 Joshua Zirkzee,389,10,2024-11-03T16:30:00Z,0,0,6,Man Utd,466
 Martin Ødegaard,13,10,2024-11-02T12:30:00Z,0,0,0,Arsenal,17
 Cesare Casadei,158,10,2024-11-03T16:30:00Z,0,0,0,Chelsea,NA
@@ -6488,7 +6488,7 @@ Nathan Butler-Oyedeji,665,10,2024-11-02T12:30:00Z,0,0,0,Arsenal,NA
 Hwang Ui-jo,446,10,2024-11-02T15:00:00Z,0,0,0,Nott'm Forest,NA
 Jakub Stolarczyk,304,10,2024-11-02T15:00:00Z,0,0,0,Leicester,NA
 Lloyd Kelly,404,10,2024-11-02T12:30:00Z,0,0,1,Newcastle,NA
-Mateus Gonçalo Espanha Fernandes,623,10,2024-11-02T15:00:00Z,0,0,90,Southampton,NA
+Mateus Gonçalo Espanha Fernandes,623,10,2024-11-02T15:00:00Z,0,0,90,Southampton,708
 Valentín Barco,116,10,2024-11-02T15:00:00Z,0,0,0,Brighton,NA
 Dean Huijsen,580,10,2024-11-02T15:00:00Z,0,0,1,Bournemouth,NA
 Carlos Roberto Forbs Borges,655,10,2024-11-02T17:30:00Z,0,0,0,Wolves,NA
@@ -6738,7 +6738,7 @@ Dango Ouattara,74,11,2024-11-09T15:00:00Z,0,0,0,Bournemouth,83
 Emmanuel Dennis,430,11,2024-11-10T14:00:00Z,0,0,0,Nott'm Forest,NA
 Yehor Yarmoliuk,111,11,2024-11-09T15:00:00Z,0,0,11,Brentford,129
 Julián Álvarez,352,11,2024-11-09T17:30:00Z,0,0,0,Man City,NA
-Tyler Dibling,608,11,2024-11-09T15:00:00Z,0,0,45,Southampton,NA
+Tyler Dibling,608,11,2024-11-09T15:00:00Z,0,0,45,Southampton,707
 Paul Onuachu,470,11,2024-11-09T15:00:00Z,0,0,17,Southampton,NA
 Bobby Clark,315,11,2024-11-09T20:00:00Z,0,0,0,Liverpool,NA
 Kieran Tierney,21,11,2024-11-10T16:30:00Z,0,0,0,Arsenal,NA
@@ -6820,7 +6820,7 @@ Rodrigo Bentancur,480,11,2024-11-10T14:00:00Z,1,0,83,Spurs,585
 Dominic Solanke-Mitchell,82,11,2024-11-10T14:00:00Z,0,0,90,Spurs,596
 Chris Richards,194,11,2024-11-09T15:00:00Z,0,0,0,Crystal Palace,261
 Rayan Aït-Nouri,533,11,2024-11-09T15:00:00Z,0,0,90,Wolves,402
-James Justin,295,11,2024-11-10T14:00:00Z,0,0,82,Leicester,NA
+James Justin,295,11,2024-11-10T14:00:00Z,0,0,82,Leicester,706
 Joshua Zirkzee,389,11,2024-11-10T14:00:00Z,0,0,15,Man Utd,466
 Martin Ødegaard,13,11,2024-11-10T16:30:00Z,0,1,90,Arsenal,17
 Cesare Casadei,158,11,2024-11-10T16:30:00Z,0,0,0,Chelsea,NA
@@ -7166,7 +7166,7 @@ Nathan Butler-Oyedeji,665,11,2024-11-10T16:30:00Z,0,0,0,Arsenal,NA
 Hwang Ui-jo,446,11,2024-11-10T14:00:00Z,0,0,0,Nott'm Forest,NA
 Jakub Stolarczyk,304,11,2024-11-10T14:00:00Z,0,0,0,Leicester,NA
 Lloyd Kelly,404,11,2024-11-10T14:00:00Z,0,0,0,Newcastle,NA
-Mateus Gonçalo Espanha Fernandes,623,11,2024-11-09T15:00:00Z,0,0,90,Southampton,NA
+Mateus Gonçalo Espanha Fernandes,623,11,2024-11-09T15:00:00Z,0,0,90,Southampton,708
 Valentín Barco,116,11,2024-11-09T17:30:00Z,0,0,0,Brighton,NA
 Dean Huijsen,580,11,2024-11-09T15:00:00Z,0,0,23,Bournemouth,NA
 Carlos Roberto Forbs Borges,655,11,2024-11-09T15:00:00Z,0,0,0,Wolves,NA
@@ -7418,7 +7418,7 @@ Dango Ouattara,74,12,2024-11-23T15:00:00Z,0,0,25,Bournemouth,83
 Emmanuel Dennis,430,12,2024-11-23T15:00:00Z,0,0,0,Nott'm Forest,NA
 Yehor Yarmoliuk,111,12,2024-11-23T15:00:00Z,0,0,4,Brentford,129
 Julián Álvarez,352,12,2024-11-23T17:30:00Z,0,0,0,Man City,NA
-Tyler Dibling,608,12,2024-11-24T14:00:00Z,0,0,90,Southampton,NA
+Tyler Dibling,608,12,2024-11-24T14:00:00Z,0,0,90,Southampton,707
 Paul Onuachu,470,12,2024-11-24T14:00:00Z,0,0,51,Southampton,NA
 Bobby Clark,315,12,2024-11-24T14:00:00Z,0,0,0,Liverpool,NA
 Kieran Tierney,21,12,2024-11-23T15:00:00Z,0,0,0,Arsenal,NA
@@ -7503,7 +7503,7 @@ Rodrigo Bentancur,480,12,2024-11-23T17:30:00Z,0,0,0,Spurs,585
 Dominic Solanke-Mitchell,82,12,2024-11-23T17:30:00Z,0,1,90,Spurs,596
 Chris Richards,194,12,2024-11-23T15:00:00Z,0,0,1,Crystal Palace,261
 Rayan Aït-Nouri,533,12,2024-11-23T15:00:00Z,0,0,90,Wolves,402
-James Justin,295,12,2024-11-23T12:30:00Z,0,0,90,Leicester,NA
+James Justin,295,12,2024-11-23T12:30:00Z,0,0,90,Leicester,706
 Joshua Zirkzee,389,12,2024-11-24T16:30:00Z,0,0,22,Man Utd,466
 Martin Ødegaard,13,12,2024-11-23T15:00:00Z,0,1,81,Arsenal,17
 Cesare Casadei,158,12,2024-11-23T12:30:00Z,0,0,0,Chelsea,NA
@@ -7850,7 +7850,7 @@ Nathan Butler-Oyedeji,665,12,2024-11-23T15:00:00Z,0,0,0,Arsenal,NA
 Hwang Ui-jo,446,12,2024-11-23T15:00:00Z,0,0,0,Nott'm Forest,NA
 Jakub Stolarczyk,304,12,2024-11-23T12:30:00Z,0,0,0,Leicester,NA
 Lloyd Kelly,404,12,2024-11-25T20:00:00Z,0,0,90,Newcastle,NA
-Mateus Gonçalo Espanha Fernandes,623,12,2024-11-24T14:00:00Z,1,0,90,Southampton,NA
+Mateus Gonçalo Espanha Fernandes,623,12,2024-11-24T14:00:00Z,1,0,90,Southampton,708
 Valentín Barco,116,12,2024-11-23T15:00:00Z,0,0,0,Brighton,NA
 Dean Huijsen,580,12,2024-11-23T15:00:00Z,0,0,25,Bournemouth,NA
 Carlos Roberto Forbs Borges,655,12,2024-11-23T15:00:00Z,0,0,0,Wolves,NA
@@ -8103,7 +8103,7 @@ Dango Ouattara,74,13,2024-11-30T15:00:00Z,0,0,26,Bournemouth,83
 Emmanuel Dennis,430,13,2024-11-30T15:00:00Z,0,0,0,Nott'm Forest,NA
 Yehor Yarmoliuk,111,13,2024-11-30T15:00:00Z,0,0,20,Brentford,129
 Julián Álvarez,352,13,2024-12-01T16:00:00Z,0,0,0,Man City,NA
-Tyler Dibling,608,13,2024-11-29T20:00:00Z,0,0,90,Southampton,NA
+Tyler Dibling,608,13,2024-11-29T20:00:00Z,0,0,90,Southampton,707
 Paul Onuachu,470,13,2024-11-29T20:00:00Z,0,0,0,Southampton,NA
 Bobby Clark,315,13,2024-12-01T16:00:00Z,0,0,0,Liverpool,NA
 Kieran Tierney,21,13,2024-11-30T17:30:00Z,0,0,0,Arsenal,NA
@@ -8188,7 +8188,7 @@ Rodrigo Bentancur,480,13,2024-12-01T13:30:00Z,0,0,0,Spurs,585
 Dominic Solanke-Mitchell,82,13,2024-12-01T13:30:00Z,0,0,0,Spurs,596
 Chris Richards,194,13,2024-11-30T15:00:00Z,0,0,0,Crystal Palace,261
 Rayan Aït-Nouri,533,13,2024-11-30T15:00:00Z,0,0,90,Wolves,402
-James Justin,295,13,2024-11-30T15:00:00Z,0,0,90,Leicester,NA
+James Justin,295,13,2024-11-30T15:00:00Z,0,0,90,Leicester,706
 Joshua Zirkzee,389,13,2024-12-01T13:30:00Z,2,0,90,Man Utd,466
 Martin Ødegaard,13,13,2024-11-30T17:30:00Z,1,0,73,Arsenal,17
 Cesare Casadei,158,13,2024-12-01T13:30:00Z,0,0,0,Chelsea,NA
@@ -8539,7 +8539,7 @@ Nathan Butler-Oyedeji,665,13,2024-11-30T17:30:00Z,0,0,0,Arsenal,NA
 Hwang Ui-jo,446,13,2024-11-30T15:00:00Z,0,0,0,Nott'm Forest,NA
 Jakub Stolarczyk,304,13,2024-11-30T15:00:00Z,0,0,0,Leicester,NA
 Lloyd Kelly,404,13,2024-11-30T15:00:00Z,0,0,0,Newcastle,NA
-Mateus Gonçalo Espanha Fernandes,623,13,2024-11-29T20:00:00Z,0,0,90,Southampton,NA
+Mateus Gonçalo Espanha Fernandes,623,13,2024-11-29T20:00:00Z,0,0,90,Southampton,708
 Valentín Barco,116,13,2024-11-29T20:00:00Z,0,0,0,Brighton,NA
 Dean Huijsen,580,13,2024-11-30T15:00:00Z,0,0,8,Bournemouth,NA
 Carlos Roberto Forbs Borges,655,13,2024-11-30T15:00:00Z,0,0,26,Wolves,NA
@@ -8793,7 +8793,7 @@ Dango Ouattara,74,14,2024-12-05T20:15:00Z,0,0,26,Bournemouth,83
 Emmanuel Dennis,430,14,2024-12-04T19:30:00Z,0,0,0,Nott'm Forest,NA
 Yehor Yarmoliuk,111,14,2024-12-04T20:15:00Z,0,0,63,Brentford,129
 Julián Álvarez,352,14,2024-12-04T19:30:00Z,0,0,0,Man City,NA
-Tyler Dibling,608,14,2024-12-04T19:30:00Z,0,0,0,Southampton,NA
+Tyler Dibling,608,14,2024-12-04T19:30:00Z,0,0,0,Southampton,707
 Paul Onuachu,470,14,2024-12-04T19:30:00Z,0,0,0,Southampton,NA
 Bobby Clark,315,14,2024-12-04T19:30:00Z,0,0,0,Liverpool,NA
 Amara Nallo,692,14,2024-12-04T19:30:00Z,0,0,0,Liverpool,378
@@ -8879,7 +8879,7 @@ Rodrigo Bentancur,480,14,2024-12-05T20:15:00Z,0,0,0,Spurs,585
 Dominic Solanke-Mitchell,82,14,2024-12-05T20:15:00Z,0,0,90,Spurs,596
 Chris Richards,194,14,2024-12-03T19:30:00Z,0,0,9,Crystal Palace,261
 Rayan Aït-Nouri,533,14,2024-12-04T19:30:00Z,0,0,90,Wolves,402
-James Justin,295,14,2024-12-03T20:15:00Z,0,0,90,Leicester,NA
+James Justin,295,14,2024-12-03T20:15:00Z,0,0,90,Leicester,706
 Joshua Zirkzee,389,14,2024-12-04T20:15:00Z,0,0,31,Man Utd,466
 Martin Ødegaard,13,14,2024-12-04T20:15:00Z,0,0,89,Arsenal,17
 Cesare Casadei,158,14,2024-12-04T19:30:00Z,0,0,0,Chelsea,NA
@@ -9232,7 +9232,7 @@ Nathan Butler-Oyedeji,665,14,2024-12-04T20:15:00Z,0,0,0,Arsenal,NA
 Hwang Ui-jo,446,14,2024-12-04T19:30:00Z,0,0,0,Nott'm Forest,NA
 Jakub Stolarczyk,304,14,2024-12-03T20:15:00Z,0,0,0,Leicester,NA
 Lloyd Kelly,404,14,2024-12-04T19:30:00Z,0,0,0,Newcastle,NA
-Mateus Gonçalo Espanha Fernandes,623,14,2024-12-04T19:30:00Z,0,0,78,Southampton,NA
+Mateus Gonçalo Espanha Fernandes,623,14,2024-12-04T19:30:00Z,0,0,78,Southampton,708
 Valentín Barco,116,14,2024-12-05T19:30:00Z,0,0,0,Brighton,NA
 Dean Huijsen,580,14,2024-12-05T20:15:00Z,1,0,90,Bournemouth,NA
 Carlos Roberto Forbs Borges,655,14,2024-12-04T19:30:00Z,0,0,0,Wolves,NA
@@ -9471,7 +9471,7 @@ Dango Ouattara,74,15,2024-12-08T14:00:00Z,1,1,27,Bournemouth,83
 Emmanuel Dennis,430,15,2024-12-07T17:30:00Z,0,0,0,Nott'm Forest,NA
 Yehor Yarmoliuk,111,15,2024-12-07T15:00:00Z,0,0,90,Brentford,129
 Julián Álvarez,352,15,2024-12-07T15:00:00Z,0,0,0,Man City,NA
-Tyler Dibling,608,15,2024-12-07T15:00:00Z,0,0,90,Southampton,NA
+Tyler Dibling,608,15,2024-12-07T15:00:00Z,0,0,90,Southampton,707
 Paul Onuachu,470,15,2024-12-07T15:00:00Z,0,0,0,Southampton,NA
 Kieran Tierney,21,15,2024-12-08T14:00:00Z,0,0,0,Arsenal,NA
 Josh Bowler,426,15,2024-12-07T17:30:00Z,0,0,0,Nott'm Forest,NA
@@ -9548,7 +9548,7 @@ Rodrigo Bentancur,480,15,2024-12-08T16:30:00Z,0,0,0,Spurs,585
 Dominic Solanke-Mitchell,82,15,2024-12-08T16:30:00Z,1,0,90,Spurs,596
 Chris Richards,194,15,2024-12-07T15:00:00Z,0,0,0,Crystal Palace,261
 Rayan Aït-Nouri,533,15,2024-12-09T20:00:00Z,0,1,85,Wolves,402
-James Justin,295,15,2024-12-08T14:00:00Z,0,0,90,Leicester,NA
+James Justin,295,15,2024-12-08T14:00:00Z,0,0,90,Leicester,706
 Joshua Zirkzee,389,15,2024-12-07T17:30:00Z,0,0,14,Man Utd,466
 Martin Ødegaard,13,15,2024-12-08T14:00:00Z,0,0,78,Arsenal,17
 Cesare Casadei,158,15,2024-12-08T16:30:00Z,0,0,0,Chelsea,NA
@@ -9867,7 +9867,7 @@ Nathan Butler-Oyedeji,665,15,2024-12-08T14:00:00Z,0,0,0,Arsenal,NA
 Hwang Ui-jo,446,15,2024-12-07T17:30:00Z,0,0,0,Nott'm Forest,NA
 Jakub Stolarczyk,304,15,2024-12-08T14:00:00Z,0,0,0,Leicester,NA
 Lloyd Kelly,404,15,2024-12-07T15:00:00Z,0,0,0,Newcastle,NA
-Mateus Gonçalo Espanha Fernandes,623,15,2024-12-07T15:00:00Z,0,0,90,Southampton,NA
+Mateus Gonçalo Espanha Fernandes,623,15,2024-12-07T15:00:00Z,0,0,90,Southampton,708
 Valentín Barco,116,15,2024-12-08T14:00:00Z,0,0,0,Brighton,NA
 Dean Huijsen,580,15,2024-12-08T14:00:00Z,0,0,90,Bournemouth,NA
 Carlos Roberto Forbs Borges,655,15,2024-12-09T20:00:00Z,0,0,0,Wolves,NA
@@ -10117,7 +10117,7 @@ Dango Ouattara,74,16,2024-12-16T20:00:00Z,0,0,90,Bournemouth,83
 Emmanuel Dennis,430,16,2024-12-14T17:30:00Z,0,0,0,Nott'm Forest,NA
 Yehor Yarmoliuk,111,16,2024-12-15T19:00:00Z,0,0,74,Brentford,129
 Julián Álvarez,352,16,2024-12-15T16:30:00Z,0,0,0,Man City,NA
-Tyler Dibling,608,16,2024-12-15T19:00:00Z,0,0,90,Southampton,NA
+Tyler Dibling,608,16,2024-12-15T19:00:00Z,0,0,90,Southampton,707
 Paul Onuachu,470,16,2024-12-15T19:00:00Z,0,0,0,Southampton,NA
 Bobby Clark,315,16,2024-12-14T15:00:00Z,0,0,0,Liverpool,NA
 Amara Nallo,692,16,2024-12-14T15:00:00Z,0,0,0,Liverpool,378
@@ -10203,7 +10203,7 @@ Rodrigo Bentancur,480,16,2024-12-15T19:00:00Z,0,0,0,Spurs,585
 Dominic Solanke-Mitchell,82,16,2024-12-15T19:00:00Z,0,1,81,Spurs,596
 Chris Richards,194,16,2024-12-15T14:00:00Z,0,0,0,Crystal Palace,261
 Rayan Aït-Nouri,533,16,2024-12-14T15:00:00Z,0,0,90,Wolves,402
-James Justin,295,16,2024-12-14T15:00:00Z,0,0,90,Leicester,NA
+James Justin,295,16,2024-12-14T15:00:00Z,0,0,90,Leicester,706
 Joshua Zirkzee,389,16,2024-12-15T16:30:00Z,0,0,12,Man Utd,466
 Martin Ødegaard,13,16,2024-12-14T15:00:00Z,0,0,61,Arsenal,17
 Cesare Casadei,158,16,2024-12-15T19:00:00Z,0,0,0,Chelsea,NA
@@ -10562,7 +10562,7 @@ Nathan Butler-Oyedeji,665,16,2024-12-14T15:00:00Z,0,0,0,Arsenal,NA
 Hwang Ui-jo,446,16,2024-12-14T17:30:00Z,0,0,0,Nott'm Forest,NA
 Jakub Stolarczyk,304,16,2024-12-14T15:00:00Z,0,0,0,Leicester,NA
 Lloyd Kelly,404,16,2024-12-14T15:00:00Z,0,0,0,Newcastle,NA
-Mateus Gonçalo Espanha Fernandes,623,16,2024-12-15T19:00:00Z,0,0,90,Southampton,NA
+Mateus Gonçalo Espanha Fernandes,623,16,2024-12-15T19:00:00Z,0,0,90,Southampton,708
 Valentín Barco,116,16,2024-12-15T14:00:00Z,0,0,0,Brighton,NA
 Dean Huijsen,580,16,2024-12-16T20:00:00Z,0,0,90,Bournemouth,NA
 Carlos Roberto Forbs Borges,655,16,2024-12-14T15:00:00Z,0,0,0,Wolves,NA
@@ -10818,7 +10818,7 @@ Dango Ouattara,74,17,2024-12-22T14:00:00Z,0,1,90,Bournemouth,83
 Emmanuel Dennis,430,17,2024-12-21T15:00:00Z,0,0,0,Nott'm Forest,NA
 Yehor Yarmoliuk,111,17,2024-12-21T15:00:00Z,0,0,0,Brentford,129
 Julián Álvarez,352,17,2024-12-21T12:30:00Z,0,0,0,Man City,NA
-Tyler Dibling,608,17,2024-12-22T14:00:00Z,0,0,45,Southampton,NA
+Tyler Dibling,608,17,2024-12-22T14:00:00Z,0,0,45,Southampton,707
 Paul Onuachu,470,17,2024-12-22T14:00:00Z,0,0,1,Southampton,NA
 Bobby Clark,315,17,2024-12-22T16:30:00Z,0,0,0,Liverpool,NA
 Amara Nallo,692,17,2024-12-22T16:30:00Z,0,0,0,Liverpool,378
@@ -10904,7 +10904,7 @@ Rodrigo Bentancur,480,17,2024-12-22T16:30:00Z,0,0,0,Spurs,585
 Dominic Solanke-Mitchell,82,17,2024-12-22T16:30:00Z,1,1,90,Spurs,596
 Chris Richards,194,17,2024-12-21T17:30:00Z,0,0,90,Crystal Palace,261
 Rayan Aït-Nouri,533,17,2024-12-22T14:00:00Z,0,0,0,Wolves,402
-James Justin,295,17,2024-12-22T14:00:00Z,0,0,52,Leicester,NA
+James Justin,295,17,2024-12-22T14:00:00Z,0,0,52,Leicester,706
 Joshua Zirkzee,389,17,2024-12-22T14:00:00Z,0,0,53,Man Utd,466
 Martin Ødegaard,13,17,2024-12-21T17:30:00Z,0,0,90,Arsenal,17
 Cesare Casadei,158,17,2024-12-22T14:00:00Z,0,0,0,Chelsea,NA
@@ -11263,7 +11263,7 @@ Nathan Butler-Oyedeji,665,17,2024-12-21T17:30:00Z,0,0,0,Arsenal,NA
 Hwang Ui-jo,446,17,2024-12-21T15:00:00Z,0,0,0,Nott'm Forest,NA
 Jakub Stolarczyk,304,17,2024-12-22T14:00:00Z,0,0,0,Leicester,NA
 Lloyd Kelly,404,17,2024-12-21T15:00:00Z,0,0,0,Newcastle,NA
-Mateus Gonçalo Espanha Fernandes,623,17,2024-12-22T14:00:00Z,0,0,90,Southampton,NA
+Mateus Gonçalo Espanha Fernandes,623,17,2024-12-22T14:00:00Z,0,0,90,Southampton,708
 Valentín Barco,116,17,2024-12-21T15:00:00Z,0,0,0,Brighton,NA
 Dean Huijsen,580,17,2024-12-22T14:00:00Z,1,0,90,Bournemouth,NA
 Carlos Roberto Forbs Borges,655,17,2024-12-22T14:00:00Z,0,0,1,Wolves,NA
@@ -11519,7 +11519,7 @@ Dango Ouattara,74,18,2024-12-26T15:00:00Z,0,0,84,Bournemouth,83
 Emmanuel Dennis,430,18,2024-12-26T15:00:00Z,0,0,0,Nott'm Forest,NA
 Yehor Yarmoliuk,111,18,2024-12-27T19:30:00Z,0,0,18,Brentford,129
 Julián Álvarez,352,18,2024-12-26T12:30:00Z,0,0,0,Man City,NA
-Tyler Dibling,608,18,2024-12-26T15:00:00Z,0,0,17,Southampton,NA
+Tyler Dibling,608,18,2024-12-26T15:00:00Z,0,0,17,Southampton,707
 Paul Onuachu,470,18,2024-12-26T15:00:00Z,0,0,90,Southampton,NA
 Bobby Clark,315,18,2024-12-26T20:00:00Z,0,0,0,Liverpool,NA
 Amara Nallo,692,18,2024-12-26T20:00:00Z,0,0,0,Liverpool,378
@@ -11605,7 +11605,7 @@ Rodrigo Bentancur,480,18,2024-12-26T15:00:00Z,0,0,63,Spurs,585
 Dominic Solanke-Mitchell,82,18,2024-12-26T15:00:00Z,0,0,90,Spurs,596
 Chris Richards,194,18,2024-12-26T15:00:00Z,0,0,0,Crystal Palace,261
 Rayan Aït-Nouri,533,18,2024-12-26T17:30:00Z,0,0,86,Wolves,402
-James Justin,295,18,2024-12-26T20:00:00Z,0,0,90,Leicester,NA
+James Justin,295,18,2024-12-26T20:00:00Z,0,0,90,Leicester,706
 Joshua Zirkzee,389,18,2024-12-26T17:30:00Z,0,0,11,Man Utd,466
 Martin Ødegaard,13,18,2024-12-27T20:15:00Z,0,0,90,Arsenal,17
 Cesare Casadei,158,18,2024-12-26T15:00:00Z,0,0,0,Chelsea,NA
@@ -11968,7 +11968,7 @@ Nathan Butler-Oyedeji,665,18,2024-12-27T20:15:00Z,0,0,0,Arsenal,NA
 Hwang Ui-jo,446,18,2024-12-26T15:00:00Z,0,0,0,Nott'm Forest,NA
 Jakub Stolarczyk,304,18,2024-12-26T20:00:00Z,0,0,90,Leicester,NA
 Lloyd Kelly,404,18,2024-12-26T15:00:00Z,0,0,0,Newcastle,NA
-Mateus Gonçalo Espanha Fernandes,623,18,2024-12-26T15:00:00Z,0,0,72,Southampton,NA
+Mateus Gonçalo Espanha Fernandes,623,18,2024-12-26T15:00:00Z,0,0,72,Southampton,708
 Valentín Barco,116,18,2024-12-27T19:30:00Z,0,0,0,Brighton,NA
 Dean Huijsen,580,18,2024-12-26T15:00:00Z,0,0,90,Bournemouth,NA
 Carlos Roberto Forbs Borges,655,18,2024-12-26T17:30:00Z,0,0,0,Wolves,NA
@@ -12224,7 +12224,7 @@ Dango Ouattara,74,19,2024-12-29T15:00:00Z,1,0,26,Bournemouth,83
 Emmanuel Dennis,430,19,2024-12-29T15:00:00Z,0,0,0,Nott'm Forest,NA
 Yehor Yarmoliuk,111,19,2025-01-01T17:30:00Z,0,0,90,Brentford,129
 Julián Álvarez,352,19,2024-12-29T14:30:00Z,0,0,0,Man City,NA
-Tyler Dibling,608,19,2024-12-29T15:00:00Z,1,0,85,Southampton,NA
+Tyler Dibling,608,19,2024-12-29T15:00:00Z,1,0,85,Southampton,707
 Paul Onuachu,470,19,2024-12-29T15:00:00Z,0,0,64,Southampton,NA
 Bobby Clark,315,19,2024-12-29T17:15:00Z,0,0,0,Liverpool,NA
 Amara Nallo,692,19,2024-12-29T17:15:00Z,0,0,0,Liverpool,378
@@ -12310,7 +12310,7 @@ Rodrigo Bentancur,480,19,2024-12-29T15:00:00Z,1,0,90,Spurs,585
 Dominic Solanke-Mitchell,82,19,2024-12-29T15:00:00Z,0,0,90,Spurs,596
 Chris Richards,194,19,2024-12-29T15:00:00Z,0,0,90,Crystal Palace,261
 Rayan Aït-Nouri,533,19,2024-12-29T15:00:00Z,0,2,90,Wolves,402
-James Justin,295,19,2024-12-29T14:30:00Z,0,0,69,Leicester,NA
+James Justin,295,19,2024-12-29T14:30:00Z,0,0,69,Leicester,706
 Joshua Zirkzee,389,19,2024-12-30T20:00:00Z,0,0,32,Man Utd,466
 Martin Ødegaard,13,19,2025-01-01T17:30:00Z,0,0,87,Arsenal,17
 Cesare Casadei,158,19,2024-12-30T19:45:00Z,0,0,0,Chelsea,NA
@@ -12676,7 +12676,7 @@ Nathan Butler-Oyedeji,665,19,2025-01-01T17:30:00Z,0,0,0,Arsenal,NA
 Hwang Ui-jo,446,19,2024-12-29T15:00:00Z,0,0,0,Nott'm Forest,NA
 Jakub Stolarczyk,304,19,2024-12-29T14:30:00Z,0,0,90,Leicester,NA
 Lloyd Kelly,404,19,2024-12-30T20:00:00Z,0,0,0,Newcastle,NA
-Mateus Gonçalo Espanha Fernandes,623,19,2024-12-29T15:00:00Z,0,0,90,Southampton,NA
+Mateus Gonçalo Espanha Fernandes,623,19,2024-12-29T15:00:00Z,0,0,90,Southampton,708
 Valentín Barco,116,19,2024-12-30T19:45:00Z,0,0,0,Brighton,NA
 Dean Huijsen,580,19,2024-12-29T15:00:00Z,0,0,90,Bournemouth,NA
 Carlos Roberto Forbs Borges,655,19,2024-12-29T15:00:00Z,0,0,12,Wolves,NA
@@ -12934,7 +12934,7 @@ Dango Ouattara,74,20,2025-01-04T15:00:00Z,0,0,69,Bournemouth,83
 Emmanuel Dennis,430,20,2025-01-06T20:00:00Z,0,0,0,Nott'm Forest,NA
 Yehor Yarmoliuk,111,20,2025-01-04T15:00:00Z,0,0,9,Brentford,129
 Julián Álvarez,352,20,2025-01-04T15:00:00Z,0,0,0,Man City,NA
-Tyler Dibling,608,20,2025-01-04T15:00:00Z,0,0,90,Southampton,NA
+Tyler Dibling,608,20,2025-01-04T15:00:00Z,0,0,90,Southampton,707
 Paul Onuachu,470,20,2025-01-04T15:00:00Z,0,0,54,Southampton,NA
 Bobby Clark,315,20,2025-01-05T16:30:00Z,0,0,0,Liverpool,NA
 Amara Nallo,692,20,2025-01-05T16:30:00Z,0,0,0,Liverpool,378
@@ -13020,7 +13020,7 @@ Rodrigo Bentancur,480,20,2025-01-04T12:30:00Z,0,0,0,Spurs,585
 Dominic Solanke-Mitchell,82,20,2025-01-04T12:30:00Z,1,0,90,Spurs,596
 Chris Richards,194,20,2025-01-04T15:00:00Z,0,0,90,Crystal Palace,261
 Rayan Aït-Nouri,533,20,2025-01-06T20:00:00Z,0,0,90,Wolves,402
-James Justin,295,20,2025-01-04T15:00:00Z,0,0,90,Leicester,NA
+James Justin,295,20,2025-01-04T15:00:00Z,0,0,90,Leicester,706
 Joshua Zirkzee,389,20,2025-01-05T16:30:00Z,0,0,4,Man Utd,466
 Martin Ødegaard,13,20,2025-01-04T17:30:00Z,0,0,26,Arsenal,17
 Cesare Casadei,158,20,2025-01-04T15:00:00Z,0,0,0,Chelsea,NA
@@ -13387,7 +13387,7 @@ Nathan Butler-Oyedeji,665,20,2025-01-04T17:30:00Z,0,0,0,Arsenal,NA
 Hwang Ui-jo,446,20,2025-01-06T20:00:00Z,0,0,0,Nott'm Forest,NA
 Jakub Stolarczyk,304,20,2025-01-04T15:00:00Z,0,0,90,Leicester,NA
 Lloyd Kelly,404,20,2025-01-04T12:30:00Z,0,0,1,Newcastle,NA
-Mateus Gonçalo Espanha Fernandes,623,20,2025-01-04T15:00:00Z,0,0,0,Southampton,NA
+Mateus Gonçalo Espanha Fernandes,623,20,2025-01-04T15:00:00Z,0,0,0,Southampton,708
 Valentín Barco,116,20,2025-01-04T17:30:00Z,0,0,0,Brighton,NA
 Dean Huijsen,580,20,2025-01-04T15:00:00Z,0,0,90,Bournemouth,NA
 Carlos Roberto Forbs Borges,655,20,2025-01-06T20:00:00Z,0,0,15,Wolves,NA
@@ -13648,7 +13648,7 @@ Emmanuel Agbadou,720,21,2025-01-15T19:30:00Z,0,0,90,Wolves,631
 Emmanuel Dennis,430,21,2025-01-14T20:00:00Z,0,0,0,Nott'm Forest,NA
 Yehor Yarmoliuk,111,21,2025-01-14T19:30:00Z,0,0,11,Brentford,129
 Julián Álvarez,352,21,2025-01-14T19:30:00Z,0,0,0,Man City,NA
-Tyler Dibling,608,21,2025-01-16T20:00:00Z,0,1,62,Southampton,NA
+Tyler Dibling,608,21,2025-01-16T20:00:00Z,0,1,62,Southampton,707
 Paul Onuachu,470,21,2025-01-16T20:00:00Z,0,0,7,Southampton,NA
 Bobby Clark,315,21,2025-01-14T20:00:00Z,0,0,0,Liverpool,NA
 Amara Nallo,692,21,2025-01-14T20:00:00Z,0,0,0,Liverpool,378
@@ -13738,7 +13738,7 @@ Rodrigo Bentancur,480,21,2025-01-15T20:00:00Z,0,0,0,Spurs,585
 Dominic Solanke-Mitchell,82,21,2025-01-15T20:00:00Z,0,0,90,Spurs,596
 Chris Richards,194,21,2025-01-15T19:30:00Z,0,0,90,Crystal Palace,261
 Rayan Aït-Nouri,533,21,2025-01-15T19:30:00Z,0,0,90,Wolves,402
-James Justin,295,21,2025-01-15T19:30:00Z,0,0,79,Leicester,NA
+James Justin,295,21,2025-01-15T19:30:00Z,0,0,79,Leicester,706
 Joshua Zirkzee,389,21,2025-01-16T20:00:00Z,0,0,37,Man Utd,466
 Martin Ødegaard,13,21,2025-01-15T20:00:00Z,0,1,90,Arsenal,17
 Cesare Casadei,158,21,2025-01-14T19:30:00Z,0,0,0,Chelsea,NA
@@ -14110,7 +14110,7 @@ Nathan Butler-Oyedeji,665,21,2025-01-15T20:00:00Z,0,0,0,Arsenal,NA
 Hwang Ui-jo,446,21,2025-01-14T20:00:00Z,0,0,0,Nott'm Forest,NA
 Jakub Stolarczyk,304,21,2025-01-15T19:30:00Z,0,0,90,Leicester,NA
 Lloyd Kelly,404,21,2025-01-15T19:30:00Z,0,0,0,Newcastle,NA
-Mateus Gonçalo Espanha Fernandes,623,21,2025-01-16T20:00:00Z,0,0,72,Southampton,NA
+Mateus Gonçalo Espanha Fernandes,623,21,2025-01-16T20:00:00Z,0,0,72,Southampton,708
 Valentín Barco,116,21,2025-01-16T19:30:00Z,0,0,0,Brighton,NA
 Dean Huijsen,580,21,2025-01-14T19:30:00Z,0,0,90,Bournemouth,NA
 Carlos Roberto Forbs Borges,655,21,2025-01-15T19:30:00Z,0,0,0,Wolves,NA
@@ -14569,7 +14569,7 @@ Yehor Yarmoliuk,111,2,2025-01-18T15:00:00Z,0,0,90,Brentford,129
 -14836,NA,NA,,NA,True,NA,19519,NA
 Julián Álvarez,352,0,2025-01-19T16:30:00Z,0,0,0,Man City,NA
 -41,NA,NA,,NA,False,NA,41,NA
-Tyler Dibling,608,0,2025-01-19T14:00:00Z,0,0,0,Southampton,NA
+Tyler Dibling,608,0,2025-01-19T14:00:00Z,0,0,0,Southampton,707
 -11466,NA,NA,,NA,False,NA,23524,NA
 Paul Onuachu,470,5,2025-01-19T14:00:00Z,1,0,32,Southampton,NA
 262,NA,NA,,NA,False,NA,1750,NA
@@ -14749,7 +14749,7 @@ Chris Richards,194,6,2025-01-18T15:00:00Z,0,0,90,Crystal Palace,261
 430,NA,NA,,NA,False,NA,151,NA
 Rayan Aït-Nouri,533,1,2025-01-20T20:00:00Z,0,0,73,Wolves,402
 -48323,NA,NA,,NA,False,NA,57155,NA
-James Justin,295,1,2025-01-18T15:00:00Z,0,0,90,Leicester,NA
+James Justin,295,1,2025-01-18T15:00:00Z,0,0,90,Leicester,706
 -3010,NA,NA,,NA,True,NA,10903,NA
 Joshua Zirkzee,389,5,2025-01-19T14:00:00Z,0,1,83,Man Utd,466
 -995,NA,NA,,NA,True,NA,6074,NA
@@ -15501,7 +15501,7 @@ Zain Silcott-Duberry,728,0,2025-01-18T12:30:00Z,0,0,0,Bournemouth,95
 0,NA,NA,,NA,False,NA,0,NA
 Lloyd Kelly,404,0,2025-01-18T12:30:00Z,0,0,0,Newcastle,NA
 -158,NA,NA,,NA,True,NA,293,NA
-Mateus Gonçalo Espanha Fernandes,623,7,2025-01-19T14:00:00Z,0,1,90,Southampton,NA
+Mateus Gonçalo Espanha Fernandes,623,7,2025-01-19T14:00:00Z,0,1,90,Southampton,708
 -58,NA,NA,,NA,False,NA,192,NA
 Valentín Barco,116,0,2025-01-19T14:00:00Z,0,0,0,Brighton,NA
 -3692,NA,NA,,NA,False,NA,3692,NA
@@ -16033,7 +16033,7 @@ Yehor Yarmoliuk,111,1,2025-01-26T14:00:00Z,0,0,6,Brentford,129
 -11145,NA,NA,,NA,False,NA,18361,NA
 Julián Álvarez,352,0,2025-01-25T17:30:00Z,0,0,0,Man City,NA
 -31,NA,NA,,NA,True,NA,31,NA
-Tyler Dibling,608,0,2025-01-25T15:00:00Z,0,0,0,Southampton,NA
+Tyler Dibling,608,0,2025-01-25T15:00:00Z,0,0,0,Southampton,707
 -37218,NA,NA,,NA,True,NA,42985,NA
 Paul Onuachu,470,2,2025-01-25T15:00:00Z,0,0,90,Southampton,NA
 4288,NA,NA,,NA,True,NA,2179,NA
@@ -16221,7 +16221,7 @@ Rayan Aït-Nouri,533,2,2025-01-25T15:00:00Z,0,0,86,Wolves,402
 -52477,NA,NA,,NA,True,NA,61117,NA
 Andrés García,731,0,2025-01-26T16:30:00Z,0,0,0,Aston Villa,42
 323,NA,NA,,NA,True,NA,39,NA
-James Justin,295,1,2025-01-26T14:00:00Z,0,0,90,Leicester,NA
+James Justin,295,1,2025-01-26T14:00:00Z,0,0,90,Leicester,706
 -10089,NA,NA,,NA,False,NA,15098,NA
 Joshua Zirkzee,389,1,2025-01-26T19:00:00Z,0,0,32,Man Utd,466
 -2474,NA,NA,,NA,False,NA,6046,NA
@@ -17001,7 +17001,7 @@ Zain Silcott-Duberry,728,1,2025-01-25T15:00:00Z,0,0,1,Bournemouth,95
 46,NA,NA,,NA,True,NA,6,NA
 Lloyd Kelly,404,0,2025-01-25T15:00:00Z,0,0,0,Newcastle,NA
 -116,NA,NA,,NA,False,NA,305,NA
-Mateus Gonçalo Espanha Fernandes,623,1,2025-01-25T15:00:00Z,0,0,90,Southampton,NA
+Mateus Gonçalo Espanha Fernandes,623,1,2025-01-25T15:00:00Z,0,0,90,Southampton,708
 1183,NA,NA,,NA,True,NA,383,NA
 Valentín Barco,116,0,2025-01-25T15:00:00Z,0,0,0,Brighton,NA
 -4332,NA,NA,,NA,True,NA,4332,NA
@@ -17575,7 +17575,7 @@ Yehor Yarmoliuk,111,0,2025-02-02T14:00:00Z,0,0,0,Brentford,129
 -5395,NA,NA,,NA,True,NA,13617,NA
 Julián Álvarez,352,0,2025-02-02T16:30:00Z,0,0,0,Man City,NA
 -46,NA,NA,,NA,False,NA,46,NA
-Tyler Dibling,608,0,2025-02-01T15:00:00Z,0,0,0,Southampton,NA
+Tyler Dibling,608,0,2025-02-01T15:00:00Z,0,0,0,Southampton,707
 -20872,NA,NA,,NA,False,NA,28360,NA
 Paul Onuachu,470,7,2025-02-01T15:00:00Z,1,0,90,Southampton,NA
 4890,NA,NA,,NA,False,NA,3139,NA
@@ -17785,7 +17785,7 @@ Rayan Aït-Nouri,533,7,2025-02-01T17:30:00Z,0,0,72,Wolves,402
 -36006,NA,NA,,NA,True,NA,44894,NA
 Andrés García,731,1,2025-02-01T17:30:00Z,0,0,45,Aston Villa,42
 341,NA,NA,,NA,False,NA,94,NA
-James Justin,295,1,2025-02-01T15:00:00Z,0,0,75,Leicester,NA
+James Justin,295,1,2025-02-01T15:00:00Z,0,0,75,Leicester,706
 -4192,NA,NA,,NA,False,NA,10354,NA
 Joshua Zirkzee,389,1,2025-02-02T14:00:00Z,0,0,20,Man Utd,466
 -3609,NA,NA,,NA,True,NA,5489,NA
@@ -18645,7 +18645,7 @@ Zain Silcott-Duberry,728,0,2025-02-01T15:00:00Z,0,0,0,Bournemouth,95
 136,NA,NA,,NA,True,NA,41,NA
 Lloyd Kelly,404,1,2025-02-01T15:00:00Z,0,0,3,Newcastle,NA
 -143,NA,NA,,NA,True,NA,292,NA
-Mateus Gonçalo Espanha Fernandes,623,2,2025-02-01T15:00:00Z,0,0,90,Southampton,NA
+Mateus Gonçalo Espanha Fernandes,623,2,2025-02-01T15:00:00Z,0,0,90,Southampton,708
 3174,NA,NA,,NA,False,NA,1012,NA
 Valentín Barco,116,0,2025-02-01T12:30:00Z,0,0,0,Brighton,NA
 -3594,NA,NA,,NA,False,NA,3594,NA
@@ -19249,7 +19249,7 @@ Yehor Yarmoliuk,111,1,2025-02-15T15:00:00Z,0,0,15,Brentford,129
 -13633,NA,NA,,NA,False,NA,16879,NA
 Julián Álvarez,352,0,2025-02-15T15:00:00Z,0,0,0,Man City,NA
 -31,NA,NA,,NA,True,NA,31,NA
-Tyler Dibling,608,1,2025-02-15T15:00:00Z,0,0,34,Southampton,NA
+Tyler Dibling,608,1,2025-02-15T15:00:00Z,0,0,34,Southampton,707
 -14366,NA,NA,,NA,True,NA,20079,NA
 Paul Onuachu,470,5,2025-02-15T15:00:00Z,0,1,90,Southampton,NA
 5576,NA,NA,,NA,True,NA,3052,NA
@@ -19467,7 +19467,7 @@ Andrés García,731,2,2025-02-15T15:00:00Z,0,0,90,Aston Villa,42
 8156,NA,NA,,NA,True,NA,452,NA
 Andrés García,731,1,2025-02-19T19:30:00Z,0,0,66,Aston Villa,42
 8156,NA,NA,,NA,True,NA,452,NA
-James Justin,295,1,2025-02-15T12:30:00Z,0,0,43,Leicester,NA
+James Justin,295,1,2025-02-15T12:30:00Z,0,0,43,Leicester,706
 -2772,NA,NA,,NA,True,NA,9853,NA
 Joshua Zirkzee,389,2,2025-02-16T16:30:00Z,0,0,90,Man Utd,466
 -1946,NA,NA,,NA,False,NA,4723,NA
@@ -20359,7 +20359,7 @@ Zain Silcott-Duberry,728,0,2025-02-15T15:00:00Z,0,0,0,Bournemouth,95
 16,NA,NA,,NA,False,NA,53,NA
 Lloyd Kelly,404,0,2025-02-15T15:00:00Z,0,0,0,Newcastle,NA
 -655,NA,NA,,NA,False,NA,727,NA
-Mateus Gonçalo Espanha Fernandes,623,2,2025-02-15T15:00:00Z,0,0,90,Southampton,NA
+Mateus Gonçalo Espanha Fernandes,623,2,2025-02-15T15:00:00Z,0,0,90,Southampton,708
 -2740,NA,NA,,NA,True,NA,2901,NA
 Valentín Barco,116,0,2025-02-14T20:00:00Z,0,0,0,Brighton,NA
 -3209,NA,NA,,NA,True,NA,3209,NA
@@ -20935,7 +20935,7 @@ Yehor Yarmoliuk,111,1,2025-02-21T20:00:00Z,0,0,45,Brentford,129
 -9308,NA,NA,,NA,False,NA,10975,NA
 Julián Álvarez,352,0,2025-02-23T16:30:00Z,0,0,0,Man City,NA
 -15,NA,NA,,NA,True,NA,15,NA
-Tyler Dibling,608,2,2025-02-22T15:00:00Z,0,0,90,Southampton,NA
+Tyler Dibling,608,2,2025-02-22T15:00:00Z,0,0,90,Southampton,707
 -10539,NA,NA,,NA,True,NA,13278,NA
 Paul Onuachu,470,1,2025-02-22T15:00:00Z,0,0,18,Southampton,NA
 735,NA,NA,,NA,True,NA,2834,NA
@@ -21131,7 +21131,7 @@ Rayan Aït-Nouri,533,6,2025-02-22T15:00:00Z,0,0,79,Wolves,402
 9008,NA,NA,,NA,False,NA,12230,NA
 Andrés García,731,1,2025-02-22T17:30:00Z,0,0,20,Aston Villa,42
 -683,NA,NA,,NA,True,NA,1599,NA
-James Justin,295,0,2025-02-21T20:00:00Z,0,0,0,Leicester,NA
+James Justin,295,0,2025-02-21T20:00:00Z,0,0,0,Leicester,706
 -13640,NA,NA,,NA,True,NA,14999,NA
 Joshua Zirkzee,389,2,2025-02-22T12:30:00Z,0,0,90,Man Utd,466
 3723,NA,NA,,NA,False,NA,3109,NA
@@ -21943,7 +21943,7 @@ Zain Silcott-Duberry,728,0,2025-02-22T15:00:00Z,0,0,0,Bournemouth,95
 2,NA,NA,,NA,True,NA,31,NA
 Lloyd Kelly,404,0,2025-02-23T14:00:00Z,0,0,0,Newcastle,NA
 -417,NA,NA,,NA,True,NA,417,NA
-Mateus Gonçalo Espanha Fernandes,623,2,2025-02-22T15:00:00Z,0,0,87,Southampton,NA
+Mateus Gonçalo Espanha Fernandes,623,2,2025-02-22T15:00:00Z,0,0,87,Southampton,708
 -563,NA,NA,,NA,True,NA,676,NA
 Valentín Barco,116,0,2025-02-22T15:00:00Z,0,0,0,Brighton,NA
 -2133,NA,NA,,NA,False,NA,2133,NA
@@ -22501,7 +22501,7 @@ Yehor Yarmoliuk,111,1,2025-02-26T19:30:00Z,0,0,90,Brentford,129
 -7383,NA,NA,,NA,True,NA,9037,NA
 Julián Álvarez,352,0,2025-02-26T19:30:00Z,0,0,0,Man City,NA
 -13,NA,NA,,NA,False,NA,13,NA
-Tyler Dibling,608,1,2025-02-25T20:15:00Z,0,0,31,Southampton,NA
+Tyler Dibling,608,1,2025-02-25T20:15:00Z,0,0,31,Southampton,707
 -6415,NA,NA,,NA,False,NA,9580,NA
 Paul Onuachu,470,0,2025-02-25T20:15:00Z,0,0,58,Southampton,NA
 -1197,NA,NA,,NA,False,NA,3696,NA
@@ -22697,7 +22697,7 @@ Rayan Aït-Nouri,533,1,2025-02-25T19:30:00Z,0,0,90,Wolves,402
 107539,NA,NA,,NA,True,NA,8210,NA
 Andrés García,731,1,2025-02-25T19:30:00Z,0,0,45,Aston Villa,42
 -796,NA,NA,,NA,False,NA,1548,NA
-James Justin,295,1,2025-02-27T20:00:00Z,0,0,90,Leicester,NA
+James Justin,295,1,2025-02-27T20:00:00Z,0,0,90,Leicester,706
 -15158,NA,NA,,NA,False,NA,15482,NA
 Joshua Zirkzee,389,1,2025-02-26T19:30:00Z,0,0,90,Man Utd,466
 2779,NA,NA,,NA,True,NA,4693,NA
@@ -23509,7 +23509,7 @@ Zain Silcott-Duberry,728,0,2025-02-25T19:30:00Z,0,0,0,Bournemouth,95
 7,NA,NA,,NA,False,NA,28,NA
 Lloyd Kelly,404,0,2025-02-26T20:15:00Z,0,0,0,Newcastle,NA
 -255,NA,NA,,NA,False,NA,255,NA
-Mateus Gonçalo Espanha Fernandes,623,2,2025-02-25T20:15:00Z,0,0,90,Southampton,NA
+Mateus Gonçalo Espanha Fernandes,623,2,2025-02-25T20:15:00Z,0,0,90,Southampton,708
 -9,NA,NA,,NA,False,NA,418,NA
 Valentín Barco,116,0,2025-02-25T19:30:00Z,0,0,0,Brighton,NA
 -2058,NA,NA,,NA,True,NA,2058,NA
@@ -24073,7 +24073,7 @@ Yehor Yarmoliuk,111,0,2025-03-08T17:30:00Z,0,0,0,Brentford,129
 -8367,NA,NA,,NA,True,NA,9767,NA
 Julián Álvarez,352,0,2025-03-08T12:30:00Z,0,0,0,Man City,NA
 -27,NA,NA,,NA,False,NA,27,NA
-Tyler Dibling,608,2,2025-03-08T15:00:00Z,0,0,63,Southampton,NA
+Tyler Dibling,608,2,2025-03-08T15:00:00Z,0,0,63,Southampton,707
 -4887,NA,NA,,NA,False,NA,10014,NA
 Paul Onuachu,470,0,2025-03-08T15:00:00Z,0,0,6,Southampton,NA
 -1648,NA,NA,,NA,False,NA,4136,NA
@@ -24269,7 +24269,7 @@ Rayan Aït-Nouri,533,2,2025-03-08T20:00:00Z,0,0,90,Wolves,402
 133058,NA,NA,,NA,True,NA,24556,NA
 Andrés García,731,0,2025-03-08T17:30:00Z,0,0,0,Aston Villa,42
 -718,NA,NA,,NA,False,NA,1298,NA
-James Justin,295,2,2025-03-09T14:00:00Z,0,0,83,Leicester,NA
+James Justin,295,2,2025-03-09T14:00:00Z,0,0,83,Leicester,706
 -5962,NA,NA,,NA,False,NA,8302,NA
 Joshua Zirkzee,389,2,2025-03-09T16:30:00Z,0,0,75,Man Utd,466
 -722,NA,NA,,NA,True,NA,5979,NA
@@ -25085,7 +25085,7 @@ Zain Silcott-Duberry,728,0,2025-03-09T14:00:00Z,0,0,0,Bournemouth,95
 -16,NA,NA,,NA,False,NA,44,NA
 Lloyd Kelly,404,0,2025-03-10T20:00:00Z,0,0,0,Newcastle,NA
 -226,NA,NA,,NA,False,NA,226,NA
-Mateus Gonçalo Espanha Fernandes,623,2,2025-03-08T15:00:00Z,0,0,90,Southampton,NA
+Mateus Gonçalo Espanha Fernandes,623,2,2025-03-08T15:00:00Z,0,0,90,Southampton,708
 -200,NA,NA,,NA,False,NA,545,NA
 Valentín Barco,116,0,2025-03-08T15:00:00Z,0,0,0,Brighton,NA
 -2427,NA,NA,,NA,True,NA,2427,NA
@@ -25585,7 +25585,7 @@ Yehor Yarmoliuk,111,1,2025-03-15T17:30:00Z,0,0,18,Brentford,129
 -9190,NA,NA,,NA,False,NA,10120,NA
 Julián Álvarez,352,0,2025-03-15T15:00:00Z,0,0,0,Man City,NA
 -12,NA,NA,,NA,True,NA,12,NA
-Tyler Dibling,608,5,2025-03-15T15:00:00Z,0,1,90,Southampton,NA
+Tyler Dibling,608,5,2025-03-15T15:00:00Z,0,1,90,Southampton,707
 -2619,NA,NA,,NA,True,NA,8906,NA
 Paul Onuachu,470,7,2025-03-15T15:00:00Z,1,0,45,Southampton,NA
 -1518,NA,NA,,NA,True,NA,2959,NA
@@ -25743,7 +25743,7 @@ Dominic Solanke-Mitchell,82,2,2025-03-16T13:30:00Z,0,0,90,Spurs,596
 46913,NA,NA,,NA,False,NA,4062,NA
 Rayan Aït-Nouri,533,2,2025-03-15T15:00:00Z,0,0,79,Wolves,402
 300507,NA,NA,,NA,False,NA,10289,NA
-James Justin,295,1,2025-03-16T19:00:00Z,0,0,81,Leicester,NA
+James Justin,295,1,2025-03-16T19:00:00Z,0,0,81,Leicester,706
 -1027,NA,NA,,NA,True,NA,4324,NA
 Joshua Zirkzee,389,1,2025-03-16T19:00:00Z,0,0,21,Man Utd,466
 29250,NA,NA,,NA,False,NA,3159,NA
@@ -26395,7 +26395,7 @@ Sékou Koné,779,0,2025-03-16T19:00:00Z,0,0,0,Man Utd,463
 -12,NA,NA,,NA,False,NA,40,NA
 Zain Silcott-Duberry,728,0,2025-03-15T17:30:00Z,0,0,0,Bournemouth,95
 4,NA,NA,,NA,True,NA,20,NA
-Mateus Gonçalo Espanha Fernandes,623,1,2025-03-15T15:00:00Z,0,0,45,Southampton,NA
+Mateus Gonçalo Espanha Fernandes,623,1,2025-03-15T15:00:00Z,0,0,45,Southampton,708
 1924,NA,NA,,NA,True,NA,430,NA
 Valentín Barco,116,0,2025-03-15T15:00:00Z,0,0,0,Brighton,NA
 -3167,NA,NA,,NA,False,NA,3167,NA
@@ -26931,7 +26931,7 @@ Yehor Yarmoliuk,111,2,2025-04-02T18:45:00Z,0,0,82,Brentford,129
 -10318,NA,NA,,NA,False,NA,11432,NA
 Julián Álvarez,352,0,2025-04-02T18:45:00Z,0,0,0,Man City,NA
 -17,NA,NA,,NA,True,NA,17,NA
-Tyler Dibling,608,1,2025-04-02T18:45:00Z,0,0,9,Southampton,NA
+Tyler Dibling,608,1,2025-04-02T18:45:00Z,0,0,9,Southampton,707
 -6044,NA,NA,,NA,True,NA,19272,NA
 Paul Onuachu,470,7,2025-04-02T18:45:00Z,1,0,88,Southampton,NA
 408,NA,NA,,NA,True,NA,3427,NA
@@ -27127,7 +27127,7 @@ Rayan Aït-Nouri,533,8,2025-04-01T18:45:00Z,0,0,81,Wolves,402
 -107571,NA,NA,,NA,True,NA,149109,NA
 Andrés García,731,0,2025-04-02T18:45:00Z,0,0,0,Aston Villa,42
 -531,NA,NA,,NA,False,NA,841,NA
-James Justin,295,0,2025-04-02T18:45:00Z,0,0,90,Leicester,NA
+James Justin,295,0,2025-04-02T18:45:00Z,0,0,90,Leicester,706
 -2341,NA,NA,,NA,False,NA,7366,NA
 Joshua Zirkzee,389,2,2025-04-01T19:00:00Z,0,0,77,Man Utd,466
 -10228,NA,NA,,NA,False,NA,15052,NA
@@ -27945,7 +27945,7 @@ Zain Silcott-Duberry,728,0,2025-04-02T18:45:00Z,0,0,0,Bournemouth,95
 6,NA,NA,,NA,True,NA,14,NA
 Lloyd Kelly,404,0,2025-04-02T18:45:00Z,0,0,0,Newcastle,NA
 -125,NA,NA,,NA,True,NA,125,NA
-Mateus Gonçalo Espanha Fernandes,623,8,2025-04-02T18:45:00Z,0,1,90,Southampton,NA
+Mateus Gonçalo Espanha Fernandes,623,8,2025-04-02T18:45:00Z,0,1,90,Southampton,708
 -1797,NA,NA,,NA,True,NA,1866,NA
 Valentín Barco,116,0,2025-04-02T18:45:00Z,0,0,0,Brighton,NA
 -4236,NA,NA,,NA,True,NA,4236,NA
@@ -28513,7 +28513,7 @@ Yehor Yarmoliuk,111,3,2025-04-06T13:00:00Z,0,0,65,Brentford,129
 -6773,NA,NA,,NA,True,NA,7382,NA
 Julián Álvarez,352,0,2025-04-06T15:30:00Z,0,0,0,Man City,NA
 -9,NA,NA,,NA,False,NA,9,NA
-Tyler Dibling,608,2,2025-04-06T13:00:00Z,0,0,72,Southampton,NA
+Tyler Dibling,608,2,2025-04-06T13:00:00Z,0,0,72,Southampton,707
 -8690,NA,NA,,NA,False,NA,12120,NA
 Paul Onuachu,470,1,2025-04-06T13:00:00Z,0,0,17,Southampton,NA
 1176,NA,NA,,NA,False,NA,2271,NA
@@ -28709,7 +28709,7 @@ Rayan Aït-Nouri,533,2,2025-04-05T14:00:00Z,0,0,87,Wolves,402
 40843,NA,NA,,NA,False,NA,56567,NA
 Andrés García,731,1,2025-04-05T16:30:00Z,0,0,45,Aston Villa,42
 -369,NA,NA,,NA,True,NA,588,NA
-James Justin,295,0,2025-04-07T19:00:00Z,0,0,73,Leicester,NA
+James Justin,295,0,2025-04-07T19:00:00Z,0,0,73,Leicester,706
 -3085,NA,NA,,NA,True,NA,5330,NA
 Joshua Zirkzee,389,1,2025-04-06T15:30:00Z,0,0,19,Man Utd,466
 -4985,NA,NA,,NA,True,NA,6702,NA
@@ -29529,7 +29529,7 @@ Zain Silcott-Duberry,728,0,2025-04-05T14:00:00Z,0,0,0,Bournemouth,95
 7,NA,NA,,NA,False,NA,17,NA
 Lloyd Kelly,404,0,2025-04-07T19:00:00Z,0,0,0,Newcastle,NA
 -60,NA,NA,,NA,False,NA,60,NA
-Mateus Gonçalo Espanha Fernandes,623,9,2025-04-06T13:00:00Z,1,0,90,Southampton,NA
+Mateus Gonçalo Espanha Fernandes,623,9,2025-04-06T13:00:00Z,1,0,90,Southampton,708
 -234,NA,NA,,NA,False,NA,400,NA
 Valentín Barco,116,0,2025-04-05T14:00:00Z,0,0,0,Brighton,NA
 -2521,NA,NA,,NA,False,NA,2521,NA
@@ -30131,7 +30131,7 @@ Yehor Yarmoliuk,111,0,2025-04-12T16:30:00Z,0,0,21,Brentford,129
 -1030,NA,NA,,NA,False,NA,7009,NA
 Julián Álvarez,352,0,2025-04-12T11:30:00Z,0,0,0,Man City,NA
 -14,NA,NA,,NA,True,NA,14,NA
-Tyler Dibling,608,1,2025-04-12T14:00:00Z,0,0,45,Southampton,NA
+Tyler Dibling,608,1,2025-04-12T14:00:00Z,0,0,45,Southampton,707
 -7196,NA,NA,,NA,True,NA,9743,NA
 Paul Onuachu,470,1,2025-04-12T14:00:00Z,0,0,45,Southampton,NA
 -348,NA,NA,,NA,True,NA,2684,NA
@@ -30345,7 +30345,7 @@ Rayan Aït-Nouri,533,14,2025-04-13T13:00:00Z,1,1,69,Wolves,402
 -70453,NA,NA,,NA,True,NA,86030,NA
 Andrés García,731,1,2025-04-12T14:00:00Z,0,0,5,Aston Villa,42
 511,NA,NA,,NA,False,NA,525,NA
-James Justin,295,1,2025-04-12T14:00:00Z,0,0,90,Leicester,NA
+James Justin,295,1,2025-04-12T14:00:00Z,0,0,90,Leicester,706
 -1711,NA,NA,,NA,False,NA,4529,NA
 Joshua Zirkzee,389,1,2025-04-13T15:30:00Z,0,0,54,Man Utd,466
 -3644,NA,NA,,NA,False,NA,5703,NA
@@ -31249,7 +31249,7 @@ Lloyd Kelly,404,0,2025-04-13T15:30:00Z,0,0,0,Newcastle,NA
 -78,NA,NA,,NA,True,NA,78,NA
 Lloyd Kelly,404,0,2025-04-16T18:30:00Z,0,0,0,Newcastle,NA
 -78,NA,NA,,NA,True,NA,78,NA
-Mateus Gonçalo Espanha Fernandes,623,1,2025-04-12T14:00:00Z,0,0,88,Southampton,NA
+Mateus Gonçalo Espanha Fernandes,623,1,2025-04-12T14:00:00Z,0,0,88,Southampton,708
 2070,NA,NA,,NA,True,NA,444,NA
 Valentín Barco,116,0,2025-04-12T14:00:00Z,0,0,0,Brighton,NA
 -2146,NA,NA,,NA,True,NA,2146,NA
@@ -31905,7 +31905,7 @@ Julián Álvarez,352,0,2025-04-19T14:00:00Z,0,0,0,Man City,NA
 -6,NA,NA,,NA,False,NA,6,NA
 Julián Álvarez,352,0,2025-04-22T19:00:00Z,0,0,0,Man City,NA
 -6,NA,NA,,NA,True,NA,6,NA
-Tyler Dibling,608,1,2025-04-19T14:00:00Z,0,0,16,Southampton,NA
+Tyler Dibling,608,1,2025-04-19T14:00:00Z,0,0,16,Southampton,707
 1435,NA,NA,,NA,False,NA,8693,NA
 Paul Onuachu,470,1,2025-04-19T14:00:00Z,0,0,68,Southampton,NA
 -2096,NA,NA,,NA,False,NA,3730,NA
@@ -32153,7 +32153,7 @@ Andrés García,731,0,2025-04-19T16:30:00Z,0,0,0,Aston Villa,42
 -72,NA,NA,,NA,True,NA,863,NA
 Andrés García,731,0,2025-04-22T19:00:00Z,0,0,0,Aston Villa,42
 -72,NA,NA,,NA,False,NA,863,NA
-James Justin,295,1,2025-04-20T15:30:00Z,0,0,7,Leicester,NA
+James Justin,295,1,2025-04-20T15:30:00Z,0,0,7,Leicester,706
 -3705,NA,NA,,NA,True,NA,5947,NA
 Joshua Zirkzee,389,0,2025-04-20T13:00:00Z,0,0,0,Man Utd,466
 -9227,NA,NA,,NA,True,NA,10120,NA
@@ -33137,7 +33137,7 @@ Zain Silcott-Duberry,728,0,2025-04-19T14:00:00Z,0,0,0,Bournemouth,95
 9,NA,NA,,NA,False,NA,21,NA
 Lloyd Kelly,404,0,2025-04-19T16:30:00Z,0,0,0,Newcastle,NA
 -75,NA,NA,,NA,False,NA,75,NA
-Mateus Gonçalo Espanha Fernandes,623,2,2025-04-19T14:00:00Z,0,0,90,Southampton,NA
+Mateus Gonçalo Espanha Fernandes,623,2,2025-04-19T14:00:00Z,0,0,90,Southampton,708
 1004,NA,NA,,NA,False,NA,1374,NA
 Valentín Barco,116,0,2025-04-19T14:00:00Z,0,0,0,Brighton,NA
 -1959,NA,NA,,NA,False,NA,1959,NA
@@ -33673,7 +33673,7 @@ Emmanuel Dennis,430,0,2025-05-01T18:30:00Z,0,0,0,Nott'm Forest,NA
 -136,NA,NA,,NA,True,NA,136,NA
 Yehor Yarmoliuk,111,2,2025-05-01T18:30:00Z,0,0,90,Brentford,129
 -1352,NA,NA,,NA,False,NA,5651,NA
-Tyler Dibling,608,1,2025-04-26T14:00:00Z,0,0,12,Southampton,NA
+Tyler Dibling,608,1,2025-04-26T14:00:00Z,0,0,12,Southampton,707
 -934,NA,NA,,NA,True,NA,6187,NA
 Paul Onuachu,470,0,2025-04-26T14:00:00Z,0,0,0,Southampton,NA
 500,NA,NA,,NA,True,NA,1733,NA
@@ -33825,7 +33825,7 @@ Dominic Solanke-Mitchell,82,6,2025-04-27T15:30:00Z,1,0,67,Spurs,596
 -7800,NA,NA,,NA,False,NA,13608,NA
 Rayan Aït-Nouri,533,11,2025-04-26T14:00:00Z,0,1,76,Wolves,402
 550062,NA,NA,,NA,True,NA,6584,NA
-James Justin,295,0,2025-04-26T14:00:00Z,0,0,45,Leicester,NA
+James Justin,295,0,2025-04-26T14:00:00Z,0,0,45,Leicester,706
 -2506,NA,NA,,NA,False,NA,3427,NA
 Joshua Zirkzee,389,0,2025-04-27T13:00:00Z,0,0,0,Man Utd,466
 -5375,NA,NA,,NA,False,NA,5417,NA
@@ -34491,7 +34491,7 @@ Zain Silcott-Duberry,728,0,2025-04-27T13:00:00Z,0,0,0,Bournemouth,95
 -10,NA,NA,,NA,True,NA,17,NA
 Lloyd Kelly,404,0,2025-04-26T14:00:00Z,0,0,0,Newcastle,NA
 -52,NA,NA,,NA,True,NA,52,NA
-Mateus Gonçalo Espanha Fernandes,623,2,2025-04-26T14:00:00Z,0,0,85,Southampton,NA
+Mateus Gonçalo Espanha Fernandes,623,2,2025-04-26T14:00:00Z,0,0,85,Southampton,708
 826,NA,NA,,NA,True,NA,1372,NA
 Valentín Barco,116,0,2025-04-26T14:00:00Z,0,0,0,Brighton,NA
 -1756,NA,NA,,NA,True,NA,1756,NA
@@ -35035,7 +35035,7 @@ Brayden Clarke,801,0,2025-05-03T16:30:00Z,0,0,0,Arsenal,13
 0,NA,NA,,NA,True,NA,0,NA
 Julián Álvarez,352,0,2025-05-02T19:00:00Z,0,0,0,Man City,NA
 -9,NA,NA,,NA,True,NA,9,NA
-Tyler Dibling,608,1,2025-05-03T14:00:00Z,0,0,45,Southampton,NA
+Tyler Dibling,608,1,2025-05-03T14:00:00Z,0,0,45,Southampton,707
 -64,NA,NA,,NA,False,NA,5073,NA
 Paul Onuachu,470,1,2025-05-03T14:00:00Z,0,0,45,Southampton,NA
 -953,NA,NA,,NA,False,NA,2660,NA
@@ -35235,7 +35235,7 @@ Rayan Aït-Nouri,533,2,2025-05-02T19:00:00Z,0,0,90,Wolves,402
 42228,NA,NA,,NA,False,NA,61292,NA
 Andrés García,731,0,2025-05-03T11:30:00Z,0,0,0,Aston Villa,42
 -95,NA,NA,,NA,True,NA,301,NA
-James Justin,295,7,2025-05-03T14:00:00Z,0,0,90,Leicester,NA
+James Justin,295,7,2025-05-03T14:00:00Z,0,0,90,Leicester,706
 1707,NA,NA,,NA,True,NA,2825,NA
 Joshua Zirkzee,389,0,2025-05-04T13:00:00Z,0,0,0,Man Utd,466
 -2109,NA,NA,,NA,False,NA,2154,NA
@@ -36061,7 +36061,7 @@ Zain Silcott-Duberry,728,0,2025-05-03T16:30:00Z,0,0,0,Bournemouth,95
 3,NA,NA,,NA,False,NA,11,NA
 Lloyd Kelly,404,0,2025-05-04T13:00:00Z,0,0,0,Newcastle,NA
 -27,NA,NA,,NA,False,NA,27,NA
-Mateus Gonçalo Espanha Fernandes,623,1,2025-05-03T14:00:00Z,0,0,56,Southampton,NA
+Mateus Gonçalo Espanha Fernandes,623,1,2025-05-03T14:00:00Z,0,0,56,Southampton,708
 3277,NA,NA,,NA,False,NA,1493,NA
 Valentín Barco,116,0,2025-05-04T13:00:00Z,0,0,0,Brighton,NA
 -1169,NA,NA,,NA,True,NA,1169,NA
@@ -36637,7 +36637,7 @@ Brayden Clarke,801,0,2025-05-11T15:30:00Z,0,0,0,Arsenal,13
 59,NA,NA,,NA,False,NA,3,NA
 Julián Álvarez,352,0,2025-05-10T14:00:00Z,0,0,0,Man City,NA
 -8,NA,NA,,NA,False,NA,8,NA
-Tyler Dibling,608,3,2025-05-10T14:00:00Z,0,0,64,Southampton,NA
+Tyler Dibling,608,3,2025-05-10T14:00:00Z,0,0,64,Southampton,707
 1029,NA,NA,,NA,True,NA,6647,NA
 Paul Onuachu,470,0,2025-05-10T14:00:00Z,0,0,0,Southampton,NA
 -2431,NA,NA,,NA,True,NA,2906,NA
@@ -36837,7 +36837,7 @@ Rayan Aït-Nouri,533,1,2025-05-10T14:00:00Z,0,0,90,Wolves,402
 178536,NA,NA,,NA,True,NA,23283,NA
 Andrés García,731,0,2025-05-10T16:30:00Z,0,0,0,Aston Villa,42
 -265,NA,NA,,NA,False,NA,462,NA
-James Justin,295,0,2025-05-11T13:15:00Z,0,0,90,Leicester,NA
+James Justin,295,0,2025-05-11T13:15:00Z,0,0,90,Leicester,706
 -2068,NA,NA,,NA,False,NA,4816,NA
 Joshua Zirkzee,389,0,2025-05-11T13:15:00Z,0,0,0,Man Utd,466
 -1687,NA,NA,,NA,True,NA,1761,NA
@@ -37663,7 +37663,7 @@ Zain Silcott-Duberry,728,0,2025-05-10T16:30:00Z,0,0,0,Bournemouth,95
 -4,NA,NA,,NA,True,NA,13,NA
 Lloyd Kelly,404,0,2025-05-11T11:00:00Z,0,0,0,Newcastle,NA
 -39,NA,NA,,NA,True,NA,39,NA
-Mateus Gonçalo Espanha Fernandes,623,3,2025-05-10T14:00:00Z,0,0,90,Southampton,NA
+Mateus Gonçalo Espanha Fernandes,623,3,2025-05-10T14:00:00Z,0,0,90,Southampton,708
 -3046,NA,NA,,NA,True,NA,3785,NA
 Valentín Barco,116,0,2025-05-10T14:00:00Z,0,0,0,Brighton,NA
 -1350,NA,NA,,NA,False,NA,1350,NA
@@ -38239,7 +38239,7 @@ Brayden Clarke,801,0,2025-05-18T15:30:00Z,0,0,0,Arsenal,13
 28,NA,NA,,NA,True,NA,14,NA
 Julián Álvarez,352,0,2025-05-20T19:00:00Z,0,0,0,Man City,NA
 -8,NA,NA,,NA,True,NA,8,NA
-Tyler Dibling,608,2,2025-05-18T11:00:00Z,0,0,67,Southampton,NA
+Tyler Dibling,608,2,2025-05-18T11:00:00Z,0,0,67,Southampton,707
 613,NA,NA,,NA,False,NA,4527,NA
 Paul Onuachu,470,0,2025-05-18T11:00:00Z,0,0,0,Southampton,NA
 -827,NA,NA,,NA,False,NA,1276,NA
@@ -38439,7 +38439,7 @@ Rayan Aït-Nouri,533,0,2025-05-20T19:00:00Z,0,0,90,Wolves,402
 -19817,NA,NA,,NA,False,NA,61686,NA
 Andrés García,731,0,2025-05-16T18:30:00Z,0,0,0,Aston Villa,42
 111,NA,NA,,NA,True,NA,248,NA
-James Justin,295,12,2025-05-18T14:00:00Z,0,1,63,Leicester,NA
+James Justin,295,12,2025-05-18T14:00:00Z,0,1,63,Leicester,706
 5594,NA,NA,,NA,True,NA,2011,NA
 Joshua Zirkzee,389,0,2025-05-16T19:15:00Z,0,0,0,Man Utd,466
 -776,NA,NA,,NA,False,NA,856,NA
@@ -39265,7 +39265,7 @@ Zain Silcott-Duberry,728,0,2025-05-20T19:00:00Z,0,0,0,Bournemouth,95
 3,NA,NA,,NA,False,NA,6,NA
 Lloyd Kelly,404,0,2025-05-18T15:30:00Z,0,0,0,Newcastle,NA
 -19,NA,NA,,NA,False,NA,19,NA
-Mateus Gonçalo Espanha Fernandes,623,2,2025-05-18T11:00:00Z,0,0,90,Southampton,NA
+Mateus Gonçalo Espanha Fernandes,623,2,2025-05-18T11:00:00Z,0,0,90,Southampton,708
 -480,NA,NA,,NA,False,NA,1358,NA
 Valentín Barco,116,0,2025-05-19T19:00:00Z,0,0,0,Brighton,NA
 -995,NA,NA,,NA,True,NA,995,NA
@@ -39843,7 +39843,7 @@ Brayden Clarke,801,0,2025-05-25T15:00:00Z,0,0,0,Arsenal,13
 74,NA,NA,,NA,False,NA,21,NA
 Julián Álvarez,352,0,2025-05-25T15:00:00Z,0,0,0,Man City,NA
 -7,NA,NA,,NA,False,NA,7,NA
-Tyler Dibling,608,0,2025-05-25T15:00:00Z,0,0,0,Southampton,NA
+Tyler Dibling,608,0,2025-05-25T15:00:00Z,0,0,0,Southampton,707
 -171,NA,NA,,NA,True,NA,7582,NA
 Paul Onuachu,470,1,2025-05-25T15:00:00Z,0,0,20,Southampton,NA
 -1019,NA,NA,,NA,True,NA,1475,NA
@@ -40043,7 +40043,7 @@ Rayan Aït-Nouri,533,2,2025-05-25T15:00:00Z,0,0,64,Wolves,402
 -69242,NA,NA,,NA,True,NA,94713,NA
 Andrés García,731,0,2025-05-25T15:00:00Z,0,0,0,Aston Villa,42
 -98,NA,NA,,NA,False,NA,320,NA
-James Justin,295,1,2025-05-25T15:00:00Z,0,0,90,Leicester,NA
+James Justin,295,1,2025-05-25T15:00:00Z,0,0,90,Leicester,706
 2462,NA,NA,,NA,False,NA,5622,NA
 Joshua Zirkzee,389,0,2025-05-25T15:00:00Z,0,0,0,Man Utd,466
 542,NA,NA,,NA,True,NA,738,NA
@@ -40873,7 +40873,7 @@ Zain Silcott-Duberry,728,0,2025-05-25T15:00:00Z,0,0,0,Bournemouth,95
 11,NA,NA,,NA,True,NA,14,NA
 Lloyd Kelly,404,0,2025-05-25T15:00:00Z,0,0,0,Newcastle,NA
 -34,NA,NA,,NA,True,NA,34,NA
-Mateus Gonçalo Espanha Fernandes,623,6,2025-05-25T15:00:00Z,0,1,90,Southampton,NA
+Mateus Gonçalo Espanha Fernandes,623,6,2025-05-25T15:00:00Z,0,1,90,Southampton,708
 -1813,NA,NA,,NA,True,NA,2237,NA
 Valentín Barco,116,0,2025-05-25T15:00:00Z,0,0,0,Brighton,NA
 -1497,NA,NA,,NA,False,NA,1497,NA
