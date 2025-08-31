@@ -39,22 +39,22 @@ season_end,round_number,match_number,date_utc,attacker_short_name,defender_short
 2026,2,17,2025-08-24T15:30:00Z,MUN,FUL,away,1,Man Utd,Fulham,1,54
 2026,2,19,2025-08-25T19:00:00Z,NEW,LIV,home,2,Newcastle,Liverpool,4,14
 2026,2,19,2025-08-25T19:00:00Z,LIV,NEW,away,3,Liverpool,Newcastle,14,4
-2026,3,23,2025-08-30T11:30:00Z,CHE,FUL,home,NA,Chelsea,Fulham,8,54
-2026,3,23,2025-08-30T11:30:00Z,FUL,CHE,away,NA,Fulham,Chelsea,54,8
-2026,3,26,2025-08-30T14:00:00Z,MUN,BUR,home,NA,Man Utd,Burnley,1,90
-2026,3,26,2025-08-30T14:00:00Z,BUR,MUN,away,NA,Burnley,Man Utd,90,1
-2026,3,29,2025-08-30T14:00:00Z,TOT,BOU,home,NA,Spurs,Bournemouth,6,91
-2026,3,29,2025-08-30T14:00:00Z,BOU,TOT,away,NA,Bournemouth,Spurs,91,6
-2026,3,28,2025-08-30T14:00:00Z,SUN,BRE,home,NA,Sunderland,Brentford,56,94
-2026,3,28,2025-08-30T14:00:00Z,BRE,SUN,away,NA,Brentford,Sunderland,94,56
-2026,3,30,2025-08-30T14:00:00Z,WOL,EVE,home,NA,Wolves,Everton,39,11
-2026,3,30,2025-08-30T14:00:00Z,EVE,WOL,away,NA,Everton,Wolves,11,39
-2026,3,24,2025-08-30T16:30:00Z,LEE,NEW,home,NA,Leeds,Newcastle,2,4
-2026,3,24,2025-08-30T16:30:00Z,NEW,LEE,away,NA,Newcastle,Leeds,4,2
-2026,3,22,2025-08-31T13:00:00Z,BHA,MCI,home,NA,Brighton,Man City,36,43
-2026,3,22,2025-08-31T13:00:00Z,MCI,BHA,away,NA,Man City,Brighton,43,36
-2026,3,27,2025-08-31T13:00:00Z,NFO,WHU,home,NA,Nott'm Forest,West Ham,17,21
-2026,3,27,2025-08-31T13:00:00Z,WHU,NFO,away,NA,West Ham,Nott'm Forest,21,17
+2026,3,23,2025-08-30T11:30:00Z,CHE,FUL,home,2,Chelsea,Fulham,8,54
+2026,3,23,2025-08-30T11:30:00Z,FUL,CHE,away,0,Fulham,Chelsea,54,8
+2026,3,26,2025-08-30T14:00:00Z,MUN,BUR,home,3,Man Utd,Burnley,1,90
+2026,3,26,2025-08-30T14:00:00Z,BUR,MUN,away,2,Burnley,Man Utd,90,1
+2026,3,29,2025-08-30T14:00:00Z,TOT,BOU,home,0,Spurs,Bournemouth,6,91
+2026,3,29,2025-08-30T14:00:00Z,BOU,TOT,away,1,Bournemouth,Spurs,91,6
+2026,3,28,2025-08-30T14:00:00Z,SUN,BRE,home,2,Sunderland,Brentford,56,94
+2026,3,28,2025-08-30T14:00:00Z,BRE,SUN,away,1,Brentford,Sunderland,94,56
+2026,3,30,2025-08-30T14:00:00Z,WOL,EVE,home,2,Wolves,Everton,39,11
+2026,3,30,2025-08-30T14:00:00Z,EVE,WOL,away,3,Everton,Wolves,11,39
+2026,3,24,2025-08-30T16:30:00Z,LEE,NEW,home,0,Leeds,Newcastle,2,4
+2026,3,24,2025-08-30T16:30:00Z,NEW,LEE,away,0,Newcastle,Leeds,4,2
+2026,3,22,2025-08-31T13:00:00Z,BHA,MCI,home,2,Brighton,Man City,36,43
+2026,3,22,2025-08-31T13:00:00Z,MCI,BHA,away,1,Man City,Brighton,43,36
+2026,3,27,2025-08-31T13:00:00Z,NFO,WHU,home,0,Nott'm Forest,West Ham,17,21
+2026,3,27,2025-08-31T13:00:00Z,WHU,NFO,away,3,West Ham,Nott'm Forest,21,17
 2026,3,25,2025-08-31T15:30:00Z,LIV,ARS,home,NA,Liverpool,Arsenal,14,3
 2026,3,25,2025-08-31T15:30:00Z,ARS,LIV,away,NA,Arsenal,Liverpool,3,14
 2026,3,21,2025-08-31T18:00:00Z,AVL,CRY,home,NA,Aston Villa,Crystal Palace,7,31

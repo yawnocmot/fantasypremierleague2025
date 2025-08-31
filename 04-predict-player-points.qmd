@@ -233,12 +233,12 @@ goals_per_team <- player_data |>
   summarise(team_goals = sum(goals_weighted),
             team_assists = sum(assists_weighted))
 
-# Look at what proportion are scored by each player
+# Look at what proportion are scored by each player - cap at 0.4 because it is rare that a player will sustain over 40% of their team's attacking output even if it happens in the short term.
 
 player_data <- player_data |>
   left_join(goals_per_team) |>
-  mutate(prop_goals = goals_weighted/team_goals,
-         prop_assists = assists_weighted/team_assists)
+  mutate(prop_goals = pmin(goals_weighted/team_goals,0.4),
+         prop_assists = pmin(assists_weighted/team_assists,0.4))
 
 
 # Next to look at goals/clean sheets the team will score at upcoming matches, with a decay parameter
