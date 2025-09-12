@@ -55,10 +55,10 @@ season_end,round_number,match_number,date_utc,attacker_short_name,defender_short
 2026,3,22,2025-08-31T13:00:00Z,MCI,BHA,away,1,Man City,Brighton,43,36
 2026,3,27,2025-08-31T13:00:00Z,NFO,WHU,home,0,Nott'm Forest,West Ham,17,21
 2026,3,27,2025-08-31T13:00:00Z,WHU,NFO,away,3,West Ham,Nott'm Forest,21,17
-2026,3,25,2025-08-31T15:30:00Z,LIV,ARS,home,NA,Liverpool,Arsenal,14,3
-2026,3,25,2025-08-31T15:30:00Z,ARS,LIV,away,NA,Arsenal,Liverpool,3,14
-2026,3,21,2025-08-31T18:00:00Z,AVL,CRY,home,NA,Aston Villa,Crystal Palace,7,31
-2026,3,21,2025-08-31T18:00:00Z,CRY,AVL,away,NA,Crystal Palace,Aston Villa,31,7
+2026,3,25,2025-08-31T15:30:00Z,LIV,ARS,home,1,Liverpool,Arsenal,14,3
+2026,3,25,2025-08-31T15:30:00Z,ARS,LIV,away,0,Arsenal,Liverpool,3,14
+2026,3,21,2025-08-31T18:00:00Z,AVL,CRY,home,0,Aston Villa,Crystal Palace,7,31
+2026,3,21,2025-08-31T18:00:00Z,CRY,AVL,away,3,Crystal Palace,Aston Villa,31,7
 2026,4,31,2025-09-13T11:30:00Z,ARS,NFO,home,NA,Arsenal,Nott'm Forest,3,17
 2026,4,31,2025-09-13T11:30:00Z,NFO,ARS,away,NA,Nott'm Forest,Arsenal,17,3
 2026,4,32,2025-09-13T14:00:00Z,BOU,BHA,home,NA,Bournemouth,Brighton,91,36
@@ -81,8 +81,6 @@ season_end,round_number,match_number,date_utc,attacker_short_name,defender_short
 2026,4,38,2025-09-14T15:30:00Z,MUN,MCI,away,NA,Man Utd,Man City,1,43
 2026,5,46,2025-09-20T11:30:00Z,LIV,EVE,home,NA,Liverpool,Everton,14,11
 2026,5,46,2025-09-20T11:30:00Z,EVE,LIV,away,NA,Everton,Liverpool,11,14
-2026,5,42,2025-09-20T14:00:00Z,BOU,NEW,home,NA,Bournemouth,Newcastle,91,4
-2026,5,42,2025-09-20T14:00:00Z,NEW,BOU,away,NA,Newcastle,Bournemouth,4,91
 2026,5,43,2025-09-20T14:00:00Z,BHA,TOT,home,NA,Brighton,Spurs,36,6
 2026,5,43,2025-09-20T14:00:00Z,TOT,BHA,away,NA,Spurs,Brighton,6,36
 2026,5,44,2025-09-20T14:00:00Z,BUR,NFO,home,NA,Burnley,Nott'm Forest,90,17
@@ -95,14 +93,14 @@ season_end,round_number,match_number,date_utc,attacker_short_name,defender_short
 2026,5,47,2025-09-20T16:30:00Z,CHE,MUN,away,NA,Chelsea,Man Utd,8,1
 2026,5,45,2025-09-20T19:00:00Z,FUL,BRE,home,NA,Fulham,Brentford,54,94
 2026,5,45,2025-09-20T19:00:00Z,BRE,FUL,away,NA,Brentford,Fulham,94,54
+2026,5,42,2025-09-21T13:00:00Z,BOU,NEW,home,NA,Bournemouth,Newcastle,91,4
+2026,5,42,2025-09-21T13:00:00Z,NEW,BOU,away,NA,Newcastle,Bournemouth,4,91
 2026,5,48,2025-09-21T13:00:00Z,SUN,AVL,home,NA,Sunderland,Aston Villa,56,7
 2026,5,48,2025-09-21T13:00:00Z,AVL,SUN,away,NA,Aston Villa,Sunderland,7,56
 2026,5,41,2025-09-21T15:30:00Z,ARS,MCI,home,NA,Arsenal,Man City,3,43
 2026,5,41,2025-09-21T15:30:00Z,MCI,ARS,away,NA,Man City,Arsenal,43,3
 2026,6,52,2025-09-27T11:30:00Z,BRE,MUN,home,NA,Brentford,Man Utd,94,1
 2026,6,52,2025-09-27T11:30:00Z,MUN,BRE,away,NA,Man Utd,Brentford,1,94
-2026,6,51,2025-09-27T14:00:00Z,AVL,FUL,home,NA,Aston Villa,Fulham,7,54
-2026,6,51,2025-09-27T14:00:00Z,FUL,AVL,away,NA,Fulham,Aston Villa,54,7
 2026,6,53,2025-09-27T14:00:00Z,CHE,BHA,home,NA,Chelsea,Brighton,8,36
 2026,6,53,2025-09-27T14:00:00Z,BHA,CHE,away,NA,Brighton,Chelsea,36,8
 2026,6,54,2025-09-27T14:00:00Z,CRY,LIV,home,NA,Crystal Palace,Liverpool,31,14
@@ -113,8 +111,10 @@ season_end,round_number,match_number,date_utc,attacker_short_name,defender_short
 2026,6,57,2025-09-27T14:00:00Z,BUR,MCI,away,NA,Burnley,Man City,90,43
 2026,6,59,2025-09-27T16:30:00Z,NFO,SUN,home,NA,Nott'm Forest,Sunderland,17,56
 2026,6,59,2025-09-27T16:30:00Z,SUN,NFO,away,NA,Sunderland,Nott'm Forest,56,17
-2026,6,60,2025-09-28T13:00:00Z,TOT,WOL,home,NA,Spurs,Wolves,6,39
-2026,6,60,2025-09-28T13:00:00Z,WOL,TOT,away,NA,Wolves,Spurs,39,6
+2026,6,60,2025-09-27T19:00:00Z,TOT,WOL,home,NA,Spurs,Wolves,6,39
+2026,6,60,2025-09-27T19:00:00Z,WOL,TOT,away,NA,Wolves,Spurs,39,6
+2026,6,51,2025-09-28T13:00:00Z,AVL,FUL,home,NA,Aston Villa,Fulham,7,54
+2026,6,51,2025-09-28T13:00:00Z,FUL,AVL,away,NA,Fulham,Aston Villa,54,7
 2026,6,58,2025-09-28T15:30:00Z,NEW,ARS,home,NA,Newcastle,Arsenal,4,3
 2026,6,58,2025-09-28T15:30:00Z,ARS,NEW,away,NA,Arsenal,Newcastle,3,4
 2026,6,55,2025-09-29T19:00:00Z,EVE,WHU,home,NA,Everton,West Ham,11,21
@@ -125,14 +125,14 @@ season_end,round_number,match_number,date_utc,attacker_short_name,defender_short
 2026,7,67,2025-10-04T11:30:00Z,TOT,LEE,away,NA,Spurs,Leeds,6,2
 2026,7,61,2025-10-04T14:00:00Z,ARS,WHU,home,NA,Arsenal,West Ham,3,21
 2026,7,61,2025-10-04T14:00:00Z,WHU,ARS,away,NA,West Ham,Arsenal,21,3
-2026,7,66,2025-10-04T14:00:00Z,EVE,CRY,home,NA,Everton,Crystal Palace,11,31
-2026,7,66,2025-10-04T14:00:00Z,CRY,EVE,away,NA,Crystal Palace,Everton,31,11
 2026,7,68,2025-10-04T14:00:00Z,MUN,SUN,home,NA,Man Utd,Sunderland,1,56
 2026,7,68,2025-10-04T14:00:00Z,SUN,MUN,away,NA,Sunderland,Man Utd,56,1
 2026,7,65,2025-10-04T16:30:00Z,CHE,LIV,home,NA,Chelsea,Liverpool,8,14
 2026,7,65,2025-10-04T16:30:00Z,LIV,CHE,away,NA,Liverpool,Chelsea,14,8
 2026,7,62,2025-10-05T13:00:00Z,AVL,BUR,home,NA,Aston Villa,Burnley,7,90
 2026,7,62,2025-10-05T13:00:00Z,BUR,AVL,away,NA,Burnley,Aston Villa,90,7
+2026,7,66,2025-10-05T13:00:00Z,EVE,CRY,home,NA,Everton,Crystal Palace,11,31
+2026,7,66,2025-10-05T13:00:00Z,CRY,EVE,away,NA,Crystal Palace,Everton,31,11
 2026,7,69,2025-10-05T13:00:00Z,NEW,NFO,home,NA,Newcastle,Nott'm Forest,4,17
 2026,7,69,2025-10-05T13:00:00Z,NFO,NEW,away,NA,Nott'm Forest,Newcastle,17,4
 2026,7,70,2025-10-05T13:00:00Z,WOL,BHA,home,NA,Wolves,Brighton,39,36
@@ -161,16 +161,16 @@ season_end,round_number,match_number,date_utc,attacker_short_name,defender_short
 2026,8,80,2025-10-20T19:00:00Z,BRE,WHU,away,NA,Brentford,West Ham,94,21
 2026,9,87,2025-10-24T19:00:00Z,LEE,WHU,home,NA,Leeds,West Ham,2,21
 2026,9,87,2025-10-24T19:00:00Z,WHU,LEE,away,NA,West Ham,Leeds,21,2
-2026,9,84,2025-10-25T11:30:00Z,BRE,LIV,home,NA,Brentford,Liverpool,94,14
-2026,9,84,2025-10-25T11:30:00Z,LIV,BRE,away,NA,Liverpool,Brentford,14,94
-2026,9,81,2025-10-25T14:00:00Z,ARS,CRY,home,NA,Arsenal,Crystal Palace,3,31
-2026,9,81,2025-10-25T14:00:00Z,CRY,ARS,away,NA,Crystal Palace,Arsenal,31,3
 2026,9,85,2025-10-25T14:00:00Z,CHE,SUN,home,NA,Chelsea,Sunderland,8,56
 2026,9,85,2025-10-25T14:00:00Z,SUN,CHE,away,NA,Sunderland,Chelsea,56,8
 2026,9,89,2025-10-25T14:00:00Z,NEW,FUL,home,NA,Newcastle,Fulham,4,54
 2026,9,89,2025-10-25T14:00:00Z,FUL,NEW,away,NA,Fulham,Newcastle,54,4
 2026,9,88,2025-10-25T16:30:00Z,MUN,BHA,home,NA,Man Utd,Brighton,1,36
 2026,9,88,2025-10-25T16:30:00Z,BHA,MUN,away,NA,Brighton,Man Utd,36,1
+2026,9,84,2025-10-25T19:00:00Z,BRE,LIV,home,NA,Brentford,Liverpool,94,14
+2026,9,84,2025-10-25T19:00:00Z,LIV,BRE,away,NA,Liverpool,Brentford,14,94
+2026,9,81,2025-10-26T14:00:00Z,ARS,CRY,home,NA,Arsenal,Crystal Palace,3,31
+2026,9,81,2025-10-26T14:00:00Z,CRY,ARS,away,NA,Crystal Palace,Arsenal,31,3
 2026,9,82,2025-10-26T14:00:00Z,AVL,MCI,home,NA,Aston Villa,Man City,7,43
 2026,9,82,2025-10-26T14:00:00Z,MCI,AVL,away,NA,Man City,Aston Villa,43,7
 2026,9,83,2025-10-26T14:00:00Z,BOU,NFO,home,NA,Bournemouth,Nott'm Forest,91,17
