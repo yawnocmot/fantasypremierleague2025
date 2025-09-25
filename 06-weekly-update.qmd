@@ -29,7 +29,7 @@ player_data <- read_csv("processed_data/player_data.csv")
 
 current_team <- player_data |> filter(
   id %in% c(
-    65,
+    64,
     82,
     106,
     205,
@@ -43,7 +43,7 @@ current_team <- player_data |> filter(
     515,
     610,
     624,
-    661
+    217
     )
 ) |>
   rename(.id = id)
