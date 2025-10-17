@@ -29,19 +29,19 @@ player_data <- read_csv("processed_data/player_data.csv")
 
 current_team <- player_data |> filter(
   id %in% c(
+    8,
     64,
     82,
     106,
     205,
     220,
     256,
+    260,
     287,
     381,
-    402,
     427,
     505,
     515,
-    610,
     624,
     217
     )
