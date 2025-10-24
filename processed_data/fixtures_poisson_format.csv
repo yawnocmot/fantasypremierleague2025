@@ -139,26 +139,26 @@ season_end,round_number,match_number,date_utc,attacker_short_name,defender_short
 2026,7,70,2025-10-05T13:00:00Z,BHA,WOL,away,1,Brighton,Wolves,36,39
 2026,7,64,2025-10-05T15:30:00Z,BRE,MCI,home,0,Brentford,Man City,94,43
 2026,7,64,2025-10-05T15:30:00Z,MCI,BRE,away,1,Man City,Brentford,43,94
-2026,8,77,2025-10-18T11:30:00Z,NFO,CHE,home,NA,Nott'm Forest,Chelsea,17,8
-2026,8,77,2025-10-18T11:30:00Z,CHE,NFO,away,NA,Chelsea,Nott'm Forest,8,17
-2026,8,71,2025-10-18T14:00:00Z,BHA,NEW,home,NA,Brighton,Newcastle,36,4
-2026,8,71,2025-10-18T14:00:00Z,NEW,BHA,away,NA,Newcastle,Brighton,4,36
-2026,8,72,2025-10-18T14:00:00Z,BUR,LEE,home,NA,Burnley,Leeds,90,2
-2026,8,72,2025-10-18T14:00:00Z,LEE,BUR,away,NA,Leeds,Burnley,2,90
-2026,8,73,2025-10-18T14:00:00Z,CRY,BOU,home,NA,Crystal Palace,Bournemouth,31,91
-2026,8,73,2025-10-18T14:00:00Z,BOU,CRY,away,NA,Bournemouth,Crystal Palace,91,31
-2026,8,76,2025-10-18T14:00:00Z,MCI,EVE,home,NA,Man City,Everton,43,11
-2026,8,76,2025-10-18T14:00:00Z,EVE,MCI,away,NA,Everton,Man City,11,43
-2026,8,78,2025-10-18T14:00:00Z,SUN,WOL,home,NA,Sunderland,Wolves,56,39
-2026,8,78,2025-10-18T14:00:00Z,WOL,SUN,away,NA,Wolves,Sunderland,39,56
-2026,8,74,2025-10-18T16:30:00Z,FUL,ARS,home,NA,Fulham,Arsenal,54,3
-2026,8,74,2025-10-18T16:30:00Z,ARS,FUL,away,NA,Arsenal,Fulham,3,54
-2026,8,79,2025-10-19T13:00:00Z,TOT,AVL,home,NA,Spurs,Aston Villa,6,7
-2026,8,79,2025-10-19T13:00:00Z,AVL,TOT,away,NA,Aston Villa,Spurs,7,6
-2026,8,75,2025-10-19T15:30:00Z,LIV,MUN,home,NA,Liverpool,Man Utd,14,1
-2026,8,75,2025-10-19T15:30:00Z,MUN,LIV,away,NA,Man Utd,Liverpool,1,14
-2026,8,80,2025-10-20T19:00:00Z,WHU,BRE,home,NA,West Ham,Brentford,21,94
-2026,8,80,2025-10-20T19:00:00Z,BRE,WHU,away,NA,Brentford,West Ham,94,21
+2026,8,77,2025-10-18T11:30:00Z,NFO,CHE,home,0,Nott'm Forest,Chelsea,17,8
+2026,8,77,2025-10-18T11:30:00Z,CHE,NFO,away,3,Chelsea,Nott'm Forest,8,17
+2026,8,71,2025-10-18T14:00:00Z,BHA,NEW,home,2,Brighton,Newcastle,36,4
+2026,8,71,2025-10-18T14:00:00Z,NEW,BHA,away,1,Newcastle,Brighton,4,36
+2026,8,72,2025-10-18T14:00:00Z,BUR,LEE,home,2,Burnley,Leeds,90,2
+2026,8,72,2025-10-18T14:00:00Z,LEE,BUR,away,0,Leeds,Burnley,2,90
+2026,8,73,2025-10-18T14:00:00Z,CRY,BOU,home,3,Crystal Palace,Bournemouth,31,91
+2026,8,73,2025-10-18T14:00:00Z,BOU,CRY,away,3,Bournemouth,Crystal Palace,91,31
+2026,8,76,2025-10-18T14:00:00Z,MCI,EVE,home,2,Man City,Everton,43,11
+2026,8,76,2025-10-18T14:00:00Z,EVE,MCI,away,0,Everton,Man City,11,43
+2026,8,78,2025-10-18T14:00:00Z,SUN,WOL,home,2,Sunderland,Wolves,56,39
+2026,8,78,2025-10-18T14:00:00Z,WOL,SUN,away,0,Wolves,Sunderland,39,56
+2026,8,74,2025-10-18T16:30:00Z,FUL,ARS,home,0,Fulham,Arsenal,54,3
+2026,8,74,2025-10-18T16:30:00Z,ARS,FUL,away,1,Arsenal,Fulham,3,54
+2026,8,79,2025-10-19T13:00:00Z,TOT,AVL,home,1,Spurs,Aston Villa,6,7
+2026,8,79,2025-10-19T13:00:00Z,AVL,TOT,away,2,Aston Villa,Spurs,7,6
+2026,8,75,2025-10-19T15:30:00Z,LIV,MUN,home,1,Liverpool,Man Utd,14,1
+2026,8,75,2025-10-19T15:30:00Z,MUN,LIV,away,2,Man Utd,Liverpool,1,14
+2026,8,80,2025-10-20T19:00:00Z,WHU,BRE,home,0,West Ham,Brentford,21,94
+2026,8,80,2025-10-20T19:00:00Z,BRE,WHU,away,2,Brentford,West Ham,94,21
 2026,9,87,2025-10-24T19:00:00Z,LEE,WHU,home,NA,Leeds,West Ham,2,21
 2026,9,87,2025-10-24T19:00:00Z,WHU,LEE,away,NA,West Ham,Leeds,21,2
 2026,9,85,2025-10-25T14:00:00Z,CHE,SUN,home,NA,Chelsea,Sunderland,8,56
