@@ -41,7 +41,7 @@ current_team <- player_data |> filter(
     381,
     427,
     505,
-    515,
+    120,
     624,
     217
     )
@@ -117,7 +117,7 @@ best_pairwise_swap <- function(
   )
 }
 
-best_pairwise_swap(player_data, current_team, budget =1000)
+best_pairwise_swap(player_data, current_team, budget =992)
 
 # Pick out the ones with highest points predicted for next week, for captaincy:
 
