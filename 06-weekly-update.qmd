@@ -30,7 +30,7 @@ player_data <- read_csv("processed_data/player_data.csv")
 current_team <- player_data |> filter(
   id %in% c(
     8,
-    64,
+    205,
     82,
     106,
     205,
@@ -39,7 +39,7 @@ current_team <- player_data |> filter(
     260,
     287,
     381,
-    427,
+    299,
     505,
     120,
     624,
@@ -124,5 +124,6 @@ best_pairwise_swap(player_data, current_team, budget =992)
 current_team |> 
   select(web_name, predicted_2026_points, predicted_next_week_points) |>
   arrange(desc(predicted_next_week_points))
+
 
 ```
